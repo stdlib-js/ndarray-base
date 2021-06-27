@@ -26,7 +26,7 @@
     "examples": "make examples",
     "benchmark": "make benchmark"
   },
-  "homepage": "https://github.com/stdlib-js/stdlib",
+  "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
     "url": "git://github.com/stdlib-js/ndarray-base.git"
@@ -153,6 +153,7 @@
     "@stdlib/ndarray-casting-modes": "^0.0.x",
     "@stdlib/ndarray-ctor": "^0.0.x",
     "@stdlib/ndarray-dtypes": "^0.0.x",
+    "@stdlib/ndarray-ind2sub": "^0.0.x",
     "@stdlib/ndarray-index-modes": "^0.0.x",
     "@stdlib/ndarray-orders": "^0.0.x",
     "@stdlib/ndarray-safe-casts": "^0.0.x",
