@@ -37,6 +37,7 @@
   "dependencies": {
     "@stdlib/ndarray-base-assert": "^0.0.x",
     "@stdlib/ndarray-base-bind2vind": "^0.0.x",
+    "@stdlib/ndarray-base-broadcast-array": "^0.0.x",
     "@stdlib/ndarray-base-broadcast-shapes": "^0.0.x",
     "@stdlib/ndarray-base-buffer": "^0.0.x",
     "@stdlib/ndarray-base-buffer-ctors": "^0.0.x",
@@ -104,6 +105,7 @@
     "@stdlib/assert-is-int8array": "^0.0.x",
     "@stdlib/assert-is-integer": "^0.0.x",
     "@stdlib/assert-is-little-endian": "^0.0.x",
+    "@stdlib/assert-is-ndarray-like": "^0.0.x",
     "@stdlib/assert-is-nonnegative-integer": "^0.0.x",
     "@stdlib/assert-is-nonnegative-integer-array": "^0.0.x",
     "@stdlib/assert-is-number": "^0.0.x",
