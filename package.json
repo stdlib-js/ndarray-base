@@ -75,6 +75,8 @@
     "@stdlib/ndarray-base-to-array": "^0.0.x",
     "@stdlib/ndarray-base-vind2bind": "^0.0.x",
     "@stdlib/ndarray-base-wrap-index": "^0.0.x",
+    "@stdlib/ndarray-base-zeros": "^0.0.x",
+    "@stdlib/ndarray-base-zeros-like": "^0.0.x",
     "@stdlib/utils-define-read-only-property": "^0.0.x"
   },
   "devDependencies": {
@@ -176,6 +178,8 @@
     "@stdlib/number-float64-base-to-int64-bytes": "^0.0.x",
     "@stdlib/random-base-discrete-uniform": "^0.0.x",
     "@stdlib/random-base-randu": "^0.0.x",
+    "@stdlib/strided-base-reinterpret-complex128": "^0.0.x",
+    "@stdlib/strided-base-reinterpret-complex64": "^0.0.x",
     "@stdlib/strided-dtypes": "^0.0.x",
     "@stdlib/string-left-pad": "^0.0.x",
     "@stdlib/string-replace": "^0.0.x",
