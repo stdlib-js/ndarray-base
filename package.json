@@ -68,6 +68,7 @@
     "@stdlib/ndarray-base-ndarraylike2object": "^0.0.x",
     "@stdlib/ndarray-base-nonsingleton-dimensions": "^0.0.x",
     "@stdlib/ndarray-base-numel": "^0.0.x",
+    "@stdlib/ndarray-base-prepend-singleton-dimensions": "^0.0.x",
     "@stdlib/ndarray-base-remove-singleton-dimensions": "^0.0.x",
     "@stdlib/ndarray-base-serialize-meta-data": "^0.0.x",
     "@stdlib/ndarray-base-shape2strides": "^0.0.x",
