@@ -189,7 +189,7 @@
     "@stdlib/strided-base-reinterpret-complex128": "^0.0.x",
     "@stdlib/strided-base-reinterpret-complex64": "^0.0.x",
     "@stdlib/strided-dtypes": "^0.0.x",
-    "@stdlib/string-format": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x",
     "@stdlib/string-left-pad": "^0.0.x",
     "@stdlib/string-replace": "^0.0.x",
     "@stdlib/string-right-pad": "^0.0.x",
