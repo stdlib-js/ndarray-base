@@ -24,20 +24,30 @@ limitations under the License.
 
 > Base ndarray.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { assert, bind2vind, broadcastArray, broadcastShapes, buffer, bufferCtors, bufferDataType, bufferDataTypeEnum, bytesPerElement, char2dtype, clampIndex, dtype2c, dtypeChar, dtypeDesc, dtypeEnum2Str, dtypeResolveEnum, dtypeResolveStr, dtypeStr2Enum, dtypes2signatures, expandDimensions, ind, ind2sub, iterationOrder, maxViewBufferIndex, maybeBroadcastArray, metaDataProps, minViewBufferIndex, minmaxViewBufferIndex, ndarray, ndarray2array, ndarraylike2object, nonsingletonDimensions, numel, prependSingletonDimensions, removeSingletonDimensions, scalar2ndarray, serializeMetaData, shape2strides, singletonDimensions, strides2offset, strides2order, sub2ind, transpose, vind2bind, wrapIndex, zeros, zerosLike } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base@esm/index.mjs';
+var ns = require( '@stdlib/ndarray-base' );
 ```
 
 #### ns
@@ -70,17 +80,23 @@ var o = ns;
 -   <span class="signature">[`dtypeResolveEnum( dtype )`][@stdlib/ndarray/base/dtype-resolve-enum]</span><span class="delimiter">: </span><span class="description">return the enumeration constant associated with a supported ndarray data type value.</span>
 -   <span class="signature">[`dtypeResolveStr( dtype )`][@stdlib/ndarray/base/dtype-resolve-str]</span><span class="delimiter">: </span><span class="description">return the data type string associated with a supported ndarray data type value.</span>
 -   <span class="signature">[`dtypeStr2Enum( dtype )`][@stdlib/ndarray/base/dtype-str2enum]</span><span class="delimiter">: </span><span class="description">return the enumeration constant associated with an ndarray data type string.</span>
--   <span class="signature">[`dtype2c( dtype )`][@stdlib/ndarray/base/dtype2c]</span><span class="delimiter">: </span><span class="description">return the C data type associated with a provided data type string.</span>
+-   <span class="signature">[`dtype2c( dtype )`][@stdlib/ndarray/base/dtype2c]</span><span class="delimiter">: </span><span class="description">return the C data type associated with a provided data type value.</span>
 -   <span class="signature">[`dtypes2signatures( dtypes, nin, nout )`][@stdlib/ndarray/base/dtypes2signatures]</span><span class="delimiter">: </span><span class="description">transform a list of array argument data types into a list of signatures.</span>
+-   <span class="signature">[`expandDimensions( x, axis )`][@stdlib/ndarray/base/expand-dimensions]</span><span class="delimiter">: </span><span class="description">expand the shape of an array by inserting a new dimension of size one at a specified axis.</span>
+-   <span class="signature">[`scalar2ndarray( value, dtype )`][@stdlib/ndarray/base/from-scalar]</span><span class="delimiter">: </span><span class="description">convert a scalar value to a zero-dimensional ndarray.</span>
 -   <span class="signature">[`ind( idx, max, mode )`][@stdlib/ndarray/base/ind]</span><span class="delimiter">: </span><span class="description">return an index given an index mode.</span>
 -   <span class="signature">[`ind2sub( shape, strides, offset, order, idx, mode )`][@stdlib/ndarray/base/ind2sub]</span><span class="delimiter">: </span><span class="description">convert a linear index to an array of subscripts.</span>
 -   <span class="signature">[`iterationOrder( strides )`][@stdlib/ndarray/base/iteration-order]</span><span class="delimiter">: </span><span class="description">given a stride array, determine array iteration order.</span>
 -   <span class="signature">[`maxViewBufferIndex( shape, strides, offset )`][@stdlib/ndarray/base/max-view-buffer-index]</span><span class="delimiter">: </span><span class="description">compute the maximum linear index in an underlying data buffer accessible to an array view.</span>
+-   <span class="signature">[`maybeBroadcastArray( arr, shape )`][@stdlib/ndarray/base/maybe-broadcast-array]</span><span class="delimiter">: </span><span class="description">broadcast an ndarray to a specified shape if and only if the specified shape differs from the provided ndarray's shape.</span>
 -   <span class="signature">[`metaDataProps( meta, dtypes, obj )`][@stdlib/ndarray/base/meta-data-props]</span><span class="delimiter">: </span><span class="description">define non-enumerable read-only properties which expose ndarray function meta data.</span>
 -   <span class="signature">[`minViewBufferIndex( shape, strides, offset )`][@stdlib/ndarray/base/min-view-buffer-index]</span><span class="delimiter">: </span><span class="description">compute the minimum linear index in an underlying data buffer accessible to an array view.</span>
 -   <span class="signature">[`minmaxViewBufferIndex( shape, strides, offset )`][@stdlib/ndarray/base/minmax-view-buffer-index]</span><span class="delimiter">: </span><span class="description">compute the minimum and maximum linear indices in an underlying data buffer which are accessible to an array view.</span>
+-   <span class="signature">[`ndarraylike2object( x )`][@stdlib/ndarray/base/ndarraylike2object]</span><span class="delimiter">: </span><span class="description">convert an `ndarray`-like object to an object likely to have the same "shape".</span>
 -   <span class="signature">[`nonsingletonDimensions( shape )`][@stdlib/ndarray/base/nonsingleton-dimensions]</span><span class="delimiter">: </span><span class="description">return the number of non-singleton dimensions.</span>
 -   <span class="signature">[`numel( shape )`][@stdlib/ndarray/base/numel]</span><span class="delimiter">: </span><span class="description">return the number of elements in an array.</span>
+-   <span class="signature">[`prependSingletonDimensions( x, n )`][@stdlib/ndarray/base/prepend-singleton-dimensions]</span><span class="delimiter">: </span><span class="description">prepend singleton dimensions.</span>
+-   <span class="signature">[`removeSingletonDimensions( x )`][@stdlib/ndarray/base/remove-singleton-dimensions]</span><span class="delimiter">: </span><span class="description">remove singleton dimensions.</span>
 -   <span class="signature">[`serializeMetaData( x )`][@stdlib/ndarray/base/serialize-meta-data]</span><span class="delimiter">: </span><span class="description">serialize ndarray meta data.</span>
 -   <span class="signature">[`shape2strides( shape, order )`][@stdlib/ndarray/base/shape2strides]</span><span class="delimiter">: </span><span class="description">generate a stride array from an array shape.</span>
 -   <span class="signature">[`singletonDimensions( shape )`][@stdlib/ndarray/base/singleton-dimensions]</span><span class="delimiter">: </span><span class="description">return the number of singleton dimensions.</span>
@@ -88,8 +104,11 @@ var o = ns;
 -   <span class="signature">[`strides2order( strides )`][@stdlib/ndarray/base/strides2order]</span><span class="delimiter">: </span><span class="description">determine the order of a multidimensional array based on a provided stride array.</span>
 -   <span class="signature">[`sub2ind( shape, strides, offset, ...subscripts, mode )`][@stdlib/ndarray/base/sub2ind]</span><span class="delimiter">: </span><span class="description">convert subscripts to a linear index.</span>
 -   <span class="signature">[`ndarray2array( buffer, shape, strides, offset, order )`][@stdlib/ndarray/base/to-array]</span><span class="delimiter">: </span><span class="description">convert an ndarray buffer to a generic array.</span>
+-   <span class="signature">[`transpose( x )`][@stdlib/ndarray/base/transpose]</span><span class="delimiter">: </span><span class="description">transpose a matrix (or a stack of matrices).</span>
 -   <span class="signature">[`vind2bind( shape, strides, offset, order, idx, mode )`][@stdlib/ndarray/base/vind2bind]</span><span class="delimiter">: </span><span class="description">convert a linear index in an array view to a linear index in an underlying data buffer.</span>
 -   <span class="signature">[`wrapIndex( idx, max )`][@stdlib/ndarray/base/wrap-index]</span><span class="delimiter">: </span><span class="description">wrap an index on the interval `[0,max]`.</span>
+-   <span class="signature">[`zerosLike( x )`][@stdlib/ndarray/base/zeros-like]</span><span class="delimiter">: </span><span class="description">create a zero-filled ndarray having the same shape and data type as a provided ndarray.</span>
+-   <span class="signature">[`zeros( dtype, shape, order )`][@stdlib/ndarray/base/zeros]</span><span class="delimiter">: </span><span class="description">create a zero-filled ndarray having a specified shape and data type.</span>
 
 </div>
 
@@ -119,20 +138,11 @@ The namespace contains the following sub-namespaces:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/ndarray-base' );
 
 console.log( objectKeys( ns ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -156,7 +166,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -218,81 +228,99 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/ndarray/base/assert]: https://github.com/stdlib-js/ndarray-base-assert/tree/esm
+[@stdlib/ndarray/base/assert]: https://github.com/stdlib-js/ndarray-base-assert
 
-[@stdlib/ndarray/base/bind2vind]: https://github.com/stdlib-js/ndarray-base-bind2vind/tree/esm
+[@stdlib/ndarray/base/bind2vind]: https://github.com/stdlib-js/ndarray-base-bind2vind
 
-[@stdlib/ndarray/base/broadcast-array]: https://github.com/stdlib-js/ndarray-base-broadcast-array/tree/esm
+[@stdlib/ndarray/base/broadcast-array]: https://github.com/stdlib-js/ndarray-base-broadcast-array
 
-[@stdlib/ndarray/base/broadcast-shapes]: https://github.com/stdlib-js/ndarray-base-broadcast-shapes/tree/esm
+[@stdlib/ndarray/base/broadcast-shapes]: https://github.com/stdlib-js/ndarray-base-broadcast-shapes
 
-[@stdlib/ndarray/base/buffer-ctors]: https://github.com/stdlib-js/ndarray-base-buffer-ctors/tree/esm
+[@stdlib/ndarray/base/buffer-ctors]: https://github.com/stdlib-js/ndarray-base-buffer-ctors
 
-[@stdlib/ndarray/base/buffer-dtype-enum]: https://github.com/stdlib-js/ndarray-base-buffer-dtype-enum/tree/esm
+[@stdlib/ndarray/base/buffer-dtype-enum]: https://github.com/stdlib-js/ndarray-base-buffer-dtype-enum
 
-[@stdlib/ndarray/base/buffer-dtype]: https://github.com/stdlib-js/ndarray-base-buffer-dtype/tree/esm
+[@stdlib/ndarray/base/buffer-dtype]: https://github.com/stdlib-js/ndarray-base-buffer-dtype
 
-[@stdlib/ndarray/base/buffer]: https://github.com/stdlib-js/ndarray-base-buffer/tree/esm
+[@stdlib/ndarray/base/buffer]: https://github.com/stdlib-js/ndarray-base-buffer
 
-[@stdlib/ndarray/base/bytes-per-element]: https://github.com/stdlib-js/ndarray-base-bytes-per-element/tree/esm
+[@stdlib/ndarray/base/bytes-per-element]: https://github.com/stdlib-js/ndarray-base-bytes-per-element
 
-[@stdlib/ndarray/base/char2dtype]: https://github.com/stdlib-js/ndarray-base-char2dtype/tree/esm
+[@stdlib/ndarray/base/char2dtype]: https://github.com/stdlib-js/ndarray-base-char2dtype
 
-[@stdlib/ndarray/base/clamp-index]: https://github.com/stdlib-js/ndarray-base-clamp-index/tree/esm
+[@stdlib/ndarray/base/clamp-index]: https://github.com/stdlib-js/ndarray-base-clamp-index
 
-[@stdlib/ndarray/base/ctor]: https://github.com/stdlib-js/ndarray-base-ctor/tree/esm
+[@stdlib/ndarray/base/ctor]: https://github.com/stdlib-js/ndarray-base-ctor
 
-[@stdlib/ndarray/base/dtype-char]: https://github.com/stdlib-js/ndarray-base-dtype-char/tree/esm
+[@stdlib/ndarray/base/dtype-char]: https://github.com/stdlib-js/ndarray-base-dtype-char
 
-[@stdlib/ndarray/base/dtype-desc]: https://github.com/stdlib-js/ndarray-base-dtype-desc/tree/esm
+[@stdlib/ndarray/base/dtype-desc]: https://github.com/stdlib-js/ndarray-base-dtype-desc
 
-[@stdlib/ndarray/base/dtype-enum2str]: https://github.com/stdlib-js/ndarray-base-dtype-enum2str/tree/esm
+[@stdlib/ndarray/base/dtype-enum2str]: https://github.com/stdlib-js/ndarray-base-dtype-enum2str
 
-[@stdlib/ndarray/base/dtype-resolve-enum]: https://github.com/stdlib-js/ndarray-base-dtype-resolve-enum/tree/esm
+[@stdlib/ndarray/base/dtype-resolve-enum]: https://github.com/stdlib-js/ndarray-base-dtype-resolve-enum
 
-[@stdlib/ndarray/base/dtype-resolve-str]: https://github.com/stdlib-js/ndarray-base-dtype-resolve-str/tree/esm
+[@stdlib/ndarray/base/dtype-resolve-str]: https://github.com/stdlib-js/ndarray-base-dtype-resolve-str
 
-[@stdlib/ndarray/base/dtype-str2enum]: https://github.com/stdlib-js/ndarray-base-dtype-str2enum/tree/esm
+[@stdlib/ndarray/base/dtype-str2enum]: https://github.com/stdlib-js/ndarray-base-dtype-str2enum
 
-[@stdlib/ndarray/base/dtype2c]: https://github.com/stdlib-js/ndarray-base-dtype2c/tree/esm
+[@stdlib/ndarray/base/dtype2c]: https://github.com/stdlib-js/ndarray-base-dtype2c
 
-[@stdlib/ndarray/base/dtypes2signatures]: https://github.com/stdlib-js/ndarray-base-dtypes2signatures/tree/esm
+[@stdlib/ndarray/base/dtypes2signatures]: https://github.com/stdlib-js/ndarray-base-dtypes2signatures
 
-[@stdlib/ndarray/base/ind]: https://github.com/stdlib-js/ndarray-base-ind/tree/esm
+[@stdlib/ndarray/base/expand-dimensions]: https://github.com/stdlib-js/ndarray-base-expand-dimensions
 
-[@stdlib/ndarray/base/ind2sub]: https://github.com/stdlib-js/ndarray-base-ind2sub/tree/esm
+[@stdlib/ndarray/base/from-scalar]: https://github.com/stdlib-js/ndarray-base-from-scalar
 
-[@stdlib/ndarray/base/iteration-order]: https://github.com/stdlib-js/ndarray-base-iteration-order/tree/esm
+[@stdlib/ndarray/base/ind]: https://github.com/stdlib-js/ndarray-base-ind
 
-[@stdlib/ndarray/base/max-view-buffer-index]: https://github.com/stdlib-js/ndarray-base-max-view-buffer-index/tree/esm
+[@stdlib/ndarray/base/ind2sub]: https://github.com/stdlib-js/ndarray-base-ind2sub
 
-[@stdlib/ndarray/base/meta-data-props]: https://github.com/stdlib-js/ndarray-base-meta-data-props/tree/esm
+[@stdlib/ndarray/base/iteration-order]: https://github.com/stdlib-js/ndarray-base-iteration-order
 
-[@stdlib/ndarray/base/min-view-buffer-index]: https://github.com/stdlib-js/ndarray-base-min-view-buffer-index/tree/esm
+[@stdlib/ndarray/base/max-view-buffer-index]: https://github.com/stdlib-js/ndarray-base-max-view-buffer-index
 
-[@stdlib/ndarray/base/minmax-view-buffer-index]: https://github.com/stdlib-js/ndarray-base-minmax-view-buffer-index/tree/esm
+[@stdlib/ndarray/base/maybe-broadcast-array]: https://github.com/stdlib-js/ndarray-base-maybe-broadcast-array
 
-[@stdlib/ndarray/base/nonsingleton-dimensions]: https://github.com/stdlib-js/ndarray-base-nonsingleton-dimensions/tree/esm
+[@stdlib/ndarray/base/meta-data-props]: https://github.com/stdlib-js/ndarray-base-meta-data-props
 
-[@stdlib/ndarray/base/numel]: https://github.com/stdlib-js/ndarray-base-numel/tree/esm
+[@stdlib/ndarray/base/min-view-buffer-index]: https://github.com/stdlib-js/ndarray-base-min-view-buffer-index
 
-[@stdlib/ndarray/base/serialize-meta-data]: https://github.com/stdlib-js/ndarray-base-serialize-meta-data/tree/esm
+[@stdlib/ndarray/base/minmax-view-buffer-index]: https://github.com/stdlib-js/ndarray-base-minmax-view-buffer-index
 
-[@stdlib/ndarray/base/shape2strides]: https://github.com/stdlib-js/ndarray-base-shape2strides/tree/esm
+[@stdlib/ndarray/base/ndarraylike2object]: https://github.com/stdlib-js/ndarray-base-ndarraylike2object
 
-[@stdlib/ndarray/base/singleton-dimensions]: https://github.com/stdlib-js/ndarray-base-singleton-dimensions/tree/esm
+[@stdlib/ndarray/base/nonsingleton-dimensions]: https://github.com/stdlib-js/ndarray-base-nonsingleton-dimensions
 
-[@stdlib/ndarray/base/strides2offset]: https://github.com/stdlib-js/ndarray-base-strides2offset/tree/esm
+[@stdlib/ndarray/base/numel]: https://github.com/stdlib-js/ndarray-base-numel
 
-[@stdlib/ndarray/base/strides2order]: https://github.com/stdlib-js/ndarray-base-strides2order/tree/esm
+[@stdlib/ndarray/base/prepend-singleton-dimensions]: https://github.com/stdlib-js/ndarray-base-prepend-singleton-dimensions
 
-[@stdlib/ndarray/base/sub2ind]: https://github.com/stdlib-js/ndarray-base-sub2ind/tree/esm
+[@stdlib/ndarray/base/remove-singleton-dimensions]: https://github.com/stdlib-js/ndarray-base-remove-singleton-dimensions
 
-[@stdlib/ndarray/base/to-array]: https://github.com/stdlib-js/ndarray-base-to-array/tree/esm
+[@stdlib/ndarray/base/serialize-meta-data]: https://github.com/stdlib-js/ndarray-base-serialize-meta-data
 
-[@stdlib/ndarray/base/vind2bind]: https://github.com/stdlib-js/ndarray-base-vind2bind/tree/esm
+[@stdlib/ndarray/base/shape2strides]: https://github.com/stdlib-js/ndarray-base-shape2strides
 
-[@stdlib/ndarray/base/wrap-index]: https://github.com/stdlib-js/ndarray-base-wrap-index/tree/esm
+[@stdlib/ndarray/base/singleton-dimensions]: https://github.com/stdlib-js/ndarray-base-singleton-dimensions
+
+[@stdlib/ndarray/base/strides2offset]: https://github.com/stdlib-js/ndarray-base-strides2offset
+
+[@stdlib/ndarray/base/strides2order]: https://github.com/stdlib-js/ndarray-base-strides2order
+
+[@stdlib/ndarray/base/sub2ind]: https://github.com/stdlib-js/ndarray-base-sub2ind
+
+[@stdlib/ndarray/base/to-array]: https://github.com/stdlib-js/ndarray-base-to-array
+
+[@stdlib/ndarray/base/transpose]: https://github.com/stdlib-js/ndarray-base-transpose
+
+[@stdlib/ndarray/base/vind2bind]: https://github.com/stdlib-js/ndarray-base-vind2bind
+
+[@stdlib/ndarray/base/wrap-index]: https://github.com/stdlib-js/ndarray-base-wrap-index
+
+[@stdlib/ndarray/base/zeros-like]: https://github.com/stdlib-js/ndarray-base-zeros-like
+
+[@stdlib/ndarray/base/zeros]: https://github.com/stdlib-js/ndarray-base-zeros
 
 <!-- </toc-links> -->
 
