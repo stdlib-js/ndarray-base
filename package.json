@@ -139,6 +139,7 @@
     "@stdlib/assert-is-uint8clampedarray": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
     "@stdlib/bigint-ctor": "^0.0.x",
+    "@stdlib/boolean-ctor": "^0.0.x",
     "@stdlib/buffer-alloc-unsafe": "^0.0.x",
     "@stdlib/buffer-ctor": "^0.0.x",
     "@stdlib/buffer-from-array": "^0.0.x",
