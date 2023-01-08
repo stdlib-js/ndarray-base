@@ -80,6 +80,7 @@
     "@stdlib/ndarray-base-to-array": "^0.0.x",
     "@stdlib/ndarray-base-transpose": "^0.0.x",
     "@stdlib/ndarray-base-unary": "^0.0.x",
+    "@stdlib/ndarray-base-unary-by": "^0.0.x",
     "@stdlib/ndarray-base-unary-loop-interchange-order": "^0.0.x",
     "@stdlib/ndarray-base-unary-tiling-block-size": "^0.0.x",
     "@stdlib/ndarray-base-vind2bind": "^0.0.x",
@@ -220,12 +221,13 @@
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x",
     "@stdlib/utils-keys": "^0.0.x",
+    "@stdlib/utils-nary-function": "^0.0.x",
     "@stdlib/utils-object-inverse": "^0.0.x",
     "@stdlib/utils-try-require": "^0.0.x",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
-    "tap-min": "2.x.x"
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
   },
   "engines": {
     "node": ">=0.10.0",
