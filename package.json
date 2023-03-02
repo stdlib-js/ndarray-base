@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "@stdlib/ndarray-base-assert": "^0.0.7",
+    "@stdlib/ndarray-base-binary-tiling-block-size": "github:stdlib-js/ndarray-base-binary-tiling-block-size#main",
     "@stdlib/ndarray-base-bind2vind": "^0.0.6",
     "@stdlib/ndarray-base-broadcast-array": "^0.0.6",
     "@stdlib/ndarray-base-broadcast-shapes": "^0.0.8",
@@ -202,6 +203,7 @@
     "@stdlib/ndarray-ind2sub": "^0.0.7",
     "@stdlib/ndarray-index-modes": "^0.0.8",
     "@stdlib/ndarray-orders": "^0.0.8",
+    "@stdlib/ndarray-promotion-rules": "^0.0.8",
     "@stdlib/ndarray-safe-casts": "^0.0.8",
     "@stdlib/ndarray-same-kind-casts": "^0.0.8",
     "@stdlib/number-float64-base-from-int64-bytes": "^0.0.6",
