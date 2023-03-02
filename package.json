@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "@stdlib/ndarray-base-assert": "^0.0.7",
+    "@stdlib/ndarray-base-binary-loop-interchange-order": "github:stdlib-js/ndarray-base-binary-loop-interchange-order#main",
     "@stdlib/ndarray-base-binary-tiling-block-size": "github:stdlib-js/ndarray-base-binary-tiling-block-size#main",
     "@stdlib/ndarray-base-bind2vind": "^0.0.6",
     "@stdlib/ndarray-base-broadcast-array": "^0.0.6",
@@ -99,6 +100,7 @@
     "@stdlib/array-base-assert-is-accessor-array": "^0.0.1",
     "@stdlib/array-base-cartesian-square": "^0.0.3",
     "@stdlib/array-base-copy-indexed": "^0.0.1",
+    "@stdlib/array-base-filled": "^0.0.2",
     "@stdlib/array-base-getter": "^0.0.1",
     "@stdlib/array-base-setter": "^0.0.1",
     "@stdlib/array-base-take": "^0.0.1",
