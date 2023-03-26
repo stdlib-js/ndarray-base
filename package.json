@@ -60,6 +60,7 @@
     "@stdlib/ndarray-base-dtype2c": "^0.0.1",
     "@stdlib/ndarray-base-dtypes2signatures": "^0.0.7",
     "@stdlib/ndarray-base-empty": "github:stdlib-js/ndarray-base-empty#main",
+    "@stdlib/ndarray-base-empty-like": "github:stdlib-js/ndarray-base-empty-like#main",
     "@stdlib/ndarray-base-expand-dimensions": "^0.0.1",
     "@stdlib/ndarray-base-from-scalar": "^0.0.1",
     "@stdlib/ndarray-base-ind": "^0.0.8",
