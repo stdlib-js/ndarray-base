@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assert, binaryBlockSize, binaryLoopOrder, bind2vind, broadcastArray, broadcastScalar, broadcastShapes, buffer, bufferCtors, bufferDataType, bufferDataTypeEnum, bytesPerElement, char2dtype, clampIndex, dtype2c, dtypeChar, dtypeDesc, dtypeEnum2Str, dtypeResolveEnum, dtypeResolveStr, dtypeStr2Enum, dtypes2signatures, empty, emptyLike, expandDimensions, ind, ind2sub, iterationOrder, maxViewBufferIndex, maybeBroadcastArray, metaDataProps, minViewBufferIndex, minmaxViewBufferIndex, ndarray, ndarray2array, ndarraylike2object, nonsingletonDimensions, nullary, nullaryBlockSize, nullaryLoopOrder, numel, outputPolicyEnum2Str, outputPolicyResolveEnum, outputPolicyResolveStr, outputPolicyStr2Enum, prependSingletonDimensions, removeSingletonDimensions, scalar2ndarray, serializeMetaData, shape2strides, singletonDimensions, strides2offset, strides2order, sub2ind, transpose, unary, unaryBlockSize, unaryBy, unaryLoopOrder, unaryOutputDataType, vind2bind, wrapIndex, zeros, zerosLike } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base@esm/index.mjs';
+import { assert, binaryBlockSize, binaryLoopOrder, bind2vind, broadcastArray, broadcastScalar, broadcastShapes, buffer, bufferCtors, bufferDataType, bufferDataTypeEnum, bytesPerElement, char2dtype, clampIndex, dtype2c, dtypeChar, dtypeDesc, dtypeEnum2Str, dtypeResolveEnum, dtypeResolveStr, dtypeStr2Enum, dtypes2signatures, empty, emptyLike, expandDimensions, ind, ind2sub, iterationOrder, maxViewBufferIndex, maybeBroadcastArray, metaDataProps, minViewBufferIndex, minmaxViewBufferIndex, ndarray, ndarray2array, ndarraylike2object, nonsingletonDimensions, nullary, nullaryBlockSize, nullaryLoopOrder, numel, outputPolicyEnum2Str, outputPolicyResolveEnum, outputPolicyResolveStr, outputPolicyStr2Enum, prependSingletonDimensions, removeSingletonDimensions, scalar2ndarray, serializeMetaData, shape2strides, singletonDimensions, strides2offset, strides2order, sub2ind, transpose, unary, unaryBlockSize, unaryBy, unaryLoopOrder, unaryOutputDataType, vind2bind, wrapIndex, zeros, zerosLike } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base@v0.1.0-esm/index.mjs';
 ```
 
 #### ns
@@ -163,7 +163,7 @@ The namespace contains the following sub-namespaces:
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base@v0.1.0-esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 
