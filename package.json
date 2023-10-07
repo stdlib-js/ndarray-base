@@ -79,6 +79,7 @@
     "@stdlib/ndarray-base-nullary-loop-interchange-order": "^0.1.0",
     "@stdlib/ndarray-base-nullary-tiling-block-size": "^0.1.0",
     "@stdlib/ndarray-base-numel": "^0.1.1",
+    "@stdlib/ndarray-base-offset": "github:stdlib-js/ndarray-base-offset#main",
     "@stdlib/ndarray-base-output-policy-enum2str": "^0.1.0",
     "@stdlib/ndarray-base-output-policy-resolve-enum": "^0.1.0",
     "@stdlib/ndarray-base-output-policy-resolve-str": "^0.1.0",
