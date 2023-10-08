@@ -51,6 +51,7 @@
     "@stdlib/ndarray-base-char2dtype": "^0.1.0",
     "@stdlib/ndarray-base-clamp-index": "^0.1.1",
     "@stdlib/ndarray-base-ctor": "^0.1.0",
+    "@stdlib/ndarray-base-data-buffer": "github:stdlib-js/ndarray-base-data-buffer#main",
     "@stdlib/ndarray-base-dtype": "github:stdlib-js/ndarray-base-dtype#main",
     "@stdlib/ndarray-base-dtype-char": "^0.1.0",
     "@stdlib/ndarray-base-dtype-desc": "^0.1.0",
