@@ -92,6 +92,7 @@
     "@stdlib/ndarray-base-singleton-dimensions": "^0.1.1",
     "@stdlib/ndarray-base-slice": "github:stdlib-js/ndarray-base-slice#main",
     "@stdlib/ndarray-base-slice-assign": "github:stdlib-js/ndarray-base-slice-assign#main",
+    "@stdlib/ndarray-base-slice-dimension": "github:stdlib-js/ndarray-base-slice-dimension#main",
     "@stdlib/ndarray-base-strides": "github:stdlib-js/ndarray-base-strides#main",
     "@stdlib/ndarray-base-strides2offset": "^0.1.1",
     "@stdlib/ndarray-base-strides2order": "^0.1.0",
