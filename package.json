@@ -65,6 +65,7 @@
     "@stdlib/ndarray-base-empty": "^0.1.0",
     "@stdlib/ndarray-base-empty-like": "^0.1.0",
     "@stdlib/ndarray-base-expand-dimensions": "^0.1.1",
+    "@stdlib/ndarray-base-fliplr": "github:stdlib-js/ndarray-base-fliplr#main",
     "@stdlib/ndarray-base-from-scalar": "^0.1.0",
     "@stdlib/ndarray-base-ind": "^0.1.1",
     "@stdlib/ndarray-base-ind2sub": "^0.1.1",
