@@ -101,6 +101,7 @@
     "@stdlib/ndarray-base-slice": "^0.1.0",
     "@stdlib/ndarray-base-slice-assign": "^0.1.0",
     "@stdlib/ndarray-base-slice-dimension": "^0.1.0",
+    "@stdlib/ndarray-base-slice-to": "github:stdlib-js/ndarray-base-slice-to#main",
     "@stdlib/ndarray-base-strides": "^0.1.0",
     "@stdlib/ndarray-base-strides2offset": "^0.1.1",
     "@stdlib/ndarray-base-strides2order": "^0.1.1",
