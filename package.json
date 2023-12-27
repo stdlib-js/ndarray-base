@@ -42,6 +42,7 @@
     "@stdlib/ndarray-base-binary-tiling-block-size": "^0.1.0",
     "@stdlib/ndarray-base-bind2vind": "^0.1.0",
     "@stdlib/ndarray-base-broadcast-array": "^0.1.0",
+    "@stdlib/ndarray-base-broadcast-arrays": "github:stdlib-js/ndarray-base-broadcast-arrays#main",
     "@stdlib/ndarray-base-broadcast-scalar": "^0.1.0",
     "@stdlib/ndarray-base-broadcast-shapes": "^0.1.1",
     "@stdlib/ndarray-base-buffer": "^0.1.1",
@@ -106,7 +107,7 @@
     "@stdlib/ndarray-base-slice-dimension-to": "^0.1.0",
     "@stdlib/ndarray-base-slice-from": "^0.1.0",
     "@stdlib/ndarray-base-slice-to": "^0.1.0",
-    "@stdlib/ndarray-base-stride": "github:stdlib-js/ndarray-base-stride#main",
+    "@stdlib/ndarray-base-stride": "^0.1.0",
     "@stdlib/ndarray-base-strides": "^0.1.0",
     "@stdlib/ndarray-base-strides2offset": "^0.1.1",
     "@stdlib/ndarray-base-strides2order": "^0.1.1",
@@ -192,7 +193,6 @@
     "@stdlib/assert-is-uint32array": "^0.1.1",
     "@stdlib/assert-is-uint8array": "^0.1.1",
     "@stdlib/assert-is-uint8clampedarray": "^0.1.1",
-    "@stdlib/bench": "^0.2.1",
     "@stdlib/bigint-ctor": "^0.1.1",
     "@stdlib/blas-base-gscal": "^0.1.1",
     "@stdlib/boolean-ctor": "^0.1.1",
@@ -298,7 +298,8 @@
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
-    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
+    "@stdlib/bench-harness": "^0.1.2"
   },
   "engines": {
     "node": ">=0.10.0",
