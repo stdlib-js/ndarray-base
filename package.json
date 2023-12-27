@@ -278,7 +278,7 @@
     "@stdlib/slice-multi": "^0.1.0",
     "@stdlib/strided-base-reinterpret-complex128": "^0.1.1",
     "@stdlib/strided-base-reinterpret-complex64": "^0.1.1",
-    "@stdlib/string-format": "^0.1.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1",
     "@stdlib/string-left-pad": "^0.1.1",
     "@stdlib/string-replace": "^0.1.1",
     "@stdlib/string-right-pad": "^0.1.1",
