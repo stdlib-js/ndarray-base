@@ -74,6 +74,7 @@
     "@stdlib/ndarray-base-iteration-order": "^0.1.1",
     "@stdlib/ndarray-base-max-view-buffer-index": "^0.1.1",
     "@stdlib/ndarray-base-maybe-broadcast-array": "^0.1.0",
+    "@stdlib/ndarray-base-maybe-broadcast-arrays": "github:stdlib-js/ndarray-base-maybe-broadcast-arrays#main",
     "@stdlib/ndarray-base-meta-data-props": "^0.1.0",
     "@stdlib/ndarray-base-min-view-buffer-index": "^0.1.1",
     "@stdlib/ndarray-base-minmax-view-buffer-index": "^0.1.1",
