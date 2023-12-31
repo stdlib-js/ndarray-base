@@ -66,6 +66,7 @@
     "@stdlib/ndarray-base-empty": "^0.1.1",
     "@stdlib/ndarray-base-empty-like": "^0.1.0",
     "@stdlib/ndarray-base-expand-dimensions": "^0.1.1",
+    "@stdlib/ndarray-base-flag": "github:stdlib-js/ndarray-base-flag#main",
     "@stdlib/ndarray-base-flags": "github:stdlib-js/ndarray-base-flags#main",
     "@stdlib/ndarray-base-fliplr": "^0.1.0",
     "@stdlib/ndarray-base-flipud": "^0.1.0",
