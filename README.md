@@ -125,6 +125,7 @@ var o = ns;
 -   <span class="signature">[`nullaryLoopOrder( shape, stridesX )`][@stdlib/ndarray/base/nullary-loop-interchange-order]</span><span class="delimiter">: </span><span class="description">reorder ndarray dimensions and associated strides for loop interchange.</span>
 -   <span class="signature">[`nullaryBlockSize( dtypeX )`][@stdlib/ndarray/base/nullary-tiling-block-size]</span><span class="delimiter">: </span><span class="description">resolve a loop block size for multi-dimensional array tiled loops.</span>
 -   <span class="signature">[`nullary( arrays, fcn )`][@stdlib/ndarray/base/nullary]</span><span class="delimiter">: </span><span class="description">apply a nullary callback and assign results to elements in an output ndarray.</span>
+-   <span class="signature">[`numelDimension( x, dim )`][@stdlib/ndarray/base/numel-dimension]</span><span class="delimiter">: </span><span class="description">return the size (i.e., number of elements) of a specified dimension for a provided ndarray.</span>
 -   <span class="signature">[`numel( shape )`][@stdlib/ndarray/base/numel]</span><span class="delimiter">: </span><span class="description">return the number of elements in an array.</span>
 -   <span class="signature">[`offset( x )`][@stdlib/ndarray/base/offset]</span><span class="delimiter">: </span><span class="description">return the index offset specifying the underlying buffer index of the first iterated ndarray element.</span>
 -   <span class="signature">[`order( x )`][@stdlib/ndarray/base/order]</span><span class="delimiter">: </span><span class="description">return the layout order of a provided ndarray.</span>
@@ -385,6 +386,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [@stdlib/ndarray/base/nullary-tiling-block-size]: https://github.com/stdlib-js/ndarray-base-nullary-tiling-block-size
 
 [@stdlib/ndarray/base/nullary]: https://github.com/stdlib-js/ndarray-base-nullary
+
+[@stdlib/ndarray/base/numel-dimension]: https://github.com/stdlib-js/ndarray-base-numel-dimension
 
 [@stdlib/ndarray/base/numel]: https://github.com/stdlib-js/ndarray-base-numel
 
