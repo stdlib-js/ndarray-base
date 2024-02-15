@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assert, assign, binaryBlockSize, binaryLoopOrder, bind2vind, broadcastArray, broadcastArrays, broadcastScalar, broadcastShapes, buffer, bufferCtors, bufferDataType, bufferDataTypeEnum, bytesPerElement, char2dtype, clampIndex, data, dtype, dtype2c, dtypeChar, dtypeDesc, dtypeEnum2Str, dtypeResolveEnum, dtypeResolveStr, dtypeStr2Enum, dtypes2signatures, empty, emptyLike, expandDimensions, flag, flags, fliplr, flipud, ind, ind2sub, iterationOrder, maxViewBufferIndex, maybeBroadcastArray, maybeBroadcastArrays, metaDataProps, minViewBufferIndex, minmaxViewBufferIndex, ndarray, ndarray2array, ndarraylike2object, ndims, nextCartesianIndex, nonsingletonDimensions, normalizeIndex, nullary, nullaryBlockSize, nullaryLoopOrder, numel, numelDimension, offset, order, outputPolicyEnum2Str, outputPolicyResolveEnum, outputPolicyResolveStr, outputPolicyStr2Enum, prependSingletonDimensions, removeSingletonDimensions, reverse, reverseDimension, scalar2ndarray, serializeMetaData, shape, shape2strides, singletonDimensions, slice, sliceAssign, sliceDimension, sliceDimensionFrom, sliceDimensionTo, sliceFrom, sliceTo, stride, strides, strides2offset, strides2order, sub2ind, transpose, unary, unaryBlockSize, unaryBy, unaryLoopOrder, unaryOutputDataType, vind2bind, wrapIndex, zeros, zerosLike } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base@esm/index.mjs';
+import { assert, assign, binaryBlockSize, binaryLoopOrder, bind2vind, broadcastArray, broadcastArrays, broadcastScalar, broadcastShapes, buffer, bufferCtors, bufferDataType, bufferDataTypeEnum, bytesPerElement, char2dtype, clampIndex, data, dtype, dtype2c, dtypeChar, dtypeDesc, dtypeEnum2Str, dtypeResolveEnum, dtypeResolveStr, dtypeStr2Enum, dtypes2signatures, empty, emptyLike, expandDimensions, flag, flags, fliplr, flipud, ind, ind2sub, iterationOrder, maxViewBufferIndex, maybeBroadcastArray, maybeBroadcastArrays, metaDataProps, minViewBufferIndex, minmaxViewBufferIndex, ndarray, ndarray2array, ndarraylike2object, ndims, nextCartesianIndex, nonsingletonDimensions, normalizeIndex, nullary, nullaryBlockSize, nullaryLoopOrder, numel, numelDimension, offset, order, outputPolicyEnum2Str, outputPolicyResolveEnum, outputPolicyResolveStr, outputPolicyStr2Enum, prependSingletonDimensions, removeSingletonDimensions, reverse, reverseDimension, scalar2ndarray, serializeMetaData, shape, shape2strides, singletonDimensions, slice, sliceAssign, sliceDimension, sliceDimensionFrom, sliceDimensionTo, sliceFrom, sliceTo, stride, strides, strides2offset, strides2order, sub2ind, transpose, unary, unaryBlockSize, unaryBy, unaryLoopOrder, unaryOutputDataType, vind2bind, wrapIndex, zeros, zerosLike } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base@v0.2.0-esm/index.mjs';
 ```
 
 #### ns
@@ -190,7 +190,7 @@ The namespace contains the following sub-namespaces:
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base@v0.2.0-esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 
