@@ -109,6 +109,7 @@ var o = ns;
 -   <span class="signature">[`flags( x, copy )`][@stdlib/ndarray/base/flags]</span><span class="delimiter">: </span><span class="description">return the flags of a provided ndarray.</span>
 -   <span class="signature">[`fliplr( x, writable )`][@stdlib/ndarray/base/fliplr]</span><span class="delimiter">: </span><span class="description">return a view of an input ndarray in which the order of elements along the last dimension is reversed.</span>
 -   <span class="signature">[`flipud( x, writable )`][@stdlib/ndarray/base/flipud]</span><span class="delimiter">: </span><span class="description">return a view of an input ndarray in which the order of elements along the second-to-last dimension is reversed.</span>
+-   <span class="signature">[`forEach( arrays, fcn[, thisArg] )`][@stdlib/ndarray/base/for-each]</span><span class="delimiter">: </span><span class="description">invoke a callback function once for each ndarray element.</span>
 -   <span class="signature">[`scalar2ndarray( value, dtype, order )`][@stdlib/ndarray/base/from-scalar]</span><span class="delimiter">: </span><span class="description">convert a scalar value to a zero-dimensional ndarray.</span>
 -   <span class="signature">[`ind( idx, max, mode )`][@stdlib/ndarray/base/ind]</span><span class="delimiter">: </span><span class="description">return an index given an index mode.</span>
 -   <span class="signature">[`ind2sub( shape, strides, offset, order, idx, mode )`][@stdlib/ndarray/base/ind2sub]</span><span class="delimiter">: </span><span class="description">convert a linear index to an array of subscripts.</span>
@@ -355,6 +356,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [@stdlib/ndarray/base/fliplr]: https://github.com/stdlib-js/ndarray-base-fliplr
 
 [@stdlib/ndarray/base/flipud]: https://github.com/stdlib-js/ndarray-base-flipud
+
+[@stdlib/ndarray/base/for-each]: https://github.com/stdlib-js/ndarray-base-for-each
 
 [@stdlib/ndarray/base/from-scalar]: https://github.com/stdlib-js/ndarray-base-from-scalar
 
