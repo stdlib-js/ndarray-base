@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2024-07-27)
+## 0.3.0 (2024-07-29)
 
 <section class="packages">
 
@@ -34,6 +34,18 @@
 
 <!-- /.package -->
 
+<section class="package" id="ndarray-base-assert-is-allowed--unreleased">
+
+#### [@stdlib/ndarray/base/assert/is-allowed-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-allowed-)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="ndarray-base-assert-is-boolean--unreleased">
 
 #### [@stdlib/ndarray/base/assert/is-boolean-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-boolean-)
@@ -51,6 +63,138 @@
 <!-- /.features -->
 
 </details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-assert-is-buffer-length-compatible-unreleased">
+
+#### [@stdlib/ndarray/base/assert/is-buffer-length-compatible](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-buffer-length-compatible)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-assert-is-buffer-length-compatible-shape-unreleased">
+
+#### [@stdlib/ndarray/base/assert/is-buffer-length-compatible-shape](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-buffer-length-compatible-shape)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-assert-is-column-major-unreleased">
+
+#### [@stdlib/ndarray/base/assert/is-column-major](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-column-major)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-assert-is-column-major-contiguous-unreleased">
+
+#### [@stdlib/ndarray/base/assert/is-column-major-contiguous](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-column-major-contiguous)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-assert-is-contiguous-unreleased">
+
+#### [@stdlib/ndarray/base/assert/is-contiguous](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-contiguous)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-assert-is-mostly-safe--unreleased">
+
+#### [@stdlib/ndarray/base/assert/is-mostly-safe-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-mostly-safe-)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-assert-is-row-major-unreleased">
+
+#### [@stdlib/ndarray/base/assert/is-row-major](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-row-major)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-assert-is-row-major-contiguous-unreleased">
+
+#### [@stdlib/ndarray/base/assert/is-row-major-contiguous](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-row-major-contiguous)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-assert-is-safe--unreleased">
+
+#### [@stdlib/ndarray/base/assert/is-safe-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-safe-)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-assert-is-same-kind--unreleased">
+
+#### [@stdlib/ndarray/base/assert/is-same-kind-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-same-kind-)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-assert-is-single-segment-compatible-unreleased">
+
+#### [@stdlib/ndarray/base/assert/is-single-segment-compatible](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-single-segment-compatible)
+
+<details>
+
+No changes reported for this release.</details>
 
 </section>
 
@@ -83,6 +227,30 @@
 <!-- /.bug-fixes -->
 
 </details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-broadcast-scalar-unreleased">
+
+#### [@stdlib/ndarray/base/broadcast-scalar](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/broadcast-scalar)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-broadcast-shapes-unreleased">
+
+#### [@stdlib/ndarray/base/broadcast-shapes](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/broadcast-shapes)
+
+<details>
+
+No changes reported for this release.</details>
 
 </section>
 
@@ -154,6 +322,90 @@
 
 <!-- /.package -->
 
+<section class="package" id="ndarray-base-bytes-per-element-unreleased">
+
+#### [@stdlib/ndarray/base/bytes-per-element](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/bytes-per-element)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-char2dtype-unreleased">
+
+#### [@stdlib/ndarray/base/char2dtype](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/char2dtype)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-clamp-index-unreleased">
+
+#### [@stdlib/ndarray/base/clamp-index](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/clamp-index)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-ctor-unreleased">
+
+#### [@stdlib/ndarray/base/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/ctor)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-dtype-char-unreleased">
+
+#### [@stdlib/ndarray/base/dtype-char](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/dtype-char)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-dtype-desc-unreleased">
+
+#### [@stdlib/ndarray/base/dtype-desc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/dtype-desc)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-dtype2c-unreleased">
+
+#### [@stdlib/ndarray/base/dtype2c](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/dtype2c)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="ndarray-base-empty-unreleased">
 
 #### [@stdlib/ndarray/base/empty](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/empty)
@@ -220,6 +472,150 @@
 
 <!-- /.package -->
 
+<section class="package" id="ndarray-base-from-scalar-unreleased">
+
+#### [@stdlib/ndarray/base/from-scalar](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/from-scalar)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-function-object-unreleased">
+
+#### [@stdlib/ndarray/base/function-object](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/function-object)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-ind-unreleased">
+
+#### [@stdlib/ndarray/base/ind](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/ind)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-ind2sub-unreleased">
+
+#### [@stdlib/ndarray/base/ind2sub](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/ind2sub)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-iteration-order-unreleased">
+
+#### [@stdlib/ndarray/base/iteration-order](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/iteration-order)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-max-view-buffer-index-unreleased">
+
+#### [@stdlib/ndarray/base/max-view-buffer-index](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/max-view-buffer-index)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-min-view-buffer-index-unreleased">
+
+#### [@stdlib/ndarray/base/min-view-buffer-index](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/min-view-buffer-index)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-minmax-view-buffer-index-unreleased">
+
+#### [@stdlib/ndarray/base/minmax-view-buffer-index](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/minmax-view-buffer-index)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-napi-addon-arguments-unreleased">
+
+#### [@stdlib/ndarray/base/napi/addon-arguments](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/napi/addon-arguments)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-ndarraylike2object-unreleased">
+
+#### [@stdlib/ndarray/base/ndarraylike2object](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/ndarraylike2object)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-nonsingleton-dimensions-unreleased">
+
+#### [@stdlib/ndarray/base/nonsingleton-dimensions](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/nonsingleton-dimensions)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-normalize-index-unreleased">
+
+#### [@stdlib/ndarray/base/normalize-index](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/normalize-index)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="ndarray-base-nullary-unreleased">
 
 #### [@stdlib/ndarray/base/nullary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/nullary)
@@ -264,6 +660,114 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="ndarray-base-numel-unreleased">
+
+#### [@stdlib/ndarray/base/numel](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/numel)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-shape2strides-unreleased">
+
+#### [@stdlib/ndarray/base/shape2strides](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/shape2strides)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-singleton-dimensions-unreleased">
+
+#### [@stdlib/ndarray/base/singleton-dimensions](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/singleton-dimensions)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-slice-assign-unreleased">
+
+#### [@stdlib/ndarray/base/slice-assign](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/slice-assign)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-strides2offset-unreleased">
+
+#### [@stdlib/ndarray/base/strides2offset](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/strides2offset)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-strides2order-unreleased">
+
+#### [@stdlib/ndarray/base/strides2order](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/strides2order)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-sub2ind-unreleased">
+
+#### [@stdlib/ndarray/base/sub2ind](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/sub2ind)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-to-array-unreleased">
+
+#### [@stdlib/ndarray/base/to-array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/to-array)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-transpose-unreleased">
+
+#### [@stdlib/ndarray/base/transpose](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/transpose)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="ndarray-base-unary-unreleased">
 
 #### [@stdlib/ndarray/base/unary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/unary)
@@ -291,6 +795,42 @@ This release closes the following issue:
 <!-- /.bug-fixes -->
 
 </details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-unary-by-unreleased">
+
+#### [@stdlib/ndarray/base/unary-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/unary-by)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-vind2-unreleased">
+
+#### [@stdlib/ndarray/base/vind2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/vind2)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-wrap-index-unreleased">
+
+#### [@stdlib/ndarray/base/wrap-index](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/wrap-index)
+
+<details>
+
+No changes reported for this release.</details>
 
 </section>
 
@@ -377,6 +917,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
 -   [`6e4b9eb`](https://github.com/stdlib-js/stdlib/commit/6e4b9ebc31d9629446019e37e31bfe9b180b675c) - **feat:** update namespace TypeScript declarations [(#2681)](https://github.com/stdlib-js/stdlib/pull/2681) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`7ee91a5`](https://github.com/stdlib-js/stdlib/commit/7ee91a531462ec823da632c6ae8ff65a8d16549e) - **docs:** update namespace table of contents [(#2674)](https://github.com/stdlib-js/stdlib/pull/2674) _(by stdlib-bot, Athan Reines)_
 -   [`d31e751`](https://github.com/stdlib-js/stdlib/commit/d31e7515b71dc5b76751173c7724d73d943b1473) - **feat:** add `forEach` to namespace _(by Athan Reines)_
