@@ -2,6 +2,240 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2024-08-16)
+
+<section class="packages">
+
+### Packages
+
+<section class="package" id="ndarray-base-unreleased">
+
+#### [@stdlib/ndarray/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`54262c8`](https://github.com/stdlib-js/stdlib/commit/54262c89e70eae566591c6e87ece69b68ca09488) - add `ndarraylike2ndarray` to namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-assign-unreleased">
+
+#### [@stdlib/ndarray/base/assign](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assign)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`96c7ddf`](https://github.com/stdlib-js/stdlib/commit/96c7ddfdbcecc6ff60fcb56681db16463d19020e) - use computed order and fix strides in examples
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-for-each-unreleased">
+
+#### [@stdlib/ndarray/base/for-each](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/for-each)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`4e6b2eb`](https://github.com/stdlib-js/stdlib/commit/4e6b2eb39e01d193302cd93ebf93dd2f42c71291) - update type for indices
+-   [`c57d1d8`](https://github.com/stdlib-js/stdlib/commit/c57d1d880a32cfaff0c57744c81ef641640cddef) - return subscripts from perspective of ndarray view, not buffer
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-map-unreleased">
+
+#### [@stdlib/ndarray/base/map](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/map)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`72ed2e1`](https://github.com/stdlib-js/stdlib/commit/72ed2e1e6331858c078564e22b6dca041f5daaca) - add `ndarray/base/map` [(#2715)](https://github.com/stdlib-js/stdlib/pull/2715)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-ndarraylike2ndarray-unreleased">
+
+#### [@stdlib/ndarray/base/ndarraylike2ndarray](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/ndarraylike2ndarray)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5d01561`](https://github.com/stdlib-js/stdlib/commit/5d015616e9731e40d20f7d4dca6b136ae47cc9bc) - add `ndarray/base/ndarraylike2ndarray`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-unary-unreleased">
+
+#### [@stdlib/ndarray/base/unary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/unary)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`1375823`](https://github.com/stdlib-js/stdlib/commit/1375823f58c93aeac8c687147f40e78d52adec04) - use computed order and fix strides in examples
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-unary-by-unreleased">
+
+#### [@stdlib/ndarray/base/unary-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/unary-by)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`e2b7fb5`](https://github.com/stdlib-js/stdlib/commit/e2b7fb5df61f15ae7dbf148ec0c0412ff434b123) - use computed order and fix strides in examples
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-unary-loop-interchange-order-unreleased">
+
+#### [@stdlib/ndarray/base/unary-loop-interchange-order](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/unary-loop-interchange-order)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`0d360b3`](https://github.com/stdlib-js/stdlib/commit/0d360b33eba8019d2d638f265986d861ed22642a) - return index array as part of the results object
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+</section>
+
+<!-- /.packages -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Muhammad Haris
+
+</section>
+
+<!-- /.contributors -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`dd48932`](https://github.com/stdlib-js/stdlib/commit/dd489326b8dcee32f41f2ef7c2bafcaa4eb6ce46) - **docs:** fix descriptions _(by Athan Reines)_
+-   [`54262c8`](https://github.com/stdlib-js/stdlib/commit/54262c89e70eae566591c6e87ece69b68ca09488) - **feat:** add `ndarraylike2ndarray` to namespace _(by Athan Reines)_
+-   [`5d01561`](https://github.com/stdlib-js/stdlib/commit/5d015616e9731e40d20f7d4dca6b136ae47cc9bc) - **feat:** add `ndarray/base/ndarraylike2ndarray` _(by Athan Reines)_
+-   [`72ed2e1`](https://github.com/stdlib-js/stdlib/commit/72ed2e1e6331858c078564e22b6dca041f5daaca) - **feat:** add `ndarray/base/map` [(#2715)](https://github.com/stdlib-js/stdlib/pull/2715) _(by Muhammad Haris, Athan Reines)_
+-   [`96c7ddf`](https://github.com/stdlib-js/stdlib/commit/96c7ddfdbcecc6ff60fcb56681db16463d19020e) - **fix:** use computed order and fix strides in examples _(by Athan Reines)_
+-   [`e2b7fb5`](https://github.com/stdlib-js/stdlib/commit/e2b7fb5df61f15ae7dbf148ec0c0412ff434b123) - **fix:** use computed order and fix strides in examples _(by Athan Reines)_
+-   [`1375823`](https://github.com/stdlib-js/stdlib/commit/1375823f58c93aeac8c687147f40e78d52adec04) - **fix:** use computed order and fix strides in examples _(by Athan Reines)_
+-   [`bc07347`](https://github.com/stdlib-js/stdlib/commit/bc07347c2ebd7ea17befbb91f3c422776acf0c42) - **docs:** fix strides _(by Athan Reines)_
+-   [`e261bc2`](https://github.com/stdlib-js/stdlib/commit/e261bc2c64bb3ac5236abc447b9ae3f40acf31ab) - **docs:** fix strides _(by Athan Reines)_
+-   [`0d360b3`](https://github.com/stdlib-js/stdlib/commit/0d360b33eba8019d2d638f265986d861ed22642a) - **feat:** return index array as part of the results object _(by Athan Reines)_
+-   [`5fe7f2e`](https://github.com/stdlib-js/stdlib/commit/5fe7f2e437b3bf7ff82db46944d8f928c7fc4090) - **style:** remove backticks _(by Athan Reines)_
+-   [`dab89ca`](https://github.com/stdlib-js/stdlib/commit/dab89ca7cb89b404eef61ae48cfb84afec543222) - **style:** remove backticks _(by Athan Reines)_
+-   [`22c4d29`](https://github.com/stdlib-js/stdlib/commit/22c4d29898e2b5bb4cb071a6b7f62536027eaf28) - **docs:** remove blank line _(by Athan Reines)_
+-   [`4e6b2eb`](https://github.com/stdlib-js/stdlib/commit/4e6b2eb39e01d193302cd93ebf93dd2f42c71291) - **fix:** update type for indices _(by Athan Reines)_
+-   [`c57d1d8`](https://github.com/stdlib-js/stdlib/commit/c57d1d880a32cfaff0c57744c81ef641640cddef) - **fix:** return subscripts from perspective of ndarray view, not buffer _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.0">
 
 ## 0.3.0 (2024-07-29)
@@ -10,7 +244,7 @@
 
 ### Packages
 
-<section class="package" id="ndarray-base-unreleased">
+<section class="package" id="ndarray-base-v0.3.0">
 
 #### [@stdlib/ndarray/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base)
 
@@ -34,19 +268,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="ndarray-base-assert-is-allowed--unreleased">
-
-#### [@stdlib/ndarray/base/assert/is-allowed-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-allowed-)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-assert-is-boolean--unreleased">
+<section class="package" id="ndarray-base-assert-is-boolean--v0.3.0">
 
 #### [@stdlib/ndarray/base/assert/is-boolean-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-boolean-)
 
@@ -68,139 +290,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="ndarray-base-assert-is-buffer-length-compatible-unreleased">
-
-#### [@stdlib/ndarray/base/assert/is-buffer-length-compatible](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-buffer-length-compatible)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-assert-is-buffer-length-compatible-shape-unreleased">
-
-#### [@stdlib/ndarray/base/assert/is-buffer-length-compatible-shape](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-buffer-length-compatible-shape)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-assert-is-column-major-unreleased">
-
-#### [@stdlib/ndarray/base/assert/is-column-major](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-column-major)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-assert-is-column-major-contiguous-unreleased">
-
-#### [@stdlib/ndarray/base/assert/is-column-major-contiguous](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-column-major-contiguous)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-assert-is-contiguous-unreleased">
-
-#### [@stdlib/ndarray/base/assert/is-contiguous](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-contiguous)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-assert-is-mostly-safe--unreleased">
-
-#### [@stdlib/ndarray/base/assert/is-mostly-safe-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-mostly-safe-)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-assert-is-row-major-unreleased">
-
-#### [@stdlib/ndarray/base/assert/is-row-major](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-row-major)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-assert-is-row-major-contiguous-unreleased">
-
-#### [@stdlib/ndarray/base/assert/is-row-major-contiguous](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-row-major-contiguous)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-assert-is-safe--unreleased">
-
-#### [@stdlib/ndarray/base/assert/is-safe-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-safe-)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-assert-is-same-kind--unreleased">
-
-#### [@stdlib/ndarray/base/assert/is-same-kind-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-same-kind-)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-assert-is-single-segment-compatible-unreleased">
-
-#### [@stdlib/ndarray/base/assert/is-single-segment-compatible](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-single-segment-compatible)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-assign-unreleased">
+<section class="package" id="ndarray-base-assign-v0.3.0">
 
 #### [@stdlib/ndarray/base/assign](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assign)
 
@@ -232,31 +322,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="ndarray-base-broadcast-scalar-unreleased">
-
-#### [@stdlib/ndarray/base/broadcast-scalar](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/broadcast-scalar)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-broadcast-shapes-unreleased">
-
-#### [@stdlib/ndarray/base/broadcast-shapes](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/broadcast-shapes)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-buffer-unreleased">
+<section class="package" id="ndarray-base-buffer-v0.3.0">
 
 #### [@stdlib/ndarray/base/buffer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/buffer)
 
@@ -278,7 +344,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="ndarray-base-buffer-ctors-unreleased">
+<section class="package" id="ndarray-base-buffer-ctors-v0.3.0">
 
 #### [@stdlib/ndarray/base/buffer-ctors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/buffer-ctors)
 
@@ -300,7 +366,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="ndarray-base-buffer-dtype-unreleased">
+<section class="package" id="ndarray-base-buffer-dtype-v0.3.0">
 
 #### [@stdlib/ndarray/base/buffer-dtype](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/buffer-dtype)
 
@@ -322,91 +388,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="ndarray-base-bytes-per-element-unreleased">
-
-#### [@stdlib/ndarray/base/bytes-per-element](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/bytes-per-element)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-char2dtype-unreleased">
-
-#### [@stdlib/ndarray/base/char2dtype](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/char2dtype)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-clamp-index-unreleased">
-
-#### [@stdlib/ndarray/base/clamp-index](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/clamp-index)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-ctor-unreleased">
-
-#### [@stdlib/ndarray/base/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-dtype-char-unreleased">
-
-#### [@stdlib/ndarray/base/dtype-char](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/dtype-char)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-dtype-desc-unreleased">
-
-#### [@stdlib/ndarray/base/dtype-desc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/dtype-desc)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-dtype2c-unreleased">
-
-#### [@stdlib/ndarray/base/dtype2c](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/dtype2c)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-empty-unreleased">
+<section class="package" id="ndarray-base-empty-v0.3.0">
 
 #### [@stdlib/ndarray/base/empty](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/empty)
 
@@ -428,7 +410,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="ndarray-base-empty-like-unreleased">
+<section class="package" id="ndarray-base-empty-like-v0.3.0">
 
 #### [@stdlib/ndarray/base/empty-like](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/empty-like)
 
@@ -450,7 +432,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="ndarray-base-for-each-unreleased">
+<section class="package" id="ndarray-base-for-each-v0.3.0">
 
 #### [@stdlib/ndarray/base/for-each](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/for-each)
 
@@ -472,151 +454,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="ndarray-base-from-scalar-unreleased">
-
-#### [@stdlib/ndarray/base/from-scalar](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/from-scalar)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-function-object-unreleased">
-
-#### [@stdlib/ndarray/base/function-object](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/function-object)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-ind-unreleased">
-
-#### [@stdlib/ndarray/base/ind](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/ind)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-ind2sub-unreleased">
-
-#### [@stdlib/ndarray/base/ind2sub](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/ind2sub)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-iteration-order-unreleased">
-
-#### [@stdlib/ndarray/base/iteration-order](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/iteration-order)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-max-view-buffer-index-unreleased">
-
-#### [@stdlib/ndarray/base/max-view-buffer-index](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/max-view-buffer-index)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-min-view-buffer-index-unreleased">
-
-#### [@stdlib/ndarray/base/min-view-buffer-index](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/min-view-buffer-index)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-minmax-view-buffer-index-unreleased">
-
-#### [@stdlib/ndarray/base/minmax-view-buffer-index](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/minmax-view-buffer-index)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-napi-addon-arguments-unreleased">
-
-#### [@stdlib/ndarray/base/napi/addon-arguments](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/napi/addon-arguments)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-ndarraylike2object-unreleased">
-
-#### [@stdlib/ndarray/base/ndarraylike2object](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/ndarraylike2object)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-nonsingleton-dimensions-unreleased">
-
-#### [@stdlib/ndarray/base/nonsingleton-dimensions](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/nonsingleton-dimensions)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-normalize-index-unreleased">
-
-#### [@stdlib/ndarray/base/normalize-index](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/normalize-index)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-nullary-unreleased">
+<section class="package" id="ndarray-base-nullary-v0.3.0">
 
 #### [@stdlib/ndarray/base/nullary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/nullary)
 
@@ -660,115 +498,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="ndarray-base-numel-unreleased">
-
-#### [@stdlib/ndarray/base/numel](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/numel)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-shape2strides-unreleased">
-
-#### [@stdlib/ndarray/base/shape2strides](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/shape2strides)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-singleton-dimensions-unreleased">
-
-#### [@stdlib/ndarray/base/singleton-dimensions](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/singleton-dimensions)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-slice-assign-unreleased">
-
-#### [@stdlib/ndarray/base/slice-assign](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/slice-assign)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-strides2offset-unreleased">
-
-#### [@stdlib/ndarray/base/strides2offset](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/strides2offset)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-strides2order-unreleased">
-
-#### [@stdlib/ndarray/base/strides2order](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/strides2order)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-sub2ind-unreleased">
-
-#### [@stdlib/ndarray/base/sub2ind](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/sub2ind)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-to-array-unreleased">
-
-#### [@stdlib/ndarray/base/to-array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/to-array)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-transpose-unreleased">
-
-#### [@stdlib/ndarray/base/transpose](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/transpose)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-unary-unreleased">
+<section class="package" id="ndarray-base-unary-v0.3.0">
 
 #### [@stdlib/ndarray/base/unary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/unary)
 
@@ -800,43 +530,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="ndarray-base-unary-by-unreleased">
-
-#### [@stdlib/ndarray/base/unary-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/unary-by)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-vind2-unreleased">
-
-#### [@stdlib/ndarray/base/vind2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/vind2)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-wrap-index-unreleased">
-
-#### [@stdlib/ndarray/base/wrap-index](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/wrap-index)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-zeros-unreleased">
+<section class="package" id="ndarray-base-zeros-v0.3.0">
 
 #### [@stdlib/ndarray/base/zeros](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/zeros)
 
@@ -858,7 +552,7 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="ndarray-base-zeros-like-unreleased">
+<section class="package" id="ndarray-base-zeros-like-v0.3.0">
 
 #### [@stdlib/ndarray/base/zeros-like](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/zeros-like)
 
@@ -962,27 +656,17 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <!-- /.release -->
 
+<section class="release" id="v0.2.1">
+
 ## 0.2.1 (2024-02-25)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.2.0">
 
 ## 0.2.0 (2024-02-15)
 
@@ -1067,18 +751,6 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <!-- /.package -->
 
-<section class="package" id="ndarray-base-assert-is--v0.2.0">
-
-#### [@stdlib/ndarray/base/assert/is-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 <section class="package" id="ndarray-base-assert-is-allowed--v0.2.0">
 
 #### [@stdlib/ndarray/base/assert/is-allowed-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-allowed-)
@@ -1101,78 +773,6 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="ndarray-base-assert-is-buffer-length-compatible-v0.2.0">
-
-#### [@stdlib/ndarray/base/assert/is-buffer-length-compatible](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-buffer-length-compatible)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-assert-is-buffer-length-compatible-shape-v0.2.0">
-
-#### [@stdlib/ndarray/base/assert/is-buffer-length-compatible-shape](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-buffer-length-compatible-shape)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-assert-is-casting-mode-v0.2.0">
-
-#### [@stdlib/ndarray/base/assert/is-casting-mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-casting-mode)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-assert-is-column-major-contiguous-v0.2.0">
-
-#### [@stdlib/ndarray/base/assert/is-column-major-contiguous](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-column-major-contiguous)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-assert-is-contiguous-v0.2.0">
-
-#### [@stdlib/ndarray/base/assert/is-contiguous](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-contiguous)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-assert-is-index-mode-v0.2.0">
-
-#### [@stdlib/ndarray/base/assert/is-index-mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-index-mode)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 <section class="package" id="ndarray-base-assert-is-mostly-safe--v0.2.0">
 
 #### [@stdlib/ndarray/base/assert/is-mostly-safe-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-mostly-safe-)
@@ -1190,66 +790,6 @@ No changes reported for this release.</details>
 <!-- /.features -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-assert-is-read-only-v0.2.0">
-
-#### [@stdlib/ndarray/base/assert/is-read-only](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-read-only)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-assert-is-row-major-contiguous-v0.2.0">
-
-#### [@stdlib/ndarray/base/assert/is-row-major-contiguous](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-row-major-contiguous)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-assert-is-safe--v0.2.0">
-
-#### [@stdlib/ndarray/base/assert/is-safe-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-safe-)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-assert-is-same-kind--v0.2.0">
-
-#### [@stdlib/ndarray/base/assert/is-same-kind-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-same-kind-)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-assert-is-single-segment-compatible-v0.2.0">
-
-#### [@stdlib/ndarray/base/assert/is-single-segment-compatible](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-single-segment-compatible)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -1290,18 +830,6 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="ndarray-base-broadcast-array-v0.2.0">
-
-#### [@stdlib/ndarray/base/broadcast-array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/broadcast-array)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 <section class="package" id="ndarray-base-broadcast-arrays-v0.2.0">
 
 #### [@stdlib/ndarray/base/broadcast-arrays](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/broadcast-arrays)
@@ -1324,78 +852,6 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="ndarray-base-broadcast-scalar-v0.2.0">
-
-#### [@stdlib/ndarray/base/broadcast-scalar](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/broadcast-scalar)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-broadcast-shapes-v0.2.0">
-
-#### [@stdlib/ndarray/base/broadcast-shapes](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/broadcast-shapes)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-buffer-v0.2.0">
-
-#### [@stdlib/ndarray/base/buffer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/buffer)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-buffer-dtype-enum-v0.2.0">
-
-#### [@stdlib/ndarray/base/buffer-dtype-enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/buffer-dtype-enum)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-clamp-index-v0.2.0">
-
-#### [@stdlib/ndarray/base/clamp-index](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/clamp-index)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-ctor-v0.2.0">
-
-#### [@stdlib/ndarray/base/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 <section class="package" id="ndarray-base-dtype-v0.2.0">
 
 #### [@stdlib/ndarray/base/dtype](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/dtype)
@@ -1413,42 +869,6 @@ No changes reported for this release.</details>
 <!-- /.features -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-dtype-enum2str-v0.2.0">
-
-#### [@stdlib/ndarray/base/dtype-enum2str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/dtype-enum2str)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-dtype-resolve-str-v0.2.0">
-
-#### [@stdlib/ndarray/base/dtype-resolve-str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/dtype-resolve-str)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-dtypes2signatures-v0.2.0">
-
-#### [@stdlib/ndarray/base/dtypes2signatures](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/dtypes2signatures)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -1608,30 +1028,6 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="ndarray-base-from-scalar-v0.2.0">
-
-#### [@stdlib/ndarray/base/from-scalar](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/from-scalar)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-function-object-v0.2.0">
-
-#### [@stdlib/ndarray/base/function-object](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/function-object)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 <section class="package" id="ndarray-base-ind-v0.2.0">
 
 #### [@stdlib/ndarray/base/ind](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/ind)
@@ -1687,18 +1083,6 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="ndarray-base-max-view-buffer-index-v0.2.0">
-
-#### [@stdlib/ndarray/base/max-view-buffer-index](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/max-view-buffer-index)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 <section class="package" id="ndarray-base-maybe-broadcast-array-v0.2.0">
 
 #### [@stdlib/ndarray/base/maybe-broadcast-array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/maybe-broadcast-array)
@@ -1738,90 +1122,6 @@ No changes reported for this release.</details>
 <!-- /.features -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-min-view-buffer-index-v0.2.0">
-
-#### [@stdlib/ndarray/base/min-view-buffer-index](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/min-view-buffer-index)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-minmax-view-buffer-index-v0.2.0">
-
-#### [@stdlib/ndarray/base/minmax-view-buffer-index](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/minmax-view-buffer-index)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-napi-v0.2.0">
-
-#### [@stdlib/ndarray/base/napi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/napi)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-napi-addon-arguments-v0.2.0">
-
-#### [@stdlib/ndarray/base/napi/addon-arguments](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/napi/addon-arguments)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-napi-dtype-string-to-dtype-v0.2.0">
-
-#### [@stdlib/ndarray/base/napi/dtype-string-to-dtype](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/napi/dtype-string-to-dtype)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-napi-typedarray-type-to-dtype-v0.2.0">
-
-#### [@stdlib/ndarray/base/napi/typedarray-type-to-dtype](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/napi/typedarray-type-to-dtype)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-napi-unary-v0.2.0">
-
-#### [@stdlib/ndarray/base/napi/unary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/napi/unary)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -1969,18 +1269,6 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="ndarray-base-numel-v0.2.0">
-
-#### [@stdlib/ndarray/base/numel](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/numel)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 <section class="package" id="ndarray-base-numel-dimension-v0.2.0">
 
 #### [@stdlib/ndarray/base/numel-dimension](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/numel-dimension)
@@ -2042,54 +1330,6 @@ No changes reported for this release.</details>
 <!-- /.features -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-output-policy-enum2str-v0.2.0">
-
-#### [@stdlib/ndarray/base/output-policy-enum2str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/output-policy-enum2str)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-output-policy-resolve-enum-v0.2.0">
-
-#### [@stdlib/ndarray/base/output-policy-resolve-enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/output-policy-resolve-enum)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-output-policy-resolve-str-v0.2.0">
-
-#### [@stdlib/ndarray/base/output-policy-resolve-str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/output-policy-resolve-str)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-output-policy-str2enum-v0.2.0">
-
-#### [@stdlib/ndarray/base/output-policy-str2enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/output-policy-str2enum)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -2222,18 +1462,6 @@ No changes reported for this release.</details>
 <!-- /.features -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-shape2strides-v0.2.0">
-
-#### [@stdlib/ndarray/base/shape2strides](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/shape2strides)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -2480,18 +1708,6 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="ndarray-base-strides2offset-v0.2.0">
-
-#### [@stdlib/ndarray/base/strides2offset](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/strides2offset)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 <section class="package" id="ndarray-base-sub2ind-v0.2.0">
 
 #### [@stdlib/ndarray/base/sub2ind](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/sub2ind)
@@ -2509,30 +1725,6 @@ No changes reported for this release.</details>
 <!-- /.features -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-to-array-v0.2.0">
-
-#### [@stdlib/ndarray/base/to-array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/to-array)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-transpose-v0.2.0">
-
-#### [@stdlib/ndarray/base/transpose](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/transpose)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -2560,42 +1752,6 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="ndarray-base-unary-by-v0.2.0">
-
-#### [@stdlib/ndarray/base/unary-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/unary-by)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-unary-loop-interchange-order-v0.2.0">
-
-#### [@stdlib/ndarray/base/unary-loop-interchange-order](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/unary-loop-interchange-order)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-unary-output-dtype-v0.2.0">
-
-#### [@stdlib/ndarray/base/unary-output-dtype](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/unary-output-dtype)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 <section class="package" id="ndarray-base-vind2-v0.2.0">
 
 #### [@stdlib/ndarray/base/vind2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/vind2)
@@ -2613,18 +1769,6 @@ No changes reported for this release.</details>
 <!-- /.features -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="ndarray-base-wrap-index-v0.2.0">
-
-#### [@stdlib/ndarray/base/wrap-index](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/wrap-index)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -2652,18 +1796,6 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="ndarray-base-zeros-like-v0.2.0">
-
-#### [@stdlib/ndarray/base/zeros-like](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/zeros-like)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 </section>
 
 <!-- /.packages -->
@@ -2672,10 +1804,9 @@ No changes reported for this release.</details>
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
--   Philipp Burckhardt
 -   Philipp Burckhardt
 
 </section>
@@ -2889,6 +2020,12 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.0">
+
 ## 0.1.0 (2023-09-24)
 
 <section class="packages">
@@ -2928,8 +2065,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -2972,13 +2108,11 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
 -   [`1e78f7b`](https://github.com/stdlib-js/stdlib/commit/1e78f7b05c30245bd7ae22991ee021ae38a90a53): rename `isIntegralDataType` to `isIntegerDataType`
--   [`1e78f7b`](https://github.com/stdlib-js/stdlib/commit/1e78f7b05c30245bd7ae22991ee021ae38a90a53): rename `isIntegralDataType` to `isIntegerDataType` 
 
     -   To migrate, users should update their usage accordingly.
 
@@ -3012,8 +2146,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3047,8 +2180,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3082,8 +2214,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3117,8 +2248,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3152,8 +2282,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3187,8 +2316,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3222,8 +2350,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3258,8 +2385,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3293,8 +2419,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3329,8 +2454,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3364,8 +2488,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3400,8 +2523,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3458,8 +2580,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3493,8 +2614,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3528,8 +2648,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3564,8 +2683,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3600,8 +2718,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3635,8 +2752,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3670,8 +2786,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3705,8 +2820,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3740,8 +2854,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3776,8 +2889,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3811,8 +2923,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3847,8 +2958,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3882,8 +2992,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3928,8 +3037,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3963,8 +3071,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -3998,8 +3105,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4033,8 +3139,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4068,8 +3173,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4145,8 +3249,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4180,8 +3283,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4215,8 +3317,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4250,8 +3351,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4285,8 +3385,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4320,8 +3419,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4365,8 +3463,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4400,8 +3497,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4435,8 +3531,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4470,8 +3565,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4505,8 +3599,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4540,8 +3633,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4576,8 +3668,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4612,8 +3703,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4647,8 +3737,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4693,16 +3782,14 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
--   [`171fc57`](https://github.com/stdlib-js/stdlib/commit/171fc571b800ceb803d7d925cd871fc9bbcd7e8c): add support for providing `order` argument
--   [`171fc57`](https://github.com/stdlib-js/stdlib/commit/171fc571b800ceb803d7d925cd871fc9bbcd7e8c): must provide `order` argument. 
+-   [`171fc57`](https://github.com/stdlib-js/stdlib/commit/171fc571b800ceb803d7d925cd871fc9bbcd7e8c): must provide `order` argument.
 
     -   To migrate, users should explicitly provide an `order` argument as
-    a third argument when invoking `scalar2ndarray`.
+        a third argument when invoking `scalar2ndarray`.
 
 </section>
 
@@ -4734,8 +3821,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4769,8 +3855,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4804,8 +3889,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4839,8 +3923,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4874,8 +3957,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4909,8 +3991,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4944,8 +4025,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -4979,8 +4059,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5014,8 +4093,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5049,8 +4127,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5084,8 +4161,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5119,8 +4195,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5154,8 +4229,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5189,8 +4263,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5234,8 +4307,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5269,8 +4341,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5315,8 +4386,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5351,8 +4421,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5387,8 +4456,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5422,8 +4490,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5468,8 +4535,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5504,8 +4570,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5540,8 +4605,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5576,8 +4640,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5611,8 +4674,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5646,8 +4708,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5681,8 +4742,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5716,8 +4776,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5751,8 +4810,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5786,8 +4844,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5821,8 +4878,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5856,8 +4912,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5891,8 +4946,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5926,8 +4980,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5972,8 +5025,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6007,8 +5059,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6042,8 +5093,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6078,8 +5128,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6113,8 +5162,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6148,8 +5196,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6183,8 +5230,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6218,8 +5264,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6253,8 +5298,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6276,22 +5320,19 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ### BREAKING CHANGES
 
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version
--   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1 
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
 -   [`015ff99`](https://github.com/stdlib-js/stdlib/commit/015ff99285585b1a9267a8ad3f8c856e64742dfd): increase minimum TypeScript version
 -   [`1e78f7b`](https://github.com/stdlib-js/stdlib/commit/1e78f7b05c30245bd7ae22991ee021ae38a90a53): rename `isIntegralDataType` to `isIntegerDataType`
--   [`1e78f7b`](https://github.com/stdlib-js/stdlib/commit/1e78f7b05c30245bd7ae22991ee021ae38a90a53): rename `isIntegralDataType` to `isIntegerDataType` 
 
     -   To migrate, users should update their usage accordingly.
 
--   [`171fc57`](https://github.com/stdlib-js/stdlib/commit/171fc571b800ceb803d7d925cd871fc9bbcd7e8c): add support for providing `order` argument
--   [`171fc57`](https://github.com/stdlib-js/stdlib/commit/171fc571b800ceb803d7d925cd871fc9bbcd7e8c): must provide `order` argument. 
+-   [`171fc57`](https://github.com/stdlib-js/stdlib/commit/171fc571b800ceb803d7d925cd871fc9bbcd7e8c): must provide `order` argument.
 
     -   To migrate, users should explicitly provide an `order` argument as
-    a third argument when invoking `scalar2ndarray`.
+        a third argument when invoking `scalar2ndarray`.
 
 </section>
 
@@ -6411,157 +5452,77 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.7">
+
 ## 0.0.7 (2022-02-16)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.6">
 
 ## 0.0.6 (2021-08-22)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.5">
 
 ## 0.0.5 (2021-07-07)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.4">
 
 ## 0.0.4 (2021-06-29)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.3">
 
 ## 0.0.3 (2021-06-28)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.2">
 
 ## 0.0.2 (2021-06-16)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.1">
 
 ## 0.0.1 (2021-06-15)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<!-- /.release -->
 
