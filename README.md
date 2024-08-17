@@ -120,6 +120,7 @@ var o = ns;
 -   <span class="signature">[`metaDataProps( meta, dtypes, obj )`][@stdlib/ndarray/base/meta-data-props]</span><span class="delimiter">: </span><span class="description">define non-enumerable read-only properties which expose ndarray function meta data.</span>
 -   <span class="signature">[`minViewBufferIndex( shape, strides, offset )`][@stdlib/ndarray/base/min-view-buffer-index]</span><span class="delimiter">: </span><span class="description">compute the minimum linear index in an underlying data buffer accessible to an array view.</span>
 -   <span class="signature">[`minmaxViewBufferIndex( shape, strides, offset )`][@stdlib/ndarray/base/minmax-view-buffer-index]</span><span class="delimiter">: </span><span class="description">compute the minimum and maximum linear indices in an underlying data buffer which are accessible to an array view.</span>
+-   <span class="signature">[`ndarraylike2ndarray( x )`][@stdlib/ndarray/base/ndarraylike2ndarray]</span><span class="delimiter">: </span><span class="description">convert an ndarray-like object to an `ndarray`.</span>
 -   <span class="signature">[`ndarraylike2object( x )`][@stdlib/ndarray/base/ndarraylike2object]</span><span class="delimiter">: </span><span class="description">convert an `ndarray`-like object to an object likely to have the same "shape".</span>
 -   <span class="signature">[`ndims( x )`][@stdlib/ndarray/base/ndims]</span><span class="delimiter">: </span><span class="description">return the number of ndarray dimensions.</span>
 -   <span class="signature">[`nextCartesianIndex( shape, order, idx, dim )`][@stdlib/ndarray/base/next-cartesian-index]</span><span class="delimiter">: </span><span class="description">return the next Cartesian index (i.e., set of subscripts/dimension indices).</span>
@@ -378,6 +379,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [@stdlib/ndarray/base/min-view-buffer-index]: https://github.com/stdlib-js/ndarray-base-min-view-buffer-index
 
 [@stdlib/ndarray/base/minmax-view-buffer-index]: https://github.com/stdlib-js/ndarray-base-minmax-view-buffer-index
+
+[@stdlib/ndarray/base/ndarraylike2ndarray]: https://github.com/stdlib-js/ndarray-base-ndarraylike2ndarray
 
 [@stdlib/ndarray/base/ndarraylike2object]: https://github.com/stdlib-js/ndarray-base-ndarraylike2object
 
