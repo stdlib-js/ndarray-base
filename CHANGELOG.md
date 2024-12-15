@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-20)
+## Unreleased (2024-12-15)
 
 <section class="packages">
 
@@ -20,6 +20,8 @@
 
 ##### Features
 
+-   [`14427c7`](https://github.com/stdlib-js/stdlib/commit/14427c79bc62f82b16cbadc9d34749901e48d105) - add `fill`, `map`, and `toReversed` to namespace
+-   [`a0d6619`](https://github.com/stdlib-js/stdlib/commit/a0d66193409576538d0f16aa89cbaeedec7898be) - add `minSignedIntegerDataType` and `minUnsignedIntegerDataType` to namespace
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 -   [`54262c8`](https://github.com/stdlib-js/stdlib/commit/54262c89e70eae566591c6e87ece69b68ca09488) - add `ndarraylike2ndarray` to namespace
 
@@ -181,6 +183,60 @@
 ##### Features
 
 -   [`72ed2e1`](https://github.com/stdlib-js/stdlib/commit/72ed2e1e6331858c078564e22b6dca041f5daaca) - add `ndarray/base/map` [(#2715)](https://github.com/stdlib-js/stdlib/pull/2715)
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`b4502fb`](https://github.com/stdlib-js/stdlib/commit/b4502fbc4da03910f86c66e68b53e93e99e3e933) - remove perf logic in order to ensure expected indices in callback
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-min-signed-integer-dtype-unreleased">
+
+#### [@stdlib/ndarray/base/min-signed-integer-dtype](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/min-signed-integer-dtype)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c3bffe5`](https://github.com/stdlib-js/stdlib/commit/c3bffe513318480e2ce4645bb05895df8148ee1e) - add `ndarray/base/min-signed-integer-dtype`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-min-unsigned-integer-dtype-unreleased">
+
+#### [@stdlib/ndarray/base/min-unsigned-integer-dtype](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/min-unsigned-integer-dtype)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`97e8c1a`](https://github.com/stdlib-js/stdlib/commit/97e8c1aff4f7c1a3b0946d15354a926d82e2120a) - add `ndarray/base/min-unsigned-integer-dtype`
 
 </section>
 
@@ -426,6 +482,14 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`14427c7`](https://github.com/stdlib-js/stdlib/commit/14427c79bc62f82b16cbadc9d34749901e48d105) - **feat:** add `fill`, `map`, and `toReversed` to namespace _(by Athan Reines)_
+-   [`a0d6619`](https://github.com/stdlib-js/stdlib/commit/a0d66193409576538d0f16aa89cbaeedec7898be) - **feat:** add `minSignedIntegerDataType` and `minUnsignedIntegerDataType` to namespace _(by Athan Reines)_
+-   [`97e8c1a`](https://github.com/stdlib-js/stdlib/commit/97e8c1aff4f7c1a3b0946d15354a926d82e2120a) - **feat:** add `ndarray/base/min-unsigned-integer-dtype` _(by Athan Reines)_
+-   [`c3bffe5`](https://github.com/stdlib-js/stdlib/commit/c3bffe513318480e2ce4645bb05895df8148ee1e) - **feat:** add `ndarray/base/min-signed-integer-dtype` _(by Athan Reines)_
+-   [`b4502fb`](https://github.com/stdlib-js/stdlib/commit/b4502fbc4da03910f86c66e68b53e93e99e3e933) - **fix:** remove perf logic in order to ensure expected indices in callback _(by Athan Reines)_
+-   [`a80835b`](https://github.com/stdlib-js/stdlib/commit/a80835b8f9959a15751adfce5572bb2b29cfeeed) - **refactor:** declare parameters and pointer as const _(by Philipp Burckhardt)_
+-   [`6c020d3`](https://github.com/stdlib-js/stdlib/commit/6c020d33665c4aec232196fd86214b296ddc7d36) - **chore:** use relative paths to load package.json file _(by Philipp Burckhardt)_
+-   [`b6a2b0b`](https://github.com/stdlib-js/stdlib/commit/b6a2b0b27dc8cc1e9fc02d9679a3ce468cf49b9d) - **docs:** update namespace table of contents [(#3192)](https://github.com/stdlib-js/stdlib/pull/3192) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`99cca3d`](https://github.com/stdlib-js/stdlib/commit/99cca3dc8a07ef39b9821468b8a0f7a4d6cacf72) - **chore:** declare parameter as const array _(by Philipp Burckhardt)_
 -   [`2c4e5d8`](https://github.com/stdlib-js/stdlib/commit/2c4e5d824e0c5dc8fd536bf79ff565cee100ce46) - **build:** disable additional lint rule in TS tests _(by Philipp Burckhardt)_
