@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-16)
+## Unreleased (2024-12-31)
 
 <section class="packages">
 
@@ -20,6 +20,8 @@
 
 ##### Features
 
+-   [`1ddeba9`](https://github.com/stdlib-js/stdlib/commit/1ddeba98295bb53fb8098d1016f0de4b7f544e96) - add `scalar2ndarrayLike` to namespace
+-   [`58e795d`](https://github.com/stdlib-js/stdlib/commit/58e795db467b7bd1d3dc6c5847f91a97fed2ccff) - update namespace TypeScript declarations [(#3937)](https://github.com/stdlib-js/stdlib/pull/3937)
 -   [`14427c7`](https://github.com/stdlib-js/stdlib/commit/14427c79bc62f82b16cbadc9d34749901e48d105) - add `fill`, `map`, and `toReversed` to namespace
 -   [`a0d6619`](https://github.com/stdlib-js/stdlib/commit/a0d66193409576538d0f16aa89cbaeedec7898be) - add `minSignedIntegerDataType` and `minUnsignedIntegerDataType` to namespace
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
@@ -127,6 +129,29 @@
 
 <!-- /.package -->
 
+<section class="package" id="ndarray-base-ctor-unreleased">
+
+#### [@stdlib/ndarray/base/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/ctor)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`5e2bbef`](https://github.com/stdlib-js/stdlib/commit/5e2bbef14efd5937e23047c01af0e740e6cbd4f6) - add missing boolean array support
+-   [`aea44c9`](https://github.com/stdlib-js/stdlib/commit/aea44c9c8699a4d748c0db70d4a60801bfc03c40) - update loop limit
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="ndarray-base-fill-unreleased">
 
 #### [@stdlib/ndarray/base/fill](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/fill)
@@ -165,6 +190,28 @@
 </section>
 
 <!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-from-scalar-like-unreleased">
+
+#### [@stdlib/ndarray/base/from-scalar-like](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/from-scalar-like)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b2dcaa0`](https://github.com/stdlib-js/stdlib/commit/b2dcaa0d97eeb11585ab4cae5b7c319308e6b3c2) - add `ndarray/base/from-scalar-like`
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -482,6 +529,12 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`1ddeba9`](https://github.com/stdlib-js/stdlib/commit/1ddeba98295bb53fb8098d1016f0de4b7f544e96) - **feat:** add `scalar2ndarrayLike` to namespace _(by Athan Reines)_
+-   [`b2dcaa0`](https://github.com/stdlib-js/stdlib/commit/b2dcaa0d97eeb11585ab4cae5b7c319308e6b3c2) - **feat:** add `ndarray/base/from-scalar-like` _(by Athan Reines)_
+-   [`7dc5c14`](https://github.com/stdlib-js/stdlib/commit/7dc5c14b995c7c4bd286087d04a20497057c0e71) - **refactor:** use assertion utility _(by Athan Reines)_
+-   [`5e2bbef`](https://github.com/stdlib-js/stdlib/commit/5e2bbef14efd5937e23047c01af0e740e6cbd4f6) - **fix:** add missing boolean array support _(by Athan Reines)_
+-   [`aea44c9`](https://github.com/stdlib-js/stdlib/commit/aea44c9c8699a4d748c0db70d4a60801bfc03c40) - **fix:** update loop limit _(by Athan Reines)_
+-   [`58e795d`](https://github.com/stdlib-js/stdlib/commit/58e795db467b7bd1d3dc6c5847f91a97fed2ccff) - **feat:** update namespace TypeScript declarations [(#3937)](https://github.com/stdlib-js/stdlib/pull/3937) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`c106b69`](https://github.com/stdlib-js/stdlib/commit/c106b69cc141efc8c32e79d55ad8acf07f3c9c0a) - **docs:** update namespace table of contents [(#3939)](https://github.com/stdlib-js/stdlib/pull/3939) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`58f02bf`](https://github.com/stdlib-js/stdlib/commit/58f02bf605d6879cd80152f11f913451df2ad494) - **docs:** fix comment _(by Athan Reines)_
 -   [`baffefb`](https://github.com/stdlib-js/stdlib/commit/baffefb25177147fa3bafa5c1d0562a7528d5054) - **docs:** fix comment _(by Athan Reines)_
