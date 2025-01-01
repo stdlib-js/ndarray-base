@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-31)
+## Unreleased (2025-01-01)
 
 <section class="packages">
 
@@ -529,6 +529,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`edae311`](https://github.com/stdlib-js/stdlib/commit/edae3110b4b7cc1d675d44e211ffffcff77d6153) - **docs:** update namespace table of contents [(#4428)](https://github.com/stdlib-js/stdlib/pull/4428) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`1ddeba9`](https://github.com/stdlib-js/stdlib/commit/1ddeba98295bb53fb8098d1016f0de4b7f544e96) - **feat:** add `scalar2ndarrayLike` to namespace _(by Athan Reines)_
 -   [`b2dcaa0`](https://github.com/stdlib-js/stdlib/commit/b2dcaa0d97eeb11585ab4cae5b7c319308e6b3c2) - **feat:** add `ndarray/base/from-scalar-like` _(by Athan Reines)_
 -   [`7dc5c14`](https://github.com/stdlib-js/stdlib/commit/7dc5c14b995c7c4bd286087d04a20497057c0e71) - **refactor:** use assertion utility _(by Athan Reines)_
