@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-11)
+## Unreleased (2025-01-12)
 
 <section class="packages">
 
@@ -754,6 +754,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`cff470f`](https://github.com/stdlib-js/stdlib/commit/cff470f9608165100c8c122fce70c40b1af864ec) - **docs:** update namespace table of contents (#4708) _(by stdlib-bot, Planeshifter)_
 -   [`741b6f1`](https://github.com/stdlib-js/stdlib/commit/741b6f1df8ce11e77fb22c279cee6bbae3323176) - **feat:** add `spreadDimensions` to namespace _(by Athan Reines)_
 -   [`3767255`](https://github.com/stdlib-js/stdlib/commit/3767255c7cfe85f09cea5c007e21297cd628245d) - **feat:** add `ndarray/base/spread-dimensions` _(by Athan Reines)_
 -   [`712a9a8`](https://github.com/stdlib-js/stdlib/commit/712a9a8554f59fdfe520c4e2daafdbfd93637c76) - **fix:** compute singleton strides as if strides computed apriori _(by Athan Reines)_
