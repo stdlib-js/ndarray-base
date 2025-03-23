@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-22)
+## Unreleased (2025-03-23)
 
 <section class="packages">
 
@@ -199,6 +199,7 @@
 
 ##### Bug Fixes
 
+-   [`1e48327`](https://github.com/stdlib-js/stdlib/commit/1e48327f169d8cd8adf1177f92d5147077edbfe7) - handle zero-dimensional ndarrays
 -   [`52f7ac2`](https://github.com/stdlib-js/stdlib/commit/52f7ac26eff82f57ccfca5a3b04c15dbacad074e) - use correct stride
 -   [`96c7ddf`](https://github.com/stdlib-js/stdlib/commit/96c7ddfdbcecc6ff60fcb56681db16463d19020e) - use computed order and fix strides in examples
 
@@ -362,6 +363,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`1aca9d3`](https://github.com/stdlib-js/stdlib/commit/1aca9d37e47e33c03b94bb5b128647c7387172e2) - update type defn
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -1009,6 +1020,10 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`bb5117c`](https://github.com/stdlib-js/stdlib/commit/bb5117c314dcc31b3c7100eacb1a693198962e3b) - **docs:** update namespace table of contents [(#6317)](https://github.com/stdlib-js/stdlib/pull/6317) _(by stdlib-bot)_
+-   [`40fc3a2`](https://github.com/stdlib-js/stdlib/commit/40fc3a218445c34a667237cadb74ae9417cc0392) - **chore:** add TODO _(by Athan Reines)_
+-   [`1aca9d3`](https://github.com/stdlib-js/stdlib/commit/1aca9d37e47e33c03b94bb5b128647c7387172e2) - **fix:** update type defn _(by Athan Reines)_
+-   [`1e48327`](https://github.com/stdlib-js/stdlib/commit/1e48327f169d8cd8adf1177f92d5147077edbfe7) - **fix:** handle zero-dimensional ndarrays _(by Athan Reines)_
 -   [`282d01f`](https://github.com/stdlib-js/stdlib/commit/282d01f86247ea1b4c8a3345493b6dc8ec034517) - **feat:** add `fillBy` to namespace _(by Athan Reines)_
 -   [`d29b55f`](https://github.com/stdlib-js/stdlib/commit/d29b55fd2f01608cf9cbff68eb5b6dad4ca1722b) - **feat:** add `ndarray/base/fill-by` _(by Athan Reines)_
 -   [`266a064`](https://github.com/stdlib-js/stdlib/commit/266a064a8cc55b100a00d2ad98c84820d8f17653) - **style:** fix spacing _(by Athan Reines)_
