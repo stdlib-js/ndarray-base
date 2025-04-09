@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-25)
+## Unreleased (2025-04-09)
 
 <section class="packages">
 
@@ -20,6 +20,20 @@
 
 ##### Features
 
+-   [`a468fa8`](https://github.com/stdlib-js/stdlib/commit/a468fa85dd5a0bdf9bb98fd27fca221cac2cc465) - add `every`, `includes`, `unaryAccumulate`, and `unaryReduceSubarray` to namespace [(#6605)](https://github.com/stdlib-js/stdlib/pull/6605)
+-   [`2ec7da5`](https://github.com/stdlib-js/stdlib/commit/2ec7da5371c0e94eec75db9374206753367761fd) - add package entry point
+-   [`7631d15`](https://github.com/stdlib-js/stdlib/commit/7631d157dbaa53d165e84335c1c656504387c22c) - add nd kernels
+-   [`9eb7bd3`](https://github.com/stdlib-js/stdlib/commit/9eb7bd359a705daeb1d2541db398e00d9c639786) - add 9d kernels
+-   [`175e813`](https://github.com/stdlib-js/stdlib/commit/175e813a98369656c2bc3c5e3dfcbd2a6a78d207) - add 8d kernels
+-   [`f13f725`](https://github.com/stdlib-js/stdlib/commit/f13f725463374ee53253ff45610ec68600b4f01d) - add 7d kernels
+-   [`6bdf8aa`](https://github.com/stdlib-js/stdlib/commit/6bdf8aaf476c44183ac333f9bab349ec5b23cde9) - add 6d kernels
+-   [`c907d71`](https://github.com/stdlib-js/stdlib/commit/c907d7194df26fab41665ec031de26d9c4716a99) - add 5d kernels
+-   [`dab4993`](https://github.com/stdlib-js/stdlib/commit/dab49934d6adb33a90ec6661027f638075a8fa7b) - add 4d kernels
+-   [`999d496`](https://github.com/stdlib-js/stdlib/commit/999d4968b54b50e41f1e0e3420afb87729b85b02) - add 3d kernels
+-   [`27cd3d9`](https://github.com/stdlib-js/stdlib/commit/27cd3d90b12b3f98c1032fb7130aceeb54ecc345) - add 2d kernels
+-   [`9dec091`](https://github.com/stdlib-js/stdlib/commit/9dec091d45d3c7272fc74267588891207a2f9048) - add 1d kernels
+-   [`8bb576b`](https://github.com/stdlib-js/stdlib/commit/8bb576b6d3f4f6421f2a0065f36c24a223b9803d) - add 10d kernels
+-   [`1392a91`](https://github.com/stdlib-js/stdlib/commit/1392a91b60c42b10757a4a2b187b58e648f8de98) - add 0d kernels
 -   [`d8f2acf`](https://github.com/stdlib-js/stdlib/commit/d8f2acf4d31d3da271e7d2074ffb40a6317c4a23) - update namespace TypeScript declarations [(#6337)](https://github.com/stdlib-js/stdlib/pull/6337)
 -   [`da8a676`](https://github.com/stdlib-js/stdlib/commit/da8a676ef0097af7ad60e7379b52930e03d65c95) - update namespace TypeScript declarations [(#6315)](https://github.com/stdlib-js/stdlib/pull/6315)
 -   [`282d01f`](https://github.com/stdlib-js/stdlib/commit/282d01f86247ea1b4c8a3345493b6dc8ec034517) - add `fillBy` to namespace
@@ -51,6 +65,18 @@
 </section>
 
 <!-- /.breaking-changes -->
+
+<section class="issues">
+
+##### Closed Issues
+
+A total of 2 issues were closed in this release:
+
+[#6574](https://github.com/stdlib-js/stdlib/issues/6574), [#6589](https://github.com/stdlib-js/stdlib/issues/6589)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -239,6 +265,52 @@
 
 <!-- /.package -->
 
+<section class="package" id="ndarray-base-broadcast-arrays-unreleased">
+
+#### [@stdlib/ndarray/base/broadcast-arrays](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/broadcast-arrays)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#6457](https://github.com/stdlib-js/stdlib/issues/6457)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-broadcast-scalar-unreleased">
+
+#### [@stdlib/ndarray/base/broadcast-scalar](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/broadcast-scalar)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`043dc69`](https://github.com/stdlib-js/stdlib/commit/043dc69c76ea6780cbba2c223417fccda4685c7a) - handle 0d edge case
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="ndarray-base-bytes-per-element-unreleased">
 
 #### [@stdlib/ndarray/base/bytes-per-element](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/bytes-per-element)
@@ -249,9 +321,9 @@
 
 ##### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#6053](https://github.com/stdlib-js/stdlib/issues/6053)
+[#6053](https://github.com/stdlib-js/stdlib/issues/6053), [#6236](https://github.com/stdlib-js/stdlib/issues/6236)
 
 </section>
 
@@ -279,6 +351,30 @@ This release closes the following issue:
 </section>
 
 <!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="ndarray-base-dtype2c-unreleased">
+
+#### [@stdlib/ndarray/base/dtype2c](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/dtype2c)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#6456](https://github.com/stdlib-js/stdlib/issues/6456)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -1000,6 +1096,42 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="ndarray-base-unary-reduce-subarray-unreleased">
+
+#### [@stdlib/ndarray/base/unary-reduce-subarray](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/unary-reduce-subarray)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`998b3ba`](https://github.com/stdlib-js/stdlib/commit/998b3ba4e628e6d8564c6b33fe41925da2046b41) - add missing kernels to `ndarray/base/unary-reduce-subarray` [(#6421)](https://github.com/stdlib-js/stdlib/pull/6421)
+-   [`935f698`](https://github.com/stdlib-js/stdlib/commit/935f698bd565928d3fc862dfdff14ab0e56aa478) - add initial implementation for `ndarray/base/unary-reduce-subarray`
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`f0d205d`](https://github.com/stdlib-js/stdlib/commit/f0d205d7073055c7a69f1ba7ccee95671ab762ba) - address indexing error
+-   [`5768926`](https://github.com/stdlib-js/stdlib/commit/5768926be4fb253947f5d44bcf6b9d8bb5c75274) - update error message
+-   [`7378f4d`](https://github.com/stdlib-js/stdlib/commit/7378f4db96fc059523a6f181388aa8f4fa202675) - ensure support when providing no dimensions to reduce
+-   [`91778b7`](https://github.com/stdlib-js/stdlib/commit/91778b7ca6ae2c6ee0c6017687426c3952d90098) - handle scenario where a core dimension is zero
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -1024,9 +1156,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 3 issues were closed in this release:
+A total of 8 issues were closed in this release:
 
-[#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#6053](https://github.com/stdlib-js/stdlib/issues/6053)
+[#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#6053](https://github.com/stdlib-js/stdlib/issues/6053), [#6236](https://github.com/stdlib-js/stdlib/issues/6236), [#6456](https://github.com/stdlib-js/stdlib/issues/6456), [#6457](https://github.com/stdlib-js/stdlib/issues/6457), [#6574](https://github.com/stdlib-js/stdlib/issues/6574), [#6589](https://github.com/stdlib-js/stdlib/issues/6589)
 
 </section>
 
@@ -1036,15 +1168,19 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 11 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Bhavishy Agrawal
 -   Gururaj Gurram
 -   Kaushikgtm
+-   MANI
 -   Muhammad Haris
 -   Philipp Burckhardt
+-   Pravesh Kunwar
+-   Sai Avinash
 -   ditsu
+-   lohithganni
 
 </section>
 
@@ -1056,6 +1192,56 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`a468fa8`](https://github.com/stdlib-js/stdlib/commit/a468fa85dd5a0bdf9bb98fd27fca221cac2cc465) - **feat:** add `every`, `includes`, `unaryAccumulate`, and `unaryReduceSubarray` to namespace [(#6605)](https://github.com/stdlib-js/stdlib/pull/6605) _(by Pravesh Kunwar)_
+-   [`1ad09d5`](https://github.com/stdlib-js/stdlib/commit/1ad09d5c9437c763081275186e7517d3739da988) - **chore:** update package meta data [(#6576)](https://github.com/stdlib-js/stdlib/pull/6576) _(by stdlib-bot)_
+-   [`f0d205d`](https://github.com/stdlib-js/stdlib/commit/f0d205d7073055c7a69f1ba7ccee95671ab762ba) - **fix:** address indexing error _(by Athan Reines)_
+-   [`043dc69`](https://github.com/stdlib-js/stdlib/commit/043dc69c76ea6780cbba2c223417fccda4685c7a) - **fix:** handle 0d edge case _(by Athan Reines)_
+-   [`128019a`](https://github.com/stdlib-js/stdlib/commit/128019a60f5fde63b21804d5914dba020e5d53a4) - **docs:** update examples _(by Athan Reines)_
+-   [`ac2b843`](https://github.com/stdlib-js/stdlib/commit/ac2b843dd8a6341d876c559cf8d79ab8bdf7ac46) - **bench:** fix invocations _(by Athan Reines)_
+-   [`1e0863b`](https://github.com/stdlib-js/stdlib/commit/1e0863b926876e26ad82a3d28ead805326de30d4) - **bench:** add benchmarks _(by Athan Reines)_
+-   [`4b9e117`](https://github.com/stdlib-js/stdlib/commit/4b9e11763d3684596e19cdb0ff8931dca41b49df) - **docs:** add README _(by Athan Reines)_
+-   [`9635155`](https://github.com/stdlib-js/stdlib/commit/9635155b8986f7cdbbeda766741deaab6ff76567) - **docs:** add example _(by Athan Reines)_
+-   [`5b99ffb`](https://github.com/stdlib-js/stdlib/commit/5b99ffb24c9dec39925e95e3a5992cef9283e4eb) - **docs:** fix text block _(by Athan Reines)_
+-   [`63f96e4`](https://github.com/stdlib-js/stdlib/commit/63f96e40cc84ff4d4636701eaad7182a5eee325b) - **test:** add initial tests _(by Athan Reines)_
+-   [`ba1be5d`](https://github.com/stdlib-js/stdlib/commit/ba1be5d4934296745fdbf2f45945ea4edaa302d8) - **docs:** add REPL help and TS declarations _(by Athan Reines)_
+-   [`f48027c`](https://github.com/stdlib-js/stdlib/commit/f48027ca63fab9c8cec60137439a7c9a741360a0) - **docs:** fix description _(by Athan Reines)_
+-   [`2ec7da5`](https://github.com/stdlib-js/stdlib/commit/2ec7da5371c0e94eec75db9374206753367761fd) - **feat:** add package entry point _(by Athan Reines)_
+-   [`7631d15`](https://github.com/stdlib-js/stdlib/commit/7631d157dbaa53d165e84335c1c656504387c22c) - **feat:** add nd kernels _(by Athan Reines)_
+-   [`9eb7bd3`](https://github.com/stdlib-js/stdlib/commit/9eb7bd359a705daeb1d2541db398e00d9c639786) - **feat:** add 9d kernels _(by Athan Reines)_
+-   [`175e813`](https://github.com/stdlib-js/stdlib/commit/175e813a98369656c2bc3c5e3dfcbd2a6a78d207) - **feat:** add 8d kernels _(by Athan Reines)_
+-   [`f13f725`](https://github.com/stdlib-js/stdlib/commit/f13f725463374ee53253ff45610ec68600b4f01d) - **feat:** add 7d kernels _(by Athan Reines)_
+-   [`6bdf8aa`](https://github.com/stdlib-js/stdlib/commit/6bdf8aaf476c44183ac333f9bab349ec5b23cde9) - **feat:** add 6d kernels _(by Athan Reines)_
+-   [`c907d71`](https://github.com/stdlib-js/stdlib/commit/c907d7194df26fab41665ec031de26d9c4716a99) - **feat:** add 5d kernels _(by Athan Reines)_
+-   [`6c1ccd3`](https://github.com/stdlib-js/stdlib/commit/6c1ccd3f507367f7ffa9cb40c15fe360682fd294) - **chore:** add package meta data _(by Athan Reines)_
+-   [`dab4993`](https://github.com/stdlib-js/stdlib/commit/dab49934d6adb33a90ec6661027f638075a8fa7b) - **feat:** add 4d kernels _(by Athan Reines)_
+-   [`999d496`](https://github.com/stdlib-js/stdlib/commit/999d4968b54b50e41f1e0e3420afb87729b85b02) - **feat:** add 3d kernels _(by Athan Reines)_
+-   [`27cd3d9`](https://github.com/stdlib-js/stdlib/commit/27cd3d90b12b3f98c1032fb7130aceeb54ecc345) - **feat:** add 2d kernels _(by Athan Reines)_
+-   [`9dec091`](https://github.com/stdlib-js/stdlib/commit/9dec091d45d3c7272fc74267588891207a2f9048) - **feat:** add 1d kernels _(by Athan Reines)_
+-   [`8bb576b`](https://github.com/stdlib-js/stdlib/commit/8bb576b6d3f4f6421f2a0065f36c24a223b9803d) - **feat:** add 10d kernels _(by Athan Reines)_
+-   [`1392a91`](https://github.com/stdlib-js/stdlib/commit/1392a91b60c42b10757a4a2b187b58e648f8de98) - **feat:** add 0d kernels _(by Athan Reines)_
+-   [`d2564c7`](https://github.com/stdlib-js/stdlib/commit/d2564c7c234ed2be3b8ea32ffa41cb937cc83289) - **docs:** update example _(by Athan Reines)_
+-   [`d070f40`](https://github.com/stdlib-js/stdlib/commit/d070f4068364ed50c796c7961d9b7d967b2079ab) - **docs:** fix example _(by Athan Reines)_
+-   [`5d57761`](https://github.com/stdlib-js/stdlib/commit/5d57761c446339e796d1add0c03b7febfa4253fd) - **chore:** fix EditorConfig lint errors [(#6178)](https://github.com/stdlib-js/stdlib/pull/6178) _(by MANI)_
+-   [`a464a60`](https://github.com/stdlib-js/stdlib/commit/a464a60568b819f813aff054ba0c32476192d269) - **chore:** fix EditorConfig lint errors [(#6246)](https://github.com/stdlib-js/stdlib/pull/6246) _(by MANI, Athan Reines)_
+-   [`d3289c3`](https://github.com/stdlib-js/stdlib/commit/d3289c3af88a698ed39ee5234c525cfec98c56f5) - **test:** use `zfill` rather than `gfill` to improve performance _(by Athan Reines)_
+-   [`b96a6a2`](https://github.com/stdlib-js/stdlib/commit/b96a6a258f9c560073e252b9969095a12723074e) - **test:** add missing tests to `ndarray/base/unary` [(#5821)](https://github.com/stdlib-js/stdlib/pull/5821) _(by Muhammad Haris)_
+-   [`998b3ba`](https://github.com/stdlib-js/stdlib/commit/998b3ba4e628e6d8564c6b33fe41925da2046b41) - **feat:** add missing kernels to `ndarray/base/unary-reduce-subarray` [(#6421)](https://github.com/stdlib-js/stdlib/pull/6421) _(by Muhammad Haris)_
+-   [`89d16f9`](https://github.com/stdlib-js/stdlib/commit/89d16f95b188c5afb513af630134dd40cdad380b) - **chore:** fix JSON lint errors [(#6466)](https://github.com/stdlib-js/stdlib/pull/6466) _(by Sai Avinash)_
+-   [`f0af2cb`](https://github.com/stdlib-js/stdlib/commit/f0af2cb05b0442f2ef20f5296cee2576191130e8) - **chore:** fix JavaScript lint errors [(#6463)](https://github.com/stdlib-js/stdlib/pull/6463) _(by lohithganni)_
+-   [`b28f85a`](https://github.com/stdlib-js/stdlib/commit/b28f85a0469dd2f4ace20c220f6718cce912eaea) - **refactor:** use assertion utility to check for row-major order _(by Athan Reines)_
+-   [`c533b6d`](https://github.com/stdlib-js/stdlib/commit/c533b6d0cf52949bc78141f23ebd58743f94a5a6) - **docs:** fix description _(by Athan Reines)_
+-   [`5768926`](https://github.com/stdlib-js/stdlib/commit/5768926be4fb253947f5d44bcf6b9d8bb5c75274) - **fix:** update error message _(by Athan Reines)_
+-   [`bdf4246`](https://github.com/stdlib-js/stdlib/commit/bdf4246934e957faced935c2cda4b1f30b7ac9e9) - **refactor:** update error messages _(by Athan Reines)_
+-   [`9934f2c`](https://github.com/stdlib-js/stdlib/commit/9934f2ceb44cbcdc02c27d9a1a5fc231e24b10ff) - **refactor:** only branch when `y` is backed by an accessor array _(by Athan Reines)_
+-   [`7378f4d`](https://github.com/stdlib-js/stdlib/commit/7378f4db96fc059523a6f181388aa8f4fa202675) - **fix:** ensure support when providing no dimensions to reduce _(by Athan Reines)_
+-   [`abbc923`](https://github.com/stdlib-js/stdlib/commit/abbc923faa3036bb6b2bce8446a56926ef26163d) - **docs:** add example _(by Athan Reines)_
+-   [`91778b7`](https://github.com/stdlib-js/stdlib/commit/91778b7ca6ae2c6ee0c6017687426c3952d90098) - **fix:** handle scenario where a core dimension is zero _(by Athan Reines)_
+-   [`9cb2473`](https://github.com/stdlib-js/stdlib/commit/9cb247321b8b2285713404fc4e43d43630163097) - **chore:** update directory list _(by Athan Reines)_
+-   [`0fc4015`](https://github.com/stdlib-js/stdlib/commit/0fc401573e94e99adbd3c31d7067c28ee2d270a1) - **docs:** add README and repl help _(by Athan Reines)_
+-   [`a331234`](https://github.com/stdlib-js/stdlib/commit/a33123481db5e24d5f0550b837b81bd0574d748e) - **test:** add initial test file _(by Athan Reines)_
+-   [`6d21670`](https://github.com/stdlib-js/stdlib/commit/6d21670d117320f7bc77b2b3ad4ce2fc51dbdd75) - **chore:** update directory list _(by Athan Reines)_
+-   [`935f698`](https://github.com/stdlib-js/stdlib/commit/935f698bd565928d3fc862dfdff14ab0e56aa478) - **feat:** add initial implementation for `ndarray/base/unary-reduce-subarray` _(by Athan Reines)_
+-   [`ad7c705`](https://github.com/stdlib-js/stdlib/commit/ad7c7056b95d52aac386e81209fbcd7fe8eac81f) - **refactor:** format error message _(by Athan Reines)_
 -   [`70bee88`](https://github.com/stdlib-js/stdlib/commit/70bee887bd024ca10b1676742e0f3b3051fa7b00) - **docs:** update namespace TypeScript declarations [(#6357)](https://github.com/stdlib-js/stdlib/pull/6357) _(by stdlib-bot)_
 -   [`442efb4`](https://github.com/stdlib-js/stdlib/commit/442efb4980c95c38eb1333c1d7a38b5e2ab4d2ec) - **chore:** resolve lint errors _(by Athan Reines)_
 -   [`3419f20`](https://github.com/stdlib-js/stdlib/commit/3419f20af1c819b14ab5ccf7b17379fa8f977399) - **chore:** resolve lint errors _(by Athan Reines)_
