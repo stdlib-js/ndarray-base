@@ -35,38 +35,32 @@ limitations under the License.
 
 > Base ndarray.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ns = require( 'path/to/vendor/umd/ndarray-base/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ns;
-})();
-</script>
+var ns = require( '@stdlib/ndarray-base' );
 ```
 
 #### ns
@@ -110,6 +104,7 @@ var o = ns;
 -   <span class="signature">[`dtypes2signatures( dtypes, nin, nout )`][@stdlib/ndarray/base/dtypes2signatures]</span><span class="delimiter">: </span><span class="description">transform a list of array argument data types into a list of signatures.</span>
 -   <span class="signature">[`emptyLike( x )`][@stdlib/ndarray/base/empty-like]</span><span class="delimiter">: </span><span class="description">create an uninitialized ndarray having the same shape and data type as a provided ndarray.</span>
 -   <span class="signature">[`empty( dtype, shape, order )`][@stdlib/ndarray/base/empty]</span><span class="delimiter">: </span><span class="description">create an uninitialized ndarray having a specified shape and data type.</span>
+-   <span class="signature">[`every( arrays )`][@stdlib/ndarray/base/every]</span><span class="delimiter">: </span><span class="description">test whether every element in an ndarray is truthy.</span>
 -   <span class="signature">[`expandDimensions( x, axis )`][@stdlib/ndarray/base/expand-dimensions]</span><span class="delimiter">: </span><span class="description">expand the shape of an array by inserting a new dimension of size one at a specified axis.</span>
 -   <span class="signature">[`fillBy( x, fcn[, thisArg] )`][@stdlib/ndarray/base/fill-by]</span><span class="delimiter">: </span><span class="description">fill an input ndarray according to a callback function.</span>
 -   <span class="signature">[`fill( x, value )`][@stdlib/ndarray/base/fill]</span><span class="delimiter">: </span><span class="description">fill an input ndarray with a specified value.</span>
@@ -120,6 +115,7 @@ var o = ns;
 -   <span class="signature">[`forEach( arrays, fcn[, thisArg] )`][@stdlib/ndarray/base/for-each]</span><span class="delimiter">: </span><span class="description">invoke a callback function once for each ndarray element.</span>
 -   <span class="signature">[`scalar2ndarrayLike( x, value )`][@stdlib/ndarray/base/from-scalar-like]</span><span class="delimiter">: </span><span class="description">convert a scalar value to a zero-dimensional ndarray having the same data type as a provided ndarray.</span>
 -   <span class="signature">[`scalar2ndarray( value, dtype, order )`][@stdlib/ndarray/base/from-scalar]</span><span class="delimiter">: </span><span class="description">convert a scalar value to a zero-dimensional ndarray.</span>
+-   <span class="signature">[`includes( arrays )`][@stdlib/ndarray/base/includes]</span><span class="delimiter">: </span><span class="description">test whether an ndarray contains a specified value.</span>
 -   <span class="signature">[`ind( idx, max, mode )`][@stdlib/ndarray/base/ind]</span><span class="delimiter">: </span><span class="description">return an index given an index mode.</span>
 -   <span class="signature">[`ind2sub( shape, strides, offset, order, idx, mode )`][@stdlib/ndarray/base/ind2sub]</span><span class="delimiter">: </span><span class="description">convert a linear index to an array of subscripts.</span>
 -   <span class="signature">[`iterationOrder( strides )`][@stdlib/ndarray/base/iteration-order]</span><span class="delimiter">: </span><span class="description">given a stride array, determine array iteration order.</span>
@@ -176,9 +172,11 @@ var o = ns;
 -   <span class="signature">[`toReversed( x )`][@stdlib/ndarray/base/to-reversed]</span><span class="delimiter">: </span><span class="description">return a new ndarray where the order of elements of an input ndarray is reversed along each dimension.</span>
 -   <span class="signature">[`toUniqueNormalizedIndices( indices, max )`][@stdlib/ndarray/base/to-unique-normalized-indices]</span><span class="delimiter">: </span><span class="description">return a list of unique indices after normalizing to the interval `[0,max]`.</span>
 -   <span class="signature">[`transpose( x )`][@stdlib/ndarray/base/transpose]</span><span class="delimiter">: </span><span class="description">transpose a matrix (or a stack of matrices).</span>
+-   <span class="signature">[`unaryAccumulate( arrays, initial, clbk )`][@stdlib/ndarray/base/unary-accumulate]</span><span class="delimiter">: </span><span class="description">perform a reduction over elements in an input ndarray.</span>
 -   <span class="signature">[`unaryBy( arrays, fcn, clbk[, thisArg] )`][@stdlib/ndarray/base/unary-by]</span><span class="delimiter">: </span><span class="description">apply a unary function to each element in an input ndarray according to a callback function and assign results to elements in an output ndarray.</span>
 -   <span class="signature">[`unaryLoopOrder( shape, stridesX, stridesY )`][@stdlib/ndarray/base/unary-loop-interchange-order]</span><span class="delimiter">: </span><span class="description">reorder ndarray dimensions and associated strides for loop interchange.</span>
 -   <span class="signature">[`unaryOutputDataType( dtype, policy )`][@stdlib/ndarray/base/unary-output-dtype]</span><span class="delimiter">: </span><span class="description">resolve the output ndarray data type for a unary function.</span>
+-   <span class="signature">[`unaryReduceSubarray( fcn, arrays, dims[, options] )`][@stdlib/ndarray/base/unary-reduce-subarray]</span><span class="delimiter">: </span><span class="description">perform a reduction over a list of specified dimensions in an input ndarray and assign results to a provided output ndarray.</span>
 -   <span class="signature">[`unaryBlockSize( dtypeX, dtypeY )`][@stdlib/ndarray/base/unary-tiling-block-size]</span><span class="delimiter">: </span><span class="description">resolve a loop block size for multi-dimensional array tiled loops.</span>
 -   <span class="signature">[`unary( arrays, fcn )`][@stdlib/ndarray/base/unary]</span><span class="delimiter">: </span><span class="description">apply a unary callback to elements in an input ndarray and assign results to elements in an output ndarray.</span>
 -   <span class="signature">[`vind2bind( shape, strides, offset, order, idx, mode )`][@stdlib/ndarray/base/vind2bind]</span><span class="delimiter">: </span><span class="description">convert a linear index in an array view to a linear index in an underlying data buffer.</span>
@@ -214,21 +212,11 @@ The namespace contains the following sub-namespaces:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/ndarray-base' );
 
 console.log( objectKeys( ns ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -317,213 +305,221 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/ndarray/base/assert]: https://github.com/stdlib-js/ndarray-base-assert/tree/umd
+[@stdlib/ndarray/base/assert]: https://github.com/stdlib-js/ndarray-base-assert
 
-[@stdlib/ndarray/base/assign]: https://github.com/stdlib-js/ndarray-base-assign/tree/umd
+[@stdlib/ndarray/base/assign]: https://github.com/stdlib-js/ndarray-base-assign
 
-[@stdlib/ndarray/base/binary-loop-interchange-order]: https://github.com/stdlib-js/ndarray-base-binary-loop-interchange-order/tree/umd
+[@stdlib/ndarray/base/binary-loop-interchange-order]: https://github.com/stdlib-js/ndarray-base-binary-loop-interchange-order
 
-[@stdlib/ndarray/base/binary-tiling-block-size]: https://github.com/stdlib-js/ndarray-base-binary-tiling-block-size/tree/umd
+[@stdlib/ndarray/base/binary-tiling-block-size]: https://github.com/stdlib-js/ndarray-base-binary-tiling-block-size
 
-[@stdlib/ndarray/base/bind2vind]: https://github.com/stdlib-js/ndarray-base-bind2vind/tree/umd
+[@stdlib/ndarray/base/bind2vind]: https://github.com/stdlib-js/ndarray-base-bind2vind
 
-[@stdlib/ndarray/base/broadcast-array]: https://github.com/stdlib-js/ndarray-base-broadcast-array/tree/umd
+[@stdlib/ndarray/base/broadcast-array]: https://github.com/stdlib-js/ndarray-base-broadcast-array
 
-[@stdlib/ndarray/base/broadcast-arrays]: https://github.com/stdlib-js/ndarray-base-broadcast-arrays/tree/umd
+[@stdlib/ndarray/base/broadcast-arrays]: https://github.com/stdlib-js/ndarray-base-broadcast-arrays
 
-[@stdlib/ndarray/base/broadcast-scalar]: https://github.com/stdlib-js/ndarray-base-broadcast-scalar/tree/umd
+[@stdlib/ndarray/base/broadcast-scalar]: https://github.com/stdlib-js/ndarray-base-broadcast-scalar
 
-[@stdlib/ndarray/base/broadcast-shapes]: https://github.com/stdlib-js/ndarray-base-broadcast-shapes/tree/umd
+[@stdlib/ndarray/base/broadcast-shapes]: https://github.com/stdlib-js/ndarray-base-broadcast-shapes
 
-[@stdlib/ndarray/base/buffer-ctors]: https://github.com/stdlib-js/ndarray-base-buffer-ctors/tree/umd
+[@stdlib/ndarray/base/buffer-ctors]: https://github.com/stdlib-js/ndarray-base-buffer-ctors
 
-[@stdlib/ndarray/base/buffer-dtype-enum]: https://github.com/stdlib-js/ndarray-base-buffer-dtype-enum/tree/umd
+[@stdlib/ndarray/base/buffer-dtype-enum]: https://github.com/stdlib-js/ndarray-base-buffer-dtype-enum
 
-[@stdlib/ndarray/base/buffer-dtype]: https://github.com/stdlib-js/ndarray-base-buffer-dtype/tree/umd
+[@stdlib/ndarray/base/buffer-dtype]: https://github.com/stdlib-js/ndarray-base-buffer-dtype
 
-[@stdlib/ndarray/base/buffer]: https://github.com/stdlib-js/ndarray-base-buffer/tree/umd
+[@stdlib/ndarray/base/buffer]: https://github.com/stdlib-js/ndarray-base-buffer
 
-[@stdlib/ndarray/base/bytes-per-element]: https://github.com/stdlib-js/ndarray-base-bytes-per-element/tree/umd
+[@stdlib/ndarray/base/bytes-per-element]: https://github.com/stdlib-js/ndarray-base-bytes-per-element
 
-[@stdlib/ndarray/base/char2dtype]: https://github.com/stdlib-js/ndarray-base-char2dtype/tree/umd
+[@stdlib/ndarray/base/char2dtype]: https://github.com/stdlib-js/ndarray-base-char2dtype
 
-[@stdlib/ndarray/base/clamp-index]: https://github.com/stdlib-js/ndarray-base-clamp-index/tree/umd
+[@stdlib/ndarray/base/clamp-index]: https://github.com/stdlib-js/ndarray-base-clamp-index
 
-[@stdlib/ndarray/base/ctor]: https://github.com/stdlib-js/ndarray-base-ctor/tree/umd
+[@stdlib/ndarray/base/ctor]: https://github.com/stdlib-js/ndarray-base-ctor
 
-[@stdlib/ndarray/base/data-buffer]: https://github.com/stdlib-js/ndarray-base-data-buffer/tree/umd
+[@stdlib/ndarray/base/data-buffer]: https://github.com/stdlib-js/ndarray-base-data-buffer
 
-[@stdlib/ndarray/base/dtype-char]: https://github.com/stdlib-js/ndarray-base-dtype-char/tree/umd
+[@stdlib/ndarray/base/dtype-char]: https://github.com/stdlib-js/ndarray-base-dtype-char
 
-[@stdlib/ndarray/base/dtype-desc]: https://github.com/stdlib-js/ndarray-base-dtype-desc/tree/umd
+[@stdlib/ndarray/base/dtype-desc]: https://github.com/stdlib-js/ndarray-base-dtype-desc
 
-[@stdlib/ndarray/base/dtype-enum2str]: https://github.com/stdlib-js/ndarray-base-dtype-enum2str/tree/umd
+[@stdlib/ndarray/base/dtype-enum2str]: https://github.com/stdlib-js/ndarray-base-dtype-enum2str
 
-[@stdlib/ndarray/base/dtype-resolve-enum]: https://github.com/stdlib-js/ndarray-base-dtype-resolve-enum/tree/umd
+[@stdlib/ndarray/base/dtype-resolve-enum]: https://github.com/stdlib-js/ndarray-base-dtype-resolve-enum
 
-[@stdlib/ndarray/base/dtype-resolve-str]: https://github.com/stdlib-js/ndarray-base-dtype-resolve-str/tree/umd
+[@stdlib/ndarray/base/dtype-resolve-str]: https://github.com/stdlib-js/ndarray-base-dtype-resolve-str
 
-[@stdlib/ndarray/base/dtype-str2enum]: https://github.com/stdlib-js/ndarray-base-dtype-str2enum/tree/umd
+[@stdlib/ndarray/base/dtype-str2enum]: https://github.com/stdlib-js/ndarray-base-dtype-str2enum
 
-[@stdlib/ndarray/base/dtype]: https://github.com/stdlib-js/ndarray-base-dtype/tree/umd
+[@stdlib/ndarray/base/dtype]: https://github.com/stdlib-js/ndarray-base-dtype
 
-[@stdlib/ndarray/base/dtype2c]: https://github.com/stdlib-js/ndarray-base-dtype2c/tree/umd
+[@stdlib/ndarray/base/dtype2c]: https://github.com/stdlib-js/ndarray-base-dtype2c
 
-[@stdlib/ndarray/base/dtypes2signatures]: https://github.com/stdlib-js/ndarray-base-dtypes2signatures/tree/umd
+[@stdlib/ndarray/base/dtypes2signatures]: https://github.com/stdlib-js/ndarray-base-dtypes2signatures
 
-[@stdlib/ndarray/base/empty-like]: https://github.com/stdlib-js/ndarray-base-empty-like/tree/umd
+[@stdlib/ndarray/base/empty-like]: https://github.com/stdlib-js/ndarray-base-empty-like
 
-[@stdlib/ndarray/base/empty]: https://github.com/stdlib-js/ndarray-base-empty/tree/umd
+[@stdlib/ndarray/base/empty]: https://github.com/stdlib-js/ndarray-base-empty
 
-[@stdlib/ndarray/base/expand-dimensions]: https://github.com/stdlib-js/ndarray-base-expand-dimensions/tree/umd
+[@stdlib/ndarray/base/every]: https://github.com/stdlib-js/ndarray-base-every
 
-[@stdlib/ndarray/base/fill-by]: https://github.com/stdlib-js/ndarray-base-fill-by/tree/umd
+[@stdlib/ndarray/base/expand-dimensions]: https://github.com/stdlib-js/ndarray-base-expand-dimensions
 
-[@stdlib/ndarray/base/fill]: https://github.com/stdlib-js/ndarray-base-fill/tree/umd
+[@stdlib/ndarray/base/fill-by]: https://github.com/stdlib-js/ndarray-base-fill-by
 
-[@stdlib/ndarray/base/flag]: https://github.com/stdlib-js/ndarray-base-flag/tree/umd
+[@stdlib/ndarray/base/fill]: https://github.com/stdlib-js/ndarray-base-fill
 
-[@stdlib/ndarray/base/flags]: https://github.com/stdlib-js/ndarray-base-flags/tree/umd
+[@stdlib/ndarray/base/flag]: https://github.com/stdlib-js/ndarray-base-flag
 
-[@stdlib/ndarray/base/fliplr]: https://github.com/stdlib-js/ndarray-base-fliplr/tree/umd
+[@stdlib/ndarray/base/flags]: https://github.com/stdlib-js/ndarray-base-flags
 
-[@stdlib/ndarray/base/flipud]: https://github.com/stdlib-js/ndarray-base-flipud/tree/umd
+[@stdlib/ndarray/base/fliplr]: https://github.com/stdlib-js/ndarray-base-fliplr
 
-[@stdlib/ndarray/base/for-each]: https://github.com/stdlib-js/ndarray-base-for-each/tree/umd
+[@stdlib/ndarray/base/flipud]: https://github.com/stdlib-js/ndarray-base-flipud
 
-[@stdlib/ndarray/base/from-scalar-like]: https://github.com/stdlib-js/ndarray-base-from-scalar-like/tree/umd
+[@stdlib/ndarray/base/for-each]: https://github.com/stdlib-js/ndarray-base-for-each
 
-[@stdlib/ndarray/base/from-scalar]: https://github.com/stdlib-js/ndarray-base-from-scalar/tree/umd
+[@stdlib/ndarray/base/from-scalar-like]: https://github.com/stdlib-js/ndarray-base-from-scalar-like
 
-[@stdlib/ndarray/base/ind]: https://github.com/stdlib-js/ndarray-base-ind/tree/umd
+[@stdlib/ndarray/base/from-scalar]: https://github.com/stdlib-js/ndarray-base-from-scalar
 
-[@stdlib/ndarray/base/ind2sub]: https://github.com/stdlib-js/ndarray-base-ind2sub/tree/umd
+[@stdlib/ndarray/base/includes]: https://github.com/stdlib-js/ndarray-base-includes
 
-[@stdlib/ndarray/base/iteration-order]: https://github.com/stdlib-js/ndarray-base-iteration-order/tree/umd
+[@stdlib/ndarray/base/ind]: https://github.com/stdlib-js/ndarray-base-ind
 
-[@stdlib/ndarray/base/map]: https://github.com/stdlib-js/ndarray-base-map/tree/umd
+[@stdlib/ndarray/base/ind2sub]: https://github.com/stdlib-js/ndarray-base-ind2sub
 
-[@stdlib/ndarray/base/max-view-buffer-index]: https://github.com/stdlib-js/ndarray-base-max-view-buffer-index/tree/umd
+[@stdlib/ndarray/base/iteration-order]: https://github.com/stdlib-js/ndarray-base-iteration-order
 
-[@stdlib/ndarray/base/maybe-broadcast-array]: https://github.com/stdlib-js/ndarray-base-maybe-broadcast-array/tree/umd
+[@stdlib/ndarray/base/map]: https://github.com/stdlib-js/ndarray-base-map
 
-[@stdlib/ndarray/base/maybe-broadcast-arrays]: https://github.com/stdlib-js/ndarray-base-maybe-broadcast-arrays/tree/umd
+[@stdlib/ndarray/base/max-view-buffer-index]: https://github.com/stdlib-js/ndarray-base-max-view-buffer-index
 
-[@stdlib/ndarray/base/meta-data-props]: https://github.com/stdlib-js/ndarray-base-meta-data-props/tree/umd
+[@stdlib/ndarray/base/maybe-broadcast-array]: https://github.com/stdlib-js/ndarray-base-maybe-broadcast-array
 
-[@stdlib/ndarray/base/min-signed-integer-dtype]: https://github.com/stdlib-js/ndarray-base-min-signed-integer-dtype/tree/umd
+[@stdlib/ndarray/base/maybe-broadcast-arrays]: https://github.com/stdlib-js/ndarray-base-maybe-broadcast-arrays
 
-[@stdlib/ndarray/base/min-unsigned-integer-dtype]: https://github.com/stdlib-js/ndarray-base-min-unsigned-integer-dtype/tree/umd
+[@stdlib/ndarray/base/meta-data-props]: https://github.com/stdlib-js/ndarray-base-meta-data-props
 
-[@stdlib/ndarray/base/min-view-buffer-index]: https://github.com/stdlib-js/ndarray-base-min-view-buffer-index/tree/umd
+[@stdlib/ndarray/base/min-signed-integer-dtype]: https://github.com/stdlib-js/ndarray-base-min-signed-integer-dtype
 
-[@stdlib/ndarray/base/minmax-view-buffer-index]: https://github.com/stdlib-js/ndarray-base-minmax-view-buffer-index/tree/umd
+[@stdlib/ndarray/base/min-unsigned-integer-dtype]: https://github.com/stdlib-js/ndarray-base-min-unsigned-integer-dtype
 
-[@stdlib/ndarray/base/ndarraylike2ndarray]: https://github.com/stdlib-js/ndarray-base-ndarraylike2ndarray/tree/umd
+[@stdlib/ndarray/base/min-view-buffer-index]: https://github.com/stdlib-js/ndarray-base-min-view-buffer-index
 
-[@stdlib/ndarray/base/ndarraylike2object]: https://github.com/stdlib-js/ndarray-base-ndarraylike2object/tree/umd
+[@stdlib/ndarray/base/minmax-view-buffer-index]: https://github.com/stdlib-js/ndarray-base-minmax-view-buffer-index
 
-[@stdlib/ndarray/base/ndims]: https://github.com/stdlib-js/ndarray-base-ndims/tree/umd
+[@stdlib/ndarray/base/ndarraylike2ndarray]: https://github.com/stdlib-js/ndarray-base-ndarraylike2ndarray
 
-[@stdlib/ndarray/base/next-cartesian-index]: https://github.com/stdlib-js/ndarray-base-next-cartesian-index/tree/umd
+[@stdlib/ndarray/base/ndarraylike2object]: https://github.com/stdlib-js/ndarray-base-ndarraylike2object
 
-[@stdlib/ndarray/base/nonsingleton-dimensions]: https://github.com/stdlib-js/ndarray-base-nonsingleton-dimensions/tree/umd
+[@stdlib/ndarray/base/ndims]: https://github.com/stdlib-js/ndarray-base-ndims
 
-[@stdlib/ndarray/base/normalize-index]: https://github.com/stdlib-js/ndarray-base-normalize-index/tree/umd
+[@stdlib/ndarray/base/next-cartesian-index]: https://github.com/stdlib-js/ndarray-base-next-cartesian-index
 
-[@stdlib/ndarray/base/normalize-indices]: https://github.com/stdlib-js/ndarray-base-normalize-indices/tree/umd
+[@stdlib/ndarray/base/nonsingleton-dimensions]: https://github.com/stdlib-js/ndarray-base-nonsingleton-dimensions
 
-[@stdlib/ndarray/base/nullary-loop-interchange-order]: https://github.com/stdlib-js/ndarray-base-nullary-loop-interchange-order/tree/umd
+[@stdlib/ndarray/base/normalize-index]: https://github.com/stdlib-js/ndarray-base-normalize-index
 
-[@stdlib/ndarray/base/nullary-tiling-block-size]: https://github.com/stdlib-js/ndarray-base-nullary-tiling-block-size/tree/umd
+[@stdlib/ndarray/base/normalize-indices]: https://github.com/stdlib-js/ndarray-base-normalize-indices
 
-[@stdlib/ndarray/base/nullary]: https://github.com/stdlib-js/ndarray-base-nullary/tree/umd
+[@stdlib/ndarray/base/nullary-loop-interchange-order]: https://github.com/stdlib-js/ndarray-base-nullary-loop-interchange-order
 
-[@stdlib/ndarray/base/numel-dimension]: https://github.com/stdlib-js/ndarray-base-numel-dimension/tree/umd
+[@stdlib/ndarray/base/nullary-tiling-block-size]: https://github.com/stdlib-js/ndarray-base-nullary-tiling-block-size
 
-[@stdlib/ndarray/base/numel]: https://github.com/stdlib-js/ndarray-base-numel/tree/umd
+[@stdlib/ndarray/base/nullary]: https://github.com/stdlib-js/ndarray-base-nullary
 
-[@stdlib/ndarray/base/offset]: https://github.com/stdlib-js/ndarray-base-offset/tree/umd
+[@stdlib/ndarray/base/numel-dimension]: https://github.com/stdlib-js/ndarray-base-numel-dimension
 
-[@stdlib/ndarray/base/order]: https://github.com/stdlib-js/ndarray-base-order/tree/umd
+[@stdlib/ndarray/base/numel]: https://github.com/stdlib-js/ndarray-base-numel
 
-[@stdlib/ndarray/base/output-policy-enum2str]: https://github.com/stdlib-js/ndarray-base-output-policy-enum2str/tree/umd
+[@stdlib/ndarray/base/offset]: https://github.com/stdlib-js/ndarray-base-offset
 
-[@stdlib/ndarray/base/output-policy-resolve-enum]: https://github.com/stdlib-js/ndarray-base-output-policy-resolve-enum/tree/umd
+[@stdlib/ndarray/base/order]: https://github.com/stdlib-js/ndarray-base-order
 
-[@stdlib/ndarray/base/output-policy-resolve-str]: https://github.com/stdlib-js/ndarray-base-output-policy-resolve-str/tree/umd
+[@stdlib/ndarray/base/output-policy-enum2str]: https://github.com/stdlib-js/ndarray-base-output-policy-enum2str
 
-[@stdlib/ndarray/base/output-policy-str2enum]: https://github.com/stdlib-js/ndarray-base-output-policy-str2enum/tree/umd
+[@stdlib/ndarray/base/output-policy-resolve-enum]: https://github.com/stdlib-js/ndarray-base-output-policy-resolve-enum
 
-[@stdlib/ndarray/base/prepend-singleton-dimensions]: https://github.com/stdlib-js/ndarray-base-prepend-singleton-dimensions/tree/umd
+[@stdlib/ndarray/base/output-policy-resolve-str]: https://github.com/stdlib-js/ndarray-base-output-policy-resolve-str
 
-[@stdlib/ndarray/base/remove-singleton-dimensions]: https://github.com/stdlib-js/ndarray-base-remove-singleton-dimensions/tree/umd
+[@stdlib/ndarray/base/output-policy-str2enum]: https://github.com/stdlib-js/ndarray-base-output-policy-str2enum
 
-[@stdlib/ndarray/base/reverse-dimension]: https://github.com/stdlib-js/ndarray-base-reverse-dimension/tree/umd
+[@stdlib/ndarray/base/prepend-singleton-dimensions]: https://github.com/stdlib-js/ndarray-base-prepend-singleton-dimensions
 
-[@stdlib/ndarray/base/reverse]: https://github.com/stdlib-js/ndarray-base-reverse/tree/umd
+[@stdlib/ndarray/base/remove-singleton-dimensions]: https://github.com/stdlib-js/ndarray-base-remove-singleton-dimensions
 
-[@stdlib/ndarray/base/serialize-meta-data]: https://github.com/stdlib-js/ndarray-base-serialize-meta-data/tree/umd
+[@stdlib/ndarray/base/reverse-dimension]: https://github.com/stdlib-js/ndarray-base-reverse-dimension
 
-[@stdlib/ndarray/base/shape]: https://github.com/stdlib-js/ndarray-base-shape/tree/umd
+[@stdlib/ndarray/base/reverse]: https://github.com/stdlib-js/ndarray-base-reverse
 
-[@stdlib/ndarray/base/shape2strides]: https://github.com/stdlib-js/ndarray-base-shape2strides/tree/umd
+[@stdlib/ndarray/base/serialize-meta-data]: https://github.com/stdlib-js/ndarray-base-serialize-meta-data
 
-[@stdlib/ndarray/base/singleton-dimensions]: https://github.com/stdlib-js/ndarray-base-singleton-dimensions/tree/umd
+[@stdlib/ndarray/base/shape]: https://github.com/stdlib-js/ndarray-base-shape
 
-[@stdlib/ndarray/base/slice-assign]: https://github.com/stdlib-js/ndarray-base-slice-assign/tree/umd
+[@stdlib/ndarray/base/shape2strides]: https://github.com/stdlib-js/ndarray-base-shape2strides
 
-[@stdlib/ndarray/base/slice-dimension-from]: https://github.com/stdlib-js/ndarray-base-slice-dimension-from/tree/umd
+[@stdlib/ndarray/base/singleton-dimensions]: https://github.com/stdlib-js/ndarray-base-singleton-dimensions
 
-[@stdlib/ndarray/base/slice-dimension-to]: https://github.com/stdlib-js/ndarray-base-slice-dimension-to/tree/umd
+[@stdlib/ndarray/base/slice-assign]: https://github.com/stdlib-js/ndarray-base-slice-assign
 
-[@stdlib/ndarray/base/slice-dimension]: https://github.com/stdlib-js/ndarray-base-slice-dimension/tree/umd
+[@stdlib/ndarray/base/slice-dimension-from]: https://github.com/stdlib-js/ndarray-base-slice-dimension-from
 
-[@stdlib/ndarray/base/slice-from]: https://github.com/stdlib-js/ndarray-base-slice-from/tree/umd
+[@stdlib/ndarray/base/slice-dimension-to]: https://github.com/stdlib-js/ndarray-base-slice-dimension-to
 
-[@stdlib/ndarray/base/slice-to]: https://github.com/stdlib-js/ndarray-base-slice-to/tree/umd
+[@stdlib/ndarray/base/slice-dimension]: https://github.com/stdlib-js/ndarray-base-slice-dimension
 
-[@stdlib/ndarray/base/slice]: https://github.com/stdlib-js/ndarray-base-slice/tree/umd
+[@stdlib/ndarray/base/slice-from]: https://github.com/stdlib-js/ndarray-base-slice-from
 
-[@stdlib/ndarray/base/spread-dimensions]: https://github.com/stdlib-js/ndarray-base-spread-dimensions/tree/umd
+[@stdlib/ndarray/base/slice-to]: https://github.com/stdlib-js/ndarray-base-slice-to
 
-[@stdlib/ndarray/base/stride]: https://github.com/stdlib-js/ndarray-base-stride/tree/umd
+[@stdlib/ndarray/base/slice]: https://github.com/stdlib-js/ndarray-base-slice
 
-[@stdlib/ndarray/base/strides]: https://github.com/stdlib-js/ndarray-base-strides/tree/umd
+[@stdlib/ndarray/base/spread-dimensions]: https://github.com/stdlib-js/ndarray-base-spread-dimensions
 
-[@stdlib/ndarray/base/strides2offset]: https://github.com/stdlib-js/ndarray-base-strides2offset/tree/umd
+[@stdlib/ndarray/base/stride]: https://github.com/stdlib-js/ndarray-base-stride
 
-[@stdlib/ndarray/base/strides2order]: https://github.com/stdlib-js/ndarray-base-strides2order/tree/umd
+[@stdlib/ndarray/base/strides]: https://github.com/stdlib-js/ndarray-base-strides
 
-[@stdlib/ndarray/base/sub2ind]: https://github.com/stdlib-js/ndarray-base-sub2ind/tree/umd
+[@stdlib/ndarray/base/strides2offset]: https://github.com/stdlib-js/ndarray-base-strides2offset
 
-[@stdlib/ndarray/base/to-array]: https://github.com/stdlib-js/ndarray-base-to-array/tree/umd
+[@stdlib/ndarray/base/strides2order]: https://github.com/stdlib-js/ndarray-base-strides2order
 
-[@stdlib/ndarray/base/to-normalized-indices]: https://github.com/stdlib-js/ndarray-base-to-normalized-indices/tree/umd
+[@stdlib/ndarray/base/sub2ind]: https://github.com/stdlib-js/ndarray-base-sub2ind
 
-[@stdlib/ndarray/base/to-reversed]: https://github.com/stdlib-js/ndarray-base-to-reversed/tree/umd
+[@stdlib/ndarray/base/to-array]: https://github.com/stdlib-js/ndarray-base-to-array
 
-[@stdlib/ndarray/base/to-unique-normalized-indices]: https://github.com/stdlib-js/ndarray-base-to-unique-normalized-indices/tree/umd
+[@stdlib/ndarray/base/to-normalized-indices]: https://github.com/stdlib-js/ndarray-base-to-normalized-indices
 
-[@stdlib/ndarray/base/transpose]: https://github.com/stdlib-js/ndarray-base-transpose/tree/umd
+[@stdlib/ndarray/base/to-reversed]: https://github.com/stdlib-js/ndarray-base-to-reversed
 
-[@stdlib/ndarray/base/unary-by]: https://github.com/stdlib-js/ndarray-base-unary-by/tree/umd
+[@stdlib/ndarray/base/to-unique-normalized-indices]: https://github.com/stdlib-js/ndarray-base-to-unique-normalized-indices
 
-[@stdlib/ndarray/base/unary-loop-interchange-order]: https://github.com/stdlib-js/ndarray-base-unary-loop-interchange-order/tree/umd
+[@stdlib/ndarray/base/transpose]: https://github.com/stdlib-js/ndarray-base-transpose
 
-[@stdlib/ndarray/base/unary-output-dtype]: https://github.com/stdlib-js/ndarray-base-unary-output-dtype/tree/umd
+[@stdlib/ndarray/base/unary-accumulate]: https://github.com/stdlib-js/ndarray-base-unary-accumulate
 
-[@stdlib/ndarray/base/unary-tiling-block-size]: https://github.com/stdlib-js/ndarray-base-unary-tiling-block-size/tree/umd
+[@stdlib/ndarray/base/unary-by]: https://github.com/stdlib-js/ndarray-base-unary-by
 
-[@stdlib/ndarray/base/unary]: https://github.com/stdlib-js/ndarray-base-unary/tree/umd
+[@stdlib/ndarray/base/unary-loop-interchange-order]: https://github.com/stdlib-js/ndarray-base-unary-loop-interchange-order
 
-[@stdlib/ndarray/base/vind2bind]: https://github.com/stdlib-js/ndarray-base-vind2bind/tree/umd
+[@stdlib/ndarray/base/unary-output-dtype]: https://github.com/stdlib-js/ndarray-base-unary-output-dtype
 
-[@stdlib/ndarray/base/wrap-index]: https://github.com/stdlib-js/ndarray-base-wrap-index/tree/umd
+[@stdlib/ndarray/base/unary-reduce-subarray]: https://github.com/stdlib-js/ndarray-base-unary-reduce-subarray
 
-[@stdlib/ndarray/base/zeros-like]: https://github.com/stdlib-js/ndarray-base-zeros-like/tree/umd
+[@stdlib/ndarray/base/unary-tiling-block-size]: https://github.com/stdlib-js/ndarray-base-unary-tiling-block-size
 
-[@stdlib/ndarray/base/zeros]: https://github.com/stdlib-js/ndarray-base-zeros/tree/umd
+[@stdlib/ndarray/base/unary]: https://github.com/stdlib-js/ndarray-base-unary
+
+[@stdlib/ndarray/base/vind2bind]: https://github.com/stdlib-js/ndarray-base-vind2bind
+
+[@stdlib/ndarray/base/wrap-index]: https://github.com/stdlib-js/ndarray-base-wrap-index
+
+[@stdlib/ndarray/base/zeros-like]: https://github.com/stdlib-js/ndarray-base-zeros-like
+
+[@stdlib/ndarray/base/zeros]: https://github.com/stdlib-js/ndarray-base-zeros
 
 <!-- </toc-links> -->
 
