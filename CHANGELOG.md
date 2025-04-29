@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-26)
+## Unreleased (2025-04-29)
 
 <section class="features">
 
 ### Features
 
+-   [`b087d7b`](https://github.com/stdlib-js/stdlib/commit/b087d7b801c7cae56cb39587b295fb7433638405) - add support for enforcing traversal order
+-   [`d1bc036`](https://github.com/stdlib-js/stdlib/commit/d1bc0365ded44eefb0073b8ae9bf582041b49be5) - add support for enforcing traversal order
+-   [`aa7edbf`](https://github.com/stdlib-js/stdlib/commit/aa7edbf50d41cdea1f28b13537f2810fa84ef3c7) - add support for enforcing traversal order
 -   [`19a94ba`](https://github.com/stdlib-js/stdlib/commit/19a94ba6becae6ee0d021a1ad11af0bfa6ffa116) - add `unaryInputCastingDataType` to namespace
 -   [`c6195ff`](https://github.com/stdlib-js/stdlib/commit/c6195ff858e3ba8b90a0560dd0af753be76b5d44) - add `ndarray/base/unary-input-casting-dtype`
 -   [`a127aaf`](https://github.com/stdlib-js/stdlib/commit/a127aaf3a0a12ec7f2ae62e5fbb2bed4d67f9794) - add support for accumulation and index policies
@@ -181,6 +184,9 @@
 
 ### Bug Fixes
 
+-   [`ccba75e`](https://github.com/stdlib-js/stdlib/commit/ccba75ea9ec47fe7ccc85f87dff6c9759294094e) - address off-by-one error
+-   [`954292d`](https://github.com/stdlib-js/stdlib/commit/954292d127bf5dfd360df92ab5e73bac33a9b673) - address off-by-one error
+-   [`f3e3561`](https://github.com/stdlib-js/stdlib/commit/f3e3561a46cca1fbb13c0a1b5eb5f5475ef9b032) - address off-by-one error
 -   [`79f6ac4`](https://github.com/stdlib-js/stdlib/commit/79f6ac4a6aa789b2e012126b8b485c8173a89f11) - accumulate in the default real-valued floating-point dtype
 -   [`b43db40`](https://github.com/stdlib-js/stdlib/commit/b43db40273306f34ee9cde05d82c7fb9207aeb2b) - ensure correct ndarray argument order where output ndarray should be second ndarray argument
 -   [`ac10964`](https://github.com/stdlib-js/stdlib/commit/ac109649d1cfad63800282f0d509aff419bfeb33) - ensure correct table validation
@@ -224,6 +230,10 @@
 
 ### BREAKING CHANGES
 
+-   [`7507be0`](https://github.com/stdlib-js/stdlib/commit/7507be008cc27aa0c74770a29cd4b4507eca6745): replace policy string argument with a policy object
+-   [`f0602e3`](https://github.com/stdlib-js/stdlib/commit/f0602e31fcfab3c05954ac9b3d37ae01d3f51b6b): replace policy string argument with a policy object
+-   [`9f35a29`](https://github.com/stdlib-js/stdlib/commit/9f35a299838dee39db10a82b498884bc045383bb): replace policy string argument with a policy object
+-   [`a044e35`](https://github.com/stdlib-js/stdlib/commit/a044e354764d59dd965c90a4317f1b3898a83d6d): replace policy string argument with a policy object
 -   [`270d773`](https://github.com/stdlib-js/stdlib/commit/270d77340c33be953ec29ca4d1924fffdb18df0b): modify dispatch table to support type signatures
 -   [`2b48dd6`](https://github.com/stdlib-js/stdlib/commit/2b48dd67916dc94703baac7f524b3136e8014f1c): modify dispatch table to support type signatures
 -   [`d4f8189`](https://github.com/stdlib-js/stdlib/commit/d4f8189e03d81f54c5483ffb016ca967a3888565): modify dispatch table to support type signatures
@@ -258,6 +268,20 @@ A total of 11 issues were closed in this release:
 
 <details>
 
+-   [`6464a4b`](https://github.com/stdlib-js/stdlib/commit/6464a4ba00ba9579a2da77a0e2282a0f03bfdc01) - **docs:** update namespace table of contents [(#6828)](https://github.com/stdlib-js/stdlib/pull/6828) _(by stdlib-bot)_
+-   [`25abfc6`](https://github.com/stdlib-js/stdlib/commit/25abfc67b400f646304fa1f10b239a051f6569f6) - **refactor:** support non-built-in shape and strides objects _(by Athan Reines)_
+-   [`b087d7b`](https://github.com/stdlib-js/stdlib/commit/b087d7b801c7cae56cb39587b295fb7433638405) - **feat:** add support for enforcing traversal order _(by Athan Reines)_
+-   [`d1bc036`](https://github.com/stdlib-js/stdlib/commit/d1bc0365ded44eefb0073b8ae9bf582041b49be5) - **feat:** add support for enforcing traversal order _(by Athan Reines)_
+-   [`aa7edbf`](https://github.com/stdlib-js/stdlib/commit/aa7edbf50d41cdea1f28b13537f2810fa84ef3c7) - **feat:** add support for enforcing traversal order _(by Athan Reines)_
+-   [`ccba75e`](https://github.com/stdlib-js/stdlib/commit/ccba75ea9ec47fe7ccc85f87dff6c9759294094e) - **fix:** address off-by-one error _(by Athan Reines)_
+-   [`954292d`](https://github.com/stdlib-js/stdlib/commit/954292d127bf5dfd360df92ab5e73bac33a9b673) - **fix:** address off-by-one error _(by Athan Reines)_
+-   [`f3e3561`](https://github.com/stdlib-js/stdlib/commit/f3e3561a46cca1fbb13c0a1b5eb5f5475ef9b032) - **fix:** address off-by-one error _(by Athan Reines)_
+-   [`9db35a0`](https://github.com/stdlib-js/stdlib/commit/9db35a046ad390bb8d781c43641dc1b01fe20cbf) - **refactor:** use assertion utility _(by Athan Reines)_
+-   [`abc70f7`](https://github.com/stdlib-js/stdlib/commit/abc70f761f409120b8a44de8023bcab6138c9cc9) - **refactor:** use assertion utility _(by Athan Reines)_
+-   [`7507be0`](https://github.com/stdlib-js/stdlib/commit/7507be008cc27aa0c74770a29cd4b4507eca6745) - **refactor:** replace policy string argument with a policy object _(by Athan Reines)_
+-   [`f0602e3`](https://github.com/stdlib-js/stdlib/commit/f0602e31fcfab3c05954ac9b3d37ae01d3f51b6b) - **refactor:** replace policy string argument with a policy object _(by Athan Reines)_
+-   [`9f35a29`](https://github.com/stdlib-js/stdlib/commit/9f35a299838dee39db10a82b498884bc045383bb) - **refactor:** replace policy string argument with a policy object _(by Athan Reines)_
+-   [`a044e35`](https://github.com/stdlib-js/stdlib/commit/a044e354764d59dd965c90a4317f1b3898a83d6d) - **refactor:** replace policy string argument with a policy object _(by Athan Reines)_
 -   [`19a94ba`](https://github.com/stdlib-js/stdlib/commit/19a94ba6becae6ee0d021a1ad11af0bfa6ffa116) - **feat:** add `unaryInputCastingDataType` to namespace _(by Athan Reines)_
 -   [`c6195ff`](https://github.com/stdlib-js/stdlib/commit/c6195ff858e3ba8b90a0560dd0af753be76b5d44) - **feat:** add `ndarray/base/unary-input-casting-dtype` _(by Athan Reines)_
 -   [`79f6ac4`](https://github.com/stdlib-js/stdlib/commit/79f6ac4a6aa789b2e012126b8b485c8173a89f11) - **fix:** accumulate in the default real-valued floating-point dtype _(by Athan Reines)_
