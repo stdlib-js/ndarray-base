@@ -4,12 +4,65 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-29)
+## Unreleased (2025-05-09)
 
 <section class="features">
 
 ### Features
 
+-   [`556e832`](https://github.com/stdlib-js/stdlib/commit/556e832729f770a48692fc796fb4d5c9b4b5ae34) - add `unaryStrided1dDispatchFactory` to namespace
+-   [`1133bce`](https://github.com/stdlib-js/stdlib/commit/1133bceaec004d01bf20932b6334529dc7a79648) - add `unaryStrided1dDispatch` to namespace
+-   [`8905452`](https://github.com/stdlib-js/stdlib/commit/890545242b456f9e6b85d744993d4e7c97cd0ae7) - add `unaryStrided1d` to namespace
+-   [`5c8cd3f`](https://github.com/stdlib-js/stdlib/commit/5c8cd3f6a140e0698ff623334c05951d34ecd6c3) - add `unaryReduceStrided1dDispatchFactory` to namespace
+-   [`53a52e9`](https://github.com/stdlib-js/stdlib/commit/53a52e9a773b443e13f39798746b55727053d92e) - add `unaryReduceStrided1dDispatch` to namespace
+-   [`d6b451d`](https://github.com/stdlib-js/stdlib/commit/d6b451d5777547244a171595c5f09cccfa4d8dd3) - add `unaryReduceStrided1d` to namespace
+-   [`3355982`](https://github.com/stdlib-js/stdlib/commit/33559820f55c0e1477017d2c09b2426f52659e1f) - add `everyBy` to namespace
+-   [`afc6368`](https://github.com/stdlib-js/stdlib/commit/afc6368796cba9bbfb9a0182251212248f0edea9) - add `binary` to namespace
+-   [`9501636`](https://github.com/stdlib-js/stdlib/commit/9501636c0d9198393a7aaf9691407402e80faead) - add `binaryOutputDataType` to namespace
+-   [`99449d7`](https://github.com/stdlib-js/stdlib/commit/99449d7fbbd16dbea7436b75153cbdb38099d03f) - add `ndarray/base/binary-output-dtype`
+-   [`a95ac02`](https://github.com/stdlib-js/stdlib/commit/a95ac027b1e359e28c27929db51793cbb297cf52) - add package entry point
+-   [`5358d7b`](https://github.com/stdlib-js/stdlib/commit/5358d7b9cd327ebbfa3cac61af5cd5684132ea88) - add nd accessors kernel
+-   [`9d4bbdf`](https://github.com/stdlib-js/stdlib/commit/9d4bbdfd17d977eb6bc1429abd760abe9d436210) - add 3d blocked accessors kernel
+-   [`8e5606b`](https://github.com/stdlib-js/stdlib/commit/8e5606b09d9969c198b4bf9f7aedd14eb003ff93) - add 4d blocked accessors kernel
+-   [`83e4b14`](https://github.com/stdlib-js/stdlib/commit/83e4b14020459604d4ebc4ae8ff45c7ce24bd2f9) - add 5d blocked accessors kernel
+-   [`b00bd71`](https://github.com/stdlib-js/stdlib/commit/b00bd7132b46a30f7650a883220006e7335c194d) - add 6d blocked accessors kernel
+-   [`2e4f0bc`](https://github.com/stdlib-js/stdlib/commit/2e4f0bcddd78f39e692dcc52baeb0c4e5f054bde) - add 7d blocked accessors kernel
+-   [`ef496b0`](https://github.com/stdlib-js/stdlib/commit/ef496b03e5e4d162a7e134fdff5097e8be8ec31d) - add 8d blocked accessors kernel
+-   [`bcc4271`](https://github.com/stdlib-js/stdlib/commit/bcc427128fc6f2ef25d1c1a7ec46b772de84f8d0) - add 9d blocked accessors kernel
+-   [`2792a62`](https://github.com/stdlib-js/stdlib/commit/2792a62c564bb67183e6c422eebd470f2c2d0387) - add 10d blocked accessors kernel
+-   [`10f7656`](https://github.com/stdlib-js/stdlib/commit/10f76566fbc8135b21f5d957a6a5be20a5262d7e) - add 2d blocked accessors kernel
+-   [`ab4f417`](https://github.com/stdlib-js/stdlib/commit/ab4f417df27d95b9f16ba8cb7cf01ecc55f75c58) - add 10d blocked kernel
+-   [`5a37da9`](https://github.com/stdlib-js/stdlib/commit/5a37da9e140327674b12d58f310ebb61c6ebacba) - add 9d blocked kernel
+-   [`907c8f4`](https://github.com/stdlib-js/stdlib/commit/907c8f4e128fa7e7abb9b6276ebb25db5ebf45e3) - add 8d blocked kernel
+-   [`8500ee3`](https://github.com/stdlib-js/stdlib/commit/8500ee3ab7fead5be0c81a635e7378de658eed4e) - add 7d block kernel
+-   [`8a2f7e2`](https://github.com/stdlib-js/stdlib/commit/8a2f7e29aba824e388fd12fdcde371d41c1eed0a) - add 6d blocked kernel
+-   [`62bde63`](https://github.com/stdlib-js/stdlib/commit/62bde63d0d548122c2f5ea8d2f6391a8d0267dc6) - add 5d blocked kernel
+-   [`e6dc6be`](https://github.com/stdlib-js/stdlib/commit/e6dc6be0a6b7ceef7e3ad03abdf38ae8c27cb752) - add 4d blocked kernel
+-   [`e7f8179`](https://github.com/stdlib-js/stdlib/commit/e7f8179e4b8076402e87498ff55bf31a1b5daeca) - add 3d blocked kernel
+-   [`ba6846b`](https://github.com/stdlib-js/stdlib/commit/ba6846b5a5b6b944f348bad07a1127cdd40da191) - add 2d blocked kernel
+-   [`7010ff5`](https://github.com/stdlib-js/stdlib/commit/7010ff5c07472a02fa2cc68dae5ae3e9a96dd8cb) - add 10d accessors kernel
+-   [`fdf57c8`](https://github.com/stdlib-js/stdlib/commit/fdf57c81c833a6db1c6540113bab326e47aee78a) - add 9d accessors kernel
+-   [`c7aeb32`](https://github.com/stdlib-js/stdlib/commit/c7aeb32227e9aa7ad0551b95336532b589bfa12c) - add 8d accessors kernel
+-   [`462ba1c`](https://github.com/stdlib-js/stdlib/commit/462ba1c49a1d8ab5105af53898bcc0424bdae5fd) - add 7d accessors kernel
+-   [`4fe65c6`](https://github.com/stdlib-js/stdlib/commit/4fe65c64aa1882a49728b233ebeefd6cc821e920) - add 6d accessors kernel
+-   [`964d21f`](https://github.com/stdlib-js/stdlib/commit/964d21f08ae155ea7409a3d6cb6a95eab1182bd8) - add 5d accessors kernel
+-   [`d223b39`](https://github.com/stdlib-js/stdlib/commit/d223b3924044d55e09a530f6b141c7087f1fa364) - add 4d accessors kernel
+-   [`12a9858`](https://github.com/stdlib-js/stdlib/commit/12a9858be8b89300b72ec80486a43564a97be05e) - add 3d accessors kernel
+-   [`a18a916`](https://github.com/stdlib-js/stdlib/commit/a18a916546eb2c364be0a314a2caa291490f5561) - add 2d accessors kernel
+-   [`18b91ff`](https://github.com/stdlib-js/stdlib/commit/18b91ffeee255d85ec8bf80c18f679711d71f9f0) - add 1d accessors kernel
+-   [`cdac44a`](https://github.com/stdlib-js/stdlib/commit/cdac44a8150892bde67cc5e4e3823bdd175fda48) - add 0d accessors kernel
+-   [`a9dd7d2`](https://github.com/stdlib-js/stdlib/commit/a9dd7d2da8dcb2a49f8ba1c87105714e4e89b45e) - add nd kernel
+-   [`059e866`](https://github.com/stdlib-js/stdlib/commit/059e8663bd3b995bcfa611460b354ab70ba69c77) - add 10 kernel
+-   [`3b7413a`](https://github.com/stdlib-js/stdlib/commit/3b7413a240746356763c5508797756f67b2f7f2f) - add 9d kernel
+-   [`1372f84`](https://github.com/stdlib-js/stdlib/commit/1372f84c834e08501006ebc7e1b22fc5053d0779) - add 8d kernel
+-   [`33822b7`](https://github.com/stdlib-js/stdlib/commit/33822b7385bff2697e3a6496f9874dc27793e70f) - add 7d kernel
+-   [`b459438`](https://github.com/stdlib-js/stdlib/commit/b459438fae2ae7484e102639f737dd36ccf02fd8) - add 6d kernel
+-   [`5ad453e`](https://github.com/stdlib-js/stdlib/commit/5ad453e52b68e90430abe40360443f52310de4c5) - add 5d kernel
+-   [`2d4acfe`](https://github.com/stdlib-js/stdlib/commit/2d4acfe9dade003dce0c5a34d819956fe975ce09) - add 4d kernel
+-   [`3c5c398`](https://github.com/stdlib-js/stdlib/commit/3c5c398099e4bd34b4f4e30661286d13b00102a2) - add 3d kernel
+-   [`6ad8db8`](https://github.com/stdlib-js/stdlib/commit/6ad8db8af20aac64755f89d1142ea7290b435b87) - add 2d kernel
+-   [`b55f6f7`](https://github.com/stdlib-js/stdlib/commit/b55f6f7ea07120361a6af7762631157ea20e7b93) - add `1d` kernel
+-   [`4ebe3c8`](https://github.com/stdlib-js/stdlib/commit/4ebe3c8d9fe099b9b9daaa03459f52a21bbedd27) - add 0d kernel
 -   [`b087d7b`](https://github.com/stdlib-js/stdlib/commit/b087d7b801c7cae56cb39587b295fb7433638405) - add support for enforcing traversal order
 -   [`d1bc036`](https://github.com/stdlib-js/stdlib/commit/d1bc0365ded44eefb0073b8ae9bf582041b49be5) - add support for enforcing traversal order
 -   [`aa7edbf`](https://github.com/stdlib-js/stdlib/commit/aa7edbf50d41cdea1f28b13537f2810fa84ef3c7) - add support for enforcing traversal order
@@ -184,6 +237,34 @@
 
 ### Bug Fixes
 
+-   [`ae2b9a3`](https://github.com/stdlib-js/stdlib/commit/ae2b9a327b74ca7bdc03996cbb77a87053d19896) - use resolved order when computing loop variables
+-   [`9bc10d4`](https://github.com/stdlib-js/stdlib/commit/9bc10d4dc2b9afe6b55ca2b6e17c165e9dd2a88d) - use resolved order when computing loop variables
+-   [`ccc7890`](https://github.com/stdlib-js/stdlib/commit/ccc7890aee959303e2defbc627b32f66b18535eb) - check for row-major value
+-   [`d066ec9`](https://github.com/stdlib-js/stdlib/commit/d066ec94f0484e735ea8025e7c9339f248c8d450) - check for row-major value
+-   [`4795826`](https://github.com/stdlib-js/stdlib/commit/47958261521f7d00ccd325cb978e55af39b9cbe0) - check for row-major value
+-   [`a8bac64`](https://github.com/stdlib-js/stdlib/commit/a8bac644b23c4413a566f309b43857ad779f05cc) - check for row-major value
+-   [`7583774`](https://github.com/stdlib-js/stdlib/commit/7583774f4307a69b9e364a2e60c14ee034fa02a9) - use resolved order when computing loop variables
+-   [`b9e9eca`](https://github.com/stdlib-js/stdlib/commit/b9e9eca93c4611a77122090ab8e589e6ba82e47b) - use resolved order when computing loop variables
+-   [`1e0917b`](https://github.com/stdlib-js/stdlib/commit/1e0917b1bba1d273d93e8fa97cc8a060661bbbf0) - use resolved order when computing loop variables
+-   [`92bf1a1`](https://github.com/stdlib-js/stdlib/commit/92bf1a12b2398ec5823eb3094bdc89f88d9876a7) - use resolved order when computing loop variables
+-   [`742b7ec`](https://github.com/stdlib-js/stdlib/commit/742b7ec1f60fc811148afcea78cfc36dc1018e24) - use resolved order when computing loop variables
+-   [`a19b8f2`](https://github.com/stdlib-js/stdlib/commit/a19b8f2405c62dd79247ef4c3a9a1cadda1f3576) - use resolved order when computing loop variables
+-   [`f7cf8ed`](https://github.com/stdlib-js/stdlib/commit/f7cf8ed8066b7b2fe18a9b9bc6ed1226eb1cc1ea) - use resolved order when computing loop variables
+-   [`f10dd8c`](https://github.com/stdlib-js/stdlib/commit/f10dd8ccbd1c245467d156a1b87f5eb2ba47e0ad) - use resolved order when computing loop variables
+-   [`6c09182`](https://github.com/stdlib-js/stdlib/commit/6c09182156a8a7d13e52660e278b52d9d6b0166a) - use resolved order when computing loop variables
+-   [`ca6378c`](https://github.com/stdlib-js/stdlib/commit/ca6378c56d971ae1c08f162bfda933b7b2fc04cf) - use resolved order when computing loop variables
+-   [`ab22671`](https://github.com/stdlib-js/stdlib/commit/ab2267149121cf347c5be11d7bfc7ee64e4f663a) - use resolved order when computing loop variables
+-   [`18036a4`](https://github.com/stdlib-js/stdlib/commit/18036a4b73cbae2f90f5ce929645d1eb769138dc) - use resolved order when determining increment offsets
+-   [`3ce09af`](https://github.com/stdlib-js/stdlib/commit/3ce09af9819ae7dbaad178179264fc84c5db5690) - ensure separate array instance for each memory layout
+-   [`7c29c2d`](https://github.com/stdlib-js/stdlib/commit/7c29c2d3aea7b8d0396a77f6781d7d76bd7adde4) - use computed order
+-   [`8722299`](https://github.com/stdlib-js/stdlib/commit/8722299df603836eaf1aba2404e833f77db4ed0b) - use computed order
+-   [`e0a04fe`](https://github.com/stdlib-js/stdlib/commit/e0a04fe3cbdcab5adb4529158d2ccf085fb971a6) - use computed order
+-   [`3fbb654`](https://github.com/stdlib-js/stdlib/commit/3fbb6542732cd06fc8d54b9bea5734261ab7c871) - use computed order
+-   [`aa86262`](https://github.com/stdlib-js/stdlib/commit/aa862629c2826d5f0b9e69c64264eea89ea1de7d) - use computed order
+-   [`71e6a7f`](https://github.com/stdlib-js/stdlib/commit/71e6a7f82bcc08d20d09772ba0e99c825be191bf) - use computed order
+-   [`23f47b4`](https://github.com/stdlib-js/stdlib/commit/23f47b4ef44cb8bbdc7009c403630d003af9c0a2) - use computed order
+-   [`1473377`](https://github.com/stdlib-js/stdlib/commit/1473377ac4faecd7ff1448fb7972d851c3e8b2a8) - use computed order
+-   [`f44eb41`](https://github.com/stdlib-js/stdlib/commit/f44eb41a8314b3f305d88617d26b78a4c7d7e888) - provide z dtype
 -   [`ccba75e`](https://github.com/stdlib-js/stdlib/commit/ccba75ea9ec47fe7ccc85f87dff6c9759294094e) - address off-by-one error
 -   [`954292d`](https://github.com/stdlib-js/stdlib/commit/954292d127bf5dfd360df92ab5e73bac33a9b673) - address off-by-one error
 -   [`f3e3561`](https://github.com/stdlib-js/stdlib/commit/f3e3561a46cca1fbb13c0a1b5eb5f5475ef9b032) - address off-by-one error
@@ -254,9 +335,9 @@
 
 ### Closed Issues
 
-A total of 11 issues were closed in this release:
+A total of 12 issues were closed in this release:
 
-[#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5788](https://github.com/stdlib-js/stdlib/issues/5788), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#6053](https://github.com/stdlib-js/stdlib/issues/6053), [#6236](https://github.com/stdlib-js/stdlib/issues/6236), [#6456](https://github.com/stdlib-js/stdlib/issues/6456), [#6457](https://github.com/stdlib-js/stdlib/issues/6457), [#6574](https://github.com/stdlib-js/stdlib/issues/6574), [#6589](https://github.com/stdlib-js/stdlib/issues/6589), [#6604](https://github.com/stdlib-js/stdlib/issues/6604), [#6663](https://github.com/stdlib-js/stdlib/issues/6663)
+[#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5788](https://github.com/stdlib-js/stdlib/issues/5788), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#6053](https://github.com/stdlib-js/stdlib/issues/6053), [#6236](https://github.com/stdlib-js/stdlib/issues/6236), [#6456](https://github.com/stdlib-js/stdlib/issues/6456), [#6457](https://github.com/stdlib-js/stdlib/issues/6457), [#6574](https://github.com/stdlib-js/stdlib/issues/6574), [#6589](https://github.com/stdlib-js/stdlib/issues/6589), [#6604](https://github.com/stdlib-js/stdlib/issues/6604), [#6663](https://github.com/stdlib-js/stdlib/issues/6663), [#6776](https://github.com/stdlib-js/stdlib/issues/6776)
 
 </section>
 
@@ -268,6 +349,122 @@ A total of 11 issues were closed in this release:
 
 <details>
 
+-   [`556e832`](https://github.com/stdlib-js/stdlib/commit/556e832729f770a48692fc796fb4d5c9b4b5ae34) - **feat:** add `unaryStrided1dDispatchFactory` to namespace _(by Athan Reines)_
+-   [`1133bce`](https://github.com/stdlib-js/stdlib/commit/1133bceaec004d01bf20932b6334529dc7a79648) - **feat:** add `unaryStrided1dDispatch` to namespace _(by Athan Reines)_
+-   [`8905452`](https://github.com/stdlib-js/stdlib/commit/890545242b456f9e6b85d744993d4e7c97cd0ae7) - **feat:** add `unaryStrided1d` to namespace _(by Athan Reines)_
+-   [`5c8cd3f`](https://github.com/stdlib-js/stdlib/commit/5c8cd3f6a140e0698ff623334c05951d34ecd6c3) - **feat:** add `unaryReduceStrided1dDispatchFactory` to namespace _(by Athan Reines)_
+-   [`53a52e9`](https://github.com/stdlib-js/stdlib/commit/53a52e9a773b443e13f39798746b55727053d92e) - **feat:** add `unaryReduceStrided1dDispatch` to namespace _(by Athan Reines)_
+-   [`d6b451d`](https://github.com/stdlib-js/stdlib/commit/d6b451d5777547244a171595c5f09cccfa4d8dd3) - **feat:** add `unaryReduceStrided1d` to namespace _(by Athan Reines)_
+-   [`3355982`](https://github.com/stdlib-js/stdlib/commit/33559820f55c0e1477017d2c09b2426f52659e1f) - **feat:** add `everyBy` to namespace _(by Athan Reines)_
+-   [`afc6368`](https://github.com/stdlib-js/stdlib/commit/afc6368796cba9bbfb9a0182251212248f0edea9) - **feat:** add `binary` to namespace _(by Athan Reines)_
+-   [`9501636`](https://github.com/stdlib-js/stdlib/commit/9501636c0d9198393a7aaf9691407402e80faead) - **feat:** add `binaryOutputDataType` to namespace _(by Athan Reines)_
+-   [`99449d7`](https://github.com/stdlib-js/stdlib/commit/99449d7fbbd16dbea7436b75153cbdb38099d03f) - **feat:** add `ndarray/base/binary-output-dtype` _(by Athan Reines)_
+-   [`48d8be1`](https://github.com/stdlib-js/stdlib/commit/48d8be17cb1fb81b2e30a0ce976391fcf622b4c3) - **test:** add tests _(by Athan Reines)_
+-   [`5bb21e7`](https://github.com/stdlib-js/stdlib/commit/5bb21e71dd19df4153a9e4e10640fa74f1fb9a0a) - **test:** add tests for when strides are transposed _(by Athan Reines)_
+-   [`ccb3f8e`](https://github.com/stdlib-js/stdlib/commit/ccb3f8e33a29e6a09074d8bc7e54f0a6fa88a022) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`53de942`](https://github.com/stdlib-js/stdlib/commit/53de94256d47d502f47da4af97c0dfeb6ceb086e) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`b1ed7bc`](https://github.com/stdlib-js/stdlib/commit/b1ed7bc33de9d21119087820e0002a8803d97203) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`7321e29`](https://github.com/stdlib-js/stdlib/commit/7321e294d995d496b35f24f253055190ae6a78d5) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`f84a4f9`](https://github.com/stdlib-js/stdlib/commit/f84a4f981f22b7ac35f917941264e792f4ba854b) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`3d355ab`](https://github.com/stdlib-js/stdlib/commit/3d355ab124de9c965171d08aebc8d14156fb9711) - **chore:** fix meta data _(by Athan Reines)_
+-   [`79338a4`](https://github.com/stdlib-js/stdlib/commit/79338a45542acc87c31fb6ad7220b8ecab4c467d) - **chore:** update meta data _(by Athan Reines)_
+-   [`f328b4f`](https://github.com/stdlib-js/stdlib/commit/f328b4f3b5bc69a79761c820e56c5849c7616dee) - **docs:** add README _(by Athan Reines)_
+-   [`c713f5a`](https://github.com/stdlib-js/stdlib/commit/c713f5a247329781c52833ae42b7b86b5a585637) - **bench:** add 1d and 2d benchmarks _(by Athan Reines)_
+-   [`ceb856d`](https://github.com/stdlib-js/stdlib/commit/ceb856d1e079781c58f713c2163b629cf561b963) - **test:** add 2d kernel tests _(by Athan Reines)_
+-   [`4901ce8`](https://github.com/stdlib-js/stdlib/commit/4901ce89f5f80c080ec2db7d7f6e7405340fec1a) - **test:** add 1d kernel tests _(by Athan Reines)_
+-   [`bcf1683`](https://github.com/stdlib-js/stdlib/commit/bcf1683a583934523896b342f8a1621d3aad9e1c) - **test:** add 0d kernel tests _(by Athan Reines)_
+-   [`ae2b9a3`](https://github.com/stdlib-js/stdlib/commit/ae2b9a327b74ca7bdc03996cbb77a87053d19896) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
+-   [`9bc10d4`](https://github.com/stdlib-js/stdlib/commit/9bc10d4dc2b9afe6b55ca2b6e17c165e9dd2a88d) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
+-   [`ccc7890`](https://github.com/stdlib-js/stdlib/commit/ccc7890aee959303e2defbc627b32f66b18535eb) - **fix:** check for row-major value _(by Athan Reines)_
+-   [`d066ec9`](https://github.com/stdlib-js/stdlib/commit/d066ec94f0484e735ea8025e7c9339f248c8d450) - **fix:** check for row-major value _(by Athan Reines)_
+-   [`4795826`](https://github.com/stdlib-js/stdlib/commit/47958261521f7d00ccd325cb978e55af39b9cbe0) - **fix:** check for row-major value _(by Athan Reines)_
+-   [`a8bac64`](https://github.com/stdlib-js/stdlib/commit/a8bac644b23c4413a566f309b43857ad779f05cc) - **fix:** check for row-major value _(by Athan Reines)_
+-   [`7583774`](https://github.com/stdlib-js/stdlib/commit/7583774f4307a69b9e364a2e60c14ee034fa02a9) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
+-   [`a616f66`](https://github.com/stdlib-js/stdlib/commit/a616f66172ea9e5ea730258daff8232f38675e39) - **refactor:** avoid duplicate computation _(by Athan Reines)_
+-   [`1d2c4e2`](https://github.com/stdlib-js/stdlib/commit/1d2c4e2ef621e2304c5d855c4c8b6ed2f9e9e1ad) - **refactor:** avoid duplicate computation _(by Athan Reines)_
+-   [`0fb7df7`](https://github.com/stdlib-js/stdlib/commit/0fb7df7fe84102add9858f53da605a6f2e0d42a9) - **docs:** document expected properties for accessor kernels _(by Athan Reines)_
+-   [`529687d`](https://github.com/stdlib-js/stdlib/commit/529687d72291fe7c2f717e24bffe55130375139d) - **refactor:** avoid duplicate computation _(by Athan Reines)_
+-   [`b9e9eca`](https://github.com/stdlib-js/stdlib/commit/b9e9eca93c4611a77122090ab8e589e6ba82e47b) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
+-   [`1e0917b`](https://github.com/stdlib-js/stdlib/commit/1e0917b1bba1d273d93e8fa97cc8a060661bbbf0) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
+-   [`92bf1a1`](https://github.com/stdlib-js/stdlib/commit/92bf1a12b2398ec5823eb3094bdc89f88d9876a7) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
+-   [`742b7ec`](https://github.com/stdlib-js/stdlib/commit/742b7ec1f60fc811148afcea78cfc36dc1018e24) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
+-   [`a19b8f2`](https://github.com/stdlib-js/stdlib/commit/a19b8f2405c62dd79247ef4c3a9a1cadda1f3576) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
+-   [`f7cf8ed`](https://github.com/stdlib-js/stdlib/commit/f7cf8ed8066b7b2fe18a9b9bc6ed1226eb1cc1ea) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
+-   [`f10dd8c`](https://github.com/stdlib-js/stdlib/commit/f10dd8ccbd1c245467d156a1b87f5eb2ba47e0ad) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
+-   [`6c09182`](https://github.com/stdlib-js/stdlib/commit/6c09182156a8a7d13e52660e278b52d9d6b0166a) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
+-   [`ca6378c`](https://github.com/stdlib-js/stdlib/commit/ca6378c56d971ae1c08f162bfda933b7b2fc04cf) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
+-   [`ab22671`](https://github.com/stdlib-js/stdlib/commit/ab2267149121cf347c5be11d7bfc7ee64e4f663a) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
+-   [`18036a4`](https://github.com/stdlib-js/stdlib/commit/18036a4b73cbae2f90f5ce929645d1eb769138dc) - **fix:** use resolved order when determining increment offsets _(by Athan Reines)_
+-   [`ac7d5b4`](https://github.com/stdlib-js/stdlib/commit/ac7d5b41eeefdc2a27ffeb244442c2e29feb728c) - **refactor:** use assertion utility rather than hardcoded string _(by Athan Reines)_
+-   [`2464b78`](https://github.com/stdlib-js/stdlib/commit/2464b78c6e164fd048d04d13d57a3ba44707cac9) - **docs:** remove import _(by Athan Reines)_
+-   [`3ce09af`](https://github.com/stdlib-js/stdlib/commit/3ce09af9819ae7dbaad178179264fc84c5db5690) - **fix:** ensure separate array instance for each memory layout _(by Athan Reines)_
+-   [`974d32e`](https://github.com/stdlib-js/stdlib/commit/974d32e3dcd93a5d44360e185a8c66ebbc3e5076) - **refactor:** use base array utility _(by Athan Reines)_
+-   [`3dd8cb3`](https://github.com/stdlib-js/stdlib/commit/3dd8cb379ea22c4a92d610d146cdd662d3187e27) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`2e62223`](https://github.com/stdlib-js/stdlib/commit/2e6222321d2f7e50afa459c0dc815c56ec83fdf5) - **chore:** remove directory until we have actually added benchmarks _(by Athan Reines)_
+-   [`b403898`](https://github.com/stdlib-js/stdlib/commit/b403898016bc31f1331765bb5bfbcab94f0e1692) - **test:** add initial tests _(by Athan Reines)_
+-   [`590a7d9`](https://github.com/stdlib-js/stdlib/commit/590a7d9fc1e57249015e425c59201fc9e5daeb0c) - **docs:** add REPL help and TypeScript declarations _(by Athan Reines)_
+-   [`903ffa2`](https://github.com/stdlib-js/stdlib/commit/903ffa2ffea01672dd401cfe3c210a525c484590) - **docs:** add example _(by Athan Reines)_
+-   [`7c29c2d`](https://github.com/stdlib-js/stdlib/commit/7c29c2d3aea7b8d0396a77f6781d7d76bd7adde4) - **fix:** use computed order _(by Athan Reines)_
+-   [`8722299`](https://github.com/stdlib-js/stdlib/commit/8722299df603836eaf1aba2404e833f77db4ed0b) - **fix:** use computed order _(by Athan Reines)_
+-   [`e0a04fe`](https://github.com/stdlib-js/stdlib/commit/e0a04fe3cbdcab5adb4529158d2ccf085fb971a6) - **fix:** use computed order _(by Athan Reines)_
+-   [`3fbb654`](https://github.com/stdlib-js/stdlib/commit/3fbb6542732cd06fc8d54b9bea5734261ab7c871) - **fix:** use computed order _(by Athan Reines)_
+-   [`5fcde08`](https://github.com/stdlib-js/stdlib/commit/5fcde08f9cce69278aa50f7aff8c17d5222df0af) - **style:** disable lint rule _(by Athan Reines)_
+-   [`aa86262`](https://github.com/stdlib-js/stdlib/commit/aa862629c2826d5f0b9e69c64264eea89ea1de7d) - **fix:** use computed order _(by Athan Reines)_
+-   [`71e6a7f`](https://github.com/stdlib-js/stdlib/commit/71e6a7f82bcc08d20d09772ba0e99c825be191bf) - **fix:** use computed order _(by Athan Reines)_
+-   [`23f47b4`](https://github.com/stdlib-js/stdlib/commit/23f47b4ef44cb8bbdc7009c403630d003af9c0a2) - **fix:** use computed order _(by Athan Reines)_
+-   [`1473377`](https://github.com/stdlib-js/stdlib/commit/1473377ac4faecd7ff1448fb7972d851c3e8b2a8) - **fix:** use computed order _(by Athan Reines)_
+-   [`713a42f`](https://github.com/stdlib-js/stdlib/commit/713a42f2252e401fef5e90ec3111a26ef8d14aa5) - **chore:** add package meta data _(by Athan Reines)_
+-   [`a95ac02`](https://github.com/stdlib-js/stdlib/commit/a95ac027b1e359e28c27929db51793cbb297cf52) - **feat:** add package entry point _(by Athan Reines)_
+-   [`5358d7b`](https://github.com/stdlib-js/stdlib/commit/5358d7b9cd327ebbfa3cac61af5cd5684132ea88) - **feat:** add nd accessors kernel _(by Athan Reines)_
+-   [`9d4bbdf`](https://github.com/stdlib-js/stdlib/commit/9d4bbdfd17d977eb6bc1429abd760abe9d436210) - **feat:** add 3d blocked accessors kernel _(by Athan Reines)_
+-   [`8e5606b`](https://github.com/stdlib-js/stdlib/commit/8e5606b09d9969c198b4bf9f7aedd14eb003ff93) - **feat:** add 4d blocked accessors kernel _(by Athan Reines)_
+-   [`83e4b14`](https://github.com/stdlib-js/stdlib/commit/83e4b14020459604d4ebc4ae8ff45c7ce24bd2f9) - **feat:** add 5d blocked accessors kernel _(by Athan Reines)_
+-   [`b00bd71`](https://github.com/stdlib-js/stdlib/commit/b00bd7132b46a30f7650a883220006e7335c194d) - **feat:** add 6d blocked accessors kernel _(by Athan Reines)_
+-   [`2e4f0bc`](https://github.com/stdlib-js/stdlib/commit/2e4f0bcddd78f39e692dcc52baeb0c4e5f054bde) - **feat:** add 7d blocked accessors kernel _(by Athan Reines)_
+-   [`ef496b0`](https://github.com/stdlib-js/stdlib/commit/ef496b03e5e4d162a7e134fdff5097e8be8ec31d) - **feat:** add 8d blocked accessors kernel _(by Athan Reines)_
+-   [`bcc4271`](https://github.com/stdlib-js/stdlib/commit/bcc427128fc6f2ef25d1c1a7ec46b772de84f8d0) - **feat:** add 9d blocked accessors kernel _(by Athan Reines)_
+-   [`2792a62`](https://github.com/stdlib-js/stdlib/commit/2792a62c564bb67183e6c422eebd470f2c2d0387) - **feat:** add 10d blocked accessors kernel _(by Athan Reines)_
+-   [`10f7656`](https://github.com/stdlib-js/stdlib/commit/10f76566fbc8135b21f5d957a6a5be20a5262d7e) - **feat:** add 2d blocked accessors kernel _(by Athan Reines)_
+-   [`ab4f417`](https://github.com/stdlib-js/stdlib/commit/ab4f417df27d95b9f16ba8cb7cf01ecc55f75c58) - **feat:** add 10d blocked kernel _(by Athan Reines)_
+-   [`5a37da9`](https://github.com/stdlib-js/stdlib/commit/5a37da9e140327674b12d58f310ebb61c6ebacba) - **feat:** add 9d blocked kernel _(by Athan Reines)_
+-   [`907c8f4`](https://github.com/stdlib-js/stdlib/commit/907c8f4e128fa7e7abb9b6276ebb25db5ebf45e3) - **feat:** add 8d blocked kernel _(by Athan Reines)_
+-   [`8500ee3`](https://github.com/stdlib-js/stdlib/commit/8500ee3ab7fead5be0c81a635e7378de658eed4e) - **feat:** add 7d block kernel _(by Athan Reines)_
+-   [`8a2f7e2`](https://github.com/stdlib-js/stdlib/commit/8a2f7e29aba824e388fd12fdcde371d41c1eed0a) - **feat:** add 6d blocked kernel _(by Athan Reines)_
+-   [`62bde63`](https://github.com/stdlib-js/stdlib/commit/62bde63d0d548122c2f5ea8d2f6391a8d0267dc6) - **feat:** add 5d blocked kernel _(by Athan Reines)_
+-   [`e6dc6be`](https://github.com/stdlib-js/stdlib/commit/e6dc6be0a6b7ceef7e3ad03abdf38ae8c27cb752) - **feat:** add 4d blocked kernel _(by Athan Reines)_
+-   [`e7f8179`](https://github.com/stdlib-js/stdlib/commit/e7f8179e4b8076402e87498ff55bf31a1b5daeca) - **feat:** add 3d blocked kernel _(by Athan Reines)_
+-   [`f44eb41`](https://github.com/stdlib-js/stdlib/commit/f44eb41a8314b3f305d88617d26b78a4c7d7e888) - **fix:** provide z dtype _(by Athan Reines)_
+-   [`ba6846b`](https://github.com/stdlib-js/stdlib/commit/ba6846b5a5b6b944f348bad07a1127cdd40da191) - **feat:** add 2d blocked kernel _(by Athan Reines)_
+-   [`7010ff5`](https://github.com/stdlib-js/stdlib/commit/7010ff5c07472a02fa2cc68dae5ae3e9a96dd8cb) - **feat:** add 10d accessors kernel _(by Athan Reines)_
+-   [`fdf57c8`](https://github.com/stdlib-js/stdlib/commit/fdf57c81c833a6db1c6540113bab326e47aee78a) - **feat:** add 9d accessors kernel _(by Athan Reines)_
+-   [`c7aeb32`](https://github.com/stdlib-js/stdlib/commit/c7aeb32227e9aa7ad0551b95336532b589bfa12c) - **feat:** add 8d accessors kernel _(by Athan Reines)_
+-   [`462ba1c`](https://github.com/stdlib-js/stdlib/commit/462ba1c49a1d8ab5105af53898bcc0424bdae5fd) - **feat:** add 7d accessors kernel _(by Athan Reines)_
+-   [`4fe65c6`](https://github.com/stdlib-js/stdlib/commit/4fe65c64aa1882a49728b233ebeefd6cc821e920) - **feat:** add 6d accessors kernel _(by Athan Reines)_
+-   [`9025425`](https://github.com/stdlib-js/stdlib/commit/90254253e00833630dadb7dab5544cc413f9f2fa) - **style:** disable lint rule _(by Athan Reines)_
+-   [`964d21f`](https://github.com/stdlib-js/stdlib/commit/964d21f08ae155ea7409a3d6cb6a95eab1182bd8) - **feat:** add 5d accessors kernel _(by Athan Reines)_
+-   [`d223b39`](https://github.com/stdlib-js/stdlib/commit/d223b3924044d55e09a530f6b141c7087f1fa364) - **feat:** add 4d accessors kernel _(by Athan Reines)_
+-   [`12a9858`](https://github.com/stdlib-js/stdlib/commit/12a9858be8b89300b72ec80486a43564a97be05e) - **feat:** add 3d accessors kernel _(by Athan Reines)_
+-   [`a18a916`](https://github.com/stdlib-js/stdlib/commit/a18a916546eb2c364be0a314a2caa291490f5561) - **feat:** add 2d accessors kernel _(by Athan Reines)_
+-   [`18b91ff`](https://github.com/stdlib-js/stdlib/commit/18b91ffeee255d85ec8bf80c18f679711d71f9f0) - **feat:** add 1d accessors kernel _(by Athan Reines)_
+-   [`cdac44a`](https://github.com/stdlib-js/stdlib/commit/cdac44a8150892bde67cc5e4e3823bdd175fda48) - **feat:** add 0d accessors kernel _(by Athan Reines)_
+-   [`a9dd7d2`](https://github.com/stdlib-js/stdlib/commit/a9dd7d2da8dcb2a49f8ba1c87105714e4e89b45e) - **feat:** add nd kernel _(by Athan Reines)_
+-   [`059e866`](https://github.com/stdlib-js/stdlib/commit/059e8663bd3b995bcfa611460b354ab70ba69c77) - **feat:** add 10 kernel _(by Athan Reines)_
+-   [`3b7413a`](https://github.com/stdlib-js/stdlib/commit/3b7413a240746356763c5508797756f67b2f7f2f) - **feat:** add 9d kernel _(by Athan Reines)_
+-   [`1372f84`](https://github.com/stdlib-js/stdlib/commit/1372f84c834e08501006ebc7e1b22fc5053d0779) - **feat:** add 8d kernel _(by Athan Reines)_
+-   [`33822b7`](https://github.com/stdlib-js/stdlib/commit/33822b7385bff2697e3a6496f9874dc27793e70f) - **feat:** add 7d kernel _(by Athan Reines)_
+-   [`b459438`](https://github.com/stdlib-js/stdlib/commit/b459438fae2ae7484e102639f737dd36ccf02fd8) - **feat:** add 6d kernel _(by Athan Reines)_
+-   [`5ad453e`](https://github.com/stdlib-js/stdlib/commit/5ad453e52b68e90430abe40360443f52310de4c5) - **feat:** add 5d kernel _(by Athan Reines)_
+-   [`2d4acfe`](https://github.com/stdlib-js/stdlib/commit/2d4acfe9dade003dce0c5a34d819956fe975ce09) - **feat:** add 4d kernel _(by Athan Reines)_
+-   [`3c5c398`](https://github.com/stdlib-js/stdlib/commit/3c5c398099e4bd34b4f4e30661286d13b00102a2) - **feat:** add 3d kernel _(by Athan Reines)_
+-   [`6ad8db8`](https://github.com/stdlib-js/stdlib/commit/6ad8db8af20aac64755f89d1142ea7290b435b87) - **feat:** add 2d kernel _(by Athan Reines)_
+-   [`b55f6f7`](https://github.com/stdlib-js/stdlib/commit/b55f6f7ea07120361a6af7762631157ea20e7b93) - **feat:** add `1d` kernel _(by Athan Reines)_
+-   [`4ebe3c8`](https://github.com/stdlib-js/stdlib/commit/4ebe3c8d9fe099b9b9daaa03459f52a21bbedd27) - **feat:** add 0d kernel _(by Athan Reines)_
+-   [`9990c87`](https://github.com/stdlib-js/stdlib/commit/9990c87f2b4d99bab6fc24a5376ac69c1b160db1) - **docs:** update note _(by Athan Reines)_
+-   [`6eafecd`](https://github.com/stdlib-js/stdlib/commit/6eafecd48801dd4bcb20626341c998adfdcb3d32) - **docs:** update note _(by Athan Reines)_
+-   [`2369aeb`](https://github.com/stdlib-js/stdlib/commit/2369aebf8699a768a88b018c166ad220a108589f) - **docs:** update note _(by Athan Reines)_
+-   [`ee7d10d`](https://github.com/stdlib-js/stdlib/commit/ee7d10d4b989f11f10b355be7d5b7cad5d84e2a0) - **docs:** update note _(by Athan Reines)_
+-   [`e1e45f6`](https://github.com/stdlib-js/stdlib/commit/e1e45f6323aa212a1ae7bbc0ac584131f7c87805) - **chore:** fix EditorConfig lint errors [(#6860)](https://github.com/stdlib-js/stdlib/pull/6860) _(by zhanggy)_
+-   [`6bf62ef`](https://github.com/stdlib-js/stdlib/commit/6bf62efb7fde322edbdf4e0b46a74473dbd62d60) - **refactor:** update error message _(by Athan Reines)_
 -   [`6464a4b`](https://github.com/stdlib-js/stdlib/commit/6464a4ba00ba9579a2da77a0e2282a0f03bfdc01) - **docs:** update namespace table of contents [(#6828)](https://github.com/stdlib-js/stdlib/pull/6828) _(by stdlib-bot)_
 -   [`25abfc6`](https://github.com/stdlib-js/stdlib/commit/25abfc67b400f646304fa1f10b239a051f6569f6) - **refactor:** support non-built-in shape and strides objects _(by Athan Reines)_
 -   [`b087d7b`](https://github.com/stdlib-js/stdlib/commit/b087d7b801c7cae56cb39587b295fb7433638405) - **feat:** add support for enforcing traversal order _(by Athan Reines)_
@@ -701,7 +898,7 @@ A total of 11 issues were closed in this release:
 
 ### Contributors
 
-A total of 13 people contributed to this release. Thank you to the following contributors:
+A total of 14 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Bhavishy Agrawal
@@ -716,6 +913,7 @@ A total of 13 people contributed to this release. Thank you to the following con
 -   devshree-bhati
 -   ditsu
 -   lohithganni
+-   zhanggy
 
 </section>
 
