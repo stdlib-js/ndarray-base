@@ -83,6 +83,7 @@
     "@stdlib/ndarray-base-ind": "^0.2.2",
     "@stdlib/ndarray-base-ind2sub": "^0.2.2",
     "@stdlib/ndarray-base-iteration-order": "^0.2.2",
+    "@stdlib/ndarray-base-loop-interchange-order": "github:stdlib-js/ndarray-base-loop-interchange-order#main",
     "@stdlib/ndarray-base-map": "github:stdlib-js/ndarray-base-map#main",
     "@stdlib/ndarray-base-max-view-buffer-index": "^0.2.2",
     "@stdlib/ndarray-base-maybe-broadcast-array": "^0.2.3",

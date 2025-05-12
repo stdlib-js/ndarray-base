@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-11)
+## Unreleased (2025-05-12)
 
 <section class="features">
 
 ### Features
 
+-   [`9b0d852`](https://github.com/stdlib-js/stdlib/commit/9b0d8520418c2788d20d446b6a39471b6393a787) - add `loopOrder` to namespace
+-   [`bdc9110`](https://github.com/stdlib-js/stdlib/commit/bdc91105259200e3ebb60aea16e918718301ce4b) - add `ndarray/base/loop-interchange-order`
 -   [`e5ddc80`](https://github.com/stdlib-js/stdlib/commit/e5ddc80ad0e60653c61dfc8847ecc65dff6c69f2) - add `outputDataType` to namespace
 -   [`5e7af03`](https://github.com/stdlib-js/stdlib/commit/5e7af03b8d27240b12f4fbf7bbad86ff57b64917) - add `ndarray/base/output-dtype`
 -   [`1f3ebc8`](https://github.com/stdlib-js/stdlib/commit/1f3ebc857c1c4b98d4681867b0d738b572631bcd) - add `promoteDataTypes` to namespace
@@ -241,6 +243,9 @@
 
 ### Bug Fixes
 
+-   [`a4f78ea`](https://github.com/stdlib-js/stdlib/commit/a4f78ea79e24bab68ce4f3381c8bc9fb685bd002) - account for loop tiling when generating list of indices
+-   [`99be29d`](https://github.com/stdlib-js/stdlib/commit/99be29d87a59460302f43792e0f24b4dbe128dab) - account for loop tiling when generating list of indices
+-   [`9a1ee35`](https://github.com/stdlib-js/stdlib/commit/9a1ee35193c5c474720c58f34d9584f41108bc5c) - account for loop tiling when generating list of indices
 -   [`ae2b9a3`](https://github.com/stdlib-js/stdlib/commit/ae2b9a327b74ca7bdc03996cbb77a87053d19896) - use resolved order when computing loop variables
 -   [`9bc10d4`](https://github.com/stdlib-js/stdlib/commit/9bc10d4dc2b9afe6b55ca2b6e17c165e9dd2a88d) - use resolved order when computing loop variables
 -   [`ccc7890`](https://github.com/stdlib-js/stdlib/commit/ccc7890aee959303e2defbc627b32f66b18535eb) - check for row-major value
@@ -353,6 +358,17 @@ A total of 12 issues were closed in this release:
 
 <details>
 
+-   [`603ba97`](https://github.com/stdlib-js/stdlib/commit/603ba974c88f33cb73ba53c69435183ca535ded9) - **docs:** fix parameter names _(by Athan Reines)_
+-   [`dcfb648`](https://github.com/stdlib-js/stdlib/commit/dcfb6488ac9624b23ec546f7c54a2da0156c6695) - **refactor:** use generalized utility for resolving loop data _(by Athan Reines)_
+-   [`d8fe0d8`](https://github.com/stdlib-js/stdlib/commit/d8fe0d87591079990591bd5727abdabaa81cd265) - **bench:** update value generation and update examples _(by Athan Reines)_
+-   [`9b0d852`](https://github.com/stdlib-js/stdlib/commit/9b0d8520418c2788d20d446b6a39471b6393a787) - **feat:** add `loopOrder` to namespace _(by Athan Reines)_
+-   [`bdc9110`](https://github.com/stdlib-js/stdlib/commit/bdc91105259200e3ebb60aea16e918718301ce4b) - **feat:** add `ndarray/base/loop-interchange-order` _(by Athan Reines)_
+-   [`a4f78ea`](https://github.com/stdlib-js/stdlib/commit/a4f78ea79e24bab68ce4f3381c8bc9fb685bd002) - **fix:** account for loop tiling when generating list of indices _(by Athan Reines)_
+-   [`65748be`](https://github.com/stdlib-js/stdlib/commit/65748bea9a961babc95ff0f63b08f785097c79f9) - **docs:** fix parameter name _(by Athan Reines)_
+-   [`c67eb9f`](https://github.com/stdlib-js/stdlib/commit/c67eb9fb021a73f3417d80bf387f665e738b7135) - **docs:** update copy _(by Athan Reines)_
+-   [`417fdb8`](https://github.com/stdlib-js/stdlib/commit/417fdb8670894d84425db01e10a4e3910dca0d7b) - **docs:** add notes _(by Athan Reines)_
+-   [`99be29d`](https://github.com/stdlib-js/stdlib/commit/99be29d87a59460302f43792e0f24b4dbe128dab) - **fix:** account for loop tiling when generating list of indices _(by Athan Reines)_
+-   [`9a1ee35`](https://github.com/stdlib-js/stdlib/commit/9a1ee35193c5c474720c58f34d9584f41108bc5c) - **fix:** account for loop tiling when generating list of indices _(by Athan Reines)_
 -   [`9dbc485`](https://github.com/stdlib-js/stdlib/commit/9dbc4858e55015a26440f370643f322f4a63e41e) - **docs:** update namespace table of contents [(#6980)](https://github.com/stdlib-js/stdlib/pull/6980) _(by stdlib-bot)_
 -   [`26d65cd`](https://github.com/stdlib-js/stdlib/commit/26d65cd0dc57249b45b35032a3c251e715a9b8ce) - **refactor:** use generalized utility _(by Athan Reines)_
 -   [`b51882d`](https://github.com/stdlib-js/stdlib/commit/b51882d4f8acb7af8e93109c3b76ab36fcbb3b76) - **refactor:** use generalized utility _(by Athan Reines)_
