@@ -122,6 +122,7 @@ var o = ns;
 -   <span class="signature">[`ind( idx, max, mode )`][@stdlib/ndarray/base/ind]</span><span class="delimiter">: </span><span class="description">return an index given an index mode.</span>
 -   <span class="signature">[`ind2sub( shape, strides, offset, order, idx, mode )`][@stdlib/ndarray/base/ind2sub]</span><span class="delimiter">: </span><span class="description">convert a linear index to an array of subscripts.</span>
 -   <span class="signature">[`iterationOrder( strides )`][@stdlib/ndarray/base/iteration-order]</span><span class="delimiter">: </span><span class="description">given a stride array, determine array iteration order.</span>
+-   <span class="signature">[`loopOrder( shape, strides )`][@stdlib/ndarray/base/loop-interchange-order]</span><span class="delimiter">: </span><span class="description">reorder ndarray dimensions and associated strides for loop interchange.</span>
 -   <span class="signature">[`map( arrays, fcn[, thisArg] )`][@stdlib/ndarray/base/map]</span><span class="delimiter">: </span><span class="description">apply a callback function to elements in an input ndarray and assign results to elements in an output ndarray.</span>
 -   <span class="signature">[`maxViewBufferIndex( shape, strides, offset )`][@stdlib/ndarray/base/max-view-buffer-index]</span><span class="delimiter">: </span><span class="description">compute the maximum linear index in an underlying data buffer accessible to an array view.</span>
 -   <span class="signature">[`maybeBroadcastArray( arr, shape )`][@stdlib/ndarray/base/maybe-broadcast-array]</span><span class="delimiter">: </span><span class="description">broadcast an ndarray to a specified shape if and only if the specified shape differs from the provided ndarray's shape.</span>
@@ -410,6 +411,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/ndarray/base/ind2sub]: https://github.com/stdlib-js/ndarray-base-ind2sub
 
 [@stdlib/ndarray/base/iteration-order]: https://github.com/stdlib-js/ndarray-base-iteration-order
+
+[@stdlib/ndarray/base/loop-interchange-order]: https://github.com/stdlib-js/ndarray-base-loop-interchange-order
 
 [@stdlib/ndarray/base/map]: https://github.com/stdlib-js/ndarray-base-map
 
