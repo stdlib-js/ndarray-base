@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-13)
+## Unreleased (2025-05-26)
 
 <section class="features">
 
 ### Features
 
+-   [`5149a37`](https://github.com/stdlib-js/stdlib/commit/5149a3789bf321b18b1636b838ab086175b6c2ca) - add `ndarray/base/unary-reduce-subarray-by` [(#7008)](https://github.com/stdlib-js/stdlib/pull/7008)
+-   [`b2cefbe`](https://github.com/stdlib-js/stdlib/commit/b2cefbe2b2192cb705b85c43ffac2f57ca782c42) - add custom `valueOf` method
 -   [`9b0d852`](https://github.com/stdlib-js/stdlib/commit/9b0d8520418c2788d20d446b6a39471b6393a787) - add `loopOrder` to namespace
 -   [`bdc9110`](https://github.com/stdlib-js/stdlib/commit/bdc91105259200e3ebb60aea16e918718301ce4b) - add `ndarray/base/loop-interchange-order`
 -   [`e5ddc80`](https://github.com/stdlib-js/stdlib/commit/e5ddc80ad0e60653c61dfc8847ecc65dff6c69f2) - add `outputDataType` to namespace
@@ -243,6 +245,8 @@
 
 ### Bug Fixes
 
+-   [`a300862`](https://github.com/stdlib-js/stdlib/commit/a300862d4f05d4d8bd85f1e235db93ad5d35a767) - address increment bugs
+-   [`fab9873`](https://github.com/stdlib-js/stdlib/commit/fab9873a907807195f2f6673b5b97f09e383bd69) - address index bug
 -   [`a4f78ea`](https://github.com/stdlib-js/stdlib/commit/a4f78ea79e24bab68ce4f3381c8bc9fb685bd002) - account for loop tiling when generating list of indices
 -   [`99be29d`](https://github.com/stdlib-js/stdlib/commit/99be29d87a59460302f43792e0f24b4dbe128dab) - account for loop tiling when generating list of indices
 -   [`9a1ee35`](https://github.com/stdlib-js/stdlib/commit/9a1ee35193c5c474720c58f34d9584f41108bc5c) - account for loop tiling when generating list of indices
@@ -358,6 +362,13 @@ A total of 12 issues were closed in this release:
 
 <details>
 
+-   [`cc20b2d`](https://github.com/stdlib-js/stdlib/commit/cc20b2de446f10e06216b84bdd5457ef473ffdd6) - **refactor:** update require path _(by Athan Reines)_
+-   [`5149a37`](https://github.com/stdlib-js/stdlib/commit/5149a3789bf321b18b1636b838ab086175b6c2ca) - **feat:** add `ndarray/base/unary-reduce-subarray-by` [(#7008)](https://github.com/stdlib-js/stdlib/pull/7008) _(by Muhammad Haris, Athan Reines)_
+-   [`a300862`](https://github.com/stdlib-js/stdlib/commit/a300862d4f05d4d8bd85f1e235db93ad5d35a767) - **fix:** address increment bugs _(by Athan Reines)_
+-   [`fab9873`](https://github.com/stdlib-js/stdlib/commit/fab9873a907807195f2f6673b5b97f09e383bd69) - **fix:** address index bug _(by Athan Reines)_
+-   [`c8ed1f9`](https://github.com/stdlib-js/stdlib/commit/c8ed1f99772d36d99cf0d836a506c3c83f58c02c) - **docs:** fix description _(by Athan Reines)_
+-   [`30e17f4`](https://github.com/stdlib-js/stdlib/commit/30e17f4a8ea63e7cad77946fc946a7c587781bb9) - **docs:** update descriptions _(by Athan Reines)_
+-   [`b2cefbe`](https://github.com/stdlib-js/stdlib/commit/b2cefbe2b2192cb705b85c43ffac2f57ca782c42) - **feat:** add custom `valueOf` method _(by Athan Reines)_
 -   [`9b8f3a8`](https://github.com/stdlib-js/stdlib/commit/9b8f3a8e51b449803b683c7bf394d498de479a5f) - **docs:** update namespace table of contents [(#6996)](https://github.com/stdlib-js/stdlib/pull/6996) _(by stdlib-bot)_
 -   [`603ba97`](https://github.com/stdlib-js/stdlib/commit/603ba974c88f33cb73ba53c69435183ca535ded9) - **docs:** fix parameter names _(by Athan Reines)_
 -   [`dcfb648`](https://github.com/stdlib-js/stdlib/commit/dcfb6488ac9624b23ec546f7c54a2da0156c6695) - **refactor:** use generalized utility for resolving loop data _(by Athan Reines)_

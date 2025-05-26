@@ -162,8 +162,8 @@
   "devDependencies": {
     "@stdlib/array-base-accessor-getter": "^0.2.2",
     "@stdlib/array-base-accessor-setter": "^0.2.2",
+    "@stdlib/array-base-any-is-entry-in": "github:stdlib-js/array-base-any-is-entry-in#main",
     "@stdlib/array-base-arraylike2object": "^0.2.1",
-    "@stdlib/array-base-assert-any-is-entry-in": "github:stdlib-js/array-base-assert-any-is-entry-in#main",
     "@stdlib/array-base-assert-contains": "^0.2.2",
     "@stdlib/array-base-assert-has-equal-values-indexed": "github:stdlib-js/array-base-assert-has-equal-values-indexed#main",
     "@stdlib/array-base-assert-is-accessor-array": "^0.2.2",
@@ -184,6 +184,7 @@
     "@stdlib/array-base-n-cartesian-product": "^0.2.2",
     "@stdlib/array-base-nulls": "github:stdlib-js/array-base-nulls#main",
     "@stdlib/array-base-ones": "^0.2.2",
+    "@stdlib/array-base-put": "^0.0.2",
     "@stdlib/array-base-reverse": "^0.2.2",
     "@stdlib/array-base-setter": "^0.2.2",
     "@stdlib/array-base-slice": "^0.2.2",
