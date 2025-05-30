@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-26)
+## Unreleased (2025-05-30)
 
 <section class="features">
 
 ### Features
 
+-   [`737ae65`](https://github.com/stdlib-js/stdlib/commit/737ae657cece40efaf246fdc2a33e84bfa314fe3) - add `unaryReduceSubarrayBy` to namespace
+-   [`6c567f0`](https://github.com/stdlib-js/stdlib/commit/6c567f0b8ae1c0987f30b08dc032dd0af800793d) - add `countTruthy` to namespace
+-   [`63796c4`](https://github.com/stdlib-js/stdlib/commit/63796c4bc3bc0d3cef746b97ea92e286abbc78c7) - add `ndarray/base/count-truthy`
 -   [`5149a37`](https://github.com/stdlib-js/stdlib/commit/5149a3789bf321b18b1636b838ab086175b6c2ca) - add `ndarray/base/unary-reduce-subarray-by` [(#7008)](https://github.com/stdlib-js/stdlib/pull/7008)
 -   [`b2cefbe`](https://github.com/stdlib-js/stdlib/commit/b2cefbe2b2192cb705b85c43ffac2f57ca782c42) - add custom `valueOf` method
 -   [`9b0d852`](https://github.com/stdlib-js/stdlib/commit/9b0d8520418c2788d20d446b6a39471b6393a787) - add `loopOrder` to namespace
@@ -362,6 +365,16 @@ A total of 12 issues were closed in this release:
 
 <details>
 
+-   [`d7ff4d9`](https://github.com/stdlib-js/stdlib/commit/d7ff4d95ef2cc594f26213c09c8930620f3ca8f0) - **docs:** update namespace table of contents [(#7116)](https://github.com/stdlib-js/stdlib/pull/7116) _(by stdlib-bot)_
+-   [`737ae65`](https://github.com/stdlib-js/stdlib/commit/737ae657cece40efaf246fdc2a33e84bfa314fe3) - **feat:** add `unaryReduceSubarrayBy` to namespace _(by Athan Reines)_
+-   [`6c567f0`](https://github.com/stdlib-js/stdlib/commit/6c567f0b8ae1c0987f30b08dc032dd0af800793d) - **feat:** add `countTruthy` to namespace _(by Athan Reines)_
+-   [`63796c4`](https://github.com/stdlib-js/stdlib/commit/63796c4bc3bc0d3cef746b97ea92e286abbc78c7) - **feat:** add `ndarray/base/count-truthy` _(by Athan Reines)_
+-   [`b00bebf`](https://github.com/stdlib-js/stdlib/commit/b00bebf69833c3e4de2c280472c166fc79cfaf44) - **docs:** fix examples _(by Athan Reines)_
+-   [`92cf47b`](https://github.com/stdlib-js/stdlib/commit/92cf47b704f75a6a0074d4ee3b5f65de0dd411b2) - **bench:** fix typo in filename _(by Athan Reines)_
+-   [`11e6c60`](https://github.com/stdlib-js/stdlib/commit/11e6c608e47109a8576613435dc1c43ea2d9dbc8) - **bench:** fix typo in filename _(by Athan Reines)_
+-   [`ff2a8c6`](https://github.com/stdlib-js/stdlib/commit/ff2a8c6de98066b13d14ee4a771f68fa8f99f586) - **docs:** update comment _(by Athan Reines)_
+-   [`388d79e`](https://github.com/stdlib-js/stdlib/commit/388d79e99d05a7de27b193de72f46618ccba1241) - **docs:** update comment _(by Athan Reines)_
+-   [`19164e7`](https://github.com/stdlib-js/stdlib/commit/19164e7d0f3cad9e5f3090ea12db115fda8628e9) - **docs:** update example _(by Athan Reines)_
 -   [`cc20b2d`](https://github.com/stdlib-js/stdlib/commit/cc20b2de446f10e06216b84bdd5457ef473ffdd6) - **refactor:** update require path _(by Athan Reines)_
 -   [`5149a37`](https://github.com/stdlib-js/stdlib/commit/5149a3789bf321b18b1636b838ab086175b6c2ca) - **feat:** add `ndarray/base/unary-reduce-subarray-by` [(#7008)](https://github.com/stdlib-js/stdlib/pull/7008) _(by Muhammad Haris, Athan Reines)_
 -   [`a300862`](https://github.com/stdlib-js/stdlib/commit/a300862d4f05d4d8bd85f1e235db93ad5d35a767) - **fix:** address increment bugs _(by Athan Reines)_
