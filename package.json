@@ -131,6 +131,7 @@
     "@stdlib/ndarray-base-slice-dimension-to": "^0.2.2",
     "@stdlib/ndarray-base-slice-from": "^0.2.2",
     "@stdlib/ndarray-base-slice-to": "^0.2.2",
+    "@stdlib/ndarray-base-some-by": "github:stdlib-js/ndarray-base-some-by#main",
     "@stdlib/ndarray-base-spread-dimensions": "github:stdlib-js/ndarray-base-spread-dimensions#main",
     "@stdlib/ndarray-base-stride": "^0.2.2",
     "@stdlib/ndarray-base-strides": "^0.2.2",

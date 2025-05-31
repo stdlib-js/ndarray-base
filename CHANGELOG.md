@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`e05819a`](https://github.com/stdlib-js/stdlib/commit/e05819abfe0fbf982469653a85add02159e8b122) - add `someBy` to namespace
+-   [`350203f`](https://github.com/stdlib-js/stdlib/commit/350203f7cb6419700b7b07e558b677fb177828f8) - add `ndarray/base/some-by` [(#7087)](https://github.com/stdlib-js/stdlib/pull/7087)
 -   [`ee2b159`](https://github.com/stdlib-js/stdlib/commit/ee2b159ed8a4f1396f8ca0b66f39d6d69326ac9a) - add `countIf` to namespace
 -   [`e1f67f1`](https://github.com/stdlib-js/stdlib/commit/e1f67f1a48d2b596ea19b2dd8433d67a122cc0fc) - add `ndarray/base/count-if`
 -   [`fe062d3`](https://github.com/stdlib-js/stdlib/commit/fe062d37148ed8c6f474fafb36904f01b5903156) - add `countFalsy` to namespace
@@ -369,6 +371,8 @@ A total of 14 issues were closed in this release:
 
 <details>
 
+-   [`e05819a`](https://github.com/stdlib-js/stdlib/commit/e05819abfe0fbf982469653a85add02159e8b122) - **feat:** add `someBy` to namespace _(by Athan Reines)_
+-   [`350203f`](https://github.com/stdlib-js/stdlib/commit/350203f7cb6419700b7b07e558b677fb177828f8) - **feat:** add `ndarray/base/some-by` [(#7087)](https://github.com/stdlib-js/stdlib/pull/7087) _(by Muhammad Haris, Athan Reines)_
 -   [`f425761`](https://github.com/stdlib-js/stdlib/commit/f425761ec069b02489419f9982cc3f6f83799c53) - **docs:** update comment _(by Athan Reines)_
 -   [`07508fb`](https://github.com/stdlib-js/stdlib/commit/07508fb8b65cdc3b48410eb7e49381e8664eaf7d) - **docs:** update comment _(by Athan Reines)_
 -   [`02934dd`](https://github.com/stdlib-js/stdlib/commit/02934ddb2c30d40c07f4a8de4c7ef8e83b8c6757) - **docs:** update comment _(by Athan Reines)_
