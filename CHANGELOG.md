@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`ee2b159`](https://github.com/stdlib-js/stdlib/commit/ee2b159ed8a4f1396f8ca0b66f39d6d69326ac9a) - add `countIf` to namespace
+-   [`e1f67f1`](https://github.com/stdlib-js/stdlib/commit/e1f67f1a48d2b596ea19b2dd8433d67a122cc0fc) - add `ndarray/base/count-if`
 -   [`fe062d3`](https://github.com/stdlib-js/stdlib/commit/fe062d37148ed8c6f474fafb36904f01b5903156) - add `countFalsy` to namespace
 -   [`6df26cb`](https://github.com/stdlib-js/stdlib/commit/6df26cb20720cc4d566f5667debe8c60cf706f8f) - add `ndarray/base/count-falsy`
 -   [`737ae65`](https://github.com/stdlib-js/stdlib/commit/737ae657cece40efaf246fdc2a33e84bfa314fe3) - add `unaryReduceSubarrayBy` to namespace
@@ -353,9 +355,9 @@
 
 ### Closed Issues
 
-A total of 13 issues were closed in this release:
+A total of 14 issues were closed in this release:
 
-[#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5788](https://github.com/stdlib-js/stdlib/issues/5788), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#6053](https://github.com/stdlib-js/stdlib/issues/6053), [#6236](https://github.com/stdlib-js/stdlib/issues/6236), [#6456](https://github.com/stdlib-js/stdlib/issues/6456), [#6457](https://github.com/stdlib-js/stdlib/issues/6457), [#6574](https://github.com/stdlib-js/stdlib/issues/6574), [#6589](https://github.com/stdlib-js/stdlib/issues/6589), [#6604](https://github.com/stdlib-js/stdlib/issues/6604), [#6663](https://github.com/stdlib-js/stdlib/issues/6663), [#6776](https://github.com/stdlib-js/stdlib/issues/6776), [#7114](https://github.com/stdlib-js/stdlib/issues/7114)
+[#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5788](https://github.com/stdlib-js/stdlib/issues/5788), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#6053](https://github.com/stdlib-js/stdlib/issues/6053), [#6236](https://github.com/stdlib-js/stdlib/issues/6236), [#6456](https://github.com/stdlib-js/stdlib/issues/6456), [#6457](https://github.com/stdlib-js/stdlib/issues/6457), [#6574](https://github.com/stdlib-js/stdlib/issues/6574), [#6589](https://github.com/stdlib-js/stdlib/issues/6589), [#6604](https://github.com/stdlib-js/stdlib/issues/6604), [#6663](https://github.com/stdlib-js/stdlib/issues/6663), [#6776](https://github.com/stdlib-js/stdlib/issues/6776), [#7114](https://github.com/stdlib-js/stdlib/issues/7114), [#7135](https://github.com/stdlib-js/stdlib/issues/7135)
 
 </section>
 
@@ -367,6 +369,13 @@ A total of 13 issues were closed in this release:
 
 <details>
 
+-   [`f425761`](https://github.com/stdlib-js/stdlib/commit/f425761ec069b02489419f9982cc3f6f83799c53) - **docs:** update comment _(by Athan Reines)_
+-   [`07508fb`](https://github.com/stdlib-js/stdlib/commit/07508fb8b65cdc3b48410eb7e49381e8664eaf7d) - **docs:** update comment _(by Athan Reines)_
+-   [`02934dd`](https://github.com/stdlib-js/stdlib/commit/02934ddb2c30d40c07f4a8de4c7ef8e83b8c6757) - **docs:** update comment _(by Athan Reines)_
+-   [`b98ce6e`](https://github.com/stdlib-js/stdlib/commit/b98ce6ed7551ce3232474ea17a31693528a56bca) - **docs:** fix note _(by Athan Reines)_
+-   [`ee2b159`](https://github.com/stdlib-js/stdlib/commit/ee2b159ed8a4f1396f8ca0b66f39d6d69326ac9a) - **feat:** add `countIf` to namespace _(by Athan Reines)_
+-   [`e1f67f1`](https://github.com/stdlib-js/stdlib/commit/e1f67f1a48d2b596ea19b2dd8433d67a122cc0fc) - **feat:** add `ndarray/base/count-if` _(by Athan Reines)_
+-   [`a5f516c`](https://github.com/stdlib-js/stdlib/commit/a5f516c96d479568dca5099e24fe709977d3ec5b) - **chore:** fix EditorConfig lint errors [(#7137)](https://github.com/stdlib-js/stdlib/pull/7137) _(by Karan Vasudevamurthy)_
 -   [`7615f51`](https://github.com/stdlib-js/stdlib/commit/7615f51e363ddd06950c778d49abc2c60308fa61) - **docs:** update namespace table of contents [(#7139)](https://github.com/stdlib-js/stdlib/pull/7139) _(by stdlib-bot)_
 -   [`385ab25`](https://github.com/stdlib-js/stdlib/commit/385ab256cd1a74c103ed333727946183f9bf723c) - **chore:** fix EditorConfig lint errors [(#7118)](https://github.com/stdlib-js/stdlib/pull/7118) _(by Tushar Bhardwaj, Athan Reines, stdlib-bot)_
 -   [`fe062d3`](https://github.com/stdlib-js/stdlib/commit/fe062d37148ed8c6f474fafb36904f01b5903156) - **feat:** add `countFalsy` to namespace _(by Athan Reines)_
@@ -962,12 +971,13 @@ A total of 13 issues were closed in this release:
 
 ### Contributors
 
-A total of 15 people contributed to this release. Thank you to the following contributors:
+A total of 16 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Bhavishy Agrawal
 -   Dipjyoti Das
 -   Gururaj Gurram
+-   Karan Vasudevamurthy
 -   Kaushikgtm
 -   MANI
 -   Muhammad Haris
