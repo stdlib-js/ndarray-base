@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-30)
+## Unreleased (2025-05-31)
 
 <section class="features">
 
 ### Features
 
+-   [`fe062d3`](https://github.com/stdlib-js/stdlib/commit/fe062d37148ed8c6f474fafb36904f01b5903156) - add `countFalsy` to namespace
+-   [`6df26cb`](https://github.com/stdlib-js/stdlib/commit/6df26cb20720cc4d566f5667debe8c60cf706f8f) - add `ndarray/base/count-falsy`
 -   [`737ae65`](https://github.com/stdlib-js/stdlib/commit/737ae657cece40efaf246fdc2a33e84bfa314fe3) - add `unaryReduceSubarrayBy` to namespace
 -   [`6c567f0`](https://github.com/stdlib-js/stdlib/commit/6c567f0b8ae1c0987f30b08dc032dd0af800793d) - add `countTruthy` to namespace
 -   [`63796c4`](https://github.com/stdlib-js/stdlib/commit/63796c4bc3bc0d3cef746b97ea92e286abbc78c7) - add `ndarray/base/count-truthy`
@@ -351,9 +353,9 @@
 
 ### Closed Issues
 
-A total of 12 issues were closed in this release:
+A total of 13 issues were closed in this release:
 
-[#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5788](https://github.com/stdlib-js/stdlib/issues/5788), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#6053](https://github.com/stdlib-js/stdlib/issues/6053), [#6236](https://github.com/stdlib-js/stdlib/issues/6236), [#6456](https://github.com/stdlib-js/stdlib/issues/6456), [#6457](https://github.com/stdlib-js/stdlib/issues/6457), [#6574](https://github.com/stdlib-js/stdlib/issues/6574), [#6589](https://github.com/stdlib-js/stdlib/issues/6589), [#6604](https://github.com/stdlib-js/stdlib/issues/6604), [#6663](https://github.com/stdlib-js/stdlib/issues/6663), [#6776](https://github.com/stdlib-js/stdlib/issues/6776)
+[#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5788](https://github.com/stdlib-js/stdlib/issues/5788), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#6053](https://github.com/stdlib-js/stdlib/issues/6053), [#6236](https://github.com/stdlib-js/stdlib/issues/6236), [#6456](https://github.com/stdlib-js/stdlib/issues/6456), [#6457](https://github.com/stdlib-js/stdlib/issues/6457), [#6574](https://github.com/stdlib-js/stdlib/issues/6574), [#6589](https://github.com/stdlib-js/stdlib/issues/6589), [#6604](https://github.com/stdlib-js/stdlib/issues/6604), [#6663](https://github.com/stdlib-js/stdlib/issues/6663), [#6776](https://github.com/stdlib-js/stdlib/issues/6776), [#7114](https://github.com/stdlib-js/stdlib/issues/7114)
 
 </section>
 
@@ -365,7 +367,14 @@ A total of 12 issues were closed in this release:
 
 <details>
 
+-   [`7615f51`](https://github.com/stdlib-js/stdlib/commit/7615f51e363ddd06950c778d49abc2c60308fa61) - **docs:** update namespace table of contents [(#7139)](https://github.com/stdlib-js/stdlib/pull/7139) _(by stdlib-bot)_
+-   [`385ab25`](https://github.com/stdlib-js/stdlib/commit/385ab256cd1a74c103ed333727946183f9bf723c) - **chore:** fix EditorConfig lint errors [(#7118)](https://github.com/stdlib-js/stdlib/pull/7118) _(by Tushar Bhardwaj, Athan Reines, stdlib-bot)_
+-   [`fe062d3`](https://github.com/stdlib-js/stdlib/commit/fe062d37148ed8c6f474fafb36904f01b5903156) - **feat:** add `countFalsy` to namespace _(by Athan Reines)_
+-   [`6df26cb`](https://github.com/stdlib-js/stdlib/commit/6df26cb20720cc4d566f5667debe8c60cf706f8f) - **feat:** add `ndarray/base/count-falsy` _(by Athan Reines)_
 -   [`d7ff4d9`](https://github.com/stdlib-js/stdlib/commit/d7ff4d95ef2cc594f26213c09c8930620f3ca8f0) - **docs:** update namespace table of contents [(#7116)](https://github.com/stdlib-js/stdlib/pull/7116) _(by stdlib-bot)_
+-   [`4bbd8c3`](https://github.com/stdlib-js/stdlib/commit/4bbd8c3b489a7a170d00f1330051b526407f9194) - **docs:** update example _(by Athan Reines)_
+-   [`cad5279`](https://github.com/stdlib-js/stdlib/commit/cad5279c2af21abc508e712ae31eb57a32a0e8bb) - **docs:** fix example _(by Athan Reines)_
+-   [`e84dc6e`](https://github.com/stdlib-js/stdlib/commit/e84dc6e0b895e5b9247ffd8606e635d1f6867a20) - **style:** fix alignment _(by Athan Reines)_
 -   [`737ae65`](https://github.com/stdlib-js/stdlib/commit/737ae657cece40efaf246fdc2a33e84bfa314fe3) - **feat:** add `unaryReduceSubarrayBy` to namespace _(by Athan Reines)_
 -   [`6c567f0`](https://github.com/stdlib-js/stdlib/commit/6c567f0b8ae1c0987f30b08dc032dd0af800793d) - **feat:** add `countTruthy` to namespace _(by Athan Reines)_
 -   [`63796c4`](https://github.com/stdlib-js/stdlib/commit/63796c4bc3bc0d3cef746b97ea92e286abbc78c7) - **feat:** add `ndarray/base/count-truthy` _(by Athan Reines)_
@@ -953,7 +962,7 @@ A total of 12 issues were closed in this release:
 
 ### Contributors
 
-A total of 14 people contributed to this release. Thank you to the following contributors:
+A total of 15 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Bhavishy Agrawal
@@ -965,6 +974,7 @@ A total of 14 people contributed to this release. Thank you to the following con
 -   Philipp Burckhardt
 -   Pravesh Kunwar
 -   Sai Avinash
+-   Tushar Bhardwaj
 -   devshree-bhati
 -   ditsu
 -   lohithganni
