@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-01)
+## Unreleased (2025-06-06)
 
 <section class="features">
 
 ### Features
 
+-   [`2460ce8`](https://github.com/stdlib-js/stdlib/commit/2460ce82935de6512ee0979cc3b3918924af5ae1) - add `unaryReduceStrided1dBy` to namespace
+-   [`b228b5e`](https://github.com/stdlib-js/stdlib/commit/b228b5e89da183b38160c6cd6f9908a07918dd09) - add `ndarray/base/unary-reduce-strided1d-by` [(#7214)](https://github.com/stdlib-js/stdlib/pull/7214)
 -   [`e05819a`](https://github.com/stdlib-js/stdlib/commit/e05819abfe0fbf982469653a85add02159e8b122) - add `someBy` to namespace
 -   [`350203f`](https://github.com/stdlib-js/stdlib/commit/350203f7cb6419700b7b07e558b677fb177828f8) - add `ndarray/base/some-by` [(#7087)](https://github.com/stdlib-js/stdlib/pull/7087)
 -   [`ee2b159`](https://github.com/stdlib-js/stdlib/commit/ee2b159ed8a4f1396f8ca0b66f39d6d69326ac9a) - add `countIf` to namespace
@@ -254,6 +256,9 @@
 
 ### Bug Fixes
 
+-   [`3f6c0ff`](https://github.com/stdlib-js/stdlib/commit/3f6c0ffd9568665b54d0547b0550b2c96505bed6) - address increment bug
+-   [`4d29349`](https://github.com/stdlib-js/stdlib/commit/4d29349017e6d62d7f72aa0c3a86a24fdd83e86a) - address increment bug
+-   [`d1f5820`](https://github.com/stdlib-js/stdlib/commit/d1f58208fc95174fcfce03f00df278a8190578de) - address increment bug
 -   [`a300862`](https://github.com/stdlib-js/stdlib/commit/a300862d4f05d4d8bd85f1e235db93ad5d35a767) - address increment bugs
 -   [`fab9873`](https://github.com/stdlib-js/stdlib/commit/fab9873a907807195f2f6673b5b97f09e383bd69) - address index bug
 -   [`a4f78ea`](https://github.com/stdlib-js/stdlib/commit/a4f78ea79e24bab68ce4f3381c8bc9fb685bd002) - account for loop tiling when generating list of indices
@@ -371,6 +376,22 @@ A total of 14 issues were closed in this release:
 
 <details>
 
+-   [`2460ce8`](https://github.com/stdlib-js/stdlib/commit/2460ce82935de6512ee0979cc3b3918924af5ae1) - **feat:** add `unaryReduceStrided1dBy` to namespace _(by Athan Reines)_
+-   [`b228b5e`](https://github.com/stdlib-js/stdlib/commit/b228b5e89da183b38160c6cd6f9908a07918dd09) - **feat:** add `ndarray/base/unary-reduce-strided1d-by` [(#7214)](https://github.com/stdlib-js/stdlib/pull/7214) _(by Muhammad Haris, Athan Reines)_
+-   [`3f6c0ff`](https://github.com/stdlib-js/stdlib/commit/3f6c0ffd9568665b54d0547b0550b2c96505bed6) - **fix:** address increment bug _(by Athan Reines)_
+-   [`4d29349`](https://github.com/stdlib-js/stdlib/commit/4d29349017e6d62d7f72aa0c3a86a24fdd83e86a) - **fix:** address increment bug _(by Athan Reines)_
+-   [`d1f5820`](https://github.com/stdlib-js/stdlib/commit/d1f58208fc95174fcfce03f00df278a8190578de) - **fix:** address increment bug _(by Athan Reines)_
+-   [`e031b1b`](https://github.com/stdlib-js/stdlib/commit/e031b1b5d6c8993087b34770ae694ba11c23532a) - **docs:** fix comment _(by Athan Reines)_
+-   [`bcfac3b`](https://github.com/stdlib-js/stdlib/commit/bcfac3b4e64b90de693948adfffe3658f9b99e99) - **docs:** update example _(by Athan Reines)_
+-   [`dc302b7`](https://github.com/stdlib-js/stdlib/commit/dc302b712bee9871320887a4473c707512dc9196) - **test:** fix broken tests _(by Athan Reines)_
+-   [`9168604`](https://github.com/stdlib-js/stdlib/commit/9168604c1138d438bee5c6856026cc36de35e705) - **refactor:** improve type specificity _(by Athan Reines)_
+-   [`49952f7`](https://github.com/stdlib-js/stdlib/commit/49952f7b2fbfdad1b20108aab89a34aeab73da48) - **refactor:** improve type specificity _(by Athan Reines)_
+-   [`d47c5ea`](https://github.com/stdlib-js/stdlib/commit/d47c5eab74c76573c9479de1bc7addf8a97483cb) - **docs:** update example _(by Athan Reines)_
+-   [`0643a79`](https://github.com/stdlib-js/stdlib/commit/0643a7936cfa4d916eb52b0f4ad89964ceb70560) - **bench:** fix call signatures _(by Athan Reines)_
+-   [`344834e`](https://github.com/stdlib-js/stdlib/commit/344834ebf6c9102b86aee2c7c45b9e60e8486576) - **refactor:** rename template parameter _(by Athan Reines)_
+-   [`37070e8`](https://github.com/stdlib-js/stdlib/commit/37070e8d3748ba83f8fcbf41f5a3dc9a4f2bd2a8) - **bench:** refactor value generation _(by Athan Reines)_
+-   [`2bec349`](https://github.com/stdlib-js/stdlib/commit/2bec349f607cc8fd3a4d05e6aca72c73b734c888) - **chore:** clean-up descriptions and comments _(by Athan Reines)_
+-   [`0367f1d`](https://github.com/stdlib-js/stdlib/commit/0367f1d22be37c646f5a354c6c34ee3a755b3aeb) - **refactor:** fix error messages and use string interpolation _(by Athan Reines)_
 -   [`f50db5b`](https://github.com/stdlib-js/stdlib/commit/f50db5b43e51607e188f38bd6fab7d0ad5098110) - **docs:** update namespace table of contents [(#7152)](https://github.com/stdlib-js/stdlib/pull/7152) _(by stdlib-bot)_
 -   [`e05819a`](https://github.com/stdlib-js/stdlib/commit/e05819abfe0fbf982469653a85add02159e8b122) - **feat:** add `someBy` to namespace _(by Athan Reines)_
 -   [`350203f`](https://github.com/stdlib-js/stdlib/commit/350203f7cb6419700b7b07e558b677fb177828f8) - **feat:** add `ndarray/base/some-by` [(#7087)](https://github.com/stdlib-js/stdlib/pull/7087) _(by Muhammad Haris, Athan Reines)_
