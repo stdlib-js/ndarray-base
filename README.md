@@ -187,6 +187,7 @@ var o = ns;
 -   <span class="signature">[`unaryInputCastingDataType( idtype, odtype, policy )`][@stdlib/ndarray/base/unary-input-casting-dtype]</span><span class="delimiter">: </span><span class="description">resolve the input ndarray casting data type for a unary function.</span>
 -   <span class="signature">[`unaryLoopOrder( shape, stridesX, stridesY )`][@stdlib/ndarray/base/unary-loop-interchange-order]</span><span class="delimiter">: </span><span class="description">reorder ndarray dimensions and associated strides for loop interchange.</span>
 -   <span class="signature">[`unaryOutputDataType( dtype, policy )`][@stdlib/ndarray/base/unary-output-dtype]</span><span class="delimiter">: </span><span class="description">resolve the output ndarray data type for a unary function.</span>
+-   <span class="signature">[`unaryReduceStrided1dBy( fcn, arrays, dims[, options], clbk[, thisArg] )`][@stdlib/ndarray/base/unary-reduce-strided1d-by]</span><span class="delimiter">: </span><span class="description">perform a reduction over a list of specified dimensions in an input ndarray via a one-dimensional strided array reduction function accepting a callback and assign results to a provided output ndarray.</span>
 -   <span class="signature">[`unaryReduceStrided1dDispatchFactory( table, idtypes, odtypes, policies )`][@stdlib/ndarray/base/unary-reduce-strided1d-dispatch-factory]</span><span class="delimiter">: </span><span class="description">create a function for performing a reduction on an input ndarray.</span>
 -   <span class="signature">[`unaryReduceStrided1dDispatch( table, idtypes, odtypes, policies )`][@stdlib/ndarray/base/unary-reduce-strided1d-dispatch]</span><span class="delimiter">: </span><span class="description">constructor for performing a reduction on an input ndarray.</span>
 -   <span class="signature">[`unaryReduceStrided1d( fcn, arrays, dims[, options] )`][@stdlib/ndarray/base/unary-reduce-strided1d]</span><span class="delimiter">: </span><span class="description">perform a reduction over a list of specified dimensions in an input ndarray via a one-dimensional strided array reduction function and assign results to a provided output ndarray.</span>
@@ -546,6 +547,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/ndarray/base/unary-loop-interchange-order]: https://github.com/stdlib-js/ndarray-base-unary-loop-interchange-order
 
 [@stdlib/ndarray/base/unary-output-dtype]: https://github.com/stdlib-js/ndarray-base-unary-output-dtype
+
+[@stdlib/ndarray/base/unary-reduce-strided1d-by]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-by
 
 [@stdlib/ndarray/base/unary-reduce-strided1d-dispatch-factory]: https://github.com/stdlib-js/ndarray-base-unary-reduce-strided1d-dispatch-factory
 
