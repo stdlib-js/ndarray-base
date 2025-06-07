@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-06)
+## Unreleased (2025-06-07)
 
 <section class="features">
 
@@ -382,6 +382,7 @@ A total of 14 issues were closed in this release:
 
 <details>
 
+-   [`4833ce6`](https://github.com/stdlib-js/stdlib/commit/4833ce619a3e26e217f6ae5db96fb3c6b3e4a604) - **docs:** update namespace table of contents [(#7243)](https://github.com/stdlib-js/stdlib/pull/7243) _(by stdlib-bot)_
 -   [`71f1df4`](https://github.com/stdlib-js/stdlib/commit/71f1df4e7a7c70aa99e3ea52aaabaafa6d033878) - **docs:** update examples _(by Athan Reines)_
 -   [`9b376ef`](https://github.com/stdlib-js/stdlib/commit/9b376effa2bcc564e59814df6bb609b40370c303) - **docs:** update examples _(by Athan Reines)_
 -   [`da7f3a3`](https://github.com/stdlib-js/stdlib/commit/da7f3a3223a6f8cef6847d05ddc059825d93dbbd) - **docs:** fix require path _(by Athan Reines)_
