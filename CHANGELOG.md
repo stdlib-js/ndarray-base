@@ -4,12 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-07)
+## Unreleased (2025-06-24)
 
 <section class="features">
 
 ### Features
 
+-   [`b1f7e33`](https://github.com/stdlib-js/stdlib/commit/b1f7e33277d00292ca5b45de636eaf80b3d45c22) - add `ndarraylike2scalar` to namespace
+-   [`7a8bc40`](https://github.com/stdlib-js/stdlib/commit/7a8bc400fc2e1dd6a5edabc750bb75f4f665c041) - add `ndarray/base/ndarraylike2scalar`
+-   [`eac188f`](https://github.com/stdlib-js/stdlib/commit/eac188f4def9fa545e9e0cfcd5731a66337fcd1a) - add support for struct data types
+-   [`99ecc69`](https://github.com/stdlib-js/stdlib/commit/99ecc6907e9c26dabe4dd8e8dfb3b08d10d622c3) - add `isStructDataType` to namespace
+-   [`d20a2ea`](https://github.com/stdlib-js/stdlib/commit/d20a2ea2cba39ea485abb500861a1fdc2088a36c) - add `ndarray/base/assert/is-struct-data-type`
 -   [`9a30157`](https://github.com/stdlib-js/stdlib/commit/9a3015754f96452f5f205d91338bbc92def20249) - add `unaryReduceStrided1dDispatchByFactory` to namespace
 -   [`50ebfa6`](https://github.com/stdlib-js/stdlib/commit/50ebfa6340bddbb7627195e27bdf7ece3a6f1198) - add `unaryReduceStrided1dDispatchBy` to namespace
 -   [`64103e2`](https://github.com/stdlib-js/stdlib/commit/64103e22a2cf0fcad5914d53885d09e311fef6ee) - add `ndarray/base/unary-reduce-strided1d-dispatch-by-factory`
@@ -368,9 +373,9 @@
 
 ### Closed Issues
 
-A total of 14 issues were closed in this release:
+A total of 17 issues were closed in this release:
 
-[#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5788](https://github.com/stdlib-js/stdlib/issues/5788), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#6053](https://github.com/stdlib-js/stdlib/issues/6053), [#6236](https://github.com/stdlib-js/stdlib/issues/6236), [#6456](https://github.com/stdlib-js/stdlib/issues/6456), [#6457](https://github.com/stdlib-js/stdlib/issues/6457), [#6574](https://github.com/stdlib-js/stdlib/issues/6574), [#6589](https://github.com/stdlib-js/stdlib/issues/6589), [#6604](https://github.com/stdlib-js/stdlib/issues/6604), [#6663](https://github.com/stdlib-js/stdlib/issues/6663), [#6776](https://github.com/stdlib-js/stdlib/issues/6776), [#7114](https://github.com/stdlib-js/stdlib/issues/7114), [#7135](https://github.com/stdlib-js/stdlib/issues/7135)
+[#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5788](https://github.com/stdlib-js/stdlib/issues/5788), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#6053](https://github.com/stdlib-js/stdlib/issues/6053), [#6236](https://github.com/stdlib-js/stdlib/issues/6236), [#6456](https://github.com/stdlib-js/stdlib/issues/6456), [#6457](https://github.com/stdlib-js/stdlib/issues/6457), [#6574](https://github.com/stdlib-js/stdlib/issues/6574), [#6589](https://github.com/stdlib-js/stdlib/issues/6589), [#6604](https://github.com/stdlib-js/stdlib/issues/6604), [#6663](https://github.com/stdlib-js/stdlib/issues/6663), [#6776](https://github.com/stdlib-js/stdlib/issues/6776), [#7114](https://github.com/stdlib-js/stdlib/issues/7114), [#7135](https://github.com/stdlib-js/stdlib/issues/7135), [#7215](https://github.com/stdlib-js/stdlib/issues/7215), [#7296](https://github.com/stdlib-js/stdlib/issues/7296), [#7395](https://github.com/stdlib-js/stdlib/issues/7395)
 
 </section>
 
@@ -382,6 +387,19 @@ A total of 14 issues were closed in this release:
 
 <details>
 
+-   [`b1f7e33`](https://github.com/stdlib-js/stdlib/commit/b1f7e33277d00292ca5b45de636eaf80b3d45c22) - **feat:** add `ndarraylike2scalar` to namespace _(by Athan Reines)_
+-   [`7a8bc40`](https://github.com/stdlib-js/stdlib/commit/7a8bc400fc2e1dd6a5edabc750bb75f4f665c041) - **feat:** add `ndarray/base/ndarraylike2scalar` _(by Athan Reines)_
+-   [`1bb671f`](https://github.com/stdlib-js/stdlib/commit/1bb671f66c75cf8ec48146394fe2756831937853) - **refactor:** relax dtype type _(by Athan Reines)_
+-   [`e6a8b55`](https://github.com/stdlib-js/stdlib/commit/e6a8b554a64663970ed6f56b16532222543ddefd) - **refactor:** relax dtype type _(by Athan Reines)_
+-   [`b479fcf`](https://github.com/stdlib-js/stdlib/commit/b479fcfb90c9c9cd56cc0908b2a60a5302f1710f) - **test:** add missing tests to `ndarray/base/every` [(#7235)](https://github.com/stdlib-js/stdlib/pull/7235) _(by Muhammad Haris)_
+-   [`3f4be91`](https://github.com/stdlib-js/stdlib/commit/3f4be91fd9025e696b72b5159fee981f47937c7f) - **docs:** update namespace table of contents [(#7433)](https://github.com/stdlib-js/stdlib/pull/7433) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`eac188f`](https://github.com/stdlib-js/stdlib/commit/eac188f4def9fa545e9e0cfcd5731a66337fcd1a) - **feat:** add support for struct data types _(by Athan Reines)_
+-   [`99ecc69`](https://github.com/stdlib-js/stdlib/commit/99ecc6907e9c26dabe4dd8e8dfb3b08d10d622c3) - **feat:** add `isStructDataType` to namespace _(by Athan Reines)_
+-   [`d20a2ea`](https://github.com/stdlib-js/stdlib/commit/d20a2ea2cba39ea485abb500861a1fdc2088a36c) - **feat:** add `ndarray/base/assert/is-struct-data-type` _(by Athan Reines)_
+-   [`3bc4c9f`](https://github.com/stdlib-js/stdlib/commit/3bc4c9f1bf064e7d07f3b2f62d8d0c3c1a305c05) - **chore:** fix C lint errors [(#7397)](https://github.com/stdlib-js/stdlib/pull/7397) _(by Lokesh Ranjan)_
+-   [`c68bdbf`](https://github.com/stdlib-js/stdlib/commit/c68bdbf98a4bb5a85cc6f04c26bc43b49b3218b7) - **chore:** fix EditorConfig lint errors [(#7310)](https://github.com/stdlib-js/stdlib/pull/7310) _(by Deepak Singh)_
+-   [`1782090`](https://github.com/stdlib-js/stdlib/commit/17820909290d01df1ee44cc370d18e74d76291d9) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`3e432af`](https://github.com/stdlib-js/stdlib/commit/3e432af9104dae7dab407d3b8df14ae6c7f78310) - **chore:** fix EditorConfig lint errors [(#7226)](https://github.com/stdlib-js/stdlib/pull/7226) _(by Deepak Singh)_
 -   [`4833ce6`](https://github.com/stdlib-js/stdlib/commit/4833ce619a3e26e217f6ae5db96fb3c6b3e4a604) - **docs:** update namespace table of contents [(#7243)](https://github.com/stdlib-js/stdlib/pull/7243) _(by stdlib-bot)_
 -   [`71f1df4`](https://github.com/stdlib-js/stdlib/commit/71f1df4e7a7c70aa99e3ea52aaabaafa6d033878) - **docs:** update examples _(by Athan Reines)_
 -   [`9b376ef`](https://github.com/stdlib-js/stdlib/commit/9b376effa2bcc564e59814df6bb609b40370c303) - **docs:** update examples _(by Athan Reines)_
@@ -1017,14 +1035,16 @@ A total of 14 issues were closed in this release:
 
 ### Contributors
 
-A total of 16 people contributed to this release. Thank you to the following contributors:
+A total of 18 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Bhavishy Agrawal
+-   Deepak Singh
 -   Dipjyoti Das
 -   Gururaj Gurram
 -   Karan Vasudevamurthy
 -   Kaushikgtm
+-   Lokesh Ranjan
 -   MANI
 -   Muhammad Haris
 -   Philipp Burckhardt
