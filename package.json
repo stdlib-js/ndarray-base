@@ -80,6 +80,7 @@
     "@stdlib/ndarray-base-fliplr": "^0.2.2",
     "@stdlib/ndarray-base-flipud": "^0.2.2",
     "@stdlib/ndarray-base-for-each": "^0.1.0",
+    "@stdlib/ndarray-base-from-array": "github:stdlib-js/ndarray-base-from-array#main",
     "@stdlib/ndarray-base-from-scalar": "^0.2.2",
     "@stdlib/ndarray-base-from-scalar-like": "github:stdlib-js/ndarray-base-from-scalar-like#main",
     "@stdlib/ndarray-base-includes": "github:stdlib-js/ndarray-base-includes#main",
