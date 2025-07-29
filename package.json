@@ -168,6 +168,7 @@
     "@stdlib/ndarray-base-wrap-index": "^0.2.2",
     "@stdlib/ndarray-base-zeros": "^0.3.0",
     "@stdlib/ndarray-base-zeros-like": "^0.3.0",
+    "@stdlib/ndarray-base-zip2views1d": "github:stdlib-js/ndarray-base-zip2views1d#main",
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
@@ -375,6 +376,7 @@
     "@stdlib/ndarray-min-dtype": "^0.3.0",
     "@stdlib/ndarray-mostly-safe-casts": "^0.3.0",
     "@stdlib/ndarray-ndims": "^0.2.2",
+    "@stdlib/ndarray-numel": "^0.2.2",
     "@stdlib/ndarray-offset": "^0.2.2",
     "@stdlib/ndarray-order": "^0.2.2",
     "@stdlib/ndarray-orders": "^0.2.2",
@@ -432,6 +434,7 @@
     "@stdlib/utils-constructor-name": "^0.2.2",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.2.3",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
+    "@stdlib/utils-define-read-write-accessor": "^0.2.2",
     "@stdlib/utils-keys": "^0.2.2",
     "@stdlib/utils-map2": "^0.2.1",
     "@stdlib/utils-nary-function": "^0.2.2",
