@@ -4,12 +4,25 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-09)
+## Unreleased (2025-09-14)
 
 <section class="features">
 
 ### Features
 
+-   [`24c59ca`](https://github.com/stdlib-js/stdlib/commit/24c59ca8f9c70b81c705f4cd981dfd4816c29137) - add `broadcastArrayExceptDimensions` to namespace
+-   [`0afeede`](https://github.com/stdlib-js/stdlib/commit/0afeedeeaff3c0d7f394b79125d633454fa7f9e3) - add `unaryAddonDispatch` to namespace
+-   [`8917ae2`](https://github.com/stdlib-js/stdlib/commit/8917ae2818c6864d62edc83cc5b74013d6dfc672) - add `nullaryStrided1dDispatch` to namespace
+-   [`4da672a`](https://github.com/stdlib-js/stdlib/commit/4da672aa92eaebdef7407e74663126c7c2db6d4a) - add `binaryReduceStrided1dDispatchFactory` to namespace
+-   [`c611553`](https://github.com/stdlib-js/stdlib/commit/c611553443ef655ec5f0ed8ab9dbe983b7248af1) - add `binaryReduceStrided1dDispatch` to namespace
+-   [`154866d`](https://github.com/stdlib-js/stdlib/commit/154866dc56a678fbc3d349cd8d2964fe2ef2301d) - add `binaryInputCastingDataType` to namespace
+-   [`f2c44fb`](https://github.com/stdlib-js/stdlib/commit/f2c44fb0b3c470367bb3f4ff8aef32eaf72e58c3) - add `dtypes2enums` to namespace
+-   [`882ff45`](https://github.com/stdlib-js/stdlib/commit/882ff45ea084b274ef5efe3e8eed537300162ba6) - add `ndarray/base/dtypes2enums`
+-   [`cc715fa`](https://github.com/stdlib-js/stdlib/commit/cc715fa508b46f9bc8fbf516ce5185050adc4cf8) - add `ndarray/base/binary-reduce-strided1d-dispatch-factory` [(#7950)](https://github.com/stdlib-js/stdlib/pull/7950)
+-   [`ce2a417`](https://github.com/stdlib-js/stdlib/commit/ce2a4171ac366e3023a240d01c154f8e9bfdfa5e) - add `ndarray/base/binary-reduce-strided1d-dispatch` [(#7908)](https://github.com/stdlib-js/stdlib/pull/7908)
+-   [`17e89e8`](https://github.com/stdlib-js/stdlib/commit/17e89e85928ef1e38ad554975c62ea96c15c6c04) - generate loops for mostly safe casts
+-   [`b18f473`](https://github.com/stdlib-js/stdlib/commit/b18f47378813b1a5dd0f4d669913c86cdd525ce4) - add `ndarray/base/unary-addon-dispatch`
+-   [`cfe870b`](https://github.com/stdlib-js/stdlib/commit/cfe870b5ab3798377068aba5e239bf50f730f116) - add `ndarray/base/nullary-strided1d-dispatch` [(#7821)](https://github.com/stdlib-js/stdlib/pull/7821)
 -   [`11c01f2`](https://github.com/stdlib-js/stdlib/commit/11c01f20be688370014f77248a2f6cf423dfbdc2) - add `flattenShape` to namespace
 -   [`83e21a1`](https://github.com/stdlib-js/stdlib/commit/83e21a1df8d8a4eee47f055ee762ec048cc99364) - add `ndarray/base/flatten-shape`
 -   [`266240f`](https://github.com/stdlib-js/stdlib/commit/266240fa85bf508e01e6583809a1cd49c229a8b2) - add `ndarray/base/binary-input-casting-dtype` [(#7904)](https://github.com/stdlib-js/stdlib/pull/7904)
@@ -305,6 +318,10 @@
 
 ### Bug Fixes
 
+-   [`d5e1c28`](https://github.com/stdlib-js/stdlib/commit/d5e1c28e6821d21da0b79090ebd3cf903f036aae) - maintain floating-point precision
+-   [`8983f46`](https://github.com/stdlib-js/stdlib/commit/8983f46c72781a991814dcf9a6e08db27cd12e39) - use correct variable
+-   [`69e5523`](https://github.com/stdlib-js/stdlib/commit/69e5523ca6858e8488fe671f61b9a8c16e7044c7) - use correct variable
+-   [`04c9415`](https://github.com/stdlib-js/stdlib/commit/04c941540b13db13db7f312a6f91dd120940cdc2) - use correct variable
 -   [`ccbe916`](https://github.com/stdlib-js/stdlib/commit/ccbe91618e58d7955db65dcf29cdcb2651408857) - remove stray include
 -   [`73e569f`](https://github.com/stdlib-js/stdlib/commit/73e569fd71650dbd2c18ce3fec9c373767fcb027) - address assignment bug
 -   [`b00978b`](https://github.com/stdlib-js/stdlib/commit/b00978b67f6f32f7f6a343f29685ff4da30bd89d) - address assignment bug
@@ -440,6 +457,43 @@ A total of 20 issues were closed in this release:
 
 <details>
 
+-   [`24c59ca`](https://github.com/stdlib-js/stdlib/commit/24c59ca8f9c70b81c705f4cd981dfd4816c29137) - **feat:** add `broadcastArrayExceptDimensions` to namespace _(by Athan Reines)_
+-   [`0afeede`](https://github.com/stdlib-js/stdlib/commit/0afeedeeaff3c0d7f394b79125d633454fa7f9e3) - **feat:** add `unaryAddonDispatch` to namespace _(by Athan Reines)_
+-   [`8917ae2`](https://github.com/stdlib-js/stdlib/commit/8917ae2818c6864d62edc83cc5b74013d6dfc672) - **feat:** add `nullaryStrided1dDispatch` to namespace _(by Athan Reines)_
+-   [`4da672a`](https://github.com/stdlib-js/stdlib/commit/4da672aa92eaebdef7407e74663126c7c2db6d4a) - **feat:** add `binaryReduceStrided1dDispatchFactory` to namespace _(by Athan Reines)_
+-   [`c611553`](https://github.com/stdlib-js/stdlib/commit/c611553443ef655ec5f0ed8ab9dbe983b7248af1) - **feat:** add `binaryReduceStrided1dDispatch` to namespace _(by Athan Reines)_
+-   [`154866d`](https://github.com/stdlib-js/stdlib/commit/154866dc56a678fbc3d349cd8d2964fe2ef2301d) - **feat:** add `binaryInputCastingDataType` to namespace _(by Athan Reines)_
+-   [`f2c44fb`](https://github.com/stdlib-js/stdlib/commit/f2c44fb0b3c470367bb3f4ff8aef32eaf72e58c3) - **feat:** add `dtypes2enums` to namespace _(by Athan Reines)_
+-   [`882ff45`](https://github.com/stdlib-js/stdlib/commit/882ff45ea084b274ef5efe3e8eed537300162ba6) - **feat:** add `ndarray/base/dtypes2enums` _(by Athan Reines)_
+-   [`1e5c77a`](https://github.com/stdlib-js/stdlib/commit/1e5c77a53d8b81c99ca0be177b1e828dbfc12173) - **refactor:** use array utility _(by Athan Reines)_
+-   [`351db28`](https://github.com/stdlib-js/stdlib/commit/351db2889ebd45eb0dc55efd4edb1e4d6e20daa7) - **refactor:** use array utility _(by Athan Reines)_
+-   [`01bc84c`](https://github.com/stdlib-js/stdlib/commit/01bc84cc252dbb2e46ff575e10ceb45a9a19cb92) - **refactor:** use array utility _(by Athan Reines)_
+-   [`997af88`](https://github.com/stdlib-js/stdlib/commit/997af882f60adc86118f03b0af433d0b2df78799) - **refactor:** use array utility _(by Athan Reines)_
+-   [`cc715fa`](https://github.com/stdlib-js/stdlib/commit/cc715fa508b46f9bc8fbf516ce5185050adc4cf8) - **feat:** add `ndarray/base/binary-reduce-strided1d-dispatch-factory` [(#7950)](https://github.com/stdlib-js/stdlib/pull/7950) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
+-   [`626b52b`](https://github.com/stdlib-js/stdlib/commit/626b52bc5f30d90237d82055095814a5f6e75546) - **docs:** remove comma _(by Athan Reines)_
+-   [`0b84dbb`](https://github.com/stdlib-js/stdlib/commit/0b84dbba9791d2033079cecb12a33f9e66640e54) - **docs:** update description _(by Athan Reines)_
+-   [`5ba8e94`](https://github.com/stdlib-js/stdlib/commit/5ba8e94230c744e76b6c13e5d534019bab83591f) - **docs:** update description _(by Athan Reines)_
+-   [`6e295d6`](https://github.com/stdlib-js/stdlib/commit/6e295d6318d437bd1d139a9ef036195d09562c83) - **docs:** update description _(by Athan Reines)_
+-   [`ce2a417`](https://github.com/stdlib-js/stdlib/commit/ce2a4171ac366e3023a240d01c154f8e9bfdfa5e) - **feat:** add `ndarray/base/binary-reduce-strided1d-dispatch` [(#7908)](https://github.com/stdlib-js/stdlib/pull/7908) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
+-   [`794dcb3`](https://github.com/stdlib-js/stdlib/commit/794dcb39a1a97b958b56f2a56ada615344a0d993) - **docs:** fix examples _(by Athan Reines)_
+-   [`725ba50`](https://github.com/stdlib-js/stdlib/commit/725ba500a8ac24922b4a764acd65a035a4993032) - **docs:** fix comment _(by Athan Reines)_
+-   [`b937bc4`](https://github.com/stdlib-js/stdlib/commit/b937bc453930ccb515898c2e2040c65f9f9ae2ad) - **docs:** fix comment _(by Athan Reines)_
+-   [`7ff8051`](https://github.com/stdlib-js/stdlib/commit/7ff805189d4e18714abb7ad430e409bae2db442b) - **docs:** fix comment _(by Athan Reines)_
+-   [`29c6ea7`](https://github.com/stdlib-js/stdlib/commit/29c6ea7cc602a60ec0351b12dad6508f84a822ff) - **docs:** fix comment _(by Athan Reines)_
+-   [`c8cc121`](https://github.com/stdlib-js/stdlib/commit/c8cc12198846d498a7999e0c0622fa4721f66e0d) - **docs:** fix comment _(by Athan Reines)_
+-   [`17e89e8`](https://github.com/stdlib-js/stdlib/commit/17e89e85928ef1e38ad554975c62ea96c15c6c04) - **feat:** generate loops for mostly safe casts _(by Athan Reines)_
+-   [`dcfeda4`](https://github.com/stdlib-js/stdlib/commit/dcfeda41070dee08be0ddd2be3d23d82b1658f4b) - **test:** fix broken tests due to upstream changes _(by Athan Reines)_
+-   [`1829650`](https://github.com/stdlib-js/stdlib/commit/18296504e866597848ac12d2bd609ab8077372d2) - **test:** fix broken tests due to upstream changes _(by Athan Reines)_
+-   [`d5e1c28`](https://github.com/stdlib-js/stdlib/commit/d5e1c28e6821d21da0b79090ebd3cf903f036aae) - **fix:** maintain floating-point precision _(by Athan Reines)_
+-   [`b18f473`](https://github.com/stdlib-js/stdlib/commit/b18f47378813b1a5dd0f4d669913c86cdd525ce4) - **feat:** add `ndarray/base/unary-addon-dispatch` _(by Athan Reines)_
+-   [`fb46eb4`](https://github.com/stdlib-js/stdlib/commit/fb46eb45105af0689c8f7089672340de742efedd) - **docs:** fix comment _(by Athan Reines)_
+-   [`8983f46`](https://github.com/stdlib-js/stdlib/commit/8983f46c72781a991814dcf9a6e08db27cd12e39) - **fix:** use correct variable _(by Athan Reines)_
+-   [`69e5523`](https://github.com/stdlib-js/stdlib/commit/69e5523ca6858e8488fe671f61b9a8c16e7044c7) - **fix:** use correct variable _(by Athan Reines)_
+-   [`04c9415`](https://github.com/stdlib-js/stdlib/commit/04c941540b13db13db7f312a6f91dd120940cdc2) - **fix:** use correct variable _(by Athan Reines)_
+-   [`da9d08b`](https://github.com/stdlib-js/stdlib/commit/da9d08b99b9662e7421722b5c2af30f6bfb1bbf5) - **docs:** add missing require to TSDoc example code _(by Philipp Burckhardt)_
+-   [`cfe870b`](https://github.com/stdlib-js/stdlib/commit/cfe870b5ab3798377068aba5e239bf50f730f116) - **feat:** add `ndarray/base/nullary-strided1d-dispatch` [(#7821)](https://github.com/stdlib-js/stdlib/pull/7821) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
+-   [`e11eb77`](https://github.com/stdlib-js/stdlib/commit/e11eb777e6ca3c2f0b9bdccdffeee5cf25dac9f1) - **docs:** add empty intro section _(by Athan Reines)_
+-   [`565ae6c`](https://github.com/stdlib-js/stdlib/commit/565ae6c872ce74c4853618182fc33c8a30371d42) - **docs:** update description _(by Athan Reines)_
 -   [`4f0bbc6`](https://github.com/stdlib-js/stdlib/commit/4f0bbc61e1be1b422966710f4fd7a4a09e4605a6) - **bench:** remove `const` qualifiers _(by Athan Reines)_
 -   [`ccbe916`](https://github.com/stdlib-js/stdlib/commit/ccbe91618e58d7955db65dcf29cdcb2651408857) - **fix:** remove stray include _(by Athan Reines)_
 -   [`11c01f2`](https://github.com/stdlib-js/stdlib/commit/11c01f20be688370014f77248a2f6cf423dfbdc2) - **feat:** add `flattenShape` to namespace _(by Athan Reines)_
