@@ -4,12 +4,50 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-14)
+## Unreleased (2025-09-21)
 
 <section class="features">
 
 ### Features
 
+-   [`6f68eff`](https://github.com/stdlib-js/stdlib/commit/6f68effedeecde36720abe994269424b692d2663) - add `dtypeObjects` to namespace
+-   [`57e97ae`](https://github.com/stdlib-js/stdlib/commit/57e97ae489b90d630a5f6789154eca2c92740bf9) - add `ndarray/base/dtype-objects`
+-   [`45e2822`](https://github.com/stdlib-js/stdlib/commit/45e2822d8f257cfeb3911a40961ba6e95d437ed3) - add `dtypeEnums` to namespace
+-   [`a263d70`](https://github.com/stdlib-js/stdlib/commit/a263d7026590a59eb0aba0c80b27df80733a4489) - add `ndarray/base/dtype-enums`
+-   [`b141f04`](https://github.com/stdlib-js/stdlib/commit/b141f0413f4893571f82c746453d128174a26137) - add `dtypeStrings` to namespace
+-   [`1c38368`](https://github.com/stdlib-js/stdlib/commit/1c383680d297a2b8b3dd12c0db0e40a6a796e1e4) - add `ndarray/base/dtype-strings`
+-   [`ffe223b`](https://github.com/stdlib-js/stdlib/commit/ffe223b04476eb50c17cc7b94943ede80296aaa5) - add support for non-string data types
+-   [`599cf73`](https://github.com/stdlib-js/stdlib/commit/599cf7317ccf5c97d7d110e0d38f4f7db14ad0d2) - add support for non-string data types
+-   [`41fca83`](https://github.com/stdlib-js/stdlib/commit/41fca8339a466eed84400b23652fd60bd9c36e54) - add support for non-string data types
+-   [`5a092db`](https://github.com/stdlib-js/stdlib/commit/5a092db317c571fc39eedfdf5f91cad01bf648ca) - add support for struct and DataType values
+-   [`8526ef8`](https://github.com/stdlib-js/stdlib/commit/8526ef82af7ab10a98d22bd59796840cc81c22a4) - add support for non-string data types
+-   [`8ae1c5e`](https://github.com/stdlib-js/stdlib/commit/8ae1c5e4a80d231ef27df9100efe5337f0be7e11) - add support for non-string data types
+-   [`4b6bce8`](https://github.com/stdlib-js/stdlib/commit/4b6bce89254cfbbe7a008167ce7b4eccceaaea7e) - add support for non-string data types
+-   [`55e56f0`](https://github.com/stdlib-js/stdlib/commit/55e56f0b239268c250b9e64d46f5914d24229e1b) - add support for non-string data types
+-   [`a74c0e2`](https://github.com/stdlib-js/stdlib/commit/a74c0e2e7efd0b76b251d895f43d5c197512ba2b) - add support for non-string data types
+-   [`6dd3bf6`](https://github.com/stdlib-js/stdlib/commit/6dd3bf6252e3808803c6a5ea00925247b592bd01) - add support for non-string data types
+-   [`96ea877`](https://github.com/stdlib-js/stdlib/commit/96ea8778698f2979de10ac6d62d91b0d6bd65cae) - add support for struct and data type objects
+-   [`25164a7`](https://github.com/stdlib-js/stdlib/commit/25164a7ae8ac5285255e2d8097f3e123d9db3a38) - add support for non-string data types
+-   [`c6ce94c`](https://github.com/stdlib-js/stdlib/commit/c6ce94c5cf69a183cbe369a56411192d8d99abe1) - add support for non-string data types
+-   [`360ed63`](https://github.com/stdlib-js/stdlib/commit/360ed63a0e83c2cc4261df2b6075e1cc2c8f5dec) - add support for non-string data tpes
+-   [`b60d327`](https://github.com/stdlib-js/stdlib/commit/b60d327ae58661ce0eb20d503aca140c683f9406) - add support for non-string data types
+-   [`8e7dc95`](https://github.com/stdlib-js/stdlib/commit/8e7dc9562192062ab1e016d45ba32b9c3592fe97) - add support for non-string data types
+-   [`70dda4f`](https://github.com/stdlib-js/stdlib/commit/70dda4f47b6613531ee298231ea60630174f3dcc) - add support for non-string data types
+-   [`06bd6e0`](https://github.com/stdlib-js/stdlib/commit/06bd6e03ba8aae02b35f9a4da6724d686cf34da4) - add support for non-string data types
+-   [`be5553d`](https://github.com/stdlib-js/stdlib/commit/be5553d64471b61353e42499666ab50502ab136b) - add support for non-string data types
+-   [`1908bae`](https://github.com/stdlib-js/stdlib/commit/1908bae6fe4852798ed12f620b59af50f762f2e5) - add support for `struct` and `DataType` dtype values
+-   [`ae21126`](https://github.com/stdlib-js/stdlib/commit/ae2112615cd460c39161a41c32d18b7ab600c885) - add support for struct arrays
+-   [`f660e38`](https://github.com/stdlib-js/stdlib/commit/f660e38225095ed8c07324924ff37098d6f96851) - add support for `struct` and `DataType` dtype values
+-   [`fa26ede`](https://github.com/stdlib-js/stdlib/commit/fa26ede9709b9243a4c8032f0fdc8f37b8bf6053) - add support for struct arrays
+-   [`8d28862`](https://github.com/stdlib-js/stdlib/commit/8d28862f79b21b726cd80d47f85c73cf6d2d2d5c) - add support for `struct` and `DataType` dtype values
+-   [`af83db7`](https://github.com/stdlib-js/stdlib/commit/af83db75a1e8d88d239111fe08f323d6bcc4f016) - add support for `DataType` instances having a `Struct` value
+-   [`fc43bac`](https://github.com/stdlib-js/stdlib/commit/fc43bac47c9c2419da27a568dce6d05e05dc904a) - add `isEqualDataType` to namespace
+-   [`aa727fa`](https://github.com/stdlib-js/stdlib/commit/aa727fa586eed12d282eb46e49cdbd8e28e18712) - add `ndarray/base/assert/is-equal-data-type`
+-   [`34a957c`](https://github.com/stdlib-js/stdlib/commit/34a957cac3f76bac1f00c5366802096b05c30e65) - add support for `DataType` instances
+-   [`f89403b`](https://github.com/stdlib-js/stdlib/commit/f89403b0b93f16037e7a5c6aa7752efe9f7dd854) - add `isDataTypeObject` to namespace
+-   [`c31794b`](https://github.com/stdlib-js/stdlib/commit/c31794b5f6f6c60db2c2f0f11ed274039db837a2) - add `ndarray/base/assert/is-data-type-object`
+-   [`44c2368`](https://github.com/stdlib-js/stdlib/commit/44c23684fef779a6e62dc18dd01192b192785a41) - add `ndarray/base/dtype-alignment`
+-   [`724283b`](https://github.com/stdlib-js/stdlib/commit/724283b0bc5d2eb8bf48491c954c6a119330c1f5) - add `ndarray/base/nullary-strided1d-dispatch-factory` [(#7828)](https://github.com/stdlib-js/stdlib/pull/7828)
 -   [`24c59ca`](https://github.com/stdlib-js/stdlib/commit/24c59ca8f9c70b81c705f4cd981dfd4816c29137) - add `broadcastArrayExceptDimensions` to namespace
 -   [`0afeede`](https://github.com/stdlib-js/stdlib/commit/0afeedeeaff3c0d7f394b79125d633454fa7f9e3) - add `unaryAddonDispatch` to namespace
 -   [`8917ae2`](https://github.com/stdlib-js/stdlib/commit/8917ae2818c6864d62edc83cc5b74013d6dfc672) - add `nullaryStrided1dDispatch` to namespace
@@ -318,6 +356,12 @@
 
 ### Bug Fixes
 
+-   [`5b491c9`](https://github.com/stdlib-js/stdlib/commit/5b491c98f454c2413c23eaa901543bef9e3642f2) - allow enums to be nonpositive integers
+-   [`a278663`](https://github.com/stdlib-js/stdlib/commit/a2786634547c68e950444c8a16d522d2ab79e335) - ensure \"generic\" data type objects are considered valid
+-   [`08c21f1`](https://github.com/stdlib-js/stdlib/commit/08c21f19a3dc1c7352e4760c19c1ec8aab714b54) - update return type
+-   [`97d7e56`](https://github.com/stdlib-js/stdlib/commit/97d7e567e463ab9942c9d1188bc0c5786827e09b) - update return type
+-   [`2b5e5c6`](https://github.com/stdlib-js/stdlib/commit/2b5e5c6be9fe4b9f1a0e235a6b50c4fe5554707b) - account for edge case where `n <= 0`
+-   [`fd9991b`](https://github.com/stdlib-js/stdlib/commit/fd9991b94b618d3adfd81f177ddda412388bf1df) - remove conditional
 -   [`d5e1c28`](https://github.com/stdlib-js/stdlib/commit/d5e1c28e6821d21da0b79090ebd3cf903f036aae) - maintain floating-point precision
 -   [`8983f46`](https://github.com/stdlib-js/stdlib/commit/8983f46c72781a991814dcf9a6e08db27cd12e39) - use correct variable
 -   [`69e5523`](https://github.com/stdlib-js/stdlib/commit/69e5523ca6858e8488fe671f61b9a8c16e7044c7) - use correct variable
@@ -457,6 +501,92 @@ A total of 20 issues were closed in this release:
 
 <details>
 
+-   [`6f68eff`](https://github.com/stdlib-js/stdlib/commit/6f68effedeecde36720abe994269424b692d2663) - **feat:** add `dtypeObjects` to namespace _(by Athan Reines)_
+-   [`57e97ae`](https://github.com/stdlib-js/stdlib/commit/57e97ae489b90d630a5f6789154eca2c92740bf9) - **feat:** add `ndarray/base/dtype-objects` _(by Athan Reines)_
+-   [`5b491c9`](https://github.com/stdlib-js/stdlib/commit/5b491c98f454c2413c23eaa901543bef9e3642f2) - **fix:** allow enums to be nonpositive integers _(by Athan Reines)_
+-   [`61d37ac`](https://github.com/stdlib-js/stdlib/commit/61d37acb4507de68f39331a22657278ae8eb78c3) - **refactor:** update require paths _(by Athan Reines)_
+-   [`944c779`](https://github.com/stdlib-js/stdlib/commit/944c779002753edbe3ba889b01b555ae7863385e) - **refactor:** update require paths _(by Athan Reines)_
+-   [`978698b`](https://github.com/stdlib-js/stdlib/commit/978698b1e3e7ddb8eed1a6b2540ece7139d20cdd) - **refactor:** update require path _(by Athan Reines)_
+-   [`476b018`](https://github.com/stdlib-js/stdlib/commit/476b0181203eb4c523ebfb1390ad8c39dd509b24) - **refactor:** update require path _(by Athan Reines)_
+-   [`45e2822`](https://github.com/stdlib-js/stdlib/commit/45e2822d8f257cfeb3911a40961ba6e95d437ed3) - **feat:** add `dtypeEnums` to namespace _(by Athan Reines)_
+-   [`a263d70`](https://github.com/stdlib-js/stdlib/commit/a263d7026590a59eb0aba0c80b27df80733a4489) - **feat:** add `ndarray/base/dtype-enums` _(by Athan Reines)_
+-   [`bcc1af5`](https://github.com/stdlib-js/stdlib/commit/bcc1af5db7947fcef9a41c727843453d14a9ced1) - **refactor:** update require paths to use lower-level utility _(by Athan Reines)_
+-   [`b141f04`](https://github.com/stdlib-js/stdlib/commit/b141f0413f4893571f82c746453d128174a26137) - **feat:** add `dtypeStrings` to namespace _(by Athan Reines)_
+-   [`1c38368`](https://github.com/stdlib-js/stdlib/commit/1c383680d297a2b8b3dd12c0db0e40a6a796e1e4) - **feat:** add `ndarray/base/dtype-strings` _(by Athan Reines)_
+-   [`832da9f`](https://github.com/stdlib-js/stdlib/commit/832da9fbeec39f4bb00ad8ca14d322a1bc399faa) - **test:** fix require path _(by Athan Reines)_
+-   [`ffe223b`](https://github.com/stdlib-js/stdlib/commit/ffe223b04476eb50c17cc7b94943ede80296aaa5) - **feat:** add support for non-string data types _(by Athan Reines)_
+-   [`599cf73`](https://github.com/stdlib-js/stdlib/commit/599cf7317ccf5c97d7d110e0d38f4f7db14ad0d2) - **feat:** add support for non-string data types _(by Athan Reines)_
+-   [`41fca83`](https://github.com/stdlib-js/stdlib/commit/41fca8339a466eed84400b23652fd60bd9c36e54) - **feat:** add support for non-string data types _(by Athan Reines)_
+-   [`5a092db`](https://github.com/stdlib-js/stdlib/commit/5a092db317c571fc39eedfdf5f91cad01bf648ca) - **feat:** add support for struct and DataType values _(by Athan Reines)_
+-   [`8526ef8`](https://github.com/stdlib-js/stdlib/commit/8526ef82af7ab10a98d22bd59796840cc81c22a4) - **feat:** add support for non-string data types _(by Athan Reines)_
+-   [`8ae1c5e`](https://github.com/stdlib-js/stdlib/commit/8ae1c5e4a80d231ef27df9100efe5337f0be7e11) - **feat:** add support for non-string data types _(by Athan Reines)_
+-   [`4b6bce8`](https://github.com/stdlib-js/stdlib/commit/4b6bce89254cfbbe7a008167ce7b4eccceaaea7e) - **feat:** add support for non-string data types _(by Athan Reines)_
+-   [`55e56f0`](https://github.com/stdlib-js/stdlib/commit/55e56f0b239268c250b9e64d46f5914d24229e1b) - **feat:** add support for non-string data types _(by Athan Reines)_
+-   [`a74c0e2`](https://github.com/stdlib-js/stdlib/commit/a74c0e2e7efd0b76b251d895f43d5c197512ba2b) - **feat:** add support for non-string data types _(by Athan Reines)_
+-   [`2d8848b`](https://github.com/stdlib-js/stdlib/commit/2d8848b0a7e94aca604317a6d1e83b110d82f143) - **docs:** add comment _(by Athan Reines)_
+-   [`6dd3bf6`](https://github.com/stdlib-js/stdlib/commit/6dd3bf6252e3808803c6a5ea00925247b592bd01) - **feat:** add support for non-string data types _(by Athan Reines)_
+-   [`96ea877`](https://github.com/stdlib-js/stdlib/commit/96ea8778698f2979de10ac6d62d91b0d6bd65cae) - **feat:** add support for struct and data type objects _(by Athan Reines)_
+-   [`7b1d601`](https://github.com/stdlib-js/stdlib/commit/7b1d6010a2b93231101815666acb7620185b650a) - **refactor:** use assertion utility _(by Athan Reines)_
+-   [`25164a7`](https://github.com/stdlib-js/stdlib/commit/25164a7ae8ac5285255e2d8097f3e123d9db3a38) - **feat:** add support for non-string data types _(by Athan Reines)_
+-   [`c6ce94c`](https://github.com/stdlib-js/stdlib/commit/c6ce94c5cf69a183cbe369a56411192d8d99abe1) - **feat:** add support for non-string data types _(by Athan Reines)_
+-   [`360ed63`](https://github.com/stdlib-js/stdlib/commit/360ed63a0e83c2cc4261df2b6075e1cc2c8f5dec) - **feat:** add support for non-string data tpes _(by Athan Reines)_
+-   [`b60d327`](https://github.com/stdlib-js/stdlib/commit/b60d327ae58661ce0eb20d503aca140c683f9406) - **feat:** add support for non-string data types _(by Athan Reines)_
+-   [`8e7dc95`](https://github.com/stdlib-js/stdlib/commit/8e7dc9562192062ab1e016d45ba32b9c3592fe97) - **feat:** add support for non-string data types _(by Athan Reines)_
+-   [`bdd0013`](https://github.com/stdlib-js/stdlib/commit/bdd0013af7bb684e818bedaf287389165858105b) - **docs:** update JSDoc _(by Athan Reines)_
+-   [`374953a`](https://github.com/stdlib-js/stdlib/commit/374953a8333a7467c5c8df1e1fc8d6763c4f33aa) - **docs:** update JSDoc _(by Athan Reines)_
+-   [`f2d7632`](https://github.com/stdlib-js/stdlib/commit/f2d76323bdd92003f5b1f8457d884f589ef76bd5) - **docs:** update JSDoc _(by Athan Reines)_
+-   [`70dda4f`](https://github.com/stdlib-js/stdlib/commit/70dda4f47b6613531ee298231ea60630174f3dcc) - **feat:** add support for non-string data types _(by Athan Reines)_
+-   [`06bd6e0`](https://github.com/stdlib-js/stdlib/commit/06bd6e03ba8aae02b35f9a4da6724d686cf34da4) - **feat:** add support for non-string data types _(by Athan Reines)_
+-   [`be5553d`](https://github.com/stdlib-js/stdlib/commit/be5553d64471b61353e42499666ab50502ab136b) - **feat:** add support for non-string data types _(by Athan Reines)_
+-   [`3cb98f3`](https://github.com/stdlib-js/stdlib/commit/3cb98f3aa714b97cb714d45688421e9ac416d31c) - **test:** add tests for full branch coverage _(by Athan Reines)_
+-   [`71a48b0`](https://github.com/stdlib-js/stdlib/commit/71a48b0b0ad86ba66a8109852f3b305e8caa06a0) - **refactor:** guard against `null` and `undefined` input values _(by Athan Reines)_
+-   [`3ab207e`](https://github.com/stdlib-js/stdlib/commit/3ab207e1606e1b763451994fcf50dfcfc8e7f135) - **test:** update require path _(by Athan Reines)_
+-   [`9088669`](https://github.com/stdlib-js/stdlib/commit/9088669147241ff682f034b0a2c1382d53650936) - **test:** provide missing argument _(by Athan Reines)_
+-   [`3304071`](https://github.com/stdlib-js/stdlib/commit/33040719d3718582bd866243ced74fb7f5b67a7c) - **test:** provide missing argument _(by Athan Reines)_
+-   [`d705c4c`](https://github.com/stdlib-js/stdlib/commit/d705c4ce5bd726a4be870909e5c62b87927858c5) - **refactor:** guard against `null` and `undefined` _(by Athan Reines)_
+-   [`27f1ef7`](https://github.com/stdlib-js/stdlib/commit/27f1ef7f2cc984271a6de66ad2dff042651e750a) - **test:** ensure full branch coverage _(by Athan Reines)_
+-   [`1908bae`](https://github.com/stdlib-js/stdlib/commit/1908bae6fe4852798ed12f620b59af50f762f2e5) - **feat:** add support for `struct` and `DataType` dtype values _(by Athan Reines)_
+-   [`a83bb3d`](https://github.com/stdlib-js/stdlib/commit/a83bb3d053dd235dff135913f0c582e5c4391b80) - **refactor:** use assertion utility _(by Athan Reines)_
+-   [`ae21126`](https://github.com/stdlib-js/stdlib/commit/ae2112615cd460c39161a41c32d18b7ab600c885) - **feat:** add support for struct arrays _(by Athan Reines)_
+-   [`3c4e7f2`](https://github.com/stdlib-js/stdlib/commit/3c4e7f277c952afa9feb1dd4b4a1061c2ffda881) - **docs:** update examples _(by Athan Reines)_
+-   [`f660e38`](https://github.com/stdlib-js/stdlib/commit/f660e38225095ed8c07324924ff37098d6f96851) - **feat:** add support for `struct` and `DataType` dtype values _(by Athan Reines)_
+-   [`fa26ede`](https://github.com/stdlib-js/stdlib/commit/fa26ede9709b9243a4c8032f0fdc8f37b8bf6053) - **feat:** add support for struct arrays _(by Athan Reines)_
+-   [`04c434a`](https://github.com/stdlib-js/stdlib/commit/04c434ac661b2f006a1ab737efb1dec2a72b0efd) - **docs:** update type _(by Athan Reines)_
+-   [`8d28862`](https://github.com/stdlib-js/stdlib/commit/8d28862f79b21b726cd80d47f85c73cf6d2d2d5c) - **feat:** add support for `struct` and `DataType` dtype values _(by Athan Reines)_
+-   [`ecde0da`](https://github.com/stdlib-js/stdlib/commit/ecde0dab6fa80df5a13632b83ef780ba46861dd8) - **chore:** fix return annotation comments and spacing _(by Philipp Burckhardt)_
+-   [`af83db7`](https://github.com/stdlib-js/stdlib/commit/af83db75a1e8d88d239111fe08f323d6bcc4f016) - **feat:** add support for `DataType` instances having a `Struct` value _(by Athan Reines)_
+-   [`fc43bac`](https://github.com/stdlib-js/stdlib/commit/fc43bac47c9c2419da27a568dce6d05e05dc904a) - **feat:** add `isEqualDataType` to namespace _(by Athan Reines)_
+-   [`aa727fa`](https://github.com/stdlib-js/stdlib/commit/aa727fa586eed12d282eb46e49cdbd8e28e18712) - **feat:** add `ndarray/base/assert/is-equal-data-type` _(by Athan Reines)_
+-   [`a278663`](https://github.com/stdlib-js/stdlib/commit/a2786634547c68e950444c8a16d522d2ab79e335) - **fix:** ensure \"generic\" data type objects are considered valid _(by Athan Reines)_
+-   [`34a957c`](https://github.com/stdlib-js/stdlib/commit/34a957cac3f76bac1f00c5366802096b05c30e65) - **feat:** add support for `DataType` instances _(by Athan Reines)_
+-   [`f89403b`](https://github.com/stdlib-js/stdlib/commit/f89403b0b93f16037e7a5c6aa7752efe9f7dd854) - **feat:** add `isDataTypeObject` to namespace _(by Athan Reines)_
+-   [`c31794b`](https://github.com/stdlib-js/stdlib/commit/c31794b5f6f6c60db2c2f0f11ed274039db837a2) - **feat:** add `ndarray/base/assert/is-data-type-object` _(by Athan Reines)_
+-   [`e700afd`](https://github.com/stdlib-js/stdlib/commit/e700afd0526ff2cc8f78cdb8743c749eceb09dd6) - **docs:** update type _(by Athan Reines)_
+-   [`4a1b036`](https://github.com/stdlib-js/stdlib/commit/4a1b0361b7491efedfd3983f4a686601ba12c673) - **docs:** update type _(by Athan Reines)_
+-   [`1285c82`](https://github.com/stdlib-js/stdlib/commit/1285c82a9767afae6ddf57df797eeff5ed1e49f3) - **docs:** update examples _(by Athan Reines)_
+-   [`44e8ba9`](https://github.com/stdlib-js/stdlib/commit/44e8ba9168ad3babb155b78e5e8a091759567c66) - **docs:** update type _(by Athan Reines)_
+-   [`3acf6f6`](https://github.com/stdlib-js/stdlib/commit/3acf6f69dd646f330a80cb299737133c06ca0dc8) - **test:** use functional APIs for accessing ndarray properties _(by Athan Reines)_
+-   [`dcfa4df`](https://github.com/stdlib-js/stdlib/commit/dcfa4df5171c24115771b773205ddf2fa06d669f) - **docs:** update type _(by Athan Reines)_
+-   [`33dc96a`](https://github.com/stdlib-js/stdlib/commit/33dc96a398f87940f6c69fb2c70409bc5715398d) - **docs:** update type _(by Athan Reines)_
+-   [`0e246db`](https://github.com/stdlib-js/stdlib/commit/0e246db52925591bd3b2ea56ac34ec5e40da65e3) - **refactor:** resolve dtype string and update documented type _(by Athan Reines)_
+-   [`88745e0`](https://github.com/stdlib-js/stdlib/commit/88745e0ec1040dcb70585877c2e64aafd9dfe79d) - **docs:** update type _(by Athan Reines)_
+-   [`e9d58ab`](https://github.com/stdlib-js/stdlib/commit/e9d58abd0288a87700361673ba08d816a11d68fa) - **refactor:** resolve dtype string and update documented type _(by Athan Reines)_
+-   [`2c42c06`](https://github.com/stdlib-js/stdlib/commit/2c42c06899b8274a4cbb93928affe62062309308) - **docs:** update type _(by Athan Reines)_
+-   [`d83cf12`](https://github.com/stdlib-js/stdlib/commit/d83cf12d9e3a532a3378264da0ba530c0b2d95dd) - **docs:** update type _(by Athan Reines)_
+-   [`08c21f1`](https://github.com/stdlib-js/stdlib/commit/08c21f19a3dc1c7352e4760c19c1ec8aab714b54) - **fix:** update return type _(by Athan Reines)_
+-   [`97d7e56`](https://github.com/stdlib-js/stdlib/commit/97d7e567e463ab9942c9d1188bc0c5786827e09b) - **fix:** update return type _(by Athan Reines)_
+-   [`f709450`](https://github.com/stdlib-js/stdlib/commit/f70945029cc35797e0af5ec1de2fda369b5c222a) - **docs:** correct grammar in JSDoc comments _(by Philipp Burckhardt)_
+-   [`44c2368`](https://github.com/stdlib-js/stdlib/commit/44c23684fef779a6e62dc18dd01192b192785a41) - **feat:** add `ndarray/base/dtype-alignment` _(by Athan Reines)_
+-   [`e5bf4a1`](https://github.com/stdlib-js/stdlib/commit/e5bf4a1e92052b705774cbb08bc74295cea3c5fc) - **docs:** update example _(by Athan Reines)_
+-   [`8b85764`](https://github.com/stdlib-js/stdlib/commit/8b8576416a1925647193338763722d58d8c8752e) - **chore:** clean-up _(by Athan Reines)_
+-   [`2b5e5c6`](https://github.com/stdlib-js/stdlib/commit/2b5e5c6be9fe4b9f1a0e235a6b50c4fe5554707b) - **fix:** account for edge case where `n <= 0` _(by Athan Reines)_
+-   [`a3e7978`](https://github.com/stdlib-js/stdlib/commit/a3e79786217bf1c9a84875203251af82cc93a222) - **docs:** update markup _(by Athan Reines)_
+-   [`fd9991b`](https://github.com/stdlib-js/stdlib/commit/fd9991b94b618d3adfd81f177ddda412388bf1df) - **fix:** remove conditional _(by Athan Reines)_
+-   [`724283b`](https://github.com/stdlib-js/stdlib/commit/724283b0bc5d2eb8bf48491c954c6a119330c1f5) - **feat:** add `ndarray/base/nullary-strided1d-dispatch-factory` [(#7828)](https://github.com/stdlib-js/stdlib/pull/7828) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
+-   [`2743732`](https://github.com/stdlib-js/stdlib/commit/27437323cb1d22c53c91f152d6d05153630bc123) - **docs:** fix description _(by Athan Reines)_
+-   [`905019c`](https://github.com/stdlib-js/stdlib/commit/905019c024611308865950e3d1dd51c642176e82) - **docs:** fix grammar in function descriptions _(by Philipp Burckhardt)_
+-   [`5dde2ff`](https://github.com/stdlib-js/stdlib/commit/5dde2ff115443aa143dd19022e5593e022401920) - **refactor:** use extended BLAS utility _(by Athan Reines)_
+-   [`5396232`](https://github.com/stdlib-js/stdlib/commit/539623214add7405c45c70f16ef7ab001f5dc0e0) - **refactor:** use base utility _(by Athan Reines)_
 -   [`24c59ca`](https://github.com/stdlib-js/stdlib/commit/24c59ca8f9c70b81c705f4cd981dfd4816c29137) - **feat:** add `broadcastArrayExceptDimensions` to namespace _(by Athan Reines)_
 -   [`0afeede`](https://github.com/stdlib-js/stdlib/commit/0afeedeeaff3c0d7f394b79125d633454fa7f9e3) - **feat:** add `unaryAddonDispatch` to namespace _(by Athan Reines)_
 -   [`8917ae2`](https://github.com/stdlib-js/stdlib/commit/8917ae2818c6864d62edc83cc5b74013d6dfc672) - **feat:** add `nullaryStrided1dDispatch` to namespace _(by Athan Reines)_
