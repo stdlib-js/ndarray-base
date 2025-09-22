@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-21)
+## Unreleased (2025-09-22)
 
 <section class="features">
 
 ### Features
 
+-   [`b5a916e`](https://github.com/stdlib-js/stdlib/commit/b5a916e413d8658977ab2383ec6fe411f90c557d) - update `ndarray/base` TypeScript declarations [(#8127)](https://github.com/stdlib-js/stdlib/pull/8127)
+-   [`70e9b6c`](https://github.com/stdlib-js/stdlib/commit/70e9b6c1b5b3521412ed4a8fed9ab3de337ab661) - add `ndarray/base/pop` [(#8108)](https://github.com/stdlib-js/stdlib/pull/8108)
+-   [`4352654`](https://github.com/stdlib-js/stdlib/commit/43526545d5bc73d7f7620dc7cc85bb456e5f37f1) - update `ndarray/base` TypeScript declarations
+-   [`e76eee3`](https://github.com/stdlib-js/stdlib/commit/e76eee36993ff476d8329e7b9a5131e29960ffc2) - update `ndarray/base/assert` TypeScript declarations
 -   [`6f68eff`](https://github.com/stdlib-js/stdlib/commit/6f68effedeecde36720abe994269424b692d2663) - add `dtypeObjects` to namespace
 -   [`57e97ae`](https://github.com/stdlib-js/stdlib/commit/57e97ae489b90d630a5f6789154eca2c92740bf9) - add `ndarray/base/dtype-objects`
 -   [`45e2822`](https://github.com/stdlib-js/stdlib/commit/45e2822d8f257cfeb3911a40961ba6e95d437ed3) - add `dtypeEnums` to namespace
@@ -501,6 +505,15 @@ A total of 20 issues were closed in this release:
 
 <details>
 
+-   [`b5a916e`](https://github.com/stdlib-js/stdlib/commit/b5a916e413d8658977ab2383ec6fe411f90c557d) - **feat:** update `ndarray/base` TypeScript declarations [(#8127)](https://github.com/stdlib-js/stdlib/pull/8127) _(by stdlib-bot)_
+-   [`0af16c9`](https://github.com/stdlib-js/stdlib/commit/0af16c9618cb9bf7f5f3c521a8dbfc3e3f640b42) - **style:** resolve lint errors _(by Athan Reines)_
+-   [`70e9b6c`](https://github.com/stdlib-js/stdlib/commit/70e9b6c1b5b3521412ed4a8fed9ab3de337ab661) - **feat:** add `ndarray/base/pop` [(#8108)](https://github.com/stdlib-js/stdlib/pull/8108) _(by Muhammad Haris, Athan Reines)_
+-   [`bef69f1`](https://github.com/stdlib-js/stdlib/commit/bef69f1647b16c21cec08955ed3b26b41937ebd2) - **style:** resolve lint errors _(by Athan Reines)_
+-   [`a86f514`](https://github.com/stdlib-js/stdlib/commit/a86f514dee23ab0536fe9e697e48a0fb2a9c5a22) - **test:** tweak test description _(by Philipp Burckhardt)_
+-   [`00f16f2`](https://github.com/stdlib-js/stdlib/commit/00f16f2e8c6f5b675e586e8f1434eae9441787ac) - **test:** fix test description _(by Philipp Burckhardt)_
+-   [`4352654`](https://github.com/stdlib-js/stdlib/commit/43526545d5bc73d7f7620dc7cc85bb456e5f37f1) - **feat:** update `ndarray/base` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`e76eee3`](https://github.com/stdlib-js/stdlib/commit/e76eee36993ff476d8329e7b9a5131e29960ffc2) - **feat:** update `ndarray/base/assert` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`31cb339`](https://github.com/stdlib-js/stdlib/commit/31cb339eecada54f0bba379206c4d97ef6f367bb) - **refactor:** add instanceof check to increase perf _(by Athan Reines)_
 -   [`6f68eff`](https://github.com/stdlib-js/stdlib/commit/6f68effedeecde36720abe994269424b692d2663) - **feat:** add `dtypeObjects` to namespace _(by Athan Reines)_
 -   [`57e97ae`](https://github.com/stdlib-js/stdlib/commit/57e97ae489b90d630a5f6789154eca2c92740bf9) - **feat:** add `ndarray/base/dtype-objects` _(by Athan Reines)_
 -   [`5b491c9`](https://github.com/stdlib-js/stdlib/commit/5b491c98f454c2413c23eaa901543bef9e3642f2) - **fix:** allow enums to be nonpositive integers _(by Athan Reines)_
