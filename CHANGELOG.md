@@ -4,12 +4,25 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-22)
+## Unreleased (2025-11-04)
 
 <section class="features">
 
 ### Features
 
+-   [`a07dba7`](https://github.com/stdlib-js/stdlib/commit/a07dba7671e5c34b32277a26e8f2aa014f0868b4) - add `nullaryStrided1dDispatchFactory` to namespace
+-   [`c2512eb`](https://github.com/stdlib-js/stdlib/commit/c2512eb60c1fea33fa164753e784a9ab3bd57451) - add `some` to namespace
+-   [`8a3e72b`](https://github.com/stdlib-js/stdlib/commit/8a3e72b3478beaf05ef0f18326c6403debc51827) - add `shift` to namespace
+-   [`8932249`](https://github.com/stdlib-js/stdlib/commit/8932249481c46eedb61ffc6e822560824ce26060) - add `pop` to namespace
+-   [`c2ec9e2`](https://github.com/stdlib-js/stdlib/commit/c2ec9e21057480aa045e006da6c78babbeb29eee) - add `flattenShapeFrom` to namespace
+-   [`136a4f7`](https://github.com/stdlib-js/stdlib/commit/136a4f78781b449c5c333f79768f6452c3084163) - add `dtypeAlignment` to namespace
+-   [`9125dc2`](https://github.com/stdlib-js/stdlib/commit/9125dc20850e80b80ef9afbd6431b932b2924cef) - add `copy` to namespace
+-   [`2b62970`](https://github.com/stdlib-js/stdlib/commit/2b62970851dfbb69e2c2d94ecb098fa741bc6617) - add `dtypeChars` to namespace
+-   [`d5cb7ec`](https://github.com/stdlib-js/stdlib/commit/d5cb7ec32e06766b70f0c057472977a01c6643f1) - add `ndarray/base/dtype-chars`
+-   [`dcafcbc`](https://github.com/stdlib-js/stdlib/commit/dcafcbc6ddad41e4cd12d46dad426fe80bf7eab3) - add `ndarray/base/some` [(#7653)](https://github.com/stdlib-js/stdlib/pull/7653)
+-   [`4b8a736`](https://github.com/stdlib-js/stdlib/commit/4b8a736be3db63bd001c4b556bf69f60045a9df2) - add `ndarray/base/copy` [(#8329)](https://github.com/stdlib-js/stdlib/pull/8329)
+-   [`4520512`](https://github.com/stdlib-js/stdlib/commit/45205122924bc8f8c38b3552430ef0fabc6647ab) - add `ndarray/base/flatten-shape-from` [(#8151)](https://github.com/stdlib-js/stdlib/pull/8151)
+-   [`534fbd0`](https://github.com/stdlib-js/stdlib/commit/534fbd0fab785e6e2b439cdf5966f0cbef47f570) - add `ndarray/base/shift` [(#8118)](https://github.com/stdlib-js/stdlib/pull/8118)
 -   [`b5a916e`](https://github.com/stdlib-js/stdlib/commit/b5a916e413d8658977ab2383ec6fe411f90c557d) - update `ndarray/base` TypeScript declarations [(#8127)](https://github.com/stdlib-js/stdlib/pull/8127)
 -   [`70e9b6c`](https://github.com/stdlib-js/stdlib/commit/70e9b6c1b5b3521412ed4a8fed9ab3de337ab661) - add `ndarray/base/pop` [(#8108)](https://github.com/stdlib-js/stdlib/pull/8108)
 -   [`4352654`](https://github.com/stdlib-js/stdlib/commit/43526545d5bc73d7f7620dc7cc85bb456e5f37f1) - update `ndarray/base` TypeScript declarations
@@ -360,6 +373,13 @@
 
 ### Bug Fixes
 
+-   [`ef3f025`](https://github.com/stdlib-js/stdlib/commit/ef3f025dad7f2b8a5a451b9cc3ec822cc66c1c2a) - address copy-paste mistake
+-   [`186033e`](https://github.com/stdlib-js/stdlib/commit/186033e3cccf7faffaad1c101404de68f688027e) - address off-by-one bug
+-   [`95313b8`](https://github.com/stdlib-js/stdlib/commit/95313b80fc669b87cf31298db9e03ff25cfdd312) - address off-by-one bug
+-   [`c52126b`](https://github.com/stdlib-js/stdlib/commit/c52126b350f55f8d0b6a2622e367acdad9920dd6) - address off-by-one bug
+-   [`12d0130`](https://github.com/stdlib-js/stdlib/commit/12d013004ea30a7d6eaf515df4875eee42feee89) - address off-by-one bug
+-   [`b7368a4`](https://github.com/stdlib-js/stdlib/commit/b7368a45d5b0cc0bbdf695291837eee3d726da0a) - handle edge case when provided an empty ndarray
+-   [`f84c1a6`](https://github.com/stdlib-js/stdlib/commit/f84c1a6ecbaf68b7dfbeef4576111bc277885d1a) - remove unused parameter
 -   [`5b491c9`](https://github.com/stdlib-js/stdlib/commit/5b491c98f454c2413c23eaa901543bef9e3642f2) - allow enums to be nonpositive integers
 -   [`a278663`](https://github.com/stdlib-js/stdlib/commit/a2786634547c68e950444c8a16d522d2ab79e335) - ensure \"generic\" data type objects are considered valid
 -   [`08c21f1`](https://github.com/stdlib-js/stdlib/commit/08c21f19a3dc1c7352e4760c19c1ec8aab714b54) - update return type
@@ -491,9 +511,9 @@
 
 ### Closed Issues
 
-A total of 20 issues were closed in this release:
+A total of 26 issues were closed in this release:
 
-[#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5788](https://github.com/stdlib-js/stdlib/issues/5788), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#6053](https://github.com/stdlib-js/stdlib/issues/6053), [#6236](https://github.com/stdlib-js/stdlib/issues/6236), [#6456](https://github.com/stdlib-js/stdlib/issues/6456), [#6457](https://github.com/stdlib-js/stdlib/issues/6457), [#6574](https://github.com/stdlib-js/stdlib/issues/6574), [#6589](https://github.com/stdlib-js/stdlib/issues/6589), [#6604](https://github.com/stdlib-js/stdlib/issues/6604), [#6663](https://github.com/stdlib-js/stdlib/issues/6663), [#6776](https://github.com/stdlib-js/stdlib/issues/6776), [#7114](https://github.com/stdlib-js/stdlib/issues/7114), [#7135](https://github.com/stdlib-js/stdlib/issues/7135), [#7215](https://github.com/stdlib-js/stdlib/issues/7215), [#7296](https://github.com/stdlib-js/stdlib/issues/7296), [#7395](https://github.com/stdlib-js/stdlib/issues/7395), [#7554](https://github.com/stdlib-js/stdlib/issues/7554), [#7626](https://github.com/stdlib-js/stdlib/issues/7626), [#7973](https://github.com/stdlib-js/stdlib/issues/7973)
+[#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5788](https://github.com/stdlib-js/stdlib/issues/5788), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#6053](https://github.com/stdlib-js/stdlib/issues/6053), [#6236](https://github.com/stdlib-js/stdlib/issues/6236), [#6456](https://github.com/stdlib-js/stdlib/issues/6456), [#6457](https://github.com/stdlib-js/stdlib/issues/6457), [#6574](https://github.com/stdlib-js/stdlib/issues/6574), [#6589](https://github.com/stdlib-js/stdlib/issues/6589), [#6604](https://github.com/stdlib-js/stdlib/issues/6604), [#6663](https://github.com/stdlib-js/stdlib/issues/6663), [#6776](https://github.com/stdlib-js/stdlib/issues/6776), [#7114](https://github.com/stdlib-js/stdlib/issues/7114), [#7135](https://github.com/stdlib-js/stdlib/issues/7135), [#7215](https://github.com/stdlib-js/stdlib/issues/7215), [#7296](https://github.com/stdlib-js/stdlib/issues/7296), [#7395](https://github.com/stdlib-js/stdlib/issues/7395), [#7554](https://github.com/stdlib-js/stdlib/issues/7554), [#7626](https://github.com/stdlib-js/stdlib/issues/7626), [#7973](https://github.com/stdlib-js/stdlib/issues/7973), [#8129](https://github.com/stdlib-js/stdlib/issues/8129), [#8156](https://github.com/stdlib-js/stdlib/issues/8156), [#8159](https://github.com/stdlib-js/stdlib/issues/8159), [#8189](https://github.com/stdlib-js/stdlib/issues/8189), [#8196](https://github.com/stdlib-js/stdlib/issues/8196), [#8308](https://github.com/stdlib-js/stdlib/issues/8308)
 
 </section>
 
@@ -505,6 +525,41 @@ A total of 20 issues were closed in this release:
 
 <details>
 
+-   [`ef3f025`](https://github.com/stdlib-js/stdlib/commit/ef3f025dad7f2b8a5a451b9cc3ec822cc66c1c2a) - **fix:** address copy-paste mistake _(by Athan Reines)_
+-   [`a07dba7`](https://github.com/stdlib-js/stdlib/commit/a07dba7671e5c34b32277a26e8f2aa014f0868b4) - **feat:** add `nullaryStrided1dDispatchFactory` to namespace _(by Athan Reines)_
+-   [`c2512eb`](https://github.com/stdlib-js/stdlib/commit/c2512eb60c1fea33fa164753e784a9ab3bd57451) - **feat:** add `some` to namespace _(by Athan Reines)_
+-   [`8a3e72b`](https://github.com/stdlib-js/stdlib/commit/8a3e72b3478beaf05ef0f18326c6403debc51827) - **feat:** add `shift` to namespace _(by Athan Reines)_
+-   [`8932249`](https://github.com/stdlib-js/stdlib/commit/8932249481c46eedb61ffc6e822560824ce26060) - **feat:** add `pop` to namespace _(by Athan Reines)_
+-   [`c2ec9e2`](https://github.com/stdlib-js/stdlib/commit/c2ec9e21057480aa045e006da6c78babbeb29eee) - **feat:** add `flattenShapeFrom` to namespace _(by Athan Reines)_
+-   [`136a4f7`](https://github.com/stdlib-js/stdlib/commit/136a4f78781b449c5c333f79768f6452c3084163) - **feat:** add `dtypeAlignment` to namespace _(by Athan Reines)_
+-   [`9125dc2`](https://github.com/stdlib-js/stdlib/commit/9125dc20850e80b80ef9afbd6431b932b2924cef) - **feat:** add `copy` to namespace _(by Athan Reines)_
+-   [`2b62970`](https://github.com/stdlib-js/stdlib/commit/2b62970851dfbb69e2c2d94ecb098fa741bc6617) - **feat:** add `dtypeChars` to namespace _(by Athan Reines)_
+-   [`d5cb7ec`](https://github.com/stdlib-js/stdlib/commit/d5cb7ec32e06766b70f0c057472977a01c6643f1) - **feat:** add `ndarray/base/dtype-chars` _(by Athan Reines)_
+-   [`36fb4b9`](https://github.com/stdlib-js/stdlib/commit/36fb4b93d268a41fc21accf0af15fc815b00813e) - **docs:** update Markdown stdlib package URLs [(#8347)](https://github.com/stdlib-js/stdlib/pull/8347) _(by stdlib-bot)_
+-   [`dcafcbc`](https://github.com/stdlib-js/stdlib/commit/dcafcbc6ddad41e4cd12d46dad426fe80bf7eab3) - **feat:** add `ndarray/base/some` [(#7653)](https://github.com/stdlib-js/stdlib/pull/7653) _(by Muhammad Haris, Athan Reines)_
+-   [`186033e`](https://github.com/stdlib-js/stdlib/commit/186033e3cccf7faffaad1c101404de68f688027e) - **fix:** address off-by-one bug _(by Athan Reines)_
+-   [`95313b8`](https://github.com/stdlib-js/stdlib/commit/95313b80fc669b87cf31298db9e03ff25cfdd312) - **fix:** address off-by-one bug _(by Athan Reines)_
+-   [`c52126b`](https://github.com/stdlib-js/stdlib/commit/c52126b350f55f8d0b6a2622e367acdad9920dd6) - **fix:** address off-by-one bug _(by Athan Reines)_
+-   [`12d0130`](https://github.com/stdlib-js/stdlib/commit/12d013004ea30a7d6eaf515df4875eee42feee89) - **fix:** address off-by-one bug _(by Athan Reines)_
+-   [`4667d97`](https://github.com/stdlib-js/stdlib/commit/4667d97da041e8685f8f8c25a5345fa289dbaf9c) - **docs:** update type _(by Athan Reines)_
+-   [`4b8a736`](https://github.com/stdlib-js/stdlib/commit/4b8a736be3db63bd001c4b556bf69f60045a9df2) - **feat:** add `ndarray/base/copy` [(#8329)](https://github.com/stdlib-js/stdlib/pull/8329) _(by Muhammad Haris, Athan Reines)_
+-   [`4b9391c`](https://github.com/stdlib-js/stdlib/commit/4b9391cd318c753562d9c670fe2946e012fb15cb) - **chore:** fix C lint errors [(#8309)](https://github.com/stdlib-js/stdlib/pull/8309) _(by Navyansh Kesarwani, Athan Reines)_
+-   [`0ccda74`](https://github.com/stdlib-js/stdlib/commit/0ccda74155ae15d3258c06cef82cbd08f5f3a730) - **chore:** fix C lint errors [(#8199)](https://github.com/stdlib-js/stdlib/pull/8199) _(by Geo Daoyu, Athan Reines)_
+-   [`88af477`](https://github.com/stdlib-js/stdlib/commit/88af477a176c4eac745a0324892324611de6d494) - **chore:** address Javascript lint errors [(#8193)](https://github.com/stdlib-js/stdlib/pull/8193) _(by Shubham, Athan Reines)_
+-   [`17b3ee2`](https://github.com/stdlib-js/stdlib/commit/17b3ee291d0ff12089dcf3ff881771b41325ff28) - **chore:** fix C lint errors [(#8181)](https://github.com/stdlib-js/stdlib/pull/8181) _(by Piyush Goel, Athan Reines)_
+-   [`e49d1a0`](https://github.com/stdlib-js/stdlib/commit/e49d1a00ad07054f006f0a9a3fd52dbce217ea84) - **docs:** add note _(by Athan Reines)_
+-   [`4583470`](https://github.com/stdlib-js/stdlib/commit/45834700742e84b03646e769e94d498ee66c65b4) - **docs:** add note _(by Athan Reines)_
+-   [`607adbe`](https://github.com/stdlib-js/stdlib/commit/607adbe9aba4c11a689408c62930ca3901db5f7d) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`29d3bbb`](https://github.com/stdlib-js/stdlib/commit/29d3bbb5241884d149b000c3a76d59227686728f) - **chore:** fix C lint errors [(#8157)](https://github.com/stdlib-js/stdlib/pull/8157) _(by Geo Daoyu, Athan Reines)_
+-   [`23d7b87`](https://github.com/stdlib-js/stdlib/commit/23d7b87841cfebba942d5c35728dcd28a8336159) - **docs:** update example _(by Athan Reines)_
+-   [`bf71563`](https://github.com/stdlib-js/stdlib/commit/bf7156340c62ef965aaa6f08bf156d8b414f8e96) - **docs:** update example _(by Athan Reines)_
+-   [`4520512`](https://github.com/stdlib-js/stdlib/commit/45205122924bc8f8c38b3552430ef0fabc6647ab) - **feat:** add `ndarray/base/flatten-shape-from` [(#8151)](https://github.com/stdlib-js/stdlib/pull/8151) _(by Muhammad Haris, Athan Reines)_
+-   [`8d55a46`](https://github.com/stdlib-js/stdlib/commit/8d55a4641a5e936d764313ebc470aa2ae38cfd17) - **docs:** update type _(by Athan Reines)_
+-   [`534fbd0`](https://github.com/stdlib-js/stdlib/commit/534fbd0fab785e6e2b439cdf5966f0cbef47f570) - **feat:** add `ndarray/base/shift` [(#8118)](https://github.com/stdlib-js/stdlib/pull/8118) _(by Muhammad Haris, Athan Reines)_
+-   [`b7368a4`](https://github.com/stdlib-js/stdlib/commit/b7368a45d5b0cc0bbdf695291837eee3d726da0a) - **fix:** handle edge case when provided an empty ndarray _(by Athan Reines)_
+-   [`2798013`](https://github.com/stdlib-js/stdlib/commit/2798013a8edf4eb58a762928e8625089eef0f4f5) - **docs:** update example _(by Athan Reines)_
+-   [`4dba8a6`](https://github.com/stdlib-js/stdlib/commit/4dba8a659480c7c39382084ba3bb7fdace936609) - **chore:** fix JavaScript lint errors [(#8134)](https://github.com/stdlib-js/stdlib/pull/8134) _(by Payal Goswami, Athan Reines)_
+-   [`f84c1a6`](https://github.com/stdlib-js/stdlib/commit/f84c1a6ecbaf68b7dfbeef4576111bc277885d1a) - **fix:** remove unused parameter _(by Athan Reines)_
 -   [`b5a916e`](https://github.com/stdlib-js/stdlib/commit/b5a916e413d8658977ab2383ec6fe411f90c557d) - **feat:** update `ndarray/base` TypeScript declarations [(#8127)](https://github.com/stdlib-js/stdlib/pull/8127) _(by stdlib-bot)_
 -   [`0af16c9`](https://github.com/stdlib-js/stdlib/commit/0af16c9618cb9bf7f5f3c521a8dbfc3e3f640b42) - **style:** resolve lint errors _(by Athan Reines)_
 -   [`70e9b6c`](https://github.com/stdlib-js/stdlib/commit/70e9b6c1b5b3521412ed4a8fed9ab3de337ab661) - **feat:** add `ndarray/base/pop` [(#8108)](https://github.com/stdlib-js/stdlib/pull/8108) _(by Muhammad Haris, Athan Reines)_
@@ -653,7 +708,7 @@ A total of 20 issues were closed in this release:
 -   [`3174a3b`](https://github.com/stdlib-js/stdlib/commit/3174a3b0243e1976487cd1dea54decec9caaa3f8) - **feat:** add `ndarray/base/any` [(#7640)](https://github.com/stdlib-js/stdlib/pull/7640) _(by Muhammad Haris, Athan Reines)_
 -   [`3b77033`](https://github.com/stdlib-js/stdlib/commit/3b7703363c530e1d485912a441c9ef36b14640cd) - **docs:** update example _(by Athan Reines)_
 -   [`dd7b58d`](https://github.com/stdlib-js/stdlib/commit/dd7b58d5281732fc9ba4153d7f9bbc31a3766ed9) - **bench:** fix copy-paste mistake _(by Athan Reines)_
--   [`8aea8a0`](https://github.com/stdlib-js/stdlib/commit/8aea8a04b6be1b2cb1ddc5dd15e76f4423a4f50b) - **chore:** fix C lint errors [(#7974)](https://github.com/stdlib-js/stdlib/pull/7974) _(by GeoDaoyu, Athan Reines)_
+-   [`8aea8a0`](https://github.com/stdlib-js/stdlib/commit/8aea8a04b6be1b2cb1ddc5dd15e76f4423a4f50b) - **chore:** fix C lint errors [(#7974)](https://github.com/stdlib-js/stdlib/pull/7974) _(by Geo Daoyu, Athan Reines)_
 -   [`8a6dbd7`](https://github.com/stdlib-js/stdlib/commit/8a6dbd7bf692bcd9ce166a7370eda0a7410da3b0) - **docs:** fix example code and return annotation values _(by Philipp Burckhardt)_
 -   [`73e569f`](https://github.com/stdlib-js/stdlib/commit/73e569fd71650dbd2c18ce3fec9c373767fcb027) - **fix:** address assignment bug _(by Athan Reines)_
 -   [`b00978b`](https://github.com/stdlib-js/stdlib/commit/b00978b67f6f32f7f6a343f29685ff4da30bd89d) - **fix:** address assignment bug _(by Athan Reines)_
@@ -672,11 +727,11 @@ A total of 20 issues were closed in this release:
 -   [`724d6be`](https://github.com/stdlib-js/stdlib/commit/724d6be1abb00700577700905dd847f6ab98812d) - **feat:** add `array2ndarray` to namespace _(by Athan Reines)_
 -   [`485fd08`](https://github.com/stdlib-js/stdlib/commit/485fd086608ee3b2457da777a8a9d6f0dcd28d94) - **feat:** add `ndarray/base/from-array` _(by Athan Reines)_
 -   [`b8933b0`](https://github.com/stdlib-js/stdlib/commit/b8933b0c7fbabd051657132f49cb6eb603ad69db) - **docs:** fix return value description _(by Philipp Burckhardt)_
--   [`097c6fb`](https://github.com/stdlib-js/stdlib/commit/097c6fbd4f91e243d6c8a62f5e2abed0ee3d82df) - **chore:** fix C lint errors [(#7630)](https://github.com/stdlib-js/stdlib/pull/7630) _(by GeoDaoyu, Athan Reines)_
+-   [`097c6fb`](https://github.com/stdlib-js/stdlib/commit/097c6fbd4f91e243d6c8a62f5e2abed0ee3d82df) - **chore:** fix C lint errors [(#7630)](https://github.com/stdlib-js/stdlib/pull/7630) _(by Geo Daoyu, Athan Reines)_
 -   [`a937794`](https://github.com/stdlib-js/stdlib/commit/a937794d19a04066bdc0b63349283d2e0af5a350) - **docs:** update signature _(by Athan Reines)_
 -   [`f5b05ea`](https://github.com/stdlib-js/stdlib/commit/f5b05eab62b82810bc657081dd4d97edf8c779a7) - **test:** add tests to `ndarray/base/some-by` [(#7305)](https://github.com/stdlib-js/stdlib/pull/7305) _(by Muhammad Haris, Athan Reines)_
 -   [`e995411`](https://github.com/stdlib-js/stdlib/commit/e995411cf68fa5d1d0960ce0eff8d3dda3297cd8) - **test:** add tests to `ndarray/base/every-by` [(#7285)](https://github.com/stdlib-js/stdlib/pull/7285) _(by Muhammad Haris)_
--   [`15fa50d`](https://github.com/stdlib-js/stdlib/commit/15fa50ddc789259ce8c21fe70d85e26fbb54cf44) - **chore:** fix C lint errors [(#7568)](https://github.com/stdlib-js/stdlib/pull/7568) _(by zhanggy, Athan Reines)_
+-   [`15fa50d`](https://github.com/stdlib-js/stdlib/commit/15fa50ddc789259ce8c21fe70d85e26fbb54cf44) - **chore:** fix C lint errors [(#7568)](https://github.com/stdlib-js/stdlib/pull/7568) _(by Geo Daoyu, Athan Reines)_
 -   [`76ea5a8`](https://github.com/stdlib-js/stdlib/commit/76ea5a8e8d964f78aa953ae4822345d3c1e3a6ae) - **feat:** add missing tests to `ndarray/base/includes` [(#7304)](https://github.com/stdlib-js/stdlib/pull/7304) _(by Muhammad Haris, Athan Reines)_
 -   [`82ef59a`](https://github.com/stdlib-js/stdlib/commit/82ef59aadd8de578d9a57780108e3ff4cb440dfe) - **bench:** ensure values are within bounds _(by Athan Reines)_
 -   [`787d8da`](https://github.com/stdlib-js/stdlib/commit/787d8da9caf55181afa9e7d198f7622660397b7d) - **feat:** add half-precision data types _(by Athan Reines)_
@@ -936,7 +991,7 @@ A total of 20 issues were closed in this release:
 -   [`6eafecd`](https://github.com/stdlib-js/stdlib/commit/6eafecd48801dd4bcb20626341c998adfdcb3d32) - **docs:** update note _(by Athan Reines)_
 -   [`2369aeb`](https://github.com/stdlib-js/stdlib/commit/2369aebf8699a768a88b018c166ad220a108589f) - **docs:** update note _(by Athan Reines)_
 -   [`ee7d10d`](https://github.com/stdlib-js/stdlib/commit/ee7d10d4b989f11f10b355be7d5b7cad5d84e2a0) - **docs:** update note _(by Athan Reines)_
--   [`e1e45f6`](https://github.com/stdlib-js/stdlib/commit/e1e45f6323aa212a1ae7bbc0ac584131f7c87805) - **chore:** fix EditorConfig lint errors [(#6860)](https://github.com/stdlib-js/stdlib/pull/6860) _(by zhanggy)_
+-   [`e1e45f6`](https://github.com/stdlib-js/stdlib/commit/e1e45f6323aa212a1ae7bbc0ac584131f7c87805) - **chore:** fix EditorConfig lint errors [(#6860)](https://github.com/stdlib-js/stdlib/pull/6860) _(by Geo Daoyu)_
 -   [`6bf62ef`](https://github.com/stdlib-js/stdlib/commit/6bf62efb7fde322edbdf4e0b46a74473dbd62d60) - **refactor:** update error message _(by Athan Reines)_
 -   [`6464a4b`](https://github.com/stdlib-js/stdlib/commit/6464a4ba00ba9579a2da77a0e2282a0f03bfdc01) - **docs:** update namespace table of contents [(#6828)](https://github.com/stdlib-js/stdlib/pull/6828) _(by stdlib-bot)_
 -   [`25abfc6`](https://github.com/stdlib-js/stdlib/commit/25abfc67b400f646304fa1f10b239a051f6569f6) - **refactor:** support non-built-in shape and strides objects _(by Athan Reines)_
@@ -995,7 +1050,7 @@ A total of 20 issues were closed in this release:
 -   [`3036ccc`](https://github.com/stdlib-js/stdlib/commit/3036cccd1db41f0093555d2b7c890bdbd6f07cdf) - **feat:** add `ndarray/base/unary-strided1d-dispatch` _(by Athan Reines)_
 -   [`9c1e5c9`](https://github.com/stdlib-js/stdlib/commit/9c1e5c9b5b87643d31668a7a0b9c009413fa4c05) - **feat:** add `ndarray/base/unary-reduce-strided1d-dispatch-factory` _(by Athan Reines)_
 -   [`a374c5a`](https://github.com/stdlib-js/stdlib/commit/a374c5a0a41ce15ea957d6fa92d0a6b7fe6baa1f) - **feat:** add `ndarray/base/unary-reduce-strided1d-dispatch` _(by Athan Reines)_
--   [`3be1d66`](https://github.com/stdlib-js/stdlib/commit/3be1d666a8dffa16c58b4ab1b4186e0f7b1b15f9) - **chore:** address commit comments for commit `a1e8f03` [(#6784)](https://github.com/stdlib-js/stdlib/pull/6784) _(by devshree-bhati, stdlib-bot)_
+-   [`3be1d66`](https://github.com/stdlib-js/stdlib/commit/3be1d666a8dffa16c58b4ab1b4186e0f7b1b15f9) - **chore:** address commit comments for commit `a1e8f03` [(#6784)](https://github.com/stdlib-js/stdlib/pull/6784) _(by Devshree Bhati, stdlib-bot)_
 -   [`e00f861`](https://github.com/stdlib-js/stdlib/commit/e00f86162891392508f20d212cf2b3b01f111203) - **refactor:** ensure iteration happens according to memory layout of input ndarray _(by Athan Reines)_
 -   [`0216d98`](https://github.com/stdlib-js/stdlib/commit/0216d98429db599b577ac3b5dd89bc6b72902e1c) - **fix:** verify that input and output ndarrays have same number of dimensions _(by Athan Reines)_
 -   [`d19823e`](https://github.com/stdlib-js/stdlib/commit/d19823e71c410b6f6ff1db39a70fdf83ed7e4267) - **refactor:** avoid mutating the list of views _(by Athan Reines)_
@@ -1168,11 +1223,11 @@ A total of 20 issues were closed in this release:
 -   [`843fd22`](https://github.com/stdlib-js/stdlib/commit/843fd22b54dd151a98bf2dd9f145147a6e7f8522) - **docs:** fix example _(by Athan Reines)_
 -   [`d6437f7`](https://github.com/stdlib-js/stdlib/commit/d6437f72ff5f7b0b08c531e25826651f28757143) - **docs:** fix example _(by Athan Reines)_
 -   [`ea0fc20`](https://github.com/stdlib-js/stdlib/commit/ea0fc20c91111d85cc32c9d38bd7ce7a70b825f8) - **chore:** fix EditorConfig lint error [(#6135)](https://github.com/stdlib-js/stdlib/pull/6135) _(by Bhavishy Agrawal, Athan Reines)_
--   [`b6a6575`](https://github.com/stdlib-js/stdlib/commit/b6a657548d4e7beacc37f26e7f49c77ae3ea2f0b) - **chore:** fix EditorConfig lint errors [(#6057)](https://github.com/stdlib-js/stdlib/pull/6057) _(by Kaushikgtm)_
+-   [`b6a6575`](https://github.com/stdlib-js/stdlib/commit/b6a657548d4e7beacc37f26e7f49c77ae3ea2f0b) - **chore:** fix EditorConfig lint errors [(#6057)](https://github.com/stdlib-js/stdlib/pull/6057) _(by Gautam Kaushik)_
 -   [`45a92db`](https://github.com/stdlib-js/stdlib/commit/45a92dba41673fda4e01deb4cfc74e7bcb28d50b) - **bench:** fix require expression _(by Athan Reines)_
 -   [`3938b26`](https://github.com/stdlib-js/stdlib/commit/3938b265e603116448c89fcaa58df70e79d40f59) - **refactor:** update paths _(by Gururaj Gurram)_
--   [`40b4245`](https://github.com/stdlib-js/stdlib/commit/40b4245a2a2ddc1fc8d93ea54a6f629102a037bc) - **chore:** fix EditorConfig lint errors [(#5970)](https://github.com/stdlib-js/stdlib/pull/5970) _(by Kaushikgtm)_
--   [`a1e8f03`](https://github.com/stdlib-js/stdlib/commit/a1e8f03af0ee470d0783cb840878dc7cde0826c3) - **chore:** fix EditorConfig lint errors [(#5543)](https://github.com/stdlib-js/stdlib/pull/5543) _(by ditsu, Athan Reines, Philipp Burckhardt)_
+-   [`40b4245`](https://github.com/stdlib-js/stdlib/commit/40b4245a2a2ddc1fc8d93ea54a6f629102a037bc) - **chore:** fix EditorConfig lint errors [(#5970)](https://github.com/stdlib-js/stdlib/pull/5970) _(by Gautam Kaushik)_
+-   [`a1e8f03`](https://github.com/stdlib-js/stdlib/commit/a1e8f03af0ee470d0783cb840878dc7cde0826c3) - **chore:** fix EditorConfig lint errors [(#5543)](https://github.com/stdlib-js/stdlib/pull/5543) _(by Ditsu S, Athan Reines, Philipp Burckhardt)_
 -   [`2f0aa48`](https://github.com/stdlib-js/stdlib/commit/2f0aa48ef6d561779d4bd4c4a54fe00a5a26c0e1) - **feat:** update namespace TypeScript declarations [(#5436)](https://github.com/stdlib-js/stdlib/pull/5436) _(by stdlib-bot)_
 -   [`9d532b5`](https://github.com/stdlib-js/stdlib/commit/9d532b5510055d80c5df8ba4c8e897c1670dcd1a) - **docs:** update namespace table of contents [(#5438)](https://github.com/stdlib-js/stdlib/pull/5438) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`c1b6794`](https://github.com/stdlib-js/stdlib/commit/c1b6794e36255d7df6795f5f5f4d3e493165f397) - **feat:** add `isOutputDataTypePolicy` to namespace _(by Athan Reines)_
@@ -1371,27 +1426,30 @@ A total of 20 issues were closed in this release:
 
 ### Contributors
 
-A total of 19 people contributed to this release. Thank you to the following contributors:
+A total of 22 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Bhavishy Agrawal
 -   Deepak Singh
+-   Devshree Bhati
 -   Dipjyoti Das
--   GeoDaoyu
+-   Ditsu S
+-   Gautam Kaushik
+-   Geo Daoyu
 -   Gururaj Gurram
 -   Karan Vasudevamurthy
--   Kaushikgtm
 -   Lokesh Ranjan
 -   MANI
 -   Muhammad Haris
+-   Navyansh Kesarwani
+-   Payal Goswami
 -   Philipp Burckhardt
+-   Piyush Goel
 -   Pravesh Kunwar
 -   Sai Avinash
+-   Shubham
 -   Tushar Bhardwaj
--   devshree-bhati
--   ditsu
 -   lohithganni
--   zhanggy
 
 </section>
 
