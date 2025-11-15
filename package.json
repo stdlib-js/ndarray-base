@@ -61,6 +61,7 @@
     "@stdlib/ndarray-base-bytes-per-element": "^0.2.2",
     "@stdlib/ndarray-base-char2dtype": "^0.2.2",
     "@stdlib/ndarray-base-clamp-index": "^0.2.2",
+    "@stdlib/ndarray-base-complement-shape": "github:stdlib-js/ndarray-base-complement-shape#main",
     "@stdlib/ndarray-base-copy": "github:stdlib-js/ndarray-base-copy#main",
     "@stdlib/ndarray-base-count-falsy": "github:stdlib-js/ndarray-base-count-falsy#main",
     "@stdlib/ndarray-base-count-if": "github:stdlib-js/ndarray-base-count-if#main",
