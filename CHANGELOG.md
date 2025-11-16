@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-15)
+## Unreleased (2025-11-16)
 
 <section class="features">
 
@@ -530,6 +530,7 @@ A total of 27 issues were closed in this release:
 
 <details>
 
+-   [`a0a76ca`](https://github.com/stdlib-js/stdlib/commit/a0a76caf35c0df0a8de6406f56b32e59c89daf07) - **docs:** update namespace table of contents [(#8536)](https://github.com/stdlib-js/stdlib/pull/8536) _(by stdlib-bot)_
 -   [`4b6f051`](https://github.com/stdlib-js/stdlib/commit/4b6f0510d4773574101122924f20cb4d987c2b38) - **feat:** add `complementShape` to namespace _(by Athan Reines)_
 -   [`903f141`](https://github.com/stdlib-js/stdlib/commit/903f1415351afbabd33b859b0888ad2daa02ecc0) - **feat:** add `ndarray/base/complement-shape` _(by Athan Reines)_
 -   [`9e78d0f`](https://github.com/stdlib-js/stdlib/commit/9e78d0f090816b652f837318212b91117f5cbd9a) - **docs:** fix typo _(by Philipp Burckhardt)_
