@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-16)
+## Unreleased (2025-12-05)
 
 <section class="features">
 
 ### Features
 
+-   [`53295ce`](https://github.com/stdlib-js/stdlib/commit/53295ce482ae3c95cc80afd5295acbc9f2a476eb) - update `ndarray/base` TypeScript declarations
+-   [`e24d1a7`](https://github.com/stdlib-js/stdlib/commit/e24d1a701a3cb60714f3d44c0ff87341dd0d870a) - update `ndarray/base/assert` TypeScript declarations
 -   [`4b6f051`](https://github.com/stdlib-js/stdlib/commit/4b6f0510d4773574101122924f20cb4d987c2b38) - add `complementShape` to namespace
 -   [`903f141`](https://github.com/stdlib-js/stdlib/commit/903f1415351afbabd33b859b0888ad2daa02ecc0) - add `ndarray/base/complement-shape`
 -   [`cad6845`](https://github.com/stdlib-js/stdlib/commit/cad68452e8d2a52ebe1ebfd74117d98197a4a568) - add `isComplexFloatingPointDataTypeChar` to namespace
@@ -516,9 +518,9 @@
 
 ### Closed Issues
 
-A total of 27 issues were closed in this release:
+A total of 30 issues were closed in this release:
 
-[#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5788](https://github.com/stdlib-js/stdlib/issues/5788), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#6053](https://github.com/stdlib-js/stdlib/issues/6053), [#6236](https://github.com/stdlib-js/stdlib/issues/6236), [#6456](https://github.com/stdlib-js/stdlib/issues/6456), [#6457](https://github.com/stdlib-js/stdlib/issues/6457), [#6574](https://github.com/stdlib-js/stdlib/issues/6574), [#6589](https://github.com/stdlib-js/stdlib/issues/6589), [#6604](https://github.com/stdlib-js/stdlib/issues/6604), [#6663](https://github.com/stdlib-js/stdlib/issues/6663), [#6776](https://github.com/stdlib-js/stdlib/issues/6776), [#7114](https://github.com/stdlib-js/stdlib/issues/7114), [#7135](https://github.com/stdlib-js/stdlib/issues/7135), [#7215](https://github.com/stdlib-js/stdlib/issues/7215), [#7296](https://github.com/stdlib-js/stdlib/issues/7296), [#7395](https://github.com/stdlib-js/stdlib/issues/7395), [#7554](https://github.com/stdlib-js/stdlib/issues/7554), [#7626](https://github.com/stdlib-js/stdlib/issues/7626), [#7973](https://github.com/stdlib-js/stdlib/issues/7973), [#8129](https://github.com/stdlib-js/stdlib/issues/8129), [#8156](https://github.com/stdlib-js/stdlib/issues/8156), [#8159](https://github.com/stdlib-js/stdlib/issues/8159), [#8189](https://github.com/stdlib-js/stdlib/issues/8189), [#8196](https://github.com/stdlib-js/stdlib/issues/8196), [#8308](https://github.com/stdlib-js/stdlib/issues/8308), [#8484](https://github.com/stdlib-js/stdlib/issues/8484)
+[#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5788](https://github.com/stdlib-js/stdlib/issues/5788), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#6053](https://github.com/stdlib-js/stdlib/issues/6053), [#6236](https://github.com/stdlib-js/stdlib/issues/6236), [#6456](https://github.com/stdlib-js/stdlib/issues/6456), [#6457](https://github.com/stdlib-js/stdlib/issues/6457), [#6574](https://github.com/stdlib-js/stdlib/issues/6574), [#6589](https://github.com/stdlib-js/stdlib/issues/6589), [#6604](https://github.com/stdlib-js/stdlib/issues/6604), [#6663](https://github.com/stdlib-js/stdlib/issues/6663), [#6776](https://github.com/stdlib-js/stdlib/issues/6776), [#7114](https://github.com/stdlib-js/stdlib/issues/7114), [#7135](https://github.com/stdlib-js/stdlib/issues/7135), [#7215](https://github.com/stdlib-js/stdlib/issues/7215), [#7296](https://github.com/stdlib-js/stdlib/issues/7296), [#7395](https://github.com/stdlib-js/stdlib/issues/7395), [#7554](https://github.com/stdlib-js/stdlib/issues/7554), [#7626](https://github.com/stdlib-js/stdlib/issues/7626), [#7973](https://github.com/stdlib-js/stdlib/issues/7973), [#8129](https://github.com/stdlib-js/stdlib/issues/8129), [#8156](https://github.com/stdlib-js/stdlib/issues/8156), [#8159](https://github.com/stdlib-js/stdlib/issues/8159), [#8189](https://github.com/stdlib-js/stdlib/issues/8189), [#8196](https://github.com/stdlib-js/stdlib/issues/8196), [#8308](https://github.com/stdlib-js/stdlib/issues/8308), [#8484](https://github.com/stdlib-js/stdlib/issues/8484), [#8508](https://github.com/stdlib-js/stdlib/issues/8508), [#8608](https://github.com/stdlib-js/stdlib/issues/8608), [#8796](https://github.com/stdlib-js/stdlib/issues/8796)
 
 </section>
 
@@ -530,6 +532,23 @@ A total of 27 issues were closed in this release:
 
 <details>
 
+-   [`53295ce`](https://github.com/stdlib-js/stdlib/commit/53295ce482ae3c95cc80afd5295acbc9f2a476eb) - **feat:** update `ndarray/base` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`13cebb5`](https://github.com/stdlib-js/stdlib/commit/13cebb5fa762fc7f6252cc9115d306dd43f5d564) - **chore:** fix Javascript lint errors [(#8797)](https://github.com/stdlib-js/stdlib/pull/8797) _(by Kate Suraev)_
+-   [`ac2734e`](https://github.com/stdlib-js/stdlib/commit/ac2734ecf26371d363be61dbb4f3448c9cb964d4) - **docs:** address lint errors in TSDoc comments _(by Philipp Burckhardt)_
+-   [`4d90d1a`](https://github.com/stdlib-js/stdlib/commit/4d90d1a8908b2328735f43fccaca8e9a1daffb35) - **docs:** fix example code in TSDoc declarations _(by Philipp Burckhardt)_
+-   [`0eda9b1`](https://github.com/stdlib-js/stdlib/commit/0eda9b1af1d384b1a6be6fe1e80b36a32f69d55c) - **chore:** specify ESLint doctest alias _(by Philipp Burckhardt)_
+-   [`2ffc422`](https://github.com/stdlib-js/stdlib/commit/2ffc422e0a5e583d45776ea7efc359186379bb0c) - **docs:** fix TSDoc return annotation values and example code _(by Philipp Burckhardt)_
+-   [`e24d1a7`](https://github.com/stdlib-js/stdlib/commit/e24d1a701a3cb60714f3d44c0ff87341dd0d870a) - **feat:** update `ndarray/base/assert` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`41bc320`](https://github.com/stdlib-js/stdlib/commit/41bc320db9372557b8eb3341169981c96450b3bf) - **chore:** add alias for doctest lint rule _(by Philipp Burckhardt)_
+-   [`4151b7e`](https://github.com/stdlib-js/stdlib/commit/4151b7ed79990e0f5d9ac7855627e905efe0ed40) - **chore:** fix C lint errors [(#8610)](https://github.com/stdlib-js/stdlib/pull/8610) _(by Geo Daoyu, Athan Reines)_
+-   [`c520b5a`](https://github.com/stdlib-js/stdlib/commit/c520b5a0cae0c85e946f8a646e7cc8c01b3b5673) - **docs:** address TSDoc lint errors and add doctest aliases _(by Philipp Burckhardt)_
+-   [`7f55434`](https://github.com/stdlib-js/stdlib/commit/7f554349e50fc601e7ab4206ba1da0eceae93518) - **docs:** fix TSDoc comments example code and return annotation values _(by Philipp Burckhardt)_
+-   [`47088cc`](https://github.com/stdlib-js/stdlib/commit/47088cc299d84289a904dd2e7d2cdf0aee9057aa) - **docs:** fix TSDoc comments example code and return annotation values _(by Philipp Burckhardt)_
+-   [`f870646`](https://github.com/stdlib-js/stdlib/commit/f870646312fdbc9c2fb63bcfa7094cf889ed75f1) - **test:** add tests to `ndarray/base/count-truthy` [(#8301)](https://github.com/stdlib-js/stdlib/pull/8301) _(by Muhammad Haris, Athan Reines)_
+-   [`555d6f3`](https://github.com/stdlib-js/stdlib/commit/555d6f3a7931b2c898fc8a6474ba81879f56d4d3) - **test:** add tests to `ndarray/base/count-falsy` [(#8305)](https://github.com/stdlib-js/stdlib/pull/8305) _(by Muhammad Haris, Athan Reines)_
+-   [`2c288dd`](https://github.com/stdlib-js/stdlib/commit/2c288dd3ff3e8b2e9b3a0c9189a019ec962f24e8) - **test:** add tests to `ndarray/base/count-if` [(#8318)](https://github.com/stdlib-js/stdlib/pull/8318) _(by Muhammad Haris, Athan Reines)_
+-   [`b7a1ba3`](https://github.com/stdlib-js/stdlib/commit/b7a1ba3a07bae5c3cf02aaa576fd2f24b0f62f2f) - **docs:** remove duplicated example _(by Philipp Burckhardt)_
+-   [`298b612`](https://github.com/stdlib-js/stdlib/commit/298b612c3406864fddd120b84a713f657cafd458) - **chore:** fix JavaScript lint errors [(#8509)](https://github.com/stdlib-js/stdlib/pull/8509) _(by kaushal-kumar-it)_
 -   [`a0a76ca`](https://github.com/stdlib-js/stdlib/commit/a0a76caf35c0df0a8de6406f56b32e59c89daf07) - **docs:** update namespace table of contents [(#8536)](https://github.com/stdlib-js/stdlib/pull/8536) _(by stdlib-bot)_
 -   [`4b6f051`](https://github.com/stdlib-js/stdlib/commit/4b6f0510d4773574101122924f20cb4d987c2b38) - **feat:** add `complementShape` to namespace _(by Athan Reines)_
 -   [`903f141`](https://github.com/stdlib-js/stdlib/commit/903f1415351afbabd33b859b0888ad2daa02ecc0) - **feat:** add `ndarray/base/complement-shape` _(by Athan Reines)_
@@ -1441,7 +1460,7 @@ A total of 27 issues were closed in this release:
 
 ### Contributors
 
-A total of 22 people contributed to this release. Thank you to the following contributors:
+A total of 24 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Bhavishy Agrawal
@@ -1453,6 +1472,7 @@ A total of 22 people contributed to this release. Thank you to the following con
 -   Geo Daoyu
 -   Gururaj Gurram
 -   Karan Vasudevamurthy
+-   Kate Suraev
 -   Lokesh Ranjan
 -   MANI
 -   Muhammad Haris
@@ -1464,6 +1484,7 @@ A total of 22 people contributed to this release. Thank you to the following con
 -   Sai Avinash
 -   Shubham
 -   Tushar Bhardwaj
+-   kaushal-kumar-it
 -   lohithganni
 
 </section>
