@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-05)
+## Unreleased (2025-12-27)
 
 <section class="features">
 
 ### Features
 
+-   [`626f31e`](https://github.com/stdlib-js/stdlib/commit/626f31e5f7aa40d0dc64f48fa3b9c4f87f9bf30c) - update `ndarray/base` TypeScript declarations [(#9386)](https://github.com/stdlib-js/stdlib/pull/9386)
+-   [`d360fe5`](https://github.com/stdlib-js/stdlib/commit/d360fe525de98bfac66993c5c54b13fffccab822) - add `ndarray/base/to-reversed-dimension` [(#8852)](https://github.com/stdlib-js/stdlib/pull/8852)
+-   [`f375981`](https://github.com/stdlib-js/stdlib/commit/f375981dd59f1ce6aa575e48bafa0e7998a7efdd) - add `ndarray/base/to-flippedud` [(#8849)](https://github.com/stdlib-js/stdlib/pull/8849)
+-   [`1080085`](https://github.com/stdlib-js/stdlib/commit/1080085cbf97a2d217339594fda596759a49386b) - add `ndarray/base/to-flippedlr` [(#8848)](https://github.com/stdlib-js/stdlib/pull/8848)
 -   [`53295ce`](https://github.com/stdlib-js/stdlib/commit/53295ce482ae3c95cc80afd5295acbc9f2a476eb) - update `ndarray/base` TypeScript declarations
 -   [`e24d1a7`](https://github.com/stdlib-js/stdlib/commit/e24d1a701a3cb60714f3d44c0ff87341dd0d870a) - update `ndarray/base/assert` TypeScript declarations
 -   [`4b6f051`](https://github.com/stdlib-js/stdlib/commit/4b6f0510d4773574101122924f20cb4d987c2b38) - add `complementShape` to namespace
@@ -379,6 +383,7 @@
 
 ### Bug Fixes
 
+-   [`01ab290`](https://github.com/stdlib-js/stdlib/commit/01ab29036205f4a0507133c1a4a7fd429bb7bd9e) - rename import in `ndarray/base/unary-strided1d-dispatch` to resolve conflict [(#9010)](https://github.com/stdlib-js/stdlib/pull/9010)
 -   [`97fb507`](https://github.com/stdlib-js/stdlib/commit/97fb507addda8bf32be3a3f376d387e528672149) - handle mostly safe casts and refactor loop generation
 -   [`ef3f025`](https://github.com/stdlib-js/stdlib/commit/ef3f025dad7f2b8a5a451b9cc3ec822cc66c1c2a) - address copy-paste mistake
 -   [`186033e`](https://github.com/stdlib-js/stdlib/commit/186033e3cccf7faffaad1c101404de68f688027e) - address off-by-one bug
@@ -488,6 +493,10 @@
 
 ### BREAKING CHANGES
 
+-   [`626f31e`](https://github.com/stdlib-js/stdlib/commit/626f31e5f7aa40d0dc64f48fa3b9c4f87f9bf30c): add `writable` parameter
+
+    -   To migrate, users should be explicit in terms of whether a writable or read-only ndarray is returned. The previous behavior only returned a read-only array when provided a read-only array. The responsibility for determining the appropriate return value behavior is now pushed to userland.
+
 -   [`97834dd`](https://github.com/stdlib-js/stdlib/commit/97834ddd6f863bd8e9b30ce10966f5db8a1f48b2): remove package
 
     -   To migrate, users should use `ndarray/base/unary-reduce-strided1d-assign-struct`
@@ -532,6 +541,14 @@ A total of 30 issues were closed in this release:
 
 <details>
 
+-   [`626f31e`](https://github.com/stdlib-js/stdlib/commit/626f31e5f7aa40d0dc64f48fa3b9c4f87f9bf30c) - **feat:** update `ndarray/base` TypeScript declarations [(#9386)](https://github.com/stdlib-js/stdlib/pull/9386) _(by stdlib-bot)_
+-   [`daf2cc8`](https://github.com/stdlib-js/stdlib/commit/daf2cc847c77117f4c5ae4e5e99ae224bb592edc) - **refactor:** add writable parameter to `ndarray/base/spread-dimensions` [(#9370)](https://github.com/stdlib-js/stdlib/pull/9370) _(by Muhammad Haris, Athan Reines)_
+-   [`d360fe5`](https://github.com/stdlib-js/stdlib/commit/d360fe525de98bfac66993c5c54b13fffccab822) - **feat:** add `ndarray/base/to-reversed-dimension` [(#8852)](https://github.com/stdlib-js/stdlib/pull/8852) _(by Muhammad Haris, Athan Reines)_
+-   [`01ab290`](https://github.com/stdlib-js/stdlib/commit/01ab29036205f4a0507133c1a4a7fd429bb7bd9e) - **fix:** rename import in `ndarray/base/unary-strided1d-dispatch` to resolve conflict [(#9010)](https://github.com/stdlib-js/stdlib/pull/9010) _(by Muhammad Haris)_
+-   [`53d181b`](https://github.com/stdlib-js/stdlib/commit/53d181b5581a10bee3ebe924a54f137544d309e4) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`f375981`](https://github.com/stdlib-js/stdlib/commit/f375981dd59f1ce6aa575e48bafa0e7998a7efdd) - **feat:** add `ndarray/base/to-flippedud` [(#8849)](https://github.com/stdlib-js/stdlib/pull/8849) _(by Muhammad Haris, Athan Reines)_
+-   [`1080085`](https://github.com/stdlib-js/stdlib/commit/1080085cbf97a2d217339594fda596759a49386b) - **feat:** add `ndarray/base/to-flippedlr` [(#8848)](https://github.com/stdlib-js/stdlib/pull/8848) _(by Muhammad Haris, Athan Reines)_
+-   [`2772189`](https://github.com/stdlib-js/stdlib/commit/2772189443aedf358ee73b3232feadd2a0acc581) - **docs:** improve doctests for complex number instances in `ndarray/base/broadcast-scalar` [(#8869)](https://github.com/stdlib-js/stdlib/pull/8869) _(by ashutoshsao, Athan Reines)_
 -   [`53295ce`](https://github.com/stdlib-js/stdlib/commit/53295ce482ae3c95cc80afd5295acbc9f2a476eb) - **feat:** update `ndarray/base` TypeScript declarations _(by Philipp Burckhardt)_
 -   [`13cebb5`](https://github.com/stdlib-js/stdlib/commit/13cebb5fa762fc7f6252cc9115d306dd43f5d564) - **chore:** fix Javascript lint errors [(#8797)](https://github.com/stdlib-js/stdlib/pull/8797) _(by Kate Suraev)_
 -   [`ac2734e`](https://github.com/stdlib-js/stdlib/commit/ac2734ecf26371d363be61dbb4f3448c9cb964d4) - **docs:** address lint errors in TSDoc comments _(by Philipp Burckhardt)_
@@ -1460,7 +1477,7 @@ A total of 30 issues were closed in this release:
 
 ### Contributors
 
-A total of 24 people contributed to this release. Thank you to the following contributors:
+A total of 25 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Bhavishy Agrawal
@@ -1484,6 +1501,7 @@ A total of 24 people contributed to this release. Thank you to the following con
 -   Sai Avinash
 -   Shubham
 -   Tushar Bhardwaj
+-   ashutoshsao
 -   kaushal-kumar-it
 -   lohithganni
 
