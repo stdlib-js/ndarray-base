@@ -4,12 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-27)
+## Unreleased (2025-12-29)
 
 <section class="features">
 
 ### Features
 
+-   [`50367fe`](https://github.com/stdlib-js/stdlib/commit/50367fe8a498ac1e3e80fe688eb5c3df2d57a82d) - add `toFlippedud` to namespace
+-   [`e7d3d48`](https://github.com/stdlib-js/stdlib/commit/e7d3d486d1a9fc72f471b845d14f076d4f94ae60) - add `toFlippedlr` to namespace
+-   [`1972ac5`](https://github.com/stdlib-js/stdlib/commit/1972ac52d4241dcd3523a859a5cfad4ba6184566) - add `toReversedDimension` to namespace
+-   [`617c0f4`](https://github.com/stdlib-js/stdlib/commit/617c0f46c72c94a57fd571cddbcce1b06f342a57) - add `dtypes2strings` to namespace
+-   [`a1169f1`](https://github.com/stdlib-js/stdlib/commit/a1169f183b26929e45d5a1293e1d27822e54b4be) - add `ndarray/base/dtypes2strings`
 -   [`626f31e`](https://github.com/stdlib-js/stdlib/commit/626f31e5f7aa40d0dc64f48fa3b9c4f87f9bf30c) - update `ndarray/base` TypeScript declarations [(#9386)](https://github.com/stdlib-js/stdlib/pull/9386)
 -   [`d360fe5`](https://github.com/stdlib-js/stdlib/commit/d360fe525de98bfac66993c5c54b13fffccab822) - add `ndarray/base/to-reversed-dimension` [(#8852)](https://github.com/stdlib-js/stdlib/pull/8852)
 -   [`f375981`](https://github.com/stdlib-js/stdlib/commit/f375981dd59f1ce6aa575e48bafa0e7998a7efdd) - add `ndarray/base/to-flippedud` [(#8849)](https://github.com/stdlib-js/stdlib/pull/8849)
@@ -383,6 +388,7 @@
 
 ### Bug Fixes
 
+-   [`c1ac155`](https://github.com/stdlib-js/stdlib/commit/c1ac155e7e751a72a868ebae2f4667c338f834bd) - update return type
 -   [`01ab290`](https://github.com/stdlib-js/stdlib/commit/01ab29036205f4a0507133c1a4a7fd429bb7bd9e) - rename import in `ndarray/base/unary-strided1d-dispatch` to resolve conflict [(#9010)](https://github.com/stdlib-js/stdlib/pull/9010)
 -   [`97fb507`](https://github.com/stdlib-js/stdlib/commit/97fb507addda8bf32be3a3f376d387e528672149) - handle mostly safe casts and refactor loop generation
 -   [`ef3f025`](https://github.com/stdlib-js/stdlib/commit/ef3f025dad7f2b8a5a451b9cc3ec822cc66c1c2a) - address copy-paste mistake
@@ -541,6 +547,21 @@ A total of 30 issues were closed in this release:
 
 <details>
 
+-   [`50367fe`](https://github.com/stdlib-js/stdlib/commit/50367fe8a498ac1e3e80fe688eb5c3df2d57a82d) - **feat:** add `toFlippedud` to namespace _(by Athan Reines)_
+-   [`e7d3d48`](https://github.com/stdlib-js/stdlib/commit/e7d3d486d1a9fc72f471b845d14f076d4f94ae60) - **feat:** add `toFlippedlr` to namespace _(by Athan Reines)_
+-   [`1972ac5`](https://github.com/stdlib-js/stdlib/commit/1972ac52d4241dcd3523a859a5cfad4ba6184566) - **feat:** add `toReversedDimension` to namespace _(by Athan Reines)_
+-   [`617c0f4`](https://github.com/stdlib-js/stdlib/commit/617c0f46c72c94a57fd571cddbcce1b06f342a57) - **feat:** add `dtypes2strings` to namespace _(by Athan Reines)_
+-   [`a1169f1`](https://github.com/stdlib-js/stdlib/commit/a1169f183b26929e45d5a1293e1d27822e54b4be) - **feat:** add `ndarray/base/dtypes2strings` _(by Athan Reines)_
+-   [`d66fe7c`](https://github.com/stdlib-js/stdlib/commit/d66fe7c95fa222a2a8b9c9c2930ed5e6ae7d476d) - **docs:** fix type _(by Athan Reines)_
+-   [`19f99c8`](https://github.com/stdlib-js/stdlib/commit/19f99c8d5ca00057daef78dae609b13a82e04fa4) - **docs:** fix comment _(by Athan Reines)_
+-   [`c1ac155`](https://github.com/stdlib-js/stdlib/commit/c1ac155e7e751a72a868ebae2f4667c338f834bd) - **fix:** update return type _(by Athan Reines)_
+-   [`35c585c`](https://github.com/stdlib-js/stdlib/commit/35c585c9c40c66b881df40578a18331bafc3c48e) - **refactor:** use assertion utility _(by Athan Reines)_
+-   [`9333f71`](https://github.com/stdlib-js/stdlib/commit/9333f717337007d160cb66e57e7a97d4da2ff0c0) - **test:** add tests for DataType instances _(by Athan Reines)_
+-   [`3977119`](https://github.com/stdlib-js/stdlib/commit/39771197cd35f28f98740f9818a973b0e551e5af) - **test:** fix broken test _(by Athan Reines)_
+-   [`6c8898d`](https://github.com/stdlib-js/stdlib/commit/6c8898d91f98aba98914c5a5963b4e3b0cc24811) - **test:** add tests for DataType instances _(by Athan Reines)_
+-   [`c051895`](https://github.com/stdlib-js/stdlib/commit/c0518959311dbcad23153b1610239e6c1213daf7) - **test:** add tests for DataType instances _(by Athan Reines)_
+-   [`627daa6`](https://github.com/stdlib-js/stdlib/commit/627daa60f853370c88a35b910e84501704a52675) - **test:** add test cases for DataType instances _(by Athan Reines)_
+-   [`d3a0548`](https://github.com/stdlib-js/stdlib/commit/d3a05480e872e702db968bbe9f4d3610e8aed50d) - **test:** add tests for DataType instances _(by Athan Reines)_
 -   [`626f31e`](https://github.com/stdlib-js/stdlib/commit/626f31e5f7aa40d0dc64f48fa3b9c4f87f9bf30c) - **feat:** update `ndarray/base` TypeScript declarations [(#9386)](https://github.com/stdlib-js/stdlib/pull/9386) _(by stdlib-bot)_
 -   [`daf2cc8`](https://github.com/stdlib-js/stdlib/commit/daf2cc847c77117f4c5ae4e5e99ae224bb592edc) - **refactor:** add writable parameter to `ndarray/base/spread-dimensions` [(#9370)](https://github.com/stdlib-js/stdlib/pull/9370) _(by Muhammad Haris, Athan Reines)_
 -   [`d360fe5`](https://github.com/stdlib-js/stdlib/commit/d360fe525de98bfac66993c5c54b13fffccab822) - **feat:** add `ndarray/base/to-reversed-dimension` [(#8852)](https://github.com/stdlib-js/stdlib/pull/8852) _(by Muhammad Haris, Athan Reines)_
