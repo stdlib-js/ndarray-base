@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-29)
+## Unreleased (2025-12-30)
 
 <section class="features">
 
@@ -389,6 +389,7 @@
 
 ### Bug Fixes
 
+-   [`6c43167`](https://github.com/stdlib-js/stdlib/commit/6c4316733d615b06d301eec89c377838a6b56dd8) - resolve normalized data type
 -   [`c1ac155`](https://github.com/stdlib-js/stdlib/commit/c1ac155e7e751a72a868ebae2f4667c338f834bd) - update return type
 -   [`01ab290`](https://github.com/stdlib-js/stdlib/commit/01ab29036205f4a0507133c1a4a7fd429bb7bd9e) - rename import in `ndarray/base/unary-strided1d-dispatch` to resolve conflict [(#9010)](https://github.com/stdlib-js/stdlib/pull/9010)
 -   [`97fb507`](https://github.com/stdlib-js/stdlib/commit/97fb507addda8bf32be3a3f376d387e528672149) - handle mostly safe casts and refactor loop generation
@@ -548,6 +549,42 @@ A total of 30 issues were closed in this release:
 
 <details>
 
+-   [`7bc4a28`](https://github.com/stdlib-js/stdlib/commit/7bc4a28d0414765b9eeb23e52fb763fc99d7c658) - **docs:** update examples [(#9431)](https://github.com/stdlib-js/stdlib/pull/9431) _(by stdlib-bot)_
+-   [`72be5b1`](https://github.com/stdlib-js/stdlib/commit/72be5b1a80bbbbb72c79f85e034e0cafc989f1c7) - **test:** use function accessors _(by Athan Reines)_
+-   [`fdf2934`](https://github.com/stdlib-js/stdlib/commit/fdf2934a97d8c754e52045dd10127ee4d85b0dad) - **docs:** update dtype type and use accessor functions _(by Athan Reines)_
+-   [`7475400`](https://github.com/stdlib-js/stdlib/commit/7475400f3b912be86c17f2a915d1a4febcc6522d) - **docs:** move content to notes _(by Athan Reines)_
+-   [`e99cdea`](https://github.com/stdlib-js/stdlib/commit/e99cdea5e029b2f53b27482f7ee22821fb0b3b95) - **docs:** update dtype type _(by Athan Reines)_
+-   [`e9a380f`](https://github.com/stdlib-js/stdlib/commit/e9a380f51a4457af9b155f18fe13d0aac95d51d8) - **docs:** update dtype type _(by Athan Reines)_
+-   [`dcc971a`](https://github.com/stdlib-js/stdlib/commit/dcc971a838258413c22944447da8c6cd1c2a63f3) - **docs:** update examples and use accessor functions _(by Athan Reines)_
+-   [`16ce439`](https://github.com/stdlib-js/stdlib/commit/16ce439eb07c2a3212008ed9d2f5f6848da200f1) - **refactor:** update examples and return the input ndarray _(by Athan Reines)_
+-   [`508b9b9`](https://github.com/stdlib-js/stdlib/commit/508b9b99fc2547eb50be79ade7f68a34c5fd2146) - **docs:** update examples and use accessor functions _(by Athan Reines)_
+-   [`11b2d44`](https://github.com/stdlib-js/stdlib/commit/11b2d445b8f91c8bf41e3c6cc9d53d6a3a9f0608) - **refactor:** ensure support for enumeration constants _(by Athan Reines)_
+-   [`7c5881e`](https://github.com/stdlib-js/stdlib/commit/7c5881ea1b0a9251b4b758d24df128a4fab28fa6) - **docs:** update dtype type _(by Athan Reines)_
+-   [`374beff`](https://github.com/stdlib-js/stdlib/commit/374beff1f47c81bea4dd825d3b25ce405c2f9375) - **docs:** update dtype type _(by Athan Reines)_
+-   [`6c010ed`](https://github.com/stdlib-js/stdlib/commit/6c010ede1bf09077f25b1340c6874ac11bf16b08) - **test:** fix broken tests _(by Athan Reines)_
+-   [`c380fdd`](https://github.com/stdlib-js/stdlib/commit/c380fdd083d276c4e7eea1c2e0b664abad95e7b9) - **refactor:** move functions to module scope _(by Athan Reines)_
+-   [`0aeccc2`](https://github.com/stdlib-js/stdlib/commit/0aeccc26acf8805e65efec785132deec907dd073) - **refactor:** rename variable _(by Athan Reines)_
+-   [`d0514f7`](https://github.com/stdlib-js/stdlib/commit/d0514f706cd96237b73f6b6cc02539534e5b0a00) - **refactor:** use assertion utility _(by Athan Reines)_
+-   [`cc057c6`](https://github.com/stdlib-js/stdlib/commit/cc057c682563ebf77e7c1b7c7a9168a57fb091e3) - **refactor:** use assertion utility _(by Athan Reines)_
+-   [`99a718f`](https://github.com/stdlib-js/stdlib/commit/99a718fb54e488b1afba8779182e011452096bec) - **refactor:** use assertion utility _(by Athan Reines)_
+-   [`359bba5`](https://github.com/stdlib-js/stdlib/commit/359bba54a7067cf75dd0e191f56cd1817ecc6e59) - **refactor:** use assertion utility _(by Athan Reines)_
+-   [`a412839`](https://github.com/stdlib-js/stdlib/commit/a4128395cf4695b457d72d1a665393cae6bd834d) - **refactor:** support dtype instances by normalizing dtypes to strings _(by Athan Reines)_
+-   [`cadf4e1`](https://github.com/stdlib-js/stdlib/commit/cadf4e1b8d185dd7fe9c48d09651be8681d2f40b) - **docs:** update examples _(by Athan Reines)_
+-   [`7ed84a3`](https://github.com/stdlib-js/stdlib/commit/7ed84a377820c9a20047b7329799467e58bd3171) - **docs:** fix examples _(by Athan Reines)_
+-   [`6b360e5`](https://github.com/stdlib-js/stdlib/commit/6b360e548417af6331cee3ecad0f03f9203b9b16) - **refactor:** support dtype instances by normalizing provided dtypes to strings _(by Athan Reines)_
+-   [`322b8cb`](https://github.com/stdlib-js/stdlib/commit/322b8cb870769d9198ddbcd0b89610b185ab57ff) - **build:** ensure dtypes are strings _(by Athan Reines)_
+-   [`387beea`](https://github.com/stdlib-js/stdlib/commit/387beea5c84c7bd4f0aab41ec35e49819275c9b0) - **build:** ensure dtypes are strings _(by Athan Reines)_
+-   [`2a887b7`](https://github.com/stdlib-js/stdlib/commit/2a887b7eb76a7f0ecc48133049868395b90ff196) - **refactor:** support data type instances _(by Athan Reines)_
+-   [`760719b`](https://github.com/stdlib-js/stdlib/commit/760719b492247734f2778d4ace525d6719b2d202) - **refactor:** normalize a data type to a string _(by Athan Reines)_
+-   [`a52bc78`](https://github.com/stdlib-js/stdlib/commit/a52bc786e790aa242a563cdaefb58107b6cd2d9b) - **refactor:** normalize a provided data type to a string _(by Athan Reines)_
+-   [`982208c`](https://github.com/stdlib-js/stdlib/commit/982208cf3c840a5f3ff23378056cd7843dc1e173) - **docs:** update dtype type _(by Athan Reines)_
+-   [`6c43167`](https://github.com/stdlib-js/stdlib/commit/6c4316733d615b06d301eec89c377838a6b56dd8) - **fix:** resolve normalized data type _(by Athan Reines)_
+-   [`697b9ed`](https://github.com/stdlib-js/stdlib/commit/697b9edd6f85e39a03bed4f142814238bb3cdce8) - **docs:** update examples and docs to accommodate data type instances _(by Athan Reines)_
+-   [`452cc00`](https://github.com/stdlib-js/stdlib/commit/452cc003a69938f9cdce6ed45219f41673af1c1f) - **docs:** update example _(by Athan Reines)_
+-   [`5e87686`](https://github.com/stdlib-js/stdlib/commit/5e87686d428b0ae5570c1f0c56d4c6721b13643d) - **docs:** update examples to use ndarray instance notation _(by Athan Reines)_
+-   [`67fe5f8`](https://github.com/stdlib-js/stdlib/commit/67fe5f8d3c4f7c7bbb322e648d48a462960b4b99) - **docs:** update type _(by Athan Reines)_
+-   [`85d47b6`](https://github.com/stdlib-js/stdlib/commit/85d47b6504ee90577497e26357afa6e63c101df6) - **docs:** update types _(by Athan Reines)_
+-   [`da7ea70`](https://github.com/stdlib-js/stdlib/commit/da7ea70b7b2de281c4c1364fe7dca3ef8ca7085c) - **refactor:** support data type instances _(by Athan Reines)_
 -   [`b1623fe`](https://github.com/stdlib-js/stdlib/commit/b1623fe2c183124b2eb55736b4314329aea2856a) - **feat:** update `ndarray/base` TypeScript declarations [(#9420)](https://github.com/stdlib-js/stdlib/pull/9420) _(by stdlib-bot)_
 -   [`50367fe`](https://github.com/stdlib-js/stdlib/commit/50367fe8a498ac1e3e80fe688eb5c3df2d57a82d) - **feat:** add `toFlippedud` to namespace _(by Athan Reines)_
 -   [`e7d3d48`](https://github.com/stdlib-js/stdlib/commit/e7d3d486d1a9fc72f471b845d14f076d4f94ae60) - **feat:** add `toFlippedlr` to namespace _(by Athan Reines)_
