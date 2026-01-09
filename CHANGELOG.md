@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-31)
+## Unreleased (2026-01-09)
 
 <section class="features">
 
 ### Features
 
+-   [`3c567b6`](https://github.com/stdlib-js/stdlib/commit/3c567b634cf5e5fa5e31b64f94206db5b4a88133) - update `ndarray/base` TypeScript declarations (#9640) [(#9640)](https://github.com/stdlib-js/stdlib/pull/9640)
+-   [`f475c84`](https://github.com/stdlib-js/stdlib/commit/f475c843a4b1579eef6533e464e4c16766d7ecdd) - add writable parameter to `ndarray/base/expand-dimensions` [(#9476)](https://github.com/stdlib-js/stdlib/pull/9476)
+-   [`f40ccb7`](https://github.com/stdlib-js/stdlib/commit/f40ccb75929e92538b8c366145589addccdaafbe) - add `ndarray/base/ternary-loop-interchange-order` [(#9499)](https://github.com/stdlib-js/stdlib/pull/9499)
+-   [`1f79854`](https://github.com/stdlib-js/stdlib/commit/1f798549409c47de0261c5396dccf64012e54a9c) - add `ndarray/base/ternary-tiling-block-size` [(#9495)](https://github.com/stdlib-js/stdlib/pull/9495)
 -   [`34a837f`](https://github.com/stdlib-js/stdlib/commit/34a837fc5f24b1b2d91a63e655d52203112d605b) - update `ndarray/base` TypeScript declarations [(#9447)](https://github.com/stdlib-js/stdlib/pull/9447)
 -   [`7473138`](https://github.com/stdlib-js/stdlib/commit/7473138141acc4be120535f84160d49f836b86be) - add writable parameter to `ndarray/base/prepend-singleton-dimensions` [(#9426)](https://github.com/stdlib-js/stdlib/pull/9426)
 -   [`b1623fe`](https://github.com/stdlib-js/stdlib/commit/b1623fe2c183124b2eb55736b4314329aea2856a) - update `ndarray/base` TypeScript declarations [(#9420)](https://github.com/stdlib-js/stdlib/pull/9420)
@@ -503,6 +507,14 @@
 
 ### BREAKING CHANGES
 
+-   [`3c567b6`](https://github.com/stdlib-js/stdlib/commit/3c567b634cf5e5fa5e31b64f94206db5b4a88133): add `writable` parameter
+
+    -   To migrate, users should explicitly provide a third argument indicating whether the ndarray returned by `expandDimensions` should be read-only. To preserve previous behavior, users should set the third argument to a boolean indicating whether a provided input ndarray is read-only.
+
+-   [`f475c84`](https://github.com/stdlib-js/stdlib/commit/f475c843a4b1579eef6533e464e4c16766d7ecdd): add `writable` parameter
+
+    -   To migrate, users should explicitly provide a third argument indicating whether to return a read-only ndarray. To preserve prior behavior, users should provide a boolean based on whether an input ndarray is read-only.
+
 -   [`626f31e`](https://github.com/stdlib-js/stdlib/commit/626f31e5f7aa40d0dc64f48fa3b9c4f87f9bf30c): add `writable` parameter
 
     -   To migrate, users should be explicit in terms of whether a writable or read-only ndarray is returned. The previous behavior only returned a read-only array when provided a read-only array. The responsibility for determining the appropriate return value behavior is now pushed to userland.
@@ -537,9 +549,9 @@
 
 ### Closed Issues
 
-A total of 30 issues were closed in this release:
+A total of 32 issues were closed in this release:
 
-[#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5788](https://github.com/stdlib-js/stdlib/issues/5788), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#6053](https://github.com/stdlib-js/stdlib/issues/6053), [#6236](https://github.com/stdlib-js/stdlib/issues/6236), [#6456](https://github.com/stdlib-js/stdlib/issues/6456), [#6457](https://github.com/stdlib-js/stdlib/issues/6457), [#6574](https://github.com/stdlib-js/stdlib/issues/6574), [#6589](https://github.com/stdlib-js/stdlib/issues/6589), [#6604](https://github.com/stdlib-js/stdlib/issues/6604), [#6663](https://github.com/stdlib-js/stdlib/issues/6663), [#6776](https://github.com/stdlib-js/stdlib/issues/6776), [#7114](https://github.com/stdlib-js/stdlib/issues/7114), [#7135](https://github.com/stdlib-js/stdlib/issues/7135), [#7215](https://github.com/stdlib-js/stdlib/issues/7215), [#7296](https://github.com/stdlib-js/stdlib/issues/7296), [#7395](https://github.com/stdlib-js/stdlib/issues/7395), [#7554](https://github.com/stdlib-js/stdlib/issues/7554), [#7626](https://github.com/stdlib-js/stdlib/issues/7626), [#7973](https://github.com/stdlib-js/stdlib/issues/7973), [#8129](https://github.com/stdlib-js/stdlib/issues/8129), [#8156](https://github.com/stdlib-js/stdlib/issues/8156), [#8159](https://github.com/stdlib-js/stdlib/issues/8159), [#8189](https://github.com/stdlib-js/stdlib/issues/8189), [#8196](https://github.com/stdlib-js/stdlib/issues/8196), [#8308](https://github.com/stdlib-js/stdlib/issues/8308), [#8484](https://github.com/stdlib-js/stdlib/issues/8484), [#8508](https://github.com/stdlib-js/stdlib/issues/8508), [#8608](https://github.com/stdlib-js/stdlib/issues/8608), [#8796](https://github.com/stdlib-js/stdlib/issues/8796)
+[#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5788](https://github.com/stdlib-js/stdlib/issues/5788), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#6053](https://github.com/stdlib-js/stdlib/issues/6053), [#6236](https://github.com/stdlib-js/stdlib/issues/6236), [#6456](https://github.com/stdlib-js/stdlib/issues/6456), [#6457](https://github.com/stdlib-js/stdlib/issues/6457), [#6574](https://github.com/stdlib-js/stdlib/issues/6574), [#6589](https://github.com/stdlib-js/stdlib/issues/6589), [#6604](https://github.com/stdlib-js/stdlib/issues/6604), [#6663](https://github.com/stdlib-js/stdlib/issues/6663), [#6776](https://github.com/stdlib-js/stdlib/issues/6776), [#7114](https://github.com/stdlib-js/stdlib/issues/7114), [#7135](https://github.com/stdlib-js/stdlib/issues/7135), [#7215](https://github.com/stdlib-js/stdlib/issues/7215), [#7296](https://github.com/stdlib-js/stdlib/issues/7296), [#7395](https://github.com/stdlib-js/stdlib/issues/7395), [#7554](https://github.com/stdlib-js/stdlib/issues/7554), [#7626](https://github.com/stdlib-js/stdlib/issues/7626), [#7973](https://github.com/stdlib-js/stdlib/issues/7973), [#8129](https://github.com/stdlib-js/stdlib/issues/8129), [#8156](https://github.com/stdlib-js/stdlib/issues/8156), [#8159](https://github.com/stdlib-js/stdlib/issues/8159), [#8189](https://github.com/stdlib-js/stdlib/issues/8189), [#8196](https://github.com/stdlib-js/stdlib/issues/8196), [#8308](https://github.com/stdlib-js/stdlib/issues/8308), [#8484](https://github.com/stdlib-js/stdlib/issues/8484), [#8508](https://github.com/stdlib-js/stdlib/issues/8508), [#8608](https://github.com/stdlib-js/stdlib/issues/8608), [#8796](https://github.com/stdlib-js/stdlib/issues/8796), [#9569](https://github.com/stdlib-js/stdlib/issues/9569), [#9570](https://github.com/stdlib-js/stdlib/issues/9570)
 
 </section>
 
@@ -551,6 +563,18 @@ A total of 30 issues were closed in this release:
 
 <details>
 
+-   [`3c567b6`](https://github.com/stdlib-js/stdlib/commit/3c567b634cf5e5fa5e31b64f94206db5b4a88133) - **feat:** update `ndarray/base` TypeScript declarations (#9640) [(#9640)](https://github.com/stdlib-js/stdlib/pull/9640) _(by stdlib-bot)_
+-   [`f475c84`](https://github.com/stdlib-js/stdlib/commit/f475c843a4b1579eef6533e464e4c16766d7ecdd) - **feat:** add writable parameter to `ndarray/base/expand-dimensions` [(#9476)](https://github.com/stdlib-js/stdlib/pull/9476) _(by Muhammad Haris, Athan Reines)_
+-   [`da6ecc9`](https://github.com/stdlib-js/stdlib/commit/da6ecc96d7f503e03007eef616703fc7a71587b8) - **chore:** fix JavaScript lint errors [(#9572)](https://github.com/stdlib-js/stdlib/pull/9572) _(by Shreelaxmi Hegde, Athan Reines)_
+-   [`ed3afe7`](https://github.com/stdlib-js/stdlib/commit/ed3afe7252708109f1a8350c15bcdabcc96f6e0a) - **chore:** fix C lint errors [(#9571)](https://github.com/stdlib-js/stdlib/pull/9571) _(by Geo Daoyu)_
+-   [`46c47ec`](https://github.com/stdlib-js/stdlib/commit/46c47ec0c92f9a3608290ef8a6ca5cf0e9258866) - **refactor:** update paths _(by Neeraj Pathak)_
+-   [`7b5a1b5`](https://github.com/stdlib-js/stdlib/commit/7b5a1b57e9d707ea3944a616d775620a8f188bd8) - **test:** add test case for sx _(by Philipp Burckhardt)_
+-   [`df82f00`](https://github.com/stdlib-js/stdlib/commit/df82f006202c8ade82178b4f7839063706723894) - **docs:** fix require path _(by Philipp Burckhardt)_
+-   [`016b07f`](https://github.com/stdlib-js/stdlib/commit/016b07f8610e21332af7bfbc38afbacdbeac8583) - **refactor:** rename/reorder parameters _(by Athan Reines)_
+-   [`5f0a844`](https://github.com/stdlib-js/stdlib/commit/5f0a844380510aaa97c8ca7d1b539868132ae2e7) - **refactor:** rename/reorder parameters _(by Athan Reines)_
+-   [`f40ccb7`](https://github.com/stdlib-js/stdlib/commit/f40ccb75929e92538b8c366145589addccdaafbe) - **feat:** add `ndarray/base/ternary-loop-interchange-order` [(#9499)](https://github.com/stdlib-js/stdlib/pull/9499) _(by Muhammad Haris, Athan Reines)_
+-   [`1f79854`](https://github.com/stdlib-js/stdlib/commit/1f798549409c47de0261c5396dccf64012e54a9c) - **feat:** add `ndarray/base/ternary-tiling-block-size` [(#9495)](https://github.com/stdlib-js/stdlib/pull/9495) _(by Muhammad Haris, Athan Reines)_
+-   [`15e8b35`](https://github.com/stdlib-js/stdlib/commit/15e8b358c586ae53ee8150469519149d1c42be2b) - **test:** address failing test _(by Athan Reines)_
 -   [`34a837f`](https://github.com/stdlib-js/stdlib/commit/34a837fc5f24b1b2d91a63e655d52203112d605b) - **feat:** update `ndarray/base` TypeScript declarations [(#9447)](https://github.com/stdlib-js/stdlib/pull/9447) _(by stdlib-bot)_
 -   [`7473138`](https://github.com/stdlib-js/stdlib/commit/7473138141acc4be120535f84160d49f836b86be) - **feat:** add writable parameter to `ndarray/base/prepend-singleton-dimensions` [(#9426)](https://github.com/stdlib-js/stdlib/pull/9426) _(by Muhammad Haris)_
 -   [`7bc4a28`](https://github.com/stdlib-js/stdlib/commit/7bc4a28d0414765b9eeb23e52fb763fc99d7c658) - **docs:** update examples [(#9431)](https://github.com/stdlib-js/stdlib/pull/9431) _(by stdlib-bot)_
@@ -1541,7 +1565,7 @@ A total of 30 issues were closed in this release:
 
 ### Contributors
 
-A total of 25 people contributed to this release. Thank you to the following contributors:
+A total of 27 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Bhavishy Agrawal
@@ -1558,11 +1582,13 @@ A total of 25 people contributed to this release. Thank you to the following con
 -   MANI
 -   Muhammad Haris
 -   Navyansh Kesarwani
+-   Neeraj Pathak
 -   Payal Goswami
 -   Philipp Burckhardt
 -   Piyush Goel
 -   Pravesh Kunwar
 -   Sai Avinash
+-   Shreelaxmi Hegde
 -   Shubham
 -   Tushar Bhardwaj
 -   ashutoshsao
