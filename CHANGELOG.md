@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-09)
+## Unreleased (2026-01-10)
 
 <section class="features">
 
@@ -563,6 +563,10 @@ A total of 32 issues were closed in this release:
 
 <details>
 
+-   [`279f181`](https://github.com/stdlib-js/stdlib/commit/279f1817651a774f8d97f053529ac2bd94a94f91) - **docs:** update parameter name and description in `ndarray/base` TypeScript declaration  [(#9660)](https://github.com/stdlib-js/stdlib/pull/9660) _(by stdlib-bot)_
+-   [`8ea33d5`](https://github.com/stdlib-js/stdlib/commit/8ea33d58d9a5beb31e6023ceaf331fc4175c74fa) - **docs:** rename parameter _(by Athan Reines)_
+-   [`5149a6b`](https://github.com/stdlib-js/stdlib/commit/5149a6b650b60568bd0df248c2a97a3d8ca2ca87) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`9d53583`](https://github.com/stdlib-js/stdlib/commit/9d53583c9f82e1b2e5dc084849d98bd9c3214d45) - **test:** update descriptions _(by Athan Reines)_
 -   [`3c567b6`](https://github.com/stdlib-js/stdlib/commit/3c567b634cf5e5fa5e31b64f94206db5b4a88133) - **feat:** update `ndarray/base` TypeScript declarations (#9640) [(#9640)](https://github.com/stdlib-js/stdlib/pull/9640) _(by stdlib-bot)_
 -   [`f475c84`](https://github.com/stdlib-js/stdlib/commit/f475c843a4b1579eef6533e464e4c16766d7ecdd) - **feat:** add writable parameter to `ndarray/base/expand-dimensions` [(#9476)](https://github.com/stdlib-js/stdlib/pull/9476) _(by Muhammad Haris, Athan Reines)_
 -   [`da6ecc9`](https://github.com/stdlib-js/stdlib/commit/da6ecc96d7f503e03007eef616703fc7a71587b8) - **chore:** fix JavaScript lint errors [(#9572)](https://github.com/stdlib-js/stdlib/pull/9572) _(by Shreelaxmi Hegde, Athan Reines)_
