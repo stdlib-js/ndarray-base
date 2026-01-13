@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-12)
+## Unreleased (2026-01-13)
 
 <section class="features">
 
 ### Features
 
+-   [`709563c`](https://github.com/stdlib-js/stdlib/commit/709563c0d7337b5c0632d1988fb263cf39305f86) - update `ndarray/base` TypeScript declarations [(#9716)](https://github.com/stdlib-js/stdlib/pull/9716)
 -   [`f738a37`](https://github.com/stdlib-js/stdlib/commit/f738a37c1cc32a740c7ecc4cbc7982eca26f67d2) - add `ternaryBlockSize` to namespace
 -   [`b490370`](https://github.com/stdlib-js/stdlib/commit/b49037059ac498f7e864cb83f0cf59b3feb3b459) - add `ternaryLoopOrder` to namespace
 -   [`88e4096`](https://github.com/stdlib-js/stdlib/commit/88e4096e8e5941fecc15ef2fd2d5b27e91d69233) - add `ternary` to namespace
@@ -569,6 +570,10 @@ A total of 32 issues were closed in this release:
 
 <details>
 
+-   [`709563c`](https://github.com/stdlib-js/stdlib/commit/709563c0d7337b5c0632d1988fb263cf39305f86) - **feat:** update `ndarray/base` TypeScript declarations [(#9716)](https://github.com/stdlib-js/stdlib/pull/9716) _(by stdlib-bot)_
+-   [`6aee8e2`](https://github.com/stdlib-js/stdlib/commit/6aee8e232a2cebd57d5246d76ffe08e67941c0a4) - **docs:** move content to notes _(by Athan Reines)_
+-   [`93e0c79`](https://github.com/stdlib-js/stdlib/commit/93e0c79faa246da751b6d7a640b5133fefad00f2) - **refactor:** return the input ndarray and update examples _(by Athan Reines)_
+-   [`d5ddfc7`](https://github.com/stdlib-js/stdlib/commit/d5ddfc76b9363a57791e018c8435c33dd18a9bee) - **style:** remove empty line _(by Athan Reines)_
 -   [`afa33d2`](https://github.com/stdlib-js/stdlib/commit/afa33d21dadcaf449b9950ea9ec30a12f4596738) - **docs:** update examples [(#9700)](https://github.com/stdlib-js/stdlib/pull/9700) _(by stdlib-bot)_
 -   [`fdfdf13`](https://github.com/stdlib-js/stdlib/commit/fdfdf139a4f787dd67d5cdcf94130bf6469c92a2) - **docs:** fix example to ensure valid type promotion _(by Athan Reines)_
 -   [`f738a37`](https://github.com/stdlib-js/stdlib/commit/f738a37c1cc32a740c7ecc4cbc7982eca26f67d2) - **feat:** add `ternaryBlockSize` to namespace _(by Athan Reines)_
