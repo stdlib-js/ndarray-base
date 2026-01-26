@@ -4,12 +4,18 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-21)
+## Unreleased (2026-01-26)
 
 <section class="features">
 
 ### Features
 
+-   [`b6d8bcc`](https://github.com/stdlib-js/stdlib/commit/b6d8bcc8e3a285d4f874748191904580321aa0e8) - add `quinaryLoopOrder` to namespace
+-   [`f3a6bc0`](https://github.com/stdlib-js/stdlib/commit/f3a6bc070f6ac5e2dee1374534ba6b0c134e4db6) - add `quaternaryLoopOrder` to namespace
+-   [`02b9b76`](https://github.com/stdlib-js/stdlib/commit/02b9b7662449c9a04917e1353a8b53ff85df45d4) - add `broadcastScalarLike` to namespace
+-   [`483630f`](https://github.com/stdlib-js/stdlib/commit/483630fecc6f60fb8fbbe4066d37a95e3dd1e48e) - add `ndarray/base/broadcast-scalar-like` [(#9893)](https://github.com/stdlib-js/stdlib/pull/9893)
+-   [`ebe7a8b`](https://github.com/stdlib-js/stdlib/commit/ebe7a8b476f13186ac83014965e4b60e502e6135) - add `ndarray/base/quaternary-loop-interchange-order` [(#9832)](https://github.com/stdlib-js/stdlib/pull/9832)
+-   [`4641a30`](https://github.com/stdlib-js/stdlib/commit/4641a30d086f904746679c39e05898ecc65a3778) - add `ndarray/base/quinary-loop-interchange-order` [(#9870)](https://github.com/stdlib-js/stdlib/pull/9870)
 -   [`709563c`](https://github.com/stdlib-js/stdlib/commit/709563c0d7337b5c0632d1988fb263cf39305f86) - update `ndarray/base` TypeScript declarations [(#9716)](https://github.com/stdlib-js/stdlib/pull/9716)
 -   [`f738a37`](https://github.com/stdlib-js/stdlib/commit/f738a37c1cc32a740c7ecc4cbc7982eca26f67d2) - add `ternaryBlockSize` to namespace
 -   [`b490370`](https://github.com/stdlib-js/stdlib/commit/b49037059ac498f7e864cb83f0cf59b3feb3b459) - add `ternaryLoopOrder` to namespace
@@ -402,6 +408,7 @@
 
 ### Bug Fixes
 
+-   [`11cc2cf`](https://github.com/stdlib-js/stdlib/commit/11cc2cf8869a4b6ebf48545d5678eda25513529e) - use ndarray assertion utility
 -   [`6c43167`](https://github.com/stdlib-js/stdlib/commit/6c4316733d615b06d301eec89c377838a6b56dd8) - resolve normalized data type
 -   [`c1ac155`](https://github.com/stdlib-js/stdlib/commit/c1ac155e7e751a72a868ebae2f4667c338f834bd) - update return type
 -   [`01ab290`](https://github.com/stdlib-js/stdlib/commit/01ab29036205f4a0507133c1a4a7fd429bb7bd9e) - rename import in `ndarray/base/unary-strided1d-dispatch` to resolve conflict [(#9010)](https://github.com/stdlib-js/stdlib/pull/9010)
@@ -570,6 +577,15 @@ A total of 32 issues were closed in this release:
 
 <details>
 
+-   [`b6d8bcc`](https://github.com/stdlib-js/stdlib/commit/b6d8bcc8e3a285d4f874748191904580321aa0e8) - **feat:** add `quinaryLoopOrder` to namespace _(by Athan Reines)_
+-   [`f3a6bc0`](https://github.com/stdlib-js/stdlib/commit/f3a6bc070f6ac5e2dee1374534ba6b0c134e4db6) - **feat:** add `quaternaryLoopOrder` to namespace _(by Athan Reines)_
+-   [`02b9b76`](https://github.com/stdlib-js/stdlib/commit/02b9b7662449c9a04917e1353a8b53ff85df45d4) - **feat:** add `broadcastScalarLike` to namespace _(by Athan Reines)_
+-   [`483630f`](https://github.com/stdlib-js/stdlib/commit/483630fecc6f60fb8fbbe4066d37a95e3dd1e48e) - **feat:** add `ndarray/base/broadcast-scalar-like` [(#9893)](https://github.com/stdlib-js/stdlib/pull/9893) _(by Muhammad Haris, Athan Reines)_
+-   [`65aa64a`](https://github.com/stdlib-js/stdlib/commit/65aa64a2f860129b3ca2f09f47641e4355303799) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`dad3808`](https://github.com/stdlib-js/stdlib/commit/dad3808a07099bb09b7eaa4c03260aefee2e1ace) - **bench:** create empty ndarrays for better dtype generality _(by Athan Reines)_
+-   [`11cc2cf`](https://github.com/stdlib-js/stdlib/commit/11cc2cf8869a4b6ebf48545d5678eda25513529e) - **fix:** use ndarray assertion utility _(by Athan Reines)_
+-   [`ebe7a8b`](https://github.com/stdlib-js/stdlib/commit/ebe7a8b476f13186ac83014965e4b60e502e6135) - **feat:** add `ndarray/base/quaternary-loop-interchange-order` [(#9832)](https://github.com/stdlib-js/stdlib/pull/9832) _(by Muhammad Haris)_
+-   [`4641a30`](https://github.com/stdlib-js/stdlib/commit/4641a30d086f904746679c39e05898ecc65a3778) - **feat:** add `ndarray/base/quinary-loop-interchange-order` [(#9870)](https://github.com/stdlib-js/stdlib/pull/9870) _(by Muhammad Haris)_
 -   [`68446dc`](https://github.com/stdlib-js/stdlib/commit/68446dcb55d7b08e39baf6efae7ba5ba038c923f) - **docs:** update namespace table of contents [(#9848)](https://github.com/stdlib-js/stdlib/pull/9848) _(by stdlib-bot)_
 -   [`eee0e09`](https://github.com/stdlib-js/stdlib/commit/eee0e097b23ead16e0933da53a9a1c40dc5b713e) - **docs:** remove extra empty line [(#9756)](https://github.com/stdlib-js/stdlib/pull/9756) _(by stdlib-bot)_
 -   [`e2c03c0`](https://github.com/stdlib-js/stdlib/commit/e2c03c048787bde4a01ed8b6968ea6437e9e652a) - **docs:** improve doctests for complex number instances in `ndarray/base/unary` [(#8999)](https://github.com/stdlib-js/stdlib/pull/8999) _(by Aryan kumar, Athan Reines)_
