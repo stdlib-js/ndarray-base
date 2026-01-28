@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-27)
+## Unreleased (2026-01-28)
 
 <section class="features">
 
@@ -584,6 +584,9 @@ A total of 32 issues were closed in this release:
 
 <details>
 
+-   [`a87bde4`](https://github.com/stdlib-js/stdlib/commit/a87bde4102c9e3637ab02b18b39de03815e8d927) - **docs:** update namespace table of contents [(#9938)](https://github.com/stdlib-js/stdlib/pull/9938) _(by stdlib-bot)_
+-   [`640d00d`](https://github.com/stdlib-js/stdlib/commit/640d00d5567707d2dcef81f1e6fafbdb947b6eab) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`40c30fb`](https://github.com/stdlib-js/stdlib/commit/40c30fb11f3c1b99e073b5a2aa217bce452c3402) - **docs:** fix type _(by Athan Reines)_
 -   [`46c8d0e`](https://github.com/stdlib-js/stdlib/commit/46c8d0eb953a8bd39e4486a93d65aca6c45af934) - **docs:** fix examples _(by Athan Reines)_
 -   [`9d7f220`](https://github.com/stdlib-js/stdlib/commit/9d7f220eca1b55eb1c59b1f31efd91f66a450af2) - **refactor:** use generalized utility _(by Athan Reines)_
 -   [`7f54590`](https://github.com/stdlib-js/stdlib/commit/7f54590d0556e5c8b13d8bc2c527dbfc90e55201) - **refactor:** use generalized utility _(by Athan Reines)_
