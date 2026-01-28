@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`aa9da1e`](https://github.com/stdlib-js/stdlib/commit/aa9da1e984009479baafb731970c49c0e2b0d423) - update `ndarray/base` TypeScript declarations [(#9935)](https://github.com/stdlib-js/stdlib/pull/9935)
 -   [`1e5789c`](https://github.com/stdlib-js/stdlib/commit/1e5789c70b7400b0ff1cd71d06798c1e5b26f16b) - add `blockSize` to namespace
 -   [`a6117b1`](https://github.com/stdlib-js/stdlib/commit/a6117b1bd697083439d740567d41cbfa754f68ab) - add `quinaryBlockSize` to namespace
 -   [`c6dca39`](https://github.com/stdlib-js/stdlib/commit/c6dca39c634f8c016dc6fa4d0330a47bba977eaf) - add `quaternaryBlockSize` to namespace
@@ -584,6 +585,7 @@ A total of 32 issues were closed in this release:
 
 <details>
 
+-   [`aa9da1e`](https://github.com/stdlib-js/stdlib/commit/aa9da1e984009479baafb731970c49c0e2b0d423) - **feat:** update `ndarray/base` TypeScript declarations [(#9935)](https://github.com/stdlib-js/stdlib/pull/9935) _(by stdlib-bot)_
 -   [`a87bde4`](https://github.com/stdlib-js/stdlib/commit/a87bde4102c9e3637ab02b18b39de03815e8d927) - **docs:** update namespace table of contents [(#9938)](https://github.com/stdlib-js/stdlib/pull/9938) _(by stdlib-bot)_
 -   [`640d00d`](https://github.com/stdlib-js/stdlib/commit/640d00d5567707d2dcef81f1e6fafbdb947b6eab) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`40c30fb`](https://github.com/stdlib-js/stdlib/commit/40c30fb11f3c1b99e073b5a2aa217bce452c3402) - **docs:** fix type _(by Athan Reines)_
