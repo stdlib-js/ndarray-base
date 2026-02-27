@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-23)
+## Unreleased (2026-02-27)
+
+<section class="features">
+
+### Features
+
+-   [`01a25b3`](https://github.com/stdlib-js/stdlib/commit/01a25b340fc172d9754d027cc09330e0be32babb) - add `unflattenShape` to namespace
+-   [`4049c73`](https://github.com/stdlib-js/stdlib/commit/4049c7358fb474ef3b7c3f1a1dc94206c37fd105) - add `ndarray/base/unflatten-shape` [(#10441)](https://github.com/stdlib-js/stdlib/pull/10441)
+-   [`793a38c`](https://github.com/stdlib-js/stdlib/commit/793a38c29f31677807e0cf6748f1ca54fbbef4ec) - add `toLocaleString` method to `ndarray/base/ctor` [(#9435)](https://github.com/stdlib-js/stdlib/pull/9435)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +24,9 @@
 
 <details>
 
+-   [`01a25b3`](https://github.com/stdlib-js/stdlib/commit/01a25b340fc172d9754d027cc09330e0be32babb) - **feat:** add `unflattenShape` to namespace _(by Athan Reines)_
+-   [`4049c73`](https://github.com/stdlib-js/stdlib/commit/4049c7358fb474ef3b7c3f1a1dc94206c37fd105) - **feat:** add `ndarray/base/unflatten-shape` [(#10441)](https://github.com/stdlib-js/stdlib/pull/10441) _(by Muhammad Haris, Athan Reines)_
+-   [`793a38c`](https://github.com/stdlib-js/stdlib/commit/793a38c29f31677807e0cf6748f1ca54fbbef4ec) - **feat:** add `toLocaleString` method to `ndarray/base/ctor` [(#9435)](https://github.com/stdlib-js/stdlib/pull/9435) _(by Muhammad Haris, Athan Reines)_
 -   [`0ae8a91`](https://github.com/stdlib-js/stdlib/commit/0ae8a917f3759d3228e59c3945b348398a21c7b7) - **docs:** remove extra empty line [(#10168)](https://github.com/stdlib-js/stdlib/pull/10168) _(by stdlib-bot)_
 
 </details>
@@ -19,6 +34,19 @@
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Muhammad Haris
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
