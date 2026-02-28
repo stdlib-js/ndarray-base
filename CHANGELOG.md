@@ -10,6 +10,10 @@
 
 ### Features
 
+-   [`f91aca6`](https://github.com/stdlib-js/stdlib/commit/f91aca6650536cb46c7b4c41bd05a2a37e0fe475) - add `maybeBroadcastArrayExceptDimensions` to namespace
+-   [`5324e96`](https://github.com/stdlib-js/stdlib/commit/5324e9618a4b8688b4792ccceb146b348d9a9f2f) - add `ndarray/base/maybe-broadcast-array-except-dimensions` [(#10413)](https://github.com/stdlib-js/stdlib/pull/10413)
+-   [`9df924b`](https://github.com/stdlib-js/stdlib/commit/9df924b5f0b773c8b06d06b40e54dee75059ce08) - add writable parameter support to `ndarray/base/transpose` (#10474) [(#10474)](https://github.com/stdlib-js/stdlib/pull/10474)
+-   [`e947540`](https://github.com/stdlib-js/stdlib/commit/e947540a4e87841d7bf140094e20b2768250de11) - add writable parameter to `ndarray/base/remove-singleton-dimensions` [(#9667)](https://github.com/stdlib-js/stdlib/pull/9667)
 -   [`e5af570`](https://github.com/stdlib-js/stdlib/commit/e5af57010dbb7c873ea46afe2662c8ceb44ac637) - add `atleastnd` to namespace
 -   [`53caca8`](https://github.com/stdlib-js/stdlib/commit/53caca808d0b9aad069992056c6fe64b0c780e8f) - add `ndarray/base/atleastnd` [(#10422)](https://github.com/stdlib-js/stdlib/pull/10422)
 -   [`9221bdb`](https://github.com/stdlib-js/stdlib/commit/9221bdb56bac8544a387c8b8f74ae69ae5ec2961) - add `toTransposed` to namespace
@@ -21,6 +25,33 @@
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`f10a6aa`](https://github.com/stdlib-js/stdlib/commit/f10a6aaf98c37bb630ac75e1a50dd0bd4a0eb417) - ensure unique indices
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`9df924b`](https://github.com/stdlib-js/stdlib/commit/9df924b5f0b773c8b06d06b40e54dee75059ce08): add writable parameter
+
+    -   To migrate and preserve prior behavior, users should always pass `true` for the second parameter.
+
+-   [`e947540`](https://github.com/stdlib-js/stdlib/commit/e947540a4e87841d7bf140094e20b2768250de11): add writable parameter and always return a new view
+
+    -   To migrate, in order to preserve prior writable behavior, users should set the final parameter equal to a boolean indicating whether the input ndarray is writable. If not, pass `false`; if yes, pass `true`.
+        To preserve prior behavior in which the input ndarray is returned if it does not have singleton dimensions, use `ndarray/base/maybe-remove-singleton-dimensions`.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 <section class="issues">
 
@@ -40,6 +71,12 @@ This release closes the following issue:
 
 <details>
 
+-   [`f91aca6`](https://github.com/stdlib-js/stdlib/commit/f91aca6650536cb46c7b4c41bd05a2a37e0fe475) - **feat:** add `maybeBroadcastArrayExceptDimensions` to namespace _(by Athan Reines)_
+-   [`5324e96`](https://github.com/stdlib-js/stdlib/commit/5324e9618a4b8688b4792ccceb146b348d9a9f2f) - **feat:** add `ndarray/base/maybe-broadcast-array-except-dimensions` [(#10413)](https://github.com/stdlib-js/stdlib/pull/10413) _(by Muhammad Haris, Athan Reines)_
+-   [`f10a6aa`](https://github.com/stdlib-js/stdlib/commit/f10a6aaf98c37bb630ac75e1a50dd0bd4a0eb417) - **fix:** ensure unique indices _(by Athan Reines)_
+-   [`9df924b`](https://github.com/stdlib-js/stdlib/commit/9df924b5f0b773c8b06d06b40e54dee75059ce08) - **feat:** add writable parameter support to `ndarray/base/transpose` (#10474) [(#10474)](https://github.com/stdlib-js/stdlib/pull/10474) _(by Muhammad Haris, Athan Reines)_
+-   [`e947540`](https://github.com/stdlib-js/stdlib/commit/e947540a4e87841d7bf140094e20b2768250de11) - **feat:** add writable parameter to `ndarray/base/remove-singleton-dimensions` [(#9667)](https://github.com/stdlib-js/stdlib/pull/9667) _(by Muhammad Haris, Athan Reines)_
+-   [`e9054b2`](https://github.com/stdlib-js/stdlib/commit/e9054b2892ab8d483449efd9b78aaed53c6fcb2b) - **docs:** add note _(by Athan Reines)_
 -   [`e5af570`](https://github.com/stdlib-js/stdlib/commit/e5af57010dbb7c873ea46afe2662c8ceb44ac637) - **feat:** add `atleastnd` to namespace _(by Athan Reines)_
 -   [`53caca8`](https://github.com/stdlib-js/stdlib/commit/53caca808d0b9aad069992056c6fe64b0c780e8f) - **feat:** add `ndarray/base/atleastnd` [(#10422)](https://github.com/stdlib-js/stdlib/pull/10422) _(by Muhammad Haris, Athan Reines)_
 -   [`8e51991`](https://github.com/stdlib-js/stdlib/commit/8e519911fa82286c82b696e058c5da2fba071c3e) - **style:** revert style changes _(by Athan Reines)_

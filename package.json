@@ -112,6 +112,7 @@
     "@stdlib/ndarray-base-map": "^0.1.1",
     "@stdlib/ndarray-base-max-view-buffer-index": "^0.2.3",
     "@stdlib/ndarray-base-maybe-broadcast-array": "^0.2.5",
+    "@stdlib/ndarray-base-maybe-broadcast-array-except-dimensions": "github:stdlib-js/ndarray-base-maybe-broadcast-array-except-dimensions#main",
     "@stdlib/ndarray-base-maybe-broadcast-arrays": "^0.2.2",
     "@stdlib/ndarray-base-meta-data-props": "^0.2.3",
     "@stdlib/ndarray-base-min-signed-integer-dtype": "^0.1.1",
