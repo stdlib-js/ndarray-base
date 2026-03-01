@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-28)
+## Unreleased (2026-03-01)
 
 <section class="features">
 
@@ -77,6 +77,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`615352c`](https://github.com/stdlib-js/stdlib/commit/615352c15e1b9342f9f0a9834bc03412013b5e56) - **docs:** update namespace table of contents [(#10586)](https://github.com/stdlib-js/stdlib/pull/10586) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`b77641d`](https://github.com/stdlib-js/stdlib/commit/b77641d288f89a5333abf07b421cf54e575c5d03) - **feat:** update `ndarray/base` TypeScript declarations [(#10558)](https://github.com/stdlib-js/stdlib/pull/10558) _(by stdlib-bot)_
 -   [`2cc758b`](https://github.com/stdlib-js/stdlib/commit/2cc758b7e8b6e3a713cadbabd6d13ad635cb2fcd) - **docs:** update namespace table of contents [(#10561)](https://github.com/stdlib-js/stdlib/pull/10561) _(by stdlib-bot)_
 -   [`f7bad8d`](https://github.com/stdlib-js/stdlib/commit/f7bad8d512bc207e4e25ed18a15b43a6e98540aa) - **test:** update test _(by Athan Reines)_
@@ -109,11 +110,12 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Bhargav Dabhade
 -   Muhammad Haris
+-   Philipp Burckhardt
 
 </section>
 
