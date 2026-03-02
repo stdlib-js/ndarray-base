@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-01)
+## Unreleased (2026-03-02)
 
 <section class="features">
 
@@ -79,6 +79,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`5ff8528`](https://github.com/stdlib-js/stdlib/commit/5ff852828a9f5d0388ef386f039649d95987252d) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`98b02ad`](https://github.com/stdlib-js/stdlib/commit/98b02adb85c1a0644510dddd2fab2c1b6b61c2eb) - **feat:** update `ndarray/base` TypeScript declarations [(#10584)](https://github.com/stdlib-js/stdlib/pull/10584) _(by stdlib-bot)_
 -   [`615352c`](https://github.com/stdlib-js/stdlib/commit/615352c15e1b9342f9f0a9834bc03412013b5e56) - **docs:** update namespace table of contents [(#10586)](https://github.com/stdlib-js/stdlib/pull/10586) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`b77641d`](https://github.com/stdlib-js/stdlib/commit/b77641d288f89a5333abf07b421cf54e575c5d03) - **feat:** update `ndarray/base` TypeScript declarations [(#10558)](https://github.com/stdlib-js/stdlib/pull/10558) _(by stdlib-bot)_
