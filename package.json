@@ -327,6 +327,7 @@
     "@stdlib/assert-is-uint32array": "^0.2.3",
     "@stdlib/assert-is-uint8array": "^0.2.3",
     "@stdlib/assert-is-uint8clampedarray": "^0.2.3",
+    "@stdlib/assert-is-undefined-or-null": "^0.2.3",
     "@stdlib/bigint-ctor": "^0.2.3",
     "@stdlib/blas-base-gscal": "^0.3.1",
     "@stdlib/blas-base-ndarray-ddot": "^0.1.1",
