@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-09)
+## Unreleased (2026-03-23)
 
 <section class="features">
 
 ### Features
 
+-   [`af91b63`](https://github.com/stdlib-js/stdlib/commit/af91b6343883ad338f02e4930bae849b10c36cf8) - add `assignScalar` to namespace
+-   [`9cdcdaa`](https://github.com/stdlib-js/stdlib/commit/9cdcdaa02def03413192fa975055590f4179c766) - add `ndarray/base/assign-scalar` [(#11029)](https://github.com/stdlib-js/stdlib/pull/11029)
 -   [`98b02ad`](https://github.com/stdlib-js/stdlib/commit/98b02adb85c1a0644510dddd2fab2c1b6b61c2eb) - update `ndarray/base` TypeScript declarations [(#10584)](https://github.com/stdlib-js/stdlib/pull/10584)
 -   [`b77641d`](https://github.com/stdlib-js/stdlib/commit/b77641d288f89a5333abf07b421cf54e575c5d03) - update `ndarray/base` TypeScript declarations [(#10558)](https://github.com/stdlib-js/stdlib/pull/10558)
 -   [`f91aca6`](https://github.com/stdlib-js/stdlib/commit/f91aca6650536cb46c7b4c41bd05a2a37e0fe475) - add `maybeBroadcastArrayExceptDimensions` to namespace
@@ -32,6 +34,8 @@
 
 ### Bug Fixes
 
+-   [`0b89951`](https://github.com/stdlib-js/stdlib/commit/0b89951e22829e302f05d948ac8391d6300a39ea) - serialize the data type to a string and add comment
+-   [`ebd5886`](https://github.com/stdlib-js/stdlib/commit/ebd5886f97aef9dad8daf7df0d850882a767ca6b) - preserve formatting of original string serialization and rename internal files
 -   [`eab49ad`](https://github.com/stdlib-js/stdlib/commit/eab49ad435f6080ec28a8fbb75de4d9520bdd7e4) - ensure support for elements which are null or undefined
 -   [`f10a6aa`](https://github.com/stdlib-js/stdlib/commit/f10a6aaf98c37bb630ac75e1a50dd0bd4a0eb417) - ensure unique indices
 
@@ -80,6 +84,25 @@ This release closes the following issue:
 
 <details>
 
+-   [`af91b63`](https://github.com/stdlib-js/stdlib/commit/af91b6343883ad338f02e4930bae849b10c36cf8) - **feat:** add `assignScalar` to namespace _(by Athan Reines)_
+-   [`9cdcdaa`](https://github.com/stdlib-js/stdlib/commit/9cdcdaa02def03413192fa975055590f4179c766) - **feat:** add `ndarray/base/assign-scalar` [(#11029)](https://github.com/stdlib-js/stdlib/pull/11029) _(by Muhammad Haris, Athan Reines)_
+-   [`c53a29f`](https://github.com/stdlib-js/stdlib/commit/c53a29fc1e8048c4a4454d7a806d7ea1d2e6f326) - **test:** add test case for accessor array buffers _(by Athan Reines)_
+-   [`0b89951`](https://github.com/stdlib-js/stdlib/commit/0b89951e22829e302f05d948ac8391d6300a39ea) - **fix:** serialize the data type to a string and add comment _(by Athan Reines)_
+-   [`18f1915`](https://github.com/stdlib-js/stdlib/commit/18f191560f9322727ee126619e9e083187b64821) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`a4a5a00`](https://github.com/stdlib-js/stdlib/commit/a4a5a0071775e446d59fb7eb2553e850f1a84b26) - **bench:** refactor to use string interpolation in `ndarray/base/assign` [(#11019)](https://github.com/stdlib-js/stdlib/pull/11019) _(by Partha Das)_
+-   [`a4cd958`](https://github.com/stdlib-js/stdlib/commit/a4cd958c7412f5275d5034cbfb6166ffe57462b0) - **bench:** refactor to use string interpolation in `ndarray/base/find` [(#11059)](https://github.com/stdlib-js/stdlib/pull/11059) _(by Partha Das)_
+-   [`fad9fc8`](https://github.com/stdlib-js/stdlib/commit/fad9fc89959999bfcd881845cf831d90fb41f7fc) - **bench:** refactor to use string interpolation in `ndarray/base/fill` [(#11058)](https://github.com/stdlib-js/stdlib/pull/11058) _(by Partha Das)_
+-   [`826071a`](https://github.com/stdlib-js/stdlib/commit/826071af85401abe59ef8c6eb687224b4e374ce8) - **bench:** fix missing arguments _(by Athan Reines)_
+-   [`b1b1a64`](https://github.com/stdlib-js/stdlib/commit/b1b1a64876a554c2d77c9f4fbc96daa5e0d3f90e) - **docs:** update example _(by Athan Reines)_
+-   [`0f753ef`](https://github.com/stdlib-js/stdlib/commit/0f753ef8b2aeb203c314accd37af63c551dfdfad) - **refactor:** use string interpolation _(by Athan Reines)_
+-   [`ebd5886`](https://github.com/stdlib-js/stdlib/commit/ebd5886f97aef9dad8daf7df0d850882a767ca6b) - **fix:** preserve formatting of original string serialization and rename internal files _(by Athan Reines)_
+-   [`25e5ccb`](https://github.com/stdlib-js/stdlib/commit/25e5ccb8759c3f7b409e58454fafb52cc8c89394) - **bench:** refactor to use string interpolation in `ndarray/base/ndarraylike2ndarray` [(#11060)](https://github.com/stdlib-js/stdlib/pull/11060) _(by Partha Das)_
+-   [`f5c5dfa`](https://github.com/stdlib-js/stdlib/commit/f5c5dfaf00b470450be52e27649c745019b61aa3) - **bench:** refactor to use string interpolation in `ndarray/base/pop` [(#11061)](https://github.com/stdlib-js/stdlib/pull/11061) _(by Partha Das)_
+-   [`16f3ebe`](https://github.com/stdlib-js/stdlib/commit/16f3ebefefdfedb0a98d276312d35a8e6de2d195) - **bench:** refactor to use string interpolation in `ndarray/base/reverse` [(#11062)](https://github.com/stdlib-js/stdlib/pull/11062) _(by Partha Das)_
+-   [`a0084e4`](https://github.com/stdlib-js/stdlib/commit/a0084e42e84516d1b9031ce2994e8694a294b92f) - **bench:** refactor to use string interpolation in `ndarray/base/buffer-ctors` [(#11038)](https://github.com/stdlib-js/stdlib/pull/11038) _(by Partha Das)_
+-   [`075d798`](https://github.com/stdlib-js/stdlib/commit/075d7989c15119545bb4474ac5674b92073f5ddf) - **bench:** refactor to use string interpolation in `ndarray/base/assert/has-equal-shape` [(#11039)](https://github.com/stdlib-js/stdlib/pull/11039) _(by Partha Das)_
+-   [`6f315ad`](https://github.com/stdlib-js/stdlib/commit/6f315ad87f17870b81b176846bec718057ddadf6) - **bench:** refactor to use string interpolation in `ndarray/base/binary` [(#11018)](https://github.com/stdlib-js/stdlib/pull/11018) _(by Partha Das)_
+-   [`5a84c39`](https://github.com/stdlib-js/stdlib/commit/5a84c39850bf22552f8ab108d4cc3255a3a0cdf6) - **bench:** refactor to use string interpolation in `ndarray/base/buffer` [(#11020)](https://github.com/stdlib-js/stdlib/pull/11020) _(by Partha Das)_
 -   [`eab49ad`](https://github.com/stdlib-js/stdlib/commit/eab49ad435f6080ec28a8fbb75de4d9520bdd7e4) - **fix:** ensure support for elements which are null or undefined _(by Athan Reines)_
 -   [`7f1f9ca`](https://github.com/stdlib-js/stdlib/commit/7f1f9cae7096b100fb0d2fafdb6822545bd0489a) - **test:** fix missing argument in TypeScript test _(by Philipp Burckhardt)_
 -   [`5ff8528`](https://github.com/stdlib-js/stdlib/commit/5ff852828a9f5d0388ef386f039649d95987252d) - **chore:** minor clean-up _(by Philipp Burckhardt)_
@@ -117,11 +140,12 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Bhargav Dabhade
 -   Muhammad Haris
+-   Partha Das
 -   Philipp Burckhardt
 
 </section>
