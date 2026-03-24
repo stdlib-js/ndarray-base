@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`91e532c`](https://github.com/stdlib-js/stdlib/commit/91e532cf02003c24e6ee03c0d60d24b32169df4e) - add `ones` to namespace
+-   [`78bcb59`](https://github.com/stdlib-js/stdlib/commit/78bcb5902c6120dfcf9e8472a6ce8c3d4f61968f) - add `ndarray/base/ones`
 -   [`b6cd4ce`](https://github.com/stdlib-js/stdlib/commit/b6cd4ce12c9a6a123963dca5e8b8bd9647f2ac47) - update `ndarray/base` TypeScript declarations [(#11113)](https://github.com/stdlib-js/stdlib/pull/11113)
 -   [`0a0d966`](https://github.com/stdlib-js/stdlib/commit/0a0d966d4d29db076510cabadc79aa66a037ec28) - add `full` to namespace
 -   [`204c9d9`](https://github.com/stdlib-js/stdlib/commit/204c9d9ac9befd22cce40a0f9b6db373dd6d62df) - add `ndarray/base/full` [(#11017)](https://github.com/stdlib-js/stdlib/pull/11017)
@@ -87,6 +89,13 @@ This release closes the following issue:
 
 <details>
 
+-   [`91e532c`](https://github.com/stdlib-js/stdlib/commit/91e532cf02003c24e6ee03c0d60d24b32169df4e) - **feat:** add `ones` to namespace _(by Athan Reines)_
+-   [`78bcb59`](https://github.com/stdlib-js/stdlib/commit/78bcb5902c6120dfcf9e8472a6ce8c3d4f61968f) - **feat:** add `ndarray/base/ones` _(by Athan Reines)_
+-   [`5173151`](https://github.com/stdlib-js/stdlib/commit/5173151500a9e3781c617de1037ba92f1c860d79) - **style:** remove empty line _(by Athan Reines)_
+-   [`b2562b0`](https://github.com/stdlib-js/stdlib/commit/b2562b0ba49ec1c6d05809c2e2bbb725a9fb38a5) - **docs:** update example _(by Athan Reines)_
+-   [`f44463a`](https://github.com/stdlib-js/stdlib/commit/f44463a257a9c70c3b0baa84168bcb1f10cd438e) - **docs:** update examples and docs to accommodate dtype instances _(by Athan Reines)_
+-   [`9dbe58b`](https://github.com/stdlib-js/stdlib/commit/9dbe58b69db750318766dc0b96813199560135f1) - **docs:** update examples and docs to accommodate dtype instances _(by Athan Reines)_
+-   [`b0b7d75`](https://github.com/stdlib-js/stdlib/commit/b0b7d753dfa54d45970e34fde995e77cc3e75df9) - **docs:** fix copy _(by Athan Reines)_
 -   [`d9a5e08`](https://github.com/stdlib-js/stdlib/commit/d9a5e081c5376c8688ffd96f29dec0e135cb123c) - **docs:** update namespace table of contents [(#11114)](https://github.com/stdlib-js/stdlib/pull/11114) _(by stdlib-bot)_
 -   [`90b1d08`](https://github.com/stdlib-js/stdlib/commit/90b1d08d97ae2d4db68836796d38f486d62d6610) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`b6cd4ce`](https://github.com/stdlib-js/stdlib/commit/b6cd4ce12c9a6a123963dca5e8b8bd9647f2ac47) - **feat:** update `ndarray/base` TypeScript declarations [(#11113)](https://github.com/stdlib-js/stdlib/pull/11113) _(by stdlib-bot)_

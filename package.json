@@ -138,6 +138,7 @@
     "@stdlib/ndarray-base-numel": "^0.2.3",
     "@stdlib/ndarray-base-numel-dimension": "^0.3.3",
     "@stdlib/ndarray-base-offset": "^0.2.3",
+    "@stdlib/ndarray-base-ones": "github:stdlib-js/ndarray-base-ones#main",
     "@stdlib/ndarray-base-order": "^0.2.3",
     "@stdlib/ndarray-base-output-dtype": "^0.1.1",
     "@stdlib/ndarray-base-output-policy-enum2str": "^0.2.3",
