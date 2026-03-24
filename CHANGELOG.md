@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-23)
+## Unreleased (2026-03-24)
 
 <section class="features">
 
 ### Features
 
+-   [`0a0d966`](https://github.com/stdlib-js/stdlib/commit/0a0d966d4d29db076510cabadc79aa66a037ec28) - add `full` to namespace
+-   [`204c9d9`](https://github.com/stdlib-js/stdlib/commit/204c9d9ac9befd22cce40a0f9b6db373dd6d62df) - add `ndarray/base/full` [(#11017)](https://github.com/stdlib-js/stdlib/pull/11017)
 -   [`af91b63`](https://github.com/stdlib-js/stdlib/commit/af91b6343883ad338f02e4930bae849b10c36cf8) - add `assignScalar` to namespace
 -   [`9cdcdaa`](https://github.com/stdlib-js/stdlib/commit/9cdcdaa02def03413192fa975055590f4179c766) - add `ndarray/base/assign-scalar` [(#11029)](https://github.com/stdlib-js/stdlib/pull/11029)
 -   [`98b02ad`](https://github.com/stdlib-js/stdlib/commit/98b02adb85c1a0644510dddd2fab2c1b6b61c2eb) - update `ndarray/base` TypeScript declarations [(#10584)](https://github.com/stdlib-js/stdlib/pull/10584)
@@ -84,6 +86,9 @@ This release closes the following issue:
 
 <details>
 
+-   [`0a0d966`](https://github.com/stdlib-js/stdlib/commit/0a0d966d4d29db076510cabadc79aa66a037ec28) - **feat:** add `full` to namespace _(by Athan Reines)_
+-   [`204c9d9`](https://github.com/stdlib-js/stdlib/commit/204c9d9ac9befd22cce40a0f9b6db373dd6d62df) - **feat:** add `ndarray/base/full` [(#11017)](https://github.com/stdlib-js/stdlib/pull/11017) _(by Loay Ahmed, Athan Reines, stdlib-bot)_
+-   [`647e0b1`](https://github.com/stdlib-js/stdlib/commit/647e0b1fd6fbf9e5b1c0d704c6a0621f23f71acd) - **refactor:** use scalar assign utility _(by Athan Reines)_
 -   [`af91b63`](https://github.com/stdlib-js/stdlib/commit/af91b6343883ad338f02e4930bae849b10c36cf8) - **feat:** add `assignScalar` to namespace _(by Athan Reines)_
 -   [`9cdcdaa`](https://github.com/stdlib-js/stdlib/commit/9cdcdaa02def03413192fa975055590f4179c766) - **feat:** add `ndarray/base/assign-scalar` [(#11029)](https://github.com/stdlib-js/stdlib/pull/11029) _(by Muhammad Haris, Athan Reines)_
 -   [`c53a29f`](https://github.com/stdlib-js/stdlib/commit/c53a29fc1e8048c4a4454d7a806d7ea1d2e6f326) - **test:** add test case for accessor array buffers _(by Athan Reines)_
@@ -140,10 +145,11 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Bhargav Dabhade
+-   Loay Ahmed
 -   Muhammad Haris
 -   Partha Das
 -   Philipp Burckhardt
