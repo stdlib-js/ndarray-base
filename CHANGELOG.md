@@ -10,6 +10,10 @@
 
 ### Features
 
+-   [`364e294`](https://github.com/stdlib-js/stdlib/commit/364e294fbd4ebd149d86b8f7996da4b00b6c6b3b) - add `nulls` to namespace
+-   [`f1ab973`](https://github.com/stdlib-js/stdlib/commit/f1ab9738a81b32e0bcd49a2661b0023bbc4ca84f) - add `nans` to namespace
+-   [`751b29f`](https://github.com/stdlib-js/stdlib/commit/751b29f4675e211127d6b24211d9bf655bcbac2c) - add `ndarray/base/nans` [(#11144)](https://github.com/stdlib-js/stdlib/pull/11144)
+-   [`7d2950a`](https://github.com/stdlib-js/stdlib/commit/7d2950a6283b33a6020a6d7622e1c31228876fdf) - add `ndarray/base/nulls` [(#11145)](https://github.com/stdlib-js/stdlib/pull/11145)
 -   [`569131f`](https://github.com/stdlib-js/stdlib/commit/569131f478009cf40b7c3810ac6b1a084634283d) - update `ndarray/base` TypeScript declarations [(#11149)](https://github.com/stdlib-js/stdlib/pull/11149)
 -   [`e00d73a`](https://github.com/stdlib-js/stdlib/commit/e00d73a3cb8c5355a46771ed5630d178e25ec0f4) - add `onesLike` to namespace
 -   [`d200536`](https://github.com/stdlib-js/stdlib/commit/d200536a79672d3a31022f894a63acdf08b79159) - add `ndarray/base/ones-like`
@@ -93,6 +97,10 @@ This release closes the following issue:
 
 <details>
 
+-   [`364e294`](https://github.com/stdlib-js/stdlib/commit/364e294fbd4ebd149d86b8f7996da4b00b6c6b3b) - **feat:** add `nulls` to namespace _(by Athan Reines)_
+-   [`f1ab973`](https://github.com/stdlib-js/stdlib/commit/f1ab9738a81b32e0bcd49a2661b0023bbc4ca84f) - **feat:** add `nans` to namespace _(by Athan Reines)_
+-   [`751b29f`](https://github.com/stdlib-js/stdlib/commit/751b29f4675e211127d6b24211d9bf655bcbac2c) - **feat:** add `ndarray/base/nans` [(#11144)](https://github.com/stdlib-js/stdlib/pull/11144) _(by Muhammad Haris, Athan Reines)_
+-   [`7d2950a`](https://github.com/stdlib-js/stdlib/commit/7d2950a6283b33a6020a6d7622e1c31228876fdf) - **feat:** add `ndarray/base/nulls` [(#11145)](https://github.com/stdlib-js/stdlib/pull/11145) _(by Muhammad Haris, Athan Reines)_
 -   [`569131f`](https://github.com/stdlib-js/stdlib/commit/569131f478009cf40b7c3810ac6b1a084634283d) - **feat:** update `ndarray/base` TypeScript declarations [(#11149)](https://github.com/stdlib-js/stdlib/pull/11149) _(by stdlib-bot)_
 -   [`bbd8f0e`](https://github.com/stdlib-js/stdlib/commit/bbd8f0eec8d6d52201d7706a349fdb9cac737d9c) - **refactor:** avoid unnecessary offset calculation _(by Athan Reines)_
 -   [`f759b2b`](https://github.com/stdlib-js/stdlib/commit/f759b2b5ed4db16f35f0544fb65ed38a957f9f7b) - **refactor:** remove overloads and use generic _(by Athan Reines)_
