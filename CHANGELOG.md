@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-25)
+## Unreleased (2026-03-26)
 
 <section class="features">
 
 ### Features
 
+-   [`569131f`](https://github.com/stdlib-js/stdlib/commit/569131f478009cf40b7c3810ac6b1a084634283d) - update `ndarray/base` TypeScript declarations [(#11149)](https://github.com/stdlib-js/stdlib/pull/11149)
 -   [`e00d73a`](https://github.com/stdlib-js/stdlib/commit/e00d73a3cb8c5355a46771ed5630d178e25ec0f4) - add `onesLike` to namespace
 -   [`d200536`](https://github.com/stdlib-js/stdlib/commit/d200536a79672d3a31022f894a63acdf08b79159) - add `ndarray/base/ones-like`
 -   [`baef022`](https://github.com/stdlib-js/stdlib/commit/baef0223f86db141fa6a1dabc15ec6c5fa2f0f59) - update `ndarray/base` TypeScript declarations [(#11131)](https://github.com/stdlib-js/stdlib/pull/11131)
@@ -92,6 +93,9 @@ This release closes the following issue:
 
 <details>
 
+-   [`569131f`](https://github.com/stdlib-js/stdlib/commit/569131f478009cf40b7c3810ac6b1a084634283d) - **feat:** update `ndarray/base` TypeScript declarations [(#11149)](https://github.com/stdlib-js/stdlib/pull/11149) _(by stdlib-bot)_
+-   [`bbd8f0e`](https://github.com/stdlib-js/stdlib/commit/bbd8f0eec8d6d52201d7706a349fdb9cac737d9c) - **refactor:** avoid unnecessary offset calculation _(by Athan Reines)_
+-   [`f759b2b`](https://github.com/stdlib-js/stdlib/commit/f759b2b5ed4db16f35f0544fb65ed38a957f9f7b) - **refactor:** remove overloads and use generic _(by Athan Reines)_
 -   [`e00d73a`](https://github.com/stdlib-js/stdlib/commit/e00d73a3cb8c5355a46771ed5630d178e25ec0f4) - **feat:** add `onesLike` to namespace _(by Athan Reines)_
 -   [`d200536`](https://github.com/stdlib-js/stdlib/commit/d200536a79672d3a31022f894a63acdf08b79159) - **feat:** add `ndarray/base/ones-like` _(by Athan Reines)_
 -   [`baef022`](https://github.com/stdlib-js/stdlib/commit/baef0223f86db141fa6a1dabc15ec6c5fa2f0f59) - **feat:** update `ndarray/base` TypeScript declarations [(#11131)](https://github.com/stdlib-js/stdlib/pull/11131) _(by stdlib-bot)_
