@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-29)
+## Unreleased (2026-04-10)
 
 <section class="features">
 
 ### Features
 
+-   [`3a4c3c1`](https://github.com/stdlib-js/stdlib/commit/3a4c3c1c8985cdd90373832b303a818d8e42785d) - add `rotr90` to namespace
+-   [`cda31f5`](https://github.com/stdlib-js/stdlib/commit/cda31f53eb384a004a50c4249cb6e7d0795285d5) - add `ndarray/base/rotr90` [(#11030)](https://github.com/stdlib-js/stdlib/pull/11030)
+-   [`142964b`](https://github.com/stdlib-js/stdlib/commit/142964bca2c6774129f0807bcb9786ebc373646d) - refactor declarations to satisfy TS's structural typing
+-   [`8dbfe60`](https://github.com/stdlib-js/stdlib/commit/8dbfe608b990c4e12c729daa01489de8f6b56ac3) - add support for dtype instances
 -   [`28d3e7d`](https://github.com/stdlib-js/stdlib/commit/28d3e7d6b05b312ebf14896cb0d8593902e443cb) - update `ndarray/base` TypeScript declarations [(#11166)](https://github.com/stdlib-js/stdlib/pull/11166)
 -   [`364e294`](https://github.com/stdlib-js/stdlib/commit/364e294fbd4ebd149d86b8f7996da4b00b6c6b3b) - add `nulls` to namespace
 -   [`f1ab973`](https://github.com/stdlib-js/stdlib/commit/f1ab9738a81b32e0bcd49a2661b0023bbc4ca84f) - add `nans` to namespace
@@ -48,6 +52,8 @@
 
 ### Bug Fixes
 
+-   [`e47ee45`](https://github.com/stdlib-js/stdlib/commit/e47ee4551cf19ad584361fb80c9eed84ff9ea792) - resolve bugs, docs, and JSDoc type errors [(#11337)](https://github.com/stdlib-js/stdlib/pull/11337)
+-   [`d4710cd`](https://github.com/stdlib-js/stdlib/commit/d4710cd4279abf2e1e8383ce0e1bfbfadf4b609a) - improve type specificity with overloads
 -   [`762f410`](https://github.com/stdlib-js/stdlib/commit/762f410098b29afa3823ab1191553101db0dcead) - correct grammar in ndarray type test comments [(#11154)](https://github.com/stdlib-js/stdlib/pull/11154)
 -   [`0b89951`](https://github.com/stdlib-js/stdlib/commit/0b89951e22829e302f05d948ac8391d6300a39ea) - serialize the data type to a string and add comment
 -   [`ebd5886`](https://github.com/stdlib-js/stdlib/commit/ebd5886f97aef9dad8daf7df0d850882a767ca6b) - preserve formatting of original string serialization and rename internal files
@@ -61,6 +67,15 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`142964b`](https://github.com/stdlib-js/stdlib/commit/142964bca2c6774129f0807bcb9786ebc373646d): add additional type parameters
+
+    -   To migrate, users should update their signatures according to the
+        types of the additional array arguments provided to the strided
+        function. For fixed arity strided function wrappers, the previous
+        declarations would choke, as they expected such wrappers to be
+        variadic in the number of accepted arrays. This commit rectifies
+        that by enumerating various fixed array arity signatures.
 
 -   [`98b02ad`](https://github.com/stdlib-js/stdlib/commit/98b02adb85c1a0644510dddd2fab2c1b6b61c2eb): update `ndarray/base` TypeScript declarations
 -   [`b77641d`](https://github.com/stdlib-js/stdlib/commit/b77641d288f89a5333abf07b421cf54e575c5d03): add writable parameter to and always return a new ndarray in `removeSingletonDimensions`
@@ -85,9 +100,9 @@
 
 ### Closed Issues
 
-A total of 2 issues were closed in this release:
+A total of 4 issues were closed in this release:
 
-[#10378](https://github.com/stdlib-js/stdlib/issues/10378), [#11152](https://github.com/stdlib-js/stdlib/issues/11152)
+[#10378](https://github.com/stdlib-js/stdlib/issues/10378), [#11152](https://github.com/stdlib-js/stdlib/issues/11152), [#11334](https://github.com/stdlib-js/stdlib/issues/11334), [#11347](https://github.com/stdlib-js/stdlib/issues/11347)
 
 </section>
 
@@ -99,6 +114,57 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`35566af`](https://github.com/stdlib-js/stdlib/commit/35566af0add64775e60422fd16e50e1bec3947e7) - **docs:** fix C examples in READMEs [(#11229)](https://github.com/stdlib-js/stdlib/pull/11229) _(by anee3, Athan Reines)_
+-   [`d6065f1`](https://github.com/stdlib-js/stdlib/commit/d6065f1af58925d59d168fe786ccdb2ccf3a8df0) - **chore:** fix C lint errors [(#11348)](https://github.com/stdlib-js/stdlib/pull/11348) _(by Guneet Gill, Athan Reines)_
+-   [`3a4c3c1`](https://github.com/stdlib-js/stdlib/commit/3a4c3c1c8985cdd90373832b303a818d8e42785d) - **feat:** add `rotr90` to namespace _(by Athan Reines)_
+-   [`cda31f5`](https://github.com/stdlib-js/stdlib/commit/cda31f53eb384a004a50c4249cb6e7d0795285d5) - **feat:** add `ndarray/base/rotr90` [(#11030)](https://github.com/stdlib-js/stdlib/pull/11030) _(by Muhammad Haris, Athan Reines)_
+-   [`3df3c24`](https://github.com/stdlib-js/stdlib/commit/3df3c244943b00841d3abd5ac75c2a42e848c492) - **style:** remove empty line _(by Athan Reines)_
+-   [`801907f`](https://github.com/stdlib-js/stdlib/commit/801907f3df34913321d0f977117114fbb1bcb618) - **style:** remove empty line _(by Athan Reines)_
+-   [`a04c190`](https://github.com/stdlib-js/stdlib/commit/a04c1901314a04f6edee35ac2dfcebb4275a9811) - **chore:** fix C lint errors [(#11335)](https://github.com/stdlib-js/stdlib/pull/11335) _(by Geo Daoyu, Athan Reines)_
+-   [`e47ee45`](https://github.com/stdlib-js/stdlib/commit/e47ee4551cf19ad584361fb80c9eed84ff9ea792) - **fix:** resolve bugs, docs, and JSDoc type errors [(#11337)](https://github.com/stdlib-js/stdlib/pull/11337) _(by Philipp Burckhardt)_
+-   [`d1a105c`](https://github.com/stdlib-js/stdlib/commit/d1a105c74fb2d139c4e6aba1b4aee6188c2aea64) - **test:** update tests to align with increased specificity _(by Athan Reines)_
+-   [`d4710cd`](https://github.com/stdlib-js/stdlib/commit/d4710cd4279abf2e1e8383ce0e1bfbfadf4b609a) - **fix:** improve type specificity with overloads _(by Athan Reines)_
+-   [`142964b`](https://github.com/stdlib-js/stdlib/commit/142964bca2c6774129f0807bcb9786ebc373646d) - **feat:** refactor declarations to satisfy TS's structural typing _(by Athan Reines)_
+-   [`f52054e`](https://github.com/stdlib-js/stdlib/commit/f52054eb695447bf801c822da2e86bfb36a28699) - **docs:** fix comments _(by Athan Reines)_
+-   [`ef8dc22`](https://github.com/stdlib-js/stdlib/commit/ef8dc22cb842e83aa870936e525bfcc3cd47473c) - **refactor:** use already defined variable _(by Athan Reines)_
+-   [`acd37d9`](https://github.com/stdlib-js/stdlib/commit/acd37d96627bf8febcdc2668e5f5ba2a1fd17c55) - **refactor:** use already defined variable _(by Athan Reines)_
+-   [`d2a810a`](https://github.com/stdlib-js/stdlib/commit/d2a810a7a940c8182ed3c9870cf26cb901091e89) - **refactor:** use already defined variable _(by Athan Reines)_
+-   [`89a6d62`](https://github.com/stdlib-js/stdlib/commit/89a6d62754b818bc87f80800443b1d65a40c41dd) - **refactor:** use already defined variable _(by Athan Reines)_
+-   [`e45d3fc`](https://github.com/stdlib-js/stdlib/commit/e45d3fc18c0eea98593e3edfe0d3c2970e02b81d) - **refactor:** use already defined variable _(by Athan Reines)_
+-   [`9457f9f`](https://github.com/stdlib-js/stdlib/commit/9457f9f060948f55ed3355c649a456d2267fd8b6) - **refactor:** add support for ancillary ndarray arguments having trailing dimensions _(by Athan Reines)_
+-   [`1a45821`](https://github.com/stdlib-js/stdlib/commit/1a458218a5e319ee00c0d3ddb4e065ad64edef4c) - **docs:** update examples to use accessor functions _(by Athan Reines)_
+-   [`e835a44`](https://github.com/stdlib-js/stdlib/commit/e835a4459def3255aa112790371508f6d9b7d16b) - **docs:** update examples to use accessor functions _(by Athan Reines)_
+-   [`887f9ca`](https://github.com/stdlib-js/stdlib/commit/887f9caca4ebe0bca507718b2f0ac26f063298c3) - **docs:** update examples and benchmarks _(by Athan Reines)_
+-   [`c13dd70`](https://github.com/stdlib-js/stdlib/commit/c13dd703daff4a5893dac860a78fe6e0631e68ec) - **refactor:** normalize dtypes to enums to reduce memory consumption and speed-up comparisons _(by Athan Reines)_
+-   [`2041e12`](https://github.com/stdlib-js/stdlib/commit/2041e12c968c4bd6f4a4f051271aacaa65727a6d) - **docs:** ensure support for dtype instances and update examples _(by Athan Reines)_
+-   [`88a7c4d`](https://github.com/stdlib-js/stdlib/commit/88a7c4de78c60740018a7038279248e48a2019cc) - **refactor:** add support for ancillary ndarray arguments having trailing dimensions _(by Athan Reines)_
+-   [`9929838`](https://github.com/stdlib-js/stdlib/commit/99298389ec07331f424d4a8ed570d974d7ad3c44) - **refactor:** add support for ancillary ndarray arguments having trailing dimensions _(by Athan Reines)_
+-   [`ed8da6f`](https://github.com/stdlib-js/stdlib/commit/ed8da6f296e6031ef298cbeeb03ee121fdf0d0a7) - **refactor:** add support for ancillary ndarray arguments having trailing dimensions _(by Athan Reines)_
+-   [`94e56f0`](https://github.com/stdlib-js/stdlib/commit/94e56f0ce160c8d5409fd7750ff42c4249704e5c) - **refactor:** add support for ancillary ndarray arguments having trailing dimensions _(by Athan Reines)_
+-   [`07462e4`](https://github.com/stdlib-js/stdlib/commit/07462e494d3442559bb88d713009f50f9130b33e) - **refactor:** support ancillary ndarray arguments with trailing dimensions _(by Athan Reines)_
+-   [`686981c`](https://github.com/stdlib-js/stdlib/commit/686981c226ea4589c3fc53ef0b1c8c3ccfc70809) - **refactor:** move assignment expression _(by Athan Reines)_
+-   [`16c408d`](https://github.com/stdlib-js/stdlib/commit/16c408d950173630d6d458987f0d4d0a5e0c9f3e) - **docs:** fix copy _(by Athan Reines)_
+-   [`c8df03c`](https://github.com/stdlib-js/stdlib/commit/c8df03cfe4cb5362cfff5f981aff4c0abc6d0e5a) - **refactor:** add support for ancilliary ndarrays which decompose into subarrays _(by Athan Reines)_
+-   [`da18a82`](https://github.com/stdlib-js/stdlib/commit/da18a821cb5b0e559658144a92a9fc1876d7345e) - **style:** reorder declarations _(by Athan Reines)_
+-   [`cdb2bb5`](https://github.com/stdlib-js/stdlib/commit/cdb2bb52a947ce276bc00e331f003dfeb14ec204) - **refactor:** normalize dtypes to enums to reduce memory consumption and speed-up comparisons _(by Athan Reines)_
+-   [`8aae193`](https://github.com/stdlib-js/stdlib/commit/8aae19336b0cba0e5f7c35fd1fe792bc1264f907) - **docs:** update example and documented parameter types _(by Athan Reines)_
+-   [`660d15d`](https://github.com/stdlib-js/stdlib/commit/660d15d41bad15389df2e9a1e591592ce54932b9) - **docs:** update example and documented parameter types _(by Athan Reines)_
+-   [`26f1d6e`](https://github.com/stdlib-js/stdlib/commit/26f1d6e9227859c18102b50a0021ccf6d1963a1f) - **docs:** update example _(by Athan Reines)_
+-   [`4d67d66`](https://github.com/stdlib-js/stdlib/commit/4d67d66c98fe74d756b277266e5f4fdabaae3039) - **docs:** update example _(by Athan Reines)_
+-   [`edc94eb`](https://github.com/stdlib-js/stdlib/commit/edc94ebd0008c174362864f2fea40cefac495635) - **refactor:** add support for dtype instances and reduce memory requirements _(by Athan Reines)_
+-   [`408c8be`](https://github.com/stdlib-js/stdlib/commit/408c8be00cf7c2139a5ff2dbab966db756d95944) - **refactor:** add support for dtype instances and reduce memory requirements _(by Athan Reines)_
+-   [`a467bf0`](https://github.com/stdlib-js/stdlib/commit/a467bf0083da8f346611e53a684a78212f76d426) - **chore:** fix typos and incorrect test values [(#11270)](https://github.com/stdlib-js/stdlib/pull/11270) _(by Philipp Burckhardt)_
+-   [`2db5404`](https://github.com/stdlib-js/stdlib/commit/2db5404d6a12f2d0c20fb61a5ce047daea72ea3f) - **refactor:** improve type specificity and use accessors for resolving ndarray meta data _(by Athan Reines)_
+-   [`8dbfe60`](https://github.com/stdlib-js/stdlib/commit/8dbfe608b990c4e12c729daa01489de8f6b56ac3) - **feat:** add support for dtype instances _(by Athan Reines)_
+-   [`3c6b016`](https://github.com/stdlib-js/stdlib/commit/3c6b01628169badc19aed4201cb66a5265c5d378) - **refactor:** improve type specificity _(by Athan Reines)_
+-   [`2bc2d8b`](https://github.com/stdlib-js/stdlib/commit/2bc2d8b3568550581f6574843480eccd40c7589a) - **test:** use accessors to resolve ndarray meta data _(by Athan Reines)_
+-   [`29648e3`](https://github.com/stdlib-js/stdlib/commit/29648e3c22b94656db3d56f822718f5860dfba9d) - **refactor:** improve type specificity _(by Athan Reines)_
+-   [`b9709d8`](https://github.com/stdlib-js/stdlib/commit/b9709d8608a4cbfc6e5af6f293e5263708ae3430) - **test:** use accessors to resolve ndarray meta data _(by Athan Reines)_
+-   [`24fe5a1`](https://github.com/stdlib-js/stdlib/commit/24fe5a1e1528667d2229445b1d9e5b4116225509) - **test:** explicitly serialize return value to a string _(by Athan Reines)_
+-   [`a73a430`](https://github.com/stdlib-js/stdlib/commit/a73a430f8cf1e69a6bda08d1a4441b8985ef56ec) - **refactor:** improve type specificity _(by Athan Reines)_
+-   [`7ab721b`](https://github.com/stdlib-js/stdlib/commit/7ab721ba37db35ef62c6b658ba6ddeef4f8bff64) - **test:** use accessor functions for accessing ndarray meta data _(by Athan Reines)_
+-   [`1c769c9`](https://github.com/stdlib-js/stdlib/commit/1c769c983b0a4197ba30c9372568e03af00e9c00) - **test:** use accessors for retrieving ndarray meta data _(by Athan Reines)_
+-   [`06b39a8`](https://github.com/stdlib-js/stdlib/commit/06b39a8dce95540bd60183f40f7afe51a0affdc7) - **refactor:** update to accommodate dtype instances _(by Athan Reines)_
 -   [`ba129b3`](https://github.com/stdlib-js/stdlib/commit/ba129b35eed5099aece6caa686c3794e9a6b08b5) - **docs:** update namespace table of contents [(#11198)](https://github.com/stdlib-js/stdlib/pull/11198) _(by stdlib-bot)_
 -   [`a0169bc`](https://github.com/stdlib-js/stdlib/commit/a0169bcfc0d05ac94c206ac5d6d0a898ec304463) - **docs:** remove unused `ndarray2array` requires from README usage examples [(#11194)](https://github.com/stdlib-js/stdlib/pull/11194) _(by Philipp Burckhardt)_
 -   [`3bf34ec`](https://github.com/stdlib-js/stdlib/commit/3bf34ec6df7f894f7cbee125eb3f655ebb2d6a4e) - **chore:** fix typos, grammar, and minor issues across multiple packages [(#11167)](https://github.com/stdlib-js/stdlib/pull/11167) _(by Philipp Burckhardt)_
@@ -185,15 +251,18 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Bhargav Dabhade
+-   Geo Daoyu
+-   Guneet Gill
 -   Loay Ahmed
 -   Matt Van Horn
 -   Muhammad Haris
 -   Partha Das
 -   Philipp Burckhardt
+-   anee3
 
 </section>
 
