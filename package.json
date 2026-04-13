@@ -213,6 +213,7 @@
     "@stdlib/ndarray-base-unary-strided1d-dispatch": "^0.1.1",
     "@stdlib/ndarray-base-unary-strided1d-dispatch-factory": "^0.0.1",
     "@stdlib/ndarray-base-unary-tiling-block-size": "^0.2.3",
+    "@stdlib/ndarray-base-unflatten": "github:stdlib-js/ndarray-base-unflatten#main",
     "@stdlib/ndarray-base-unflatten-shape": "github:stdlib-js/ndarray-base-unflatten-shape#main",
     "@stdlib/ndarray-base-vind2bind": "^0.2.3",
     "@stdlib/ndarray-base-wrap-index": "^0.2.3",
