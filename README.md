@@ -144,6 +144,7 @@ var o = ns;
 -   <span class="signature">[`array2ndarray( buf, order )`][@stdlib/ndarray/base/from-array]</span><span class="delimiter">: </span><span class="description">convert an array to a one-dimensional ndarray.</span>
 -   <span class="signature">[`scalar2ndarrayLike( x, value )`][@stdlib/ndarray/base/from-scalar-like]</span><span class="delimiter">: </span><span class="description">convert a scalar value to a zero-dimensional ndarray having the same data type as a provided ndarray.</span>
 -   <span class="signature">[`scalar2ndarray( value, dtype, order )`][@stdlib/ndarray/base/from-scalar]</span><span class="delimiter">: </span><span class="description">convert a scalar value to a zero-dimensional ndarray.</span>
+-   <span class="signature">[`fullBy( dtype, shape, order, clbk[, thisArg] )`][@stdlib/ndarray/base/full-by]</span><span class="delimiter">: </span><span class="description">create an ndarray filled according to a callback function and having a specified shape and data type.</span>
 -   <span class="signature">[`full( value, dtype, shape, order )`][@stdlib/ndarray/base/full]</span><span class="delimiter">: </span><span class="description">create an ndarray filled with a specified value and having a specified shape and data type.</span>
 -   <span class="signature">[`includes( arrays )`][@stdlib/ndarray/base/includes]</span><span class="delimiter">: </span><span class="description">test whether an ndarray contains a specified value.</span>
 -   <span class="signature">[`ind( idx, max, mode )`][@stdlib/ndarray/base/ind]</span><span class="delimiter">: </span><span class="description">return an index given an index mode.</span>
@@ -253,6 +254,7 @@ var o = ns;
 -   <span class="signature">[`unaryBlockSize( dtypeX, dtypeY )`][@stdlib/ndarray/base/unary-tiling-block-size]</span><span class="delimiter">: </span><span class="description">resolve a loop block size for multi-dimensional array tiled loops.</span>
 -   <span class="signature">[`unary( arrays, fcn )`][@stdlib/ndarray/base/unary]</span><span class="delimiter">: </span><span class="description">apply a unary callback to elements in an input ndarray and assign results to elements in an output ndarray.</span>
 -   <span class="signature">[`unflattenShape( shape, dim, sizes )`][@stdlib/ndarray/base/unflatten-shape]</span><span class="delimiter">: </span><span class="description">expand a dimension over multiple dimensions.</span>
+-   <span class="signature">[`unflatten( x, dim, sizes, writable )`][@stdlib/ndarray/base/unflatten]</span><span class="delimiter">: </span><span class="description">return a view of an input ndarray in which a specified dimension is expanded over multiple dimensions.</span>
 -   <span class="signature">[`vind2bind( shape, strides, offset, order, idx, mode )`][@stdlib/ndarray/base/vind2bind]</span><span class="delimiter">: </span><span class="description">convert a linear index in an array view to a linear index in an underlying data buffer.</span>
 -   <span class="signature">[`wrapIndex( idx, max )`][@stdlib/ndarray/base/wrap-index]</span><span class="delimiter">: </span><span class="description">wrap an index on the interval `[0,max]`.</span>
 -   <span class="signature">[`zerosLike( x )`][@stdlib/ndarray/base/zeros-like]</span><span class="delimiter">: </span><span class="description">create a zero-filled ndarray having the same shape and data type as a provided ndarray.</span>
@@ -518,6 +520,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/ndarray/base/from-scalar]: https://github.com/stdlib-js/ndarray-base-from-scalar
 
+[@stdlib/ndarray/base/full-by]: https://github.com/stdlib-js/ndarray-base-full-by
+
 [@stdlib/ndarray/base/full]: https://github.com/stdlib-js/ndarray-base-full
 
 [@stdlib/ndarray/base/includes]: https://github.com/stdlib-js/ndarray-base-includes
@@ -735,6 +739,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/ndarray/base/unary]: https://github.com/stdlib-js/ndarray-base-unary
 
 [@stdlib/ndarray/base/unflatten-shape]: https://github.com/stdlib-js/ndarray-base-unflatten-shape
+
+[@stdlib/ndarray/base/unflatten]: https://github.com/stdlib-js/ndarray-base-unflatten
 
 [@stdlib/ndarray/base/vind2bind]: https://github.com/stdlib-js/ndarray-base-vind2bind
 
