@@ -192,6 +192,7 @@
     "@stdlib/ndarray-base-to-reversed": "^0.1.1",
     "@stdlib/ndarray-base-to-reversed-dimension": "^0.1.1",
     "@stdlib/ndarray-base-to-transposed": "github:stdlib-js/ndarray-base-to-transposed#main",
+    "@stdlib/ndarray-base-to-unflattened": "github:stdlib-js/ndarray-base-to-unflattened#main",
     "@stdlib/ndarray-base-to-unique-normalized-indices": "^0.1.1",
     "@stdlib/ndarray-base-transpose": "^0.2.4",
     "@stdlib/ndarray-base-unary": "^0.3.1",
