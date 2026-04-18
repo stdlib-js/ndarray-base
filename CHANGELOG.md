@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-17)
+## Unreleased (2026-04-18)
 
 <section class="features">
 
@@ -122,6 +122,12 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`2505815`](https://github.com/stdlib-js/stdlib/commit/25058156cf7b1138c5c33209a5143100c376b46d) - **docs:** update namespace table of contents [(#11520)](https://github.com/stdlib-js/stdlib/pull/11520) _(by stdlib-bot)_
+-   [`3af178c`](https://github.com/stdlib-js/stdlib/commit/3af178cc07862b3070234245f015a4bdc8370acb) - **style:** use single quotes for require calls [(#11516)](https://github.com/stdlib-js/stdlib/pull/11516) _(by Philipp Burckhardt)_
+-   [`4c6c7a1`](https://github.com/stdlib-js/stdlib/commit/4c6c7a13a022fb679e9f7793ce06b06674b21956) - **docs:** improve doctests for ndarray instances in `ndarray/base/reverse` [(#11509)](https://github.com/stdlib-js/stdlib/pull/11509) _(by Uday Kakade)_
+-   [`c1376cb`](https://github.com/stdlib-js/stdlib/commit/c1376cb9550a82c5c2377a7c97f1ce4a59ea141a) - **docs:** improve doctests for ndarray instances in `ndarray/base/to-reversed` [(#11511)](https://github.com/stdlib-js/stdlib/pull/11511) _(by Uday Kakade)_
+-   [`13ec30d`](https://github.com/stdlib-js/stdlib/commit/13ec30d69ff91423504ba76bf5de59b0322ff8db) - **bench:** refactor to use string interpolation in `@stdlib/ndarray-base` [(#11435)](https://github.com/stdlib-js/stdlib/pull/11435) _(by Karan Anand)_
+-   [`ad3f046`](https://github.com/stdlib-js/stdlib/commit/ad3f04667c2cc32b6e749d8b08259afecff3f1e8) - **bench:** refactor to use string interpolation in `@stdlib/ndarray-base` [(#11434)](https://github.com/stdlib-js/stdlib/pull/11434) _(by Karan Anand)_
 -   [`97fd5b7`](https://github.com/stdlib-js/stdlib/commit/97fd5b7de7e74e99e0ffb4ccd27c5ae555aa02cb) - **feat:** add `toUnflattened` to namespace _(by Athan Reines)_
 -   [`737511b`](https://github.com/stdlib-js/stdlib/commit/737511bad0cbe580a8771094f13ef75fd8975f01) - **feat:** add `ndarray/base/to-unflattened` [(#11493)](https://github.com/stdlib-js/stdlib/pull/11493) _(by Muhammad Haris)_
 -   [`36e8e4b`](https://github.com/stdlib-js/stdlib/commit/36e8e4be9c05de181d5e69f7a0f4b689d27c3f35) - **docs:** update namespace table of contents [(#11448)](https://github.com/stdlib-js/stdlib/pull/11448) _(by stdlib-bot)_
@@ -270,7 +276,7 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 11 people contributed to this release. Thank you to the following contributors:
+A total of 12 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Bhargav Dabhade
@@ -282,6 +288,7 @@ A total of 11 people contributed to this release. Thank you to the following con
 -   Muhammad Haris
 -   Partha Das
 -   Philipp Burckhardt
+-   Uday Kakade
 -   anee3
 
 </section>
