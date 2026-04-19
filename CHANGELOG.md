@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-18)
+## Unreleased (2026-04-19)
 
 <section class="features">
 
 ### Features
 
+-   [`bbac071`](https://github.com/stdlib-js/stdlib/commit/bbac07144b6a85eb308745484ad491ce45bcd0f8) - add `atleast1d`, `atleast2d`, and `atleast3d` to namespace
+-   [`7633424`](https://github.com/stdlib-js/stdlib/commit/7633424ed747388a8b509d88a890372486c96aa3) - add `ndarray/base/atleast3d` [(#11548)](https://github.com/stdlib-js/stdlib/pull/11548)
+-   [`7d01b62`](https://github.com/stdlib-js/stdlib/commit/7d01b625eefc60a1044b721a3cf619b70b2bcbfd) - add `ndarray/base/atleast1d` [(#11540)](https://github.com/stdlib-js/stdlib/pull/11540)
+-   [`f0ac25a`](https://github.com/stdlib-js/stdlib/commit/f0ac25a6707662e3d5903146f6bcf47a74daa029) - add `ndarray/base/atleast2d` [(#11541)](https://github.com/stdlib-js/stdlib/pull/11541)
 -   [`80e9b07`](https://github.com/stdlib-js/stdlib/commit/80e9b07afb5318780a47d362a34e4ee41b39cd81) - add `trues`, `falses`, and `tile` to namespace
 -   [`909028f`](https://github.com/stdlib-js/stdlib/commit/909028f730cd82c58cfbdb635ebc602e907ba956) - add `ndarray/base/trues` [(#11528)](https://github.com/stdlib-js/stdlib/pull/11528)
 -   [`85543bf`](https://github.com/stdlib-js/stdlib/commit/85543bf5fd13e8014bfa2b81ce950f5172d4d4b0) - add `ndarray/base/falses` [(#11529)](https://github.com/stdlib-js/stdlib/pull/11529)
@@ -126,6 +130,11 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`3a73d93`](https://github.com/stdlib-js/stdlib/commit/3a73d932e39d6603c57d8e62de4aba731ffa2fba) - **docs:** update notes _(by Athan Reines)_
+-   [`bbac071`](https://github.com/stdlib-js/stdlib/commit/bbac07144b6a85eb308745484ad491ce45bcd0f8) - **feat:** add `atleast1d`, `atleast2d`, and `atleast3d` to namespace _(by Athan Reines)_
+-   [`7633424`](https://github.com/stdlib-js/stdlib/commit/7633424ed747388a8b509d88a890372486c96aa3) - **feat:** add `ndarray/base/atleast3d` [(#11548)](https://github.com/stdlib-js/stdlib/pull/11548) _(by Muhammad Haris)_
+-   [`7d01b62`](https://github.com/stdlib-js/stdlib/commit/7d01b625eefc60a1044b721a3cf619b70b2bcbfd) - **feat:** add `ndarray/base/atleast1d` [(#11540)](https://github.com/stdlib-js/stdlib/pull/11540) _(by Muhammad Haris)_
+-   [`f0ac25a`](https://github.com/stdlib-js/stdlib/commit/f0ac25a6707662e3d5903146f6bcf47a74daa029) - **feat:** add `ndarray/base/atleast2d` [(#11541)](https://github.com/stdlib-js/stdlib/pull/11541) _(by Muhammad Haris)_
 -   [`80e9b07`](https://github.com/stdlib-js/stdlib/commit/80e9b07afb5318780a47d362a34e4ee41b39cd81) - **feat:** add `trues`, `falses`, and `tile` to namespace _(by Athan Reines)_
 -   [`909028f`](https://github.com/stdlib-js/stdlib/commit/909028f730cd82c58cfbdb635ebc602e907ba956) - **feat:** add `ndarray/base/trues` [(#11528)](https://github.com/stdlib-js/stdlib/pull/11528) _(by Muhammad Haris)_
 -   [`85543bf`](https://github.com/stdlib-js/stdlib/commit/85543bf5fd13e8014bfa2b81ce950f5172d4d4b0) - **feat:** add `ndarray/base/falses` [(#11529)](https://github.com/stdlib-js/stdlib/pull/11529) _(by Muhammad Haris)_
