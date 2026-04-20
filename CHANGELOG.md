@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-19)
+## Unreleased (2026-04-20)
 
 <section class="features">
 
 ### Features
 
+-   [`1ab30a1`](https://github.com/stdlib-js/stdlib/commit/1ab30a16866d523544f06017e56a70e68d9933cf) - add `rotl90` to namespace
+-   [`9ef9c56`](https://github.com/stdlib-js/stdlib/commit/9ef9c56b8d3fccad2b75d4f4316f7a99fa5bc660) - add `ndarray/base/rotl90` [(#11633)](https://github.com/stdlib-js/stdlib/pull/11633)
 -   [`bbac071`](https://github.com/stdlib-js/stdlib/commit/bbac07144b6a85eb308745484ad491ce45bcd0f8) - add `atleast1d`, `atleast2d`, and `atleast3d` to namespace
 -   [`7633424`](https://github.com/stdlib-js/stdlib/commit/7633424ed747388a8b509d88a890372486c96aa3) - add `ndarray/base/atleast3d` [(#11548)](https://github.com/stdlib-js/stdlib/pull/11548)
 -   [`7d01b62`](https://github.com/stdlib-js/stdlib/commit/7d01b625eefc60a1044b721a3cf619b70b2bcbfd) - add `ndarray/base/atleast1d` [(#11540)](https://github.com/stdlib-js/stdlib/pull/11540)
@@ -130,6 +132,9 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`1ab30a1`](https://github.com/stdlib-js/stdlib/commit/1ab30a16866d523544f06017e56a70e68d9933cf) - **feat:** add `rotl90` to namespace _(by Athan Reines)_
+-   [`9ef9c56`](https://github.com/stdlib-js/stdlib/commit/9ef9c56b8d3fccad2b75d4f4316f7a99fa5bc660) - **feat:** add `ndarray/base/rotl90` [(#11633)](https://github.com/stdlib-js/stdlib/pull/11633) _(by Muhammad Haris)_
+-   [`35634a8`](https://github.com/stdlib-js/stdlib/commit/35634a8d15e49b92e562a9c6cd8361b988c8ced2) - **bench:** refactor to use string interpolation in `@stdlib/ndarray-base` [(#11433)](https://github.com/stdlib-js/stdlib/pull/11433) _(by Karan Anand)_
 -   [`84d7a1f`](https://github.com/stdlib-js/stdlib/commit/84d7a1f44c1127dfc9c22b7132d1166d1a96c64b) - **docs:** update namespace table of contents [(#11562)](https://github.com/stdlib-js/stdlib/pull/11562) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`3a73d93`](https://github.com/stdlib-js/stdlib/commit/3a73d932e39d6603c57d8e62de4aba731ffa2fba) - **docs:** update notes _(by Athan Reines)_
 -   [`bbac071`](https://github.com/stdlib-js/stdlib/commit/bbac07144b6a85eb308745484ad491ce45bcd0f8) - **feat:** add `atleast1d`, `atleast2d`, and `atleast3d` to namespace _(by Athan Reines)_
