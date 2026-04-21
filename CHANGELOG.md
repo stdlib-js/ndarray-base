@@ -136,6 +136,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`0f62461`](https://github.com/stdlib-js/stdlib/commit/0f62461c976de87b8782e28eceaa89b7f42f89e2) - **docs:** update namespace table of contents [(#11688)](https://github.com/stdlib-js/stdlib/pull/11688) _(by stdlib-bot)_
 -   [`4a00996`](https://github.com/stdlib-js/stdlib/commit/4a0099621945f4fb17cd8bde8d7375715e309b6e) - **feat:** add `reinterpret-complex128` to namespace _(by Athan Reines)_
 -   [`8860b05`](https://github.com/stdlib-js/stdlib/commit/8860b05c83ef17376bfa54b47c2aaa57a92b2fe1) - **feat:** add `rot90` to namespace _(by Athan Reines)_
 -   [`7368bff`](https://github.com/stdlib-js/stdlib/commit/7368bff8ade81ae99638f53ceacc8b5ab5d04c74) - **feat:** add `ndarray/base/rot90` [(#11660)](https://github.com/stdlib-js/stdlib/pull/11660) _(by Muhammad Haris, Athan Reines)_
