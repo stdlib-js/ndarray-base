@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-20)
+## Unreleased (2026-04-21)
 
 <section class="features">
 
 ### Features
 
+-   [`4a00996`](https://github.com/stdlib-js/stdlib/commit/4a0099621945f4fb17cd8bde8d7375715e309b6e) - add `reinterpret-complex128` to namespace
+-   [`8860b05`](https://github.com/stdlib-js/stdlib/commit/8860b05c83ef17376bfa54b47c2aaa57a92b2fe1) - add `rot90` to namespace
+-   [`7368bff`](https://github.com/stdlib-js/stdlib/commit/7368bff8ade81ae99638f53ceacc8b5ab5d04c74) - add `ndarray/base/rot90` [(#11660)](https://github.com/stdlib-js/stdlib/pull/11660)
+-   [`1615c51`](https://github.com/stdlib-js/stdlib/commit/1615c51bd03478de8adedf82e5718ea48ecba290) - add `ndarray/base/reinterpret-complex128` [(#11629)](https://github.com/stdlib-js/stdlib/pull/11629)
 -   [`1ab30a1`](https://github.com/stdlib-js/stdlib/commit/1ab30a16866d523544f06017e56a70e68d9933cf) - add `rotl90` to namespace
 -   [`9ef9c56`](https://github.com/stdlib-js/stdlib/commit/9ef9c56b8d3fccad2b75d4f4316f7a99fa5bc660) - add `ndarray/base/rotl90` [(#11633)](https://github.com/stdlib-js/stdlib/pull/11633)
 -   [`bbac071`](https://github.com/stdlib-js/stdlib/commit/bbac07144b6a85eb308745484ad491ce45bcd0f8) - add `atleast1d`, `atleast2d`, and `atleast3d` to namespace
@@ -132,6 +136,11 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`4a00996`](https://github.com/stdlib-js/stdlib/commit/4a0099621945f4fb17cd8bde8d7375715e309b6e) - **feat:** add `reinterpret-complex128` to namespace _(by Athan Reines)_
+-   [`8860b05`](https://github.com/stdlib-js/stdlib/commit/8860b05c83ef17376bfa54b47c2aaa57a92b2fe1) - **feat:** add `rot90` to namespace _(by Athan Reines)_
+-   [`7368bff`](https://github.com/stdlib-js/stdlib/commit/7368bff8ade81ae99638f53ceacc8b5ab5d04c74) - **feat:** add `ndarray/base/rot90` [(#11660)](https://github.com/stdlib-js/stdlib/pull/11660) _(by Muhammad Haris, Athan Reines)_
+-   [`1615c51`](https://github.com/stdlib-js/stdlib/commit/1615c51bd03478de8adedf82e5718ea48ecba290) - **feat:** add `ndarray/base/reinterpret-complex128` [(#11629)](https://github.com/stdlib-js/stdlib/pull/11629) _(by Muhammad Haris)_
+-   [`59d0640`](https://github.com/stdlib-js/stdlib/commit/59d0640a16660401392d422f98261c2f9c8cb4be) - **docs:** propagate recent fixes to sibling packages [(#11671)](https://github.com/stdlib-js/stdlib/pull/11671) _(by Philipp Burckhardt)_
 -   [`0f96d30`](https://github.com/stdlib-js/stdlib/commit/0f96d3092e11bed46e6cd83efd770c2d6fa77af1) - **docs:** update namespace table of contents [(#11637)](https://github.com/stdlib-js/stdlib/pull/11637) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`1ab30a1`](https://github.com/stdlib-js/stdlib/commit/1ab30a16866d523544f06017e56a70e68d9933cf) - **feat:** add `rotl90` to namespace _(by Athan Reines)_
 -   [`9ef9c56`](https://github.com/stdlib-js/stdlib/commit/9ef9c56b8d3fccad2b75d4f4316f7a99fa5bc660) - **feat:** add `ndarray/base/rotl90` [(#11633)](https://github.com/stdlib-js/stdlib/pull/11633) _(by Muhammad Haris)_
