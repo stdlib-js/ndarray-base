@@ -4,12 +4,18 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-21)
+## Unreleased (2026-04-22)
 
 <section class="features">
 
 ### Features
 
+-   [`7c878a8`](https://github.com/stdlib-js/stdlib/commit/7c878a8c3103503f9a2f7782861e3b9ccfeb33e5) - add `rot180` to namespace
+-   [`2a4f2f1`](https://github.com/stdlib-js/stdlib/commit/2a4f2f1edc5a5e3455b9be6a5390120e7b43ff79) - add `reinterpretBoolean` to namespace
+-   [`f226fa6`](https://github.com/stdlib-js/stdlib/commit/f226fa66bbf9772a84b0d23ae2228ae5d56e7656) - add `reinterpretComplex64` to namespace
+-   [`fdae0a5`](https://github.com/stdlib-js/stdlib/commit/fdae0a5ff47f23a9cde10ce84959d607b22b0b3f) - add `ndarray/base/rot180` [(#11704)](https://github.com/stdlib-js/stdlib/pull/11704)
+-   [`be023a5`](https://github.com/stdlib-js/stdlib/commit/be023a595aa7a1e537c1bf38bcf66a3acb2bdb41) - add `ndarray/base/reinterpret-boolean` [(#11707)](https://github.com/stdlib-js/stdlib/pull/11707)
+-   [`c1d72a0`](https://github.com/stdlib-js/stdlib/commit/c1d72a00c3832ccd0c0177649767fa291bc2d67a) - add `ndarray/base/reinterpret-complex64` [(#11706)](https://github.com/stdlib-js/stdlib/pull/11706)
 -   [`4a00996`](https://github.com/stdlib-js/stdlib/commit/4a0099621945f4fb17cd8bde8d7375715e309b6e) - add `reinterpret-complex128` to namespace
 -   [`8860b05`](https://github.com/stdlib-js/stdlib/commit/8860b05c83ef17376bfa54b47c2aaa57a92b2fe1) - add `rot90` to namespace
 -   [`7368bff`](https://github.com/stdlib-js/stdlib/commit/7368bff8ade81ae99638f53ceacc8b5ab5d04c74) - add `ndarray/base/rot90` [(#11660)](https://github.com/stdlib-js/stdlib/pull/11660)
@@ -136,6 +142,13 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`7c878a8`](https://github.com/stdlib-js/stdlib/commit/7c878a8c3103503f9a2f7782861e3b9ccfeb33e5) - **feat:** add `rot180` to namespace _(by Athan Reines)_
+-   [`2a4f2f1`](https://github.com/stdlib-js/stdlib/commit/2a4f2f1edc5a5e3455b9be6a5390120e7b43ff79) - **feat:** add `reinterpretBoolean` to namespace _(by Athan Reines)_
+-   [`f226fa6`](https://github.com/stdlib-js/stdlib/commit/f226fa66bbf9772a84b0d23ae2228ae5d56e7656) - **feat:** add `reinterpretComplex64` to namespace _(by Athan Reines)_
+-   [`fdae0a5`](https://github.com/stdlib-js/stdlib/commit/fdae0a5ff47f23a9cde10ce84959d607b22b0b3f) - **feat:** add `ndarray/base/rot180` [(#11704)](https://github.com/stdlib-js/stdlib/pull/11704) _(by Muhammad Haris, Athan Reines)_
+-   [`af83cc1`](https://github.com/stdlib-js/stdlib/commit/af83cc1f4e6a4db857eecc946d8b922b9ac15318) - **docs:** update description _(by Athan Reines)_
+-   [`be023a5`](https://github.com/stdlib-js/stdlib/commit/be023a595aa7a1e537c1bf38bcf66a3acb2bdb41) - **feat:** add `ndarray/base/reinterpret-boolean` [(#11707)](https://github.com/stdlib-js/stdlib/pull/11707) _(by Muhammad Haris, Athan Reines)_
+-   [`c1d72a0`](https://github.com/stdlib-js/stdlib/commit/c1d72a00c3832ccd0c0177649767fa291bc2d67a) - **feat:** add `ndarray/base/reinterpret-complex64` [(#11706)](https://github.com/stdlib-js/stdlib/pull/11706) _(by Muhammad Haris)_
 -   [`0f62461`](https://github.com/stdlib-js/stdlib/commit/0f62461c976de87b8782e28eceaa89b7f42f89e2) - **docs:** update namespace table of contents [(#11688)](https://github.com/stdlib-js/stdlib/pull/11688) _(by stdlib-bot)_
 -   [`4a00996`](https://github.com/stdlib-js/stdlib/commit/4a0099621945f4fb17cd8bde8d7375715e309b6e) - **feat:** add `reinterpret-complex128` to namespace _(by Athan Reines)_
 -   [`8860b05`](https://github.com/stdlib-js/stdlib/commit/8860b05c83ef17376bfa54b47c2aaa57a92b2fe1) - **feat:** add `rot90` to namespace _(by Athan Reines)_
