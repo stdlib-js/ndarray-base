@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-24)
+## Unreleased (2026-04-25)
 
 <section class="features">
 
 ### Features
 
+-   [`575ae77`](https://github.com/stdlib-js/stdlib/commit/575ae7709faa304df83a96aa99994cd93611835f) - add `appendSingletonDimensions` to namespace
+-   [`44ec734`](https://github.com/stdlib-js/stdlib/commit/44ec734bbf65622c8e5ba4cae897f0f0f19bcd85) - add `toRot90` to namespace
+-   [`8cb6c7c`](https://github.com/stdlib-js/stdlib/commit/8cb6c7c7a1d109ec00a04312ecf23532036f45ac) - add `ndarray/base/append-singleton-dimensions` [(#11782)](https://github.com/stdlib-js/stdlib/pull/11782)
+-   [`94fc2ce`](https://github.com/stdlib-js/stdlib/commit/94fc2ced847969980cae2241b175f0f9f799658e) - add `ndarray/base/to-rot90` [(#11748)](https://github.com/stdlib-js/stdlib/pull/11748)
 -   [`c88ea56`](https://github.com/stdlib-js/stdlib/commit/c88ea56a2f3acfe5ce345108eb42ea991b689d3f) - add `toRotr90` to namespace
 -   [`465a072`](https://github.com/stdlib-js/stdlib/commit/465a072ec949832752bd1aa2bdb7a3b165e90763) - add `ndarray/base/to-rotr90` [(#11747)](https://github.com/stdlib-js/stdlib/pull/11747)
 -   [`7c878a8`](https://github.com/stdlib-js/stdlib/commit/7c878a8c3103503f9a2f7782861e3b9ccfeb33e5) - add `rot180` to namespace
@@ -144,6 +148,11 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`575ae77`](https://github.com/stdlib-js/stdlib/commit/575ae7709faa304df83a96aa99994cd93611835f) - **feat:** add `appendSingletonDimensions` to namespace _(by Athan Reines)_
+-   [`44ec734`](https://github.com/stdlib-js/stdlib/commit/44ec734bbf65622c8e5ba4cae897f0f0f19bcd85) - **feat:** add `toRot90` to namespace _(by Athan Reines)_
+-   [`8cb6c7c`](https://github.com/stdlib-js/stdlib/commit/8cb6c7c7a1d109ec00a04312ecf23532036f45ac) - **feat:** add `ndarray/base/append-singleton-dimensions` [(#11782)](https://github.com/stdlib-js/stdlib/pull/11782) _(by Muhammad Haris, Athan Reines)_
+-   [`3ca7c21`](https://github.com/stdlib-js/stdlib/commit/3ca7c2179081a36fa279dbb1e12f8e81d811e997) - **docs:** propagate recent `ndarray/base` comment and note fixes to sibling packages [(#11762)](https://github.com/stdlib-js/stdlib/pull/11762) _(by Philipp Burckhardt)_
+-   [`94fc2ce`](https://github.com/stdlib-js/stdlib/commit/94fc2ced847969980cae2241b175f0f9f799658e) - **feat:** add `ndarray/base/to-rot90` [(#11748)](https://github.com/stdlib-js/stdlib/pull/11748) _(by Muhammad Haris, Athan Reines)_
 -   [`c88ea56`](https://github.com/stdlib-js/stdlib/commit/c88ea56a2f3acfe5ce345108eb42ea991b689d3f) - **feat:** add `toRotr90` to namespace _(by Athan Reines)_
 -   [`465a072`](https://github.com/stdlib-js/stdlib/commit/465a072ec949832752bd1aa2bdb7a3b165e90763) - **feat:** add `ndarray/base/to-rotr90` [(#11747)](https://github.com/stdlib-js/stdlib/pull/11747) _(by Muhammad Haris, Athan Reines)_
 -   [`1bb47ae`](https://github.com/stdlib-js/stdlib/commit/1bb47aee4385a96718afb38792d96ec5ec09e7da) - **docs:** fix comment _(by Athan Reines)_
