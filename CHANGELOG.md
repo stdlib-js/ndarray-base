@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`3637eb8`](https://github.com/stdlib-js/stdlib/commit/3637eb8e5767a32f8c5c78682fd6c9aebc0a7b09) - add `toRot180` to namespace
+-   [`37197d9`](https://github.com/stdlib-js/stdlib/commit/37197d9632d9c94987cf1a9e0736e56fb477c76a) - add `ndarray/base/to-rot180` [(#11778)](https://github.com/stdlib-js/stdlib/pull/11778)
 -   [`ec583b8`](https://github.com/stdlib-js/stdlib/commit/ec583b81d55d0eadcfcb64c23f96966a4bc9224d) - add `toRotl90` to namespace
 -   [`226ee9d`](https://github.com/stdlib-js/stdlib/commit/226ee9d574db47f41dae9c13cece3c6b47925d78) - add `ndarray/base/to-rotl90` [(#11776)](https://github.com/stdlib-js/stdlib/pull/11776)
 -   [`575ae77`](https://github.com/stdlib-js/stdlib/commit/575ae7709faa304df83a96aa99994cd93611835f) - add `appendSingletonDimensions` to namespace
@@ -150,6 +152,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`3637eb8`](https://github.com/stdlib-js/stdlib/commit/3637eb8e5767a32f8c5c78682fd6c9aebc0a7b09) - **feat:** add `toRot180` to namespace _(by Athan Reines)_
+-   [`37197d9`](https://github.com/stdlib-js/stdlib/commit/37197d9632d9c94987cf1a9e0736e56fb477c76a) - **feat:** add `ndarray/base/to-rot180` [(#11778)](https://github.com/stdlib-js/stdlib/pull/11778) _(by Muhammad Haris)_
 -   [`7442c80`](https://github.com/stdlib-js/stdlib/commit/7442c80a194a19e0784a8093afb743146dd3a668) - **docs:** update namespace table of contents [(#11789)](https://github.com/stdlib-js/stdlib/pull/11789) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`ec583b8`](https://github.com/stdlib-js/stdlib/commit/ec583b81d55d0eadcfcb64c23f96966a4bc9224d) - **feat:** add `toRotl90` to namespace _(by Athan Reines)_
 -   [`226ee9d`](https://github.com/stdlib-js/stdlib/commit/226ee9d574db47f41dae9c13cece3c6b47925d78) - **feat:** add `ndarray/base/to-rotl90` [(#11776)](https://github.com/stdlib-js/stdlib/pull/11776) _(by Muhammad Haris)_
