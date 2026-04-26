@@ -150,6 +150,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`7442c80`](https://github.com/stdlib-js/stdlib/commit/7442c80a194a19e0784a8093afb743146dd3a668) - **docs:** update namespace table of contents [(#11789)](https://github.com/stdlib-js/stdlib/pull/11789) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`ec583b8`](https://github.com/stdlib-js/stdlib/commit/ec583b81d55d0eadcfcb64c23f96966a4bc9224d) - **feat:** add `toRotl90` to namespace _(by Athan Reines)_
 -   [`226ee9d`](https://github.com/stdlib-js/stdlib/commit/226ee9d574db47f41dae9c13cece3c6b47925d78) - **feat:** add `ndarray/base/to-rotl90` [(#11776)](https://github.com/stdlib-js/stdlib/pull/11776) _(by Muhammad Haris)_
 -   [`575ae77`](https://github.com/stdlib-js/stdlib/commit/575ae7709faa304df83a96aa99994cd93611835f) - **feat:** add `appendSingletonDimensions` to namespace _(by Athan Reines)_
