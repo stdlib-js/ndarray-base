@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-25)
+## Unreleased (2026-04-26)
 
 <section class="features">
 
 ### Features
 
+-   [`ec583b8`](https://github.com/stdlib-js/stdlib/commit/ec583b81d55d0eadcfcb64c23f96966a4bc9224d) - add `toRotl90` to namespace
+-   [`226ee9d`](https://github.com/stdlib-js/stdlib/commit/226ee9d574db47f41dae9c13cece3c6b47925d78) - add `ndarray/base/to-rotl90` [(#11776)](https://github.com/stdlib-js/stdlib/pull/11776)
 -   [`575ae77`](https://github.com/stdlib-js/stdlib/commit/575ae7709faa304df83a96aa99994cd93611835f) - add `appendSingletonDimensions` to namespace
 -   [`44ec734`](https://github.com/stdlib-js/stdlib/commit/44ec734bbf65622c8e5ba4cae897f0f0f19bcd85) - add `toRot90` to namespace
 -   [`8cb6c7c`](https://github.com/stdlib-js/stdlib/commit/8cb6c7c7a1d109ec00a04312ecf23532036f45ac) - add `ndarray/base/append-singleton-dimensions` [(#11782)](https://github.com/stdlib-js/stdlib/pull/11782)
@@ -148,6 +150,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`ec583b8`](https://github.com/stdlib-js/stdlib/commit/ec583b81d55d0eadcfcb64c23f96966a4bc9224d) - **feat:** add `toRotl90` to namespace _(by Athan Reines)_
+-   [`226ee9d`](https://github.com/stdlib-js/stdlib/commit/226ee9d574db47f41dae9c13cece3c6b47925d78) - **feat:** add `ndarray/base/to-rotl90` [(#11776)](https://github.com/stdlib-js/stdlib/pull/11776) _(by Muhammad Haris)_
 -   [`575ae77`](https://github.com/stdlib-js/stdlib/commit/575ae7709faa304df83a96aa99994cd93611835f) - **feat:** add `appendSingletonDimensions` to namespace _(by Athan Reines)_
 -   [`44ec734`](https://github.com/stdlib-js/stdlib/commit/44ec734bbf65622c8e5ba4cae897f0f0f19bcd85) - **feat:** add `toRot90` to namespace _(by Athan Reines)_
 -   [`8cb6c7c`](https://github.com/stdlib-js/stdlib/commit/8cb6c7c7a1d109ec00a04312ecf23532036f45ac) - **feat:** add `ndarray/base/append-singleton-dimensions` [(#11782)](https://github.com/stdlib-js/stdlib/pull/11782) _(by Muhammad Haris, Athan Reines)_

@@ -204,6 +204,7 @@
     "@stdlib/ndarray-base-to-reversed": "^0.1.1",
     "@stdlib/ndarray-base-to-reversed-dimension": "^0.1.1",
     "@stdlib/ndarray-base-to-rot90": "github:stdlib-js/ndarray-base-to-rot90#main",
+    "@stdlib/ndarray-base-to-rotl90": "github:stdlib-js/ndarray-base-to-rotl90#main",
     "@stdlib/ndarray-base-to-rotr90": "github:stdlib-js/ndarray-base-to-rotr90#main",
     "@stdlib/ndarray-base-to-transposed": "github:stdlib-js/ndarray-base-to-transposed#main",
     "@stdlib/ndarray-base-to-unflattened": "github:stdlib-js/ndarray-base-to-unflattened#main",
