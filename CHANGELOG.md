@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-27)
+## Unreleased (2026-04-29)
 
 <section class="features">
 
 ### Features
 
+-   [`ba7a157`](https://github.com/stdlib-js/stdlib/commit/ba7a1573c32d5660eb775e6abc9e1edc74f418bf) - add `reinterpretComplex` to namespace
+-   [`2eb9120`](https://github.com/stdlib-js/stdlib/commit/2eb91207923da61aeee4a77e5cf1d0f408e26715) - add `ndarray/base/reinterpret-complex` [(#11779)](https://github.com/stdlib-js/stdlib/pull/11779)
 -   [`3637eb8`](https://github.com/stdlib-js/stdlib/commit/3637eb8e5767a32f8c5c78682fd6c9aebc0a7b09) - add `toRot180` to namespace
 -   [`37197d9`](https://github.com/stdlib-js/stdlib/commit/37197d9632d9c94987cf1a9e0736e56fb477c76a) - add `ndarray/base/to-rot180` [(#11778)](https://github.com/stdlib-js/stdlib/pull/11778)
 -   [`ec583b8`](https://github.com/stdlib-js/stdlib/commit/ec583b81d55d0eadcfcb64c23f96966a4bc9224d) - add `toRotl90` to namespace
@@ -152,6 +154,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`ba7a157`](https://github.com/stdlib-js/stdlib/commit/ba7a1573c32d5660eb775e6abc9e1edc74f418bf) - **feat:** add `reinterpretComplex` to namespace _(by Athan Reines)_
+-   [`2eb9120`](https://github.com/stdlib-js/stdlib/commit/2eb91207923da61aeee4a77e5cf1d0f408e26715) - **feat:** add `ndarray/base/reinterpret-complex` [(#11779)](https://github.com/stdlib-js/stdlib/pull/11779) _(by Muhammad Haris, Athan Reines)_
 -   [`d6b1e3d`](https://github.com/stdlib-js/stdlib/commit/d6b1e3d2286c2ca1044ed87317707ae0be54a351) - **docs:** update namespace table of contents [(#11809)](https://github.com/stdlib-js/stdlib/pull/11809) _(by stdlib-bot)_
 -   [`0dc62ae`](https://github.com/stdlib-js/stdlib/commit/0dc62ae39a4817ff888e9736c3ea599f6beff4e5) - **build:** replace `eslint-plugin-node` with `eslint-plugin-n` [(#10952)](https://github.com/stdlib-js/stdlib/pull/10952) _(by Philipp Burckhardt, Athan Reines)_
 -   [`3637eb8`](https://github.com/stdlib-js/stdlib/commit/3637eb8e5767a32f8c5c78682fd6c9aebc0a7b09) - **feat:** add `toRot180` to namespace _(by Athan Reines)_
