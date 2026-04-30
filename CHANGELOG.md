@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-29)
+## Unreleased (2026-04-30)
 
 <section class="features">
 
@@ -154,6 +154,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`e34b36c`](https://github.com/stdlib-js/stdlib/commit/e34b36cdedc2287b3eff185f30986cb65bfd6ca5) - **docs:** update namespace table of contents [(#11855)](https://github.com/stdlib-js/stdlib/pull/11855) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`ba7a157`](https://github.com/stdlib-js/stdlib/commit/ba7a1573c32d5660eb775e6abc9e1edc74f418bf) - **feat:** add `reinterpretComplex` to namespace _(by Athan Reines)_
 -   [`2eb9120`](https://github.com/stdlib-js/stdlib/commit/2eb91207923da61aeee4a77e5cf1d0f408e26715) - **feat:** add `ndarray/base/reinterpret-complex` [(#11779)](https://github.com/stdlib-js/stdlib/pull/11779) _(by Muhammad Haris, Athan Reines)_
 -   [`d6b1e3d`](https://github.com/stdlib-js/stdlib/commit/d6b1e3d2286c2ca1044ed87317707ae0be54a351) - **docs:** update namespace table of contents [(#11809)](https://github.com/stdlib-js/stdlib/pull/11809) _(by stdlib-bot)_
