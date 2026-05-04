@@ -159,6 +159,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`738b2c7`](https://github.com/stdlib-js/stdlib/commit/738b2c717eb26b3e374351f754d578f2035aaf20) - **docs:** update namespace table of contents [(#11916)](https://github.com/stdlib-js/stdlib/pull/11916) _(by stdlib-bot)_
 -   [`f1cdb3d`](https://github.com/stdlib-js/stdlib/commit/f1cdb3dc2daa032c75f77b1960375452913a2d3f) - **feat:** add `fillDiagonal` to namespace _(by Athan Reines)_
 -   [`0710070`](https://github.com/stdlib-js/stdlib/commit/07100701aa7412f1d9eba15ae62511f5a74616ea) - **feat:** add `ndarray/base/fill-diagonal` [(#11913)](https://github.com/stdlib-js/stdlib/pull/11913) _(by Muhammad Haris, Athan Reines)_
 -   [`30a2cc1`](https://github.com/stdlib-js/stdlib/commit/30a2cc1a3fd972f532a853f5a94b68a5fb7e38df) - **feat:** add `diagonal` and `reverseDimensions` to namespace _(by Athan Reines)_
