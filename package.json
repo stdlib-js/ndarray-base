@@ -100,6 +100,7 @@
     "@stdlib/ndarray-base-falses": "github:stdlib-js/ndarray-base-falses#main",
     "@stdlib/ndarray-base-fill": "^0.1.1",
     "@stdlib/ndarray-base-fill-by": "^0.1.1",
+    "@stdlib/ndarray-base-fill-diagonal": "github:stdlib-js/ndarray-base-fill-diagonal#main",
     "@stdlib/ndarray-base-find": "^0.1.1",
     "@stdlib/ndarray-base-flag": "^0.2.3",
     "@stdlib/ndarray-base-flags": "^0.2.3",
