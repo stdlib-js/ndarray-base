@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-04)
+## Unreleased (2026-05-06)
 
 <section class="features">
 
 ### Features
 
+-   [`fbcdce5`](https://github.com/stdlib-js/stdlib/commit/fbcdce5ba59c49bfc26be799ef03371e8294813a) - add `consensusOrder` to namespace
+-   [`b3ec3d3`](https://github.com/stdlib-js/stdlib/commit/b3ec3d3993be5ae78e6da79502d2cabc9eadb2ad) - add `ndarray/base/consensus-order`
+-   [`8ac6900`](https://github.com/stdlib-js/stdlib/commit/8ac69007fbf762b73830254f94edf16ce16799c7) - add `toReversedDimensions` to namespace
+-   [`03405cc`](https://github.com/stdlib-js/stdlib/commit/03405cc777f8b9ac92e9e3629bc58161b7f388ac) - add `ndarray/base/to-reversed-dimensions` [(#11955)](https://github.com/stdlib-js/stdlib/pull/11955)
 -   [`f1cdb3d`](https://github.com/stdlib-js/stdlib/commit/f1cdb3dc2daa032c75f77b1960375452913a2d3f) - add `fillDiagonal` to namespace
 -   [`0710070`](https://github.com/stdlib-js/stdlib/commit/07100701aa7412f1d9eba15ae62511f5a74616ea) - add `ndarray/base/fill-diagonal` [(#11913)](https://github.com/stdlib-js/stdlib/pull/11913)
 -   [`30a2cc1`](https://github.com/stdlib-js/stdlib/commit/30a2cc1a3fd972f532a853f5a94b68a5fb7e38df) - add `diagonal` and `reverseDimensions` to namespace
@@ -159,6 +163,11 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`fbcdce5`](https://github.com/stdlib-js/stdlib/commit/fbcdce5ba59c49bfc26be799ef03371e8294813a) - **feat:** add `consensusOrder` to namespace _(by Athan Reines)_
+-   [`b3ec3d3`](https://github.com/stdlib-js/stdlib/commit/b3ec3d3993be5ae78e6da79502d2cabc9eadb2ad) - **feat:** add `ndarray/base/consensus-order` _(by Athan Reines)_
+-   [`8ac6900`](https://github.com/stdlib-js/stdlib/commit/8ac69007fbf762b73830254f94edf16ce16799c7) - **feat:** add `toReversedDimensions` to namespace _(by Athan Reines)_
+-   [`03405cc`](https://github.com/stdlib-js/stdlib/commit/03405cc777f8b9ac92e9e3629bc58161b7f388ac) - **feat:** add `ndarray/base/to-reversed-dimensions` [(#11955)](https://github.com/stdlib-js/stdlib/pull/11955) _(by Muhammad Haris, Athan Reines)_
+-   [`86e9aee`](https://github.com/stdlib-js/stdlib/commit/86e9aee4ae52aab8c7b7a1bbf2293da606e7c439) - **docs:** restore section template comments in `ndarray/base/diagonal` and `ndarray/last` [(#11903)](https://github.com/stdlib-js/stdlib/pull/11903) _(by Philipp Burckhardt)_
 -   [`738b2c7`](https://github.com/stdlib-js/stdlib/commit/738b2c717eb26b3e374351f754d578f2035aaf20) - **docs:** update namespace table of contents [(#11916)](https://github.com/stdlib-js/stdlib/pull/11916) _(by stdlib-bot)_
 -   [`f1cdb3d`](https://github.com/stdlib-js/stdlib/commit/f1cdb3dc2daa032c75f77b1960375452913a2d3f) - **feat:** add `fillDiagonal` to namespace _(by Athan Reines)_
 -   [`0710070`](https://github.com/stdlib-js/stdlib/commit/07100701aa7412f1d9eba15ae62511f5a74616ea) - **feat:** add `ndarray/base/fill-diagonal` [(#11913)](https://github.com/stdlib-js/stdlib/pull/11913) _(by Muhammad Haris, Athan Reines)_
