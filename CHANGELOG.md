@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-06)
+## Unreleased (2026-05-07)
 
 <section class="features">
 
@@ -165,6 +165,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`11fb87d`](https://github.com/stdlib-js/stdlib/commit/11fb87dac7ae762d325640afbb400d6aa5fc3736) - **docs:** update namespace table of contents [(#11986)](https://github.com/stdlib-js/stdlib/pull/11986) _(by stdlib-bot)_
+-   [`2993e90`](https://github.com/stdlib-js/stdlib/commit/2993e90541c0e9dca7201e822668c8ca026771f1) - **chore:** follow-up fixes [(#11966)](https://github.com/stdlib-js/stdlib/pull/11966) _(by Philipp Burckhardt)_
 -   [`e0a3342`](https://github.com/stdlib-js/stdlib/commit/e0a33421dde2803276ad95491519f8839415d93c) - **feat:** add `outputOrder` to namespace _(by Athan Reines)_
 -   [`52bc84e`](https://github.com/stdlib-js/stdlib/commit/52bc84e510174894e39456fc301d1f9045ae444b) - **feat:** add `ndarray/base/output-order` _(by Athan Reines)_
 -   [`31c91e5`](https://github.com/stdlib-js/stdlib/commit/31c91e5a0dc350a5c871d05e609340133413f36d) - **refactor:** simplify branching to optimize most common path _(by Athan Reines)_
