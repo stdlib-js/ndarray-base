@@ -76,6 +76,7 @@
     "@stdlib/ndarray-base-count-truthy": "^0.1.1",
     "@stdlib/ndarray-base-ctor": "^0.3.1",
     "@stdlib/ndarray-base-data-buffer": "^0.2.3",
+    "@stdlib/ndarray-base-descriptor": "github:stdlib-js/ndarray-base-descriptor#main",
     "@stdlib/ndarray-base-diagonal": "github:stdlib-js/ndarray-base-diagonal#main",
     "@stdlib/ndarray-base-dtype": "^0.2.3",
     "@stdlib/ndarray-base-dtype-alignment": "^0.1.1",

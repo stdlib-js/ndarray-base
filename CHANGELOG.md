@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-07)
+## Unreleased (2026-05-10)
 
 <section class="features">
 
 ### Features
 
+-   [`0e2b5a5`](https://github.com/stdlib-js/stdlib/commit/0e2b5a5e9dec8520a7e6676876aae915c4b2ab2c) - add `descriptor` to namespace
+-   [`b5d65f3`](https://github.com/stdlib-js/stdlib/commit/b5d65f3863b2d9bcee6f6dbfc53fff58a10380d4) - add `ndarray/base/descriptor`
 -   [`e0a3342`](https://github.com/stdlib-js/stdlib/commit/e0a33421dde2803276ad95491519f8839415d93c) - add `outputOrder` to namespace
 -   [`52bc84e`](https://github.com/stdlib-js/stdlib/commit/52bc84e510174894e39456fc301d1f9045ae444b) - add `ndarray/base/output-order`
 -   [`fbcdce5`](https://github.com/stdlib-js/stdlib/commit/fbcdce5ba59c49bfc26be799ef03371e8294813a) - add `consensusOrder` to namespace
@@ -165,6 +167,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`0e2b5a5`](https://github.com/stdlib-js/stdlib/commit/0e2b5a5e9dec8520a7e6676876aae915c4b2ab2c) - **feat:** add `descriptor` to namespace _(by Athan Reines)_
+-   [`b5d65f3`](https://github.com/stdlib-js/stdlib/commit/b5d65f3863b2d9bcee6f6dbfc53fff58a10380d4) - **feat:** add `ndarray/base/descriptor` _(by Athan Reines)_
 -   [`11fb87d`](https://github.com/stdlib-js/stdlib/commit/11fb87dac7ae762d325640afbb400d6aa5fc3736) - **docs:** update namespace table of contents [(#11986)](https://github.com/stdlib-js/stdlib/pull/11986) _(by stdlib-bot)_
 -   [`2993e90`](https://github.com/stdlib-js/stdlib/commit/2993e90541c0e9dca7201e822668c8ca026771f1) - **chore:** follow-up fixes [(#11966)](https://github.com/stdlib-js/stdlib/pull/11966) _(by Philipp Burckhardt)_
 -   [`e0a3342`](https://github.com/stdlib-js/stdlib/commit/e0a33421dde2803276ad95491519f8839415d93c) - **feat:** add `outputOrder` to namespace _(by Athan Reines)_
