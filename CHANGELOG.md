@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-10)
+## Unreleased (2026-05-11)
 
 <section class="features">
 
@@ -167,6 +167,17 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`c534f97`](https://github.com/stdlib-js/stdlib/commit/c534f971488b2a5ebacca4dccf73a9d9b4e09bc7) - **docs:** update namespace table of contents [(#12092)](https://github.com/stdlib-js/stdlib/pull/12092) _(by stdlib-bot)_
+-   [`b8d09ca`](https://github.com/stdlib-js/stdlib/commit/b8d09cac262a732b639c44606e0d85f974965085) - **chore:** follow-up corrections for commits merged to develop on 2026-05-10 [(#12052)](https://github.com/stdlib-js/stdlib/pull/12052) _(by Philipp Burckhardt)_
+-   [`42c6213`](https://github.com/stdlib-js/stdlib/commit/42c6213a4a37afe7b71ed391eb67f63b3fe3f96d) - **docs:** fix `real`/`imag` import in `ndarray/base/unary-by` [(#12060)](https://github.com/stdlib-js/stdlib/pull/12060) _(by Karan Anand)_
+-   [`e64ea31`](https://github.com/stdlib-js/stdlib/commit/e64ea3136aa617d66672f768f280a2023db457fc) - **docs:** improve doctests for complex number typed arrays in `ndarray/base/broadcast-scalar` [(#12048)](https://github.com/stdlib-js/stdlib/pull/12048) _(by Karan Anand, Athan Reines)_
+-   [`20df517`](https://github.com/stdlib-js/stdlib/commit/20df51759bde322eb55d2f4eef4b17e99a9eb19c) - **docs:** improve doctests for complex number typed arrays in `ndarray/base/unary-accumulate` [(#12046)](https://github.com/stdlib-js/stdlib/pull/12046) _(by Karan Anand)_
+-   [`c5215cc`](https://github.com/stdlib-js/stdlib/commit/c5215cca9085bae13510df122d8637595eb6645d) - **docs:** improve doctests for complex number typed arrays in `ndarray/base/from-scalar` [(#12049)](https://github.com/stdlib-js/stdlib/pull/12049) _(by Karan Anand, Athan Reines)_
+-   [`1e326dd`](https://github.com/stdlib-js/stdlib/commit/1e326dd99001c7919f24ad6f477597d14da00b23) - **docs:** improve doctests for complex number typed arrays in `ndarray/base/nullary` [(#12045)](https://github.com/stdlib-js/stdlib/pull/12045) _(by Karan Anand)_
+-   [`c61a3e6`](https://github.com/stdlib-js/stdlib/commit/c61a3e6bbdddc67fc7b384e9bf283a34b75fd38f) - **docs:** improve doctests for complex number typed arrays in `ndarray/base/unary-by` [(#12047)](https://github.com/stdlib-js/stdlib/pull/12047) _(by Karan Anand)_
+-   [`d4e7085`](https://github.com/stdlib-js/stdlib/commit/d4e708558f65e141de712cec2484c27838df2cd8) - **docs:** improve doctests for complex number typed arrays in `ndarray/base/unary` [(#12044)](https://github.com/stdlib-js/stdlib/pull/12044) _(by Karan Anand)_
+-   [`62e29f4`](https://github.com/stdlib-js/stdlib/commit/62e29f41351eef1e64a336c9094d6c8ef2d0749d) - **docs:** improve doctests for complex number typed arrays in `ndarray/base/map` [(#12050)](https://github.com/stdlib-js/stdlib/pull/12050) _(by Karan Anand)_
+-   [`051da21`](https://github.com/stdlib-js/stdlib/commit/051da21ec75e0988b7e8ba5d07fb6077629f13ac) - **docs:** improve doctests for complex number typed arrays in `ndarray/base/assign` [(#12051)](https://github.com/stdlib-js/stdlib/pull/12051) _(by Karan Anand)_
 -   [`0e2b5a5`](https://github.com/stdlib-js/stdlib/commit/0e2b5a5e9dec8520a7e6676876aae915c4b2ab2c) - **feat:** add `descriptor` to namespace _(by Athan Reines)_
 -   [`b5d65f3`](https://github.com/stdlib-js/stdlib/commit/b5d65f3863b2d9bcee6f6dbfc53fff58a10380d4) - **feat:** add `ndarray/base/descriptor` _(by Athan Reines)_
 -   [`11fb87d`](https://github.com/stdlib-js/stdlib/commit/11fb87dac7ae762d325640afbb400d6aa5fc3736) - **docs:** update namespace table of contents [(#11986)](https://github.com/stdlib-js/stdlib/pull/11986) _(by stdlib-bot)_
