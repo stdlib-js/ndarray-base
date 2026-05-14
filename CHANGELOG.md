@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-13)
+## Unreleased (2026-05-14)
 
 <section class="features">
 
@@ -169,6 +169,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`ed4312c`](https://github.com/stdlib-js/stdlib/commit/ed4312c3a3ef001cdfb062efcfbddeade9396973) - **docs:** update namespace table of contents [(#12124)](https://github.com/stdlib-js/stdlib/pull/12124) _(by stdlib-bot)_
 -   [`3cefb9e`](https://github.com/stdlib-js/stdlib/commit/3cefb9eb9d4d70f52f80274ddd57a17c707c06d6) - **feat:** add `nansLike` to namespace _(by Athan Reines)_
 -   [`17d522f`](https://github.com/stdlib-js/stdlib/commit/17d522f0eb85a41c1e5e265fdab34cc4b4aa8ffd) - **feat:** add `ndarray/base/nans-like` _(by Athan Reines)_
 -   [`65f9d6f`](https://github.com/stdlib-js/stdlib/commit/65f9d6fd963809f82e54cdfd06ed15e15b51525e) - **refactor:** align `ndarray/*` errors and remove `namespace` self-ref [(#12102)](https://github.com/stdlib-js/stdlib/pull/12102) _(by Philipp Burckhardt)_
