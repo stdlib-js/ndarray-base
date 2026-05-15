@@ -223,6 +223,7 @@
     "@stdlib/ndarray-base-to-unique-normalized-indices": "^0.1.1",
     "@stdlib/ndarray-base-transpose": "^0.2.4",
     "@stdlib/ndarray-base-trues": "github:stdlib-js/ndarray-base-trues#main",
+    "@stdlib/ndarray-base-trues-like": "github:stdlib-js/ndarray-base-trues-like#main",
     "@stdlib/ndarray-base-unary": "^0.3.1",
     "@stdlib/ndarray-base-unary-accumulate": "^0.1.1",
     "@stdlib/ndarray-base-unary-addon-dispatch": "^0.1.1",
