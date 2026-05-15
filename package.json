@@ -148,6 +148,7 @@
     "@stdlib/ndarray-base-nullary-strided1d-dispatch-factory": "^0.0.1",
     "@stdlib/ndarray-base-nullary-tiling-block-size": "^0.2.3",
     "@stdlib/ndarray-base-nulls": "github:stdlib-js/ndarray-base-nulls#main",
+    "@stdlib/ndarray-base-nulls-like": "github:stdlib-js/ndarray-base-nulls-like#main",
     "@stdlib/ndarray-base-numel": "^0.2.3",
     "@stdlib/ndarray-base-numel-dimension": "^0.3.3",
     "@stdlib/ndarray-base-offset": "^0.2.3",

@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-14)
+## Unreleased (2026-05-15)
 
 <section class="features">
 
 ### Features
 
+-   [`138ca61`](https://github.com/stdlib-js/stdlib/commit/138ca61525f3b313a3bb20ae7967672360ec4623) - add `nullsLike` to namespace
+-   [`be92fbb`](https://github.com/stdlib-js/stdlib/commit/be92fbbaf3cb95168421db5caa204e2427194671) - add `ndarray/base/nulls-like`
 -   [`3cefb9e`](https://github.com/stdlib-js/stdlib/commit/3cefb9eb9d4d70f52f80274ddd57a17c707c06d6) - add `nansLike` to namespace
 -   [`17d522f`](https://github.com/stdlib-js/stdlib/commit/17d522f0eb85a41c1e5e265fdab34cc4b4aa8ffd) - add `ndarray/base/nans-like`
 -   [`0e2b5a5`](https://github.com/stdlib-js/stdlib/commit/0e2b5a5e9dec8520a7e6676876aae915c4b2ab2c) - add `descriptor` to namespace
@@ -169,6 +171,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`138ca61`](https://github.com/stdlib-js/stdlib/commit/138ca61525f3b313a3bb20ae7967672360ec4623) - **feat:** add `nullsLike` to namespace _(by Athan Reines)_
+-   [`be92fbb`](https://github.com/stdlib-js/stdlib/commit/be92fbbaf3cb95168421db5caa204e2427194671) - **feat:** add `ndarray/base/nulls-like` _(by Athan Reines)_
 -   [`ed4312c`](https://github.com/stdlib-js/stdlib/commit/ed4312c3a3ef001cdfb062efcfbddeade9396973) - **docs:** update namespace table of contents [(#12124)](https://github.com/stdlib-js/stdlib/pull/12124) _(by stdlib-bot)_
 -   [`3cefb9e`](https://github.com/stdlib-js/stdlib/commit/3cefb9eb9d4d70f52f80274ddd57a17c707c06d6) - **feat:** add `nansLike` to namespace _(by Athan Reines)_
 -   [`17d522f`](https://github.com/stdlib-js/stdlib/commit/17d522f0eb85a41c1e5e265fdab34cc4b4aa8ffd) - **feat:** add `ndarray/base/nans-like` _(by Athan Reines)_
