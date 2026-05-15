@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`ff61c1a`](https://github.com/stdlib-js/stdlib/commit/ff61c1a0ff66321e8755b17eb152c86dc79ba18d) - add `falsesLike` to namespace
+-   [`2dcfa84`](https://github.com/stdlib-js/stdlib/commit/2dcfa84001f8b3a2193c369a92000aea562ff861) - add `ndarray/base/falses-like`
 -   [`138ca61`](https://github.com/stdlib-js/stdlib/commit/138ca61525f3b313a3bb20ae7967672360ec4623) - add `nullsLike` to namespace
 -   [`be92fbb`](https://github.com/stdlib-js/stdlib/commit/be92fbbaf3cb95168421db5caa204e2427194671) - add `ndarray/base/nulls-like`
 -   [`3cefb9e`](https://github.com/stdlib-js/stdlib/commit/3cefb9eb9d4d70f52f80274ddd57a17c707c06d6) - add `nansLike` to namespace
@@ -107,6 +109,8 @@
 
 ### Bug Fixes
 
+-   [`4182122`](https://github.com/stdlib-js/stdlib/commit/4182122a377c6211171301c36c0a016680ba791c) - ensure support for \"generic\" dtypes
+-   [`260d472`](https://github.com/stdlib-js/stdlib/commit/260d47287939928b367d40fea78f8c71af25231b) - ensure support for \"generic\" dtypes
 -   [`5795b39`](https://github.com/stdlib-js/stdlib/commit/5795b39e0f0f1d7ccae3ea1ed43809b7ff78b77d) - determine layout based on physical layout
 -   [`c20c5d6`](https://github.com/stdlib-js/stdlib/commit/c20c5d602a0f897e86d7fbd83180fec84c535984) - determine layout based on physical layout
 -   [`e47ee45`](https://github.com/stdlib-js/stdlib/commit/e47ee4551cf19ad584361fb80c9eed84ff9ea792) - resolve bugs, docs, and JSDoc type errors [(#11337)](https://github.com/stdlib-js/stdlib/pull/11337)
@@ -171,6 +175,11 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`ff61c1a`](https://github.com/stdlib-js/stdlib/commit/ff61c1a0ff66321e8755b17eb152c86dc79ba18d) - **feat:** add `falsesLike` to namespace _(by Athan Reines)_
+-   [`2dcfa84`](https://github.com/stdlib-js/stdlib/commit/2dcfa84001f8b3a2193c369a92000aea562ff861) - **feat:** add `ndarray/base/falses-like` _(by Athan Reines)_
+-   [`4182122`](https://github.com/stdlib-js/stdlib/commit/4182122a377c6211171301c36c0a016680ba791c) - **fix:** ensure support for \"generic\" dtypes _(by Athan Reines)_
+-   [`01768f7`](https://github.com/stdlib-js/stdlib/commit/01768f70991aa2e1f832ef36f38441666648c7e1) - **bench:** add \"generic\" dtype benchmark _(by Athan Reines)_
+-   [`260d472`](https://github.com/stdlib-js/stdlib/commit/260d47287939928b367d40fea78f8c71af25231b) - **fix:** ensure support for \"generic\" dtypes _(by Athan Reines)_
 -   [`138ca61`](https://github.com/stdlib-js/stdlib/commit/138ca61525f3b313a3bb20ae7967672360ec4623) - **feat:** add `nullsLike` to namespace _(by Athan Reines)_
 -   [`be92fbb`](https://github.com/stdlib-js/stdlib/commit/be92fbbaf3cb95168421db5caa204e2427194671) - **feat:** add `ndarray/base/nulls-like` _(by Athan Reines)_
 -   [`ed4312c`](https://github.com/stdlib-js/stdlib/commit/ed4312c3a3ef001cdfb062efcfbddeade9396973) - **docs:** update namespace table of contents [(#12124)](https://github.com/stdlib-js/stdlib/pull/12124) _(by stdlib-bot)_
