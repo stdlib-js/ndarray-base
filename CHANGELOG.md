@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-16)
+## Unreleased (2026-05-20)
 
 <section class="features">
 
 ### Features
 
+-   [`71da5f4`](https://github.com/stdlib-js/stdlib/commit/71da5f45e9be4fc41109a09df18b0ae4aadd0a4b) - add `ndarraylike2descriptor` to namespace
+-   [`cba1074`](https://github.com/stdlib-js/stdlib/commit/cba107442ad2820bdb3d7abe470e5a6bf4398442) - add `ndarray/base/ndarraylike2descriptor`
 -   [`043d7df`](https://github.com/stdlib-js/stdlib/commit/043d7df01c4423ca2ef6b80f1003df5049f98296) - add `truesLike` to namespace
 -   [`2e5a8c9`](https://github.com/stdlib-js/stdlib/commit/2e5a8c97037ab5c11bcddca57bb986994f9d5561) - add `ndarray/base/trues-like`
 -   [`ff61c1a`](https://github.com/stdlib-js/stdlib/commit/ff61c1a0ff66321e8755b17eb152c86dc79ba18d) - add `falsesLike` to namespace
@@ -177,6 +179,14 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`71da5f4`](https://github.com/stdlib-js/stdlib/commit/71da5f45e9be4fc41109a09df18b0ae4aadd0a4b) - **feat:** add `ndarraylike2descriptor` to namespace _(by Athan Reines)_
+-   [`cba1074`](https://github.com/stdlib-js/stdlib/commit/cba107442ad2820bdb3d7abe470e5a6bf4398442) - **feat:** add `ndarray/base/ndarraylike2descriptor` _(by Athan Reines)_
+-   [`9330de7`](https://github.com/stdlib-js/stdlib/commit/9330de700a97e4c3cdd6c0e4558f26e1e757178f) - **bench:** refactor to use string interpolation in `ndarray/base` [(#11430)](https://github.com/stdlib-js/stdlib/pull/11430) _(by Karan Anand, Athan Reines)_
+-   [`7fab453`](https://github.com/stdlib-js/stdlib/commit/7fab4532629dccd39b59721b833da8a9128a3dec) - **bench:** refactor to use string interpolation in `ndarray/base` [(#11436)](https://github.com/stdlib-js/stdlib/pull/11436) _(by Karan Anand, Athan Reines)_
+-   [`d400b65`](https://github.com/stdlib-js/stdlib/commit/d400b65944bf4a27168d1f71ca4726d696d7fc9f) - **bench:** fix missing arguments _(by Athan Reines)_
+-   [`8e2d42f`](https://github.com/stdlib-js/stdlib/commit/8e2d42fca06a86fef300cd3b1ef6ae8a6830514c) - **bench:** fix missing arguments _(by Athan Reines)_
+-   [`9451399`](https://github.com/stdlib-js/stdlib/commit/9451399044acb8234933b4a35723347e45def52a) - **bench:** refactor to use string interpolation in `ndarray/base` [(#11432)](https://github.com/stdlib-js/stdlib/pull/11432) _(by Karan Anand)_
+-   [`1816701`](https://github.com/stdlib-js/stdlib/commit/1816701617f0b3442bc898097ac129382cc699a3) - **docs:** update descriptions in `ndarray/base/*-like` packages [(#12145)](https://github.com/stdlib-js/stdlib/pull/12145) _(by Philipp Burckhardt)_
 -   [`66ec9de`](https://github.com/stdlib-js/stdlib/commit/66ec9de8d5be3960d329762c2c132adcbd35337d) - **docs:** update namespace table of contents [(#12151)](https://github.com/stdlib-js/stdlib/pull/12151) _(by stdlib-bot)_
 -   [`f0ed784`](https://github.com/stdlib-js/stdlib/commit/f0ed784caa00e817f71e1191b5db3853b57fa570) - **bench:** refactor to use string interpolation _(by Athan Reines)_
 -   [`b7d612f`](https://github.com/stdlib-js/stdlib/commit/b7d612f111470f25c4798c31b3303dae56a76f53) - **test:** ensure support for dtype objects _(by Athan Reines)_

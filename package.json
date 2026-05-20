@@ -134,6 +134,7 @@
     "@stdlib/ndarray-base-minmax-view-buffer-index": "^0.2.3",
     "@stdlib/ndarray-base-nans": "github:stdlib-js/ndarray-base-nans#main",
     "@stdlib/ndarray-base-nans-like": "github:stdlib-js/ndarray-base-nans-like#main",
+    "@stdlib/ndarray-base-ndarraylike2descriptor": "github:stdlib-js/ndarray-base-ndarraylike2descriptor#main",
     "@stdlib/ndarray-base-ndarraylike2ndarray": "^0.1.1",
     "@stdlib/ndarray-base-ndarraylike2object": "^0.2.3",
     "@stdlib/ndarray-base-ndarraylike2scalar": "^0.1.1",
