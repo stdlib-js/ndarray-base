@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`c016f87`](https://github.com/stdlib-js/stdlib/commit/c016f877831218b06cb925732a4f33612b58d5f8) - add `assignDiagonal` to namespace
+-   [`b186702`](https://github.com/stdlib-js/stdlib/commit/b186702222b3b2cd2039d886b62ce78bd2f6af3b) - add `ndarray/base/assign-diagonal` [(#11993)](https://github.com/stdlib-js/stdlib/pull/11993)
 -   [`03150a9`](https://github.com/stdlib-js/stdlib/commit/03150a9b33931a90b5e1b374f8a7c511baeaa2cb) - update `ndarray/base` TypeScript declarations [(#12259)](https://github.com/stdlib-js/stdlib/pull/12259)
 -   [`71da5f4`](https://github.com/stdlib-js/stdlib/commit/71da5f45e9be4fc41109a09df18b0ae4aadd0a4b) - add `ndarraylike2descriptor` to namespace
 -   [`cba1074`](https://github.com/stdlib-js/stdlib/commit/cba107442ad2820bdb3d7abe470e5a6bf4398442) - add `ndarray/base/ndarraylike2descriptor`
@@ -114,6 +116,7 @@
 
 ### Bug Fixes
 
+-   [`07a3349`](https://github.com/stdlib-js/stdlib/commit/07a3349f6ab025490bafad9cd3b2d08df70f1fed) - use correct export names [(#12665)](https://github.com/stdlib-js/stdlib/pull/12665)
 -   [`4e89875`](https://github.com/stdlib-js/stdlib/commit/4e898755cf98f6e3b8d8c24079fb9ea7730f2d9c) - preserve input ndarray type in `ndarray/base/maybe-broadcast-array-except-dimensions` [(#12629)](https://github.com/stdlib-js/stdlib/pull/12629)
 -   [`95016b8`](https://github.com/stdlib-js/stdlib/commit/95016b8c7179f978fb8ef5b272cff36b523e06e6) - add missing import in `ndarray/base/unflatten` declarations [(#12625)](https://github.com/stdlib-js/stdlib/pull/12625)
 -   [`b2f66e9`](https://github.com/stdlib-js/stdlib/commit/b2f66e9b5dde7a2a858d27dfd27bd9ec490c9b56) - ensure correct order is returned and fix heading [(#12217)](https://github.com/stdlib-js/stdlib/pull/12217)
@@ -186,6 +189,11 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`c016f87`](https://github.com/stdlib-js/stdlib/commit/c016f877831218b06cb925732a4f33612b58d5f8) - **feat:** add `assignDiagonal` to namespace _(by Athan Reines)_
+-   [`b186702`](https://github.com/stdlib-js/stdlib/commit/b186702222b3b2cd2039d886b62ce78bd2f6af3b) - **feat:** add `ndarray/base/assign-diagonal` [(#11993)](https://github.com/stdlib-js/stdlib/pull/11993) _(by Muhammad Haris, Athan Reines)_
+-   [`07a3349`](https://github.com/stdlib-js/stdlib/commit/07a3349f6ab025490bafad9cd3b2d08df70f1fed) - **fix:** use correct export names [(#12665)](https://github.com/stdlib-js/stdlib/pull/12665) _(by Philipp Burckhardt, Athan Reines)_
+-   [`104ec96`](https://github.com/stdlib-js/stdlib/commit/104ec966cbe5e4530a183aed20422da4b129ac6e) - **refactor:** align parameter names in `ndarray/base/nullary-loop-interchange-order` [(#12668)](https://github.com/stdlib-js/stdlib/pull/12668) _(by Philipp Burckhardt)_
+-   [`a9e03ed`](https://github.com/stdlib-js/stdlib/commit/a9e03edc48bf43a1c290ed1ec1e2f69186678b15) - **refactor:** add missing generic type-parameter defaults in `ndarray` reverse declarations [(#12666)](https://github.com/stdlib-js/stdlib/pull/12666) _(by Philipp Burckhardt)_
 -   [`02ceb9e`](https://github.com/stdlib-js/stdlib/commit/02ceb9ef7c4b0b987a79f07daa750ea9c18f3159) - **docs:** update `ndarray/base` TypeScript declarations [(#12660)](https://github.com/stdlib-js/stdlib/pull/12660) _(by stdlib-bot)_
 -   [`cd863cf`](https://github.com/stdlib-js/stdlib/commit/cd863cfcc93259fc77714263c6c8b532c84563a3) - **docs:** propagate recent develop fixes to sibling packages [(#12642)](https://github.com/stdlib-js/stdlib/pull/12642) _(by Philipp Burckhardt)_
 -   [`4e89875`](https://github.com/stdlib-js/stdlib/commit/4e898755cf98f6e3b8d8c24079fb9ea7730f2d9c) - **fix:** preserve input ndarray type in `ndarray/base/maybe-broadcast-array-except-dimensions` [(#12629)](https://github.com/stdlib-js/stdlib/pull/12629) _(by Philipp Burckhardt, Athan Reines)_
