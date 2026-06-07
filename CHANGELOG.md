@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-24)
+## Unreleased (2026-06-07)
 
 <section class="features">
 
@@ -114,6 +114,8 @@
 
 ### Bug Fixes
 
+-   [`4e89875`](https://github.com/stdlib-js/stdlib/commit/4e898755cf98f6e3b8d8c24079fb9ea7730f2d9c) - preserve input ndarray type in `ndarray/base/maybe-broadcast-array-except-dimensions` [(#12629)](https://github.com/stdlib-js/stdlib/pull/12629)
+-   [`95016b8`](https://github.com/stdlib-js/stdlib/commit/95016b8c7179f978fb8ef5b272cff36b523e06e6) - add missing import in `ndarray/base/unflatten` declarations [(#12625)](https://github.com/stdlib-js/stdlib/pull/12625)
 -   [`b2f66e9`](https://github.com/stdlib-js/stdlib/commit/b2f66e9b5dde7a2a858d27dfd27bd9ec490c9b56) - ensure correct order is returned and fix heading [(#12217)](https://github.com/stdlib-js/stdlib/pull/12217)
 -   [`62d6dcc`](https://github.com/stdlib-js/stdlib/commit/62d6dcc0bd4c36e07c629811ab23831bfe65bf7a) - avoid duplicate validation overhead and fix default order resolution
 -   [`0a917be`](https://github.com/stdlib-js/stdlib/commit/0a917be06f551443b9182813d5110711eefffae9) - fallback to default order when computing strides
@@ -184,6 +186,15 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`02ceb9e`](https://github.com/stdlib-js/stdlib/commit/02ceb9ef7c4b0b987a79f07daa750ea9c18f3159) - **docs:** update `ndarray/base` TypeScript declarations [(#12660)](https://github.com/stdlib-js/stdlib/pull/12660) _(by stdlib-bot)_
+-   [`cd863cf`](https://github.com/stdlib-js/stdlib/commit/cd863cfcc93259fc77714263c6c8b532c84563a3) - **docs:** propagate recent develop fixes to sibling packages [(#12642)](https://github.com/stdlib-js/stdlib/pull/12642) _(by Philipp Burckhardt)_
+-   [`4e89875`](https://github.com/stdlib-js/stdlib/commit/4e898755cf98f6e3b8d8c24079fb9ea7730f2d9c) - **fix:** preserve input ndarray type in `ndarray/base/maybe-broadcast-array-except-dimensions` [(#12629)](https://github.com/stdlib-js/stdlib/pull/12629) _(by Philipp Burckhardt, Athan Reines)_
+-   [`95016b8`](https://github.com/stdlib-js/stdlib/commit/95016b8c7179f978fb8ef5b272cff36b523e06e6) - **fix:** add missing import in `ndarray/base/unflatten` declarations [(#12625)](https://github.com/stdlib-js/stdlib/pull/12625) _(by Philipp Burckhardt, Athan Reines)_
+-   [`3116666`](https://github.com/stdlib-js/stdlib/commit/3116666b3e530b2e6fb161924ae4c43cdf02905b) - **docs:** correct TSDoc across `ndarray` TypeScript declarations [(#12635)](https://github.com/stdlib-js/stdlib/pull/12635) _(by Philipp Burckhardt, Athan Reines)_
+-   [`727a69c`](https://github.com/stdlib-js/stdlib/commit/727a69cb34991e322acd1fc76c828a7243faf96f) - **refactor:** remove redundant overload in `ndarray/base/transpose` [(#12632)](https://github.com/stdlib-js/stdlib/pull/12632) _(by Philipp Burckhardt)_
+-   [`853c4b4`](https://github.com/stdlib-js/stdlib/commit/853c4b4f23a7187a6acaf937d9f7af2f079e941d) - **refactor:** remove redundant union member in `ndarray/base/some` [(#12634)](https://github.com/stdlib-js/stdlib/pull/12634) _(by Philipp Burckhardt)_
+-   [`7587c51`](https://github.com/stdlib-js/stdlib/commit/7587c516c9cf38a7048079bf01c42135061b8d98) - **docs:** propagate TSDoc declaration fixes to sibling packages [(#12524)](https://github.com/stdlib-js/stdlib/pull/12524) _(by Philipp Burckhardt)_
+-   [`510d710`](https://github.com/stdlib-js/stdlib/commit/510d7100ba882850675520a6fe8be6219fb05076) - **docs:** propagate recent develop fixes to sibling packages [(#12400)](https://github.com/stdlib-js/stdlib/pull/12400) _(by Philipp Burckhardt)_
 -   [`03150a9`](https://github.com/stdlib-js/stdlib/commit/03150a9b33931a90b5e1b374f8a7c511baeaa2cb) - **feat:** update `ndarray/base` TypeScript declarations [(#12259)](https://github.com/stdlib-js/stdlib/pull/12259) _(by stdlib-bot)_
 -   [`1a5e918`](https://github.com/stdlib-js/stdlib/commit/1a5e918630d60846c8a45a1f51687ed441c54dbe) - **bench:** refactor to use string interpolation in `ndarray/base` [(#11437)](https://github.com/stdlib-js/stdlib/pull/11437) _(by Karan Anand)_
 -   [`b2f66e9`](https://github.com/stdlib-js/stdlib/commit/b2f66e9b5dde7a2a858d27dfd27bd9ec490c9b56) - **fix:** ensure correct order is returned and fix heading [(#12217)](https://github.com/stdlib-js/stdlib/pull/12217) _(by Philipp Burckhardt)_
