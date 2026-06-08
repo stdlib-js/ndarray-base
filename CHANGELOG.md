@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-07)
+## Unreleased (2026-06-08)
 
 <section class="features">
 
 ### Features
 
+-   [`e98a2a0`](https://github.com/stdlib-js/stdlib/commit/e98a2a0ffd29fe7da7a95ac18b4a1e519464fde0) - update `ndarray/base` TypeScript declarations [(#12688)](https://github.com/stdlib-js/stdlib/pull/12688)
 -   [`c016f87`](https://github.com/stdlib-js/stdlib/commit/c016f877831218b06cb925732a4f33612b58d5f8) - add `assignDiagonal` to namespace
 -   [`b186702`](https://github.com/stdlib-js/stdlib/commit/b186702222b3b2cd2039d886b62ce78bd2f6af3b) - add `ndarray/base/assign-diagonal` [(#11993)](https://github.com/stdlib-js/stdlib/pull/11993)
 -   [`03150a9`](https://github.com/stdlib-js/stdlib/commit/03150a9b33931a90b5e1b374f8a7c511baeaa2cb) - update `ndarray/base` TypeScript declarations [(#12259)](https://github.com/stdlib-js/stdlib/pull/12259)
@@ -189,6 +190,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`e98a2a0`](https://github.com/stdlib-js/stdlib/commit/e98a2a0ffd29fe7da7a95ac18b4a1e519464fde0) - **feat:** update `ndarray/base` TypeScript declarations [(#12688)](https://github.com/stdlib-js/stdlib/pull/12688) _(by stdlib-bot)_
 -   [`c016f87`](https://github.com/stdlib-js/stdlib/commit/c016f877831218b06cb925732a4f33612b58d5f8) - **feat:** add `assignDiagonal` to namespace _(by Athan Reines)_
 -   [`b186702`](https://github.com/stdlib-js/stdlib/commit/b186702222b3b2cd2039d886b62ce78bd2f6af3b) - **feat:** add `ndarray/base/assign-diagonal` [(#11993)](https://github.com/stdlib-js/stdlib/pull/11993) _(by Muhammad Haris, Athan Reines)_
 -   [`07a3349`](https://github.com/stdlib-js/stdlib/commit/07a3349f6ab025490bafad9cd3b2d08df70f1fed) - **fix:** use correct export names [(#12665)](https://github.com/stdlib-js/stdlib/pull/12665) _(by Philipp Burckhardt, Athan Reines)_
