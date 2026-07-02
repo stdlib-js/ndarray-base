@@ -4,12 +4,18 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-15)
+## Unreleased (2026-07-02)
 
 <section class="features">
 
 ### Features
 
+-   [`9e91810`](https://github.com/stdlib-js/stdlib/commit/9e91810bfa37f32b66e04ac1ee69b640ea2e43ff) - update `ndarray/base/assert` TypeScript declarations [(#13119)](https://github.com/stdlib-js/stdlib/pull/13119)
+-   [`585603b`](https://github.com/stdlib-js/stdlib/commit/585603b45bb17f82056940bd0cf3dca981a20fbb) - add support for `Float16Array`
+-   [`c9a4e5c`](https://github.com/stdlib-js/stdlib/commit/c9a4e5ce4cfa693bb66df02c8182e003a88f9b20) - add `isGenericDataType`
+-   [`d4323d4`](https://github.com/stdlib-js/stdlib/commit/d4323d42b1e6509b6fc8fd2cbb44117f1011b1aa) - add `ndarray/base/assert/is-generic-data-type`
+-   [`34da35d`](https://github.com/stdlib-js/stdlib/commit/34da35d9674e4dcf02465949fd39eaf4b3a342e3) - add `isBinaryDataType` to namespace
+-   [`3b85408`](https://github.com/stdlib-js/stdlib/commit/3b85408231a00d40ac90c05c971ce83576e65ba0) - add `ndarray/base/assert/is-binary-data-type`
 -   [`e98a2a0`](https://github.com/stdlib-js/stdlib/commit/e98a2a0ffd29fe7da7a95ac18b4a1e519464fde0) - update `ndarray/base` TypeScript declarations [(#12688)](https://github.com/stdlib-js/stdlib/pull/12688)
 -   [`c016f87`](https://github.com/stdlib-js/stdlib/commit/c016f877831218b06cb925732a4f33612b58d5f8) - add `assignDiagonal` to namespace
 -   [`b186702`](https://github.com/stdlib-js/stdlib/commit/b186702222b3b2cd2039d886b62ce78bd2f6af3b) - add `ndarray/base/assign-diagonal` [(#11993)](https://github.com/stdlib-js/stdlib/pull/11993)
@@ -117,6 +123,7 @@
 
 ### Bug Fixes
 
+-   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088)
 -   [`07a3349`](https://github.com/stdlib-js/stdlib/commit/07a3349f6ab025490bafad9cd3b2d08df70f1fed) - use correct export names [(#12665)](https://github.com/stdlib-js/stdlib/pull/12665)
 -   [`4e89875`](https://github.com/stdlib-js/stdlib/commit/4e898755cf98f6e3b8d8c24079fb9ea7730f2d9c) - preserve input ndarray type in `ndarray/base/maybe-broadcast-array-except-dimensions` [(#12629)](https://github.com/stdlib-js/stdlib/pull/12629)
 -   [`95016b8`](https://github.com/stdlib-js/stdlib/commit/95016b8c7179f978fb8ef5b272cff36b523e06e6) - add missing import in `ndarray/base/unflatten` declarations [(#12625)](https://github.com/stdlib-js/stdlib/pull/12625)
@@ -190,6 +197,16 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`ae0704c`](https://github.com/stdlib-js/stdlib/commit/ae0704c8acf3023469ab02686154e26193a601cd) - **docs:** fix typo `PREMABLE` to `PREAMBLE` [(#13130)](https://github.com/stdlib-js/stdlib/pull/13130) _(by anee3)_
+-   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - **fix:** correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088) _(by anee3)_
+-   [`9e91810`](https://github.com/stdlib-js/stdlib/commit/9e91810bfa37f32b66e04ac1ee69b640ea2e43ff) - **feat:** update `ndarray/base/assert` TypeScript declarations [(#13119)](https://github.com/stdlib-js/stdlib/pull/13119) _(by stdlib-bot)_
+-   [`4a14673`](https://github.com/stdlib-js/stdlib/commit/4a1467352fcbd486caca6564a300c627449d796d) - **docs:** update namespace table of contents [(#13121)](https://github.com/stdlib-js/stdlib/pull/13121) _(by stdlib-bot)_
+-   [`585603b`](https://github.com/stdlib-js/stdlib/commit/585603b45bb17f82056940bd0cf3dca981a20fbb) - **feat:** add support for `Float16Array` _(by Athan Reines)_
+-   [`c9a4e5c`](https://github.com/stdlib-js/stdlib/commit/c9a4e5ce4cfa693bb66df02c8182e003a88f9b20) - **feat:** add `isGenericDataType` _(by Athan Reines)_
+-   [`d4323d4`](https://github.com/stdlib-js/stdlib/commit/d4323d42b1e6509b6fc8fd2cbb44117f1011b1aa) - **feat:** add `ndarray/base/assert/is-generic-data-type` _(by Athan Reines)_
+-   [`34da35d`](https://github.com/stdlib-js/stdlib/commit/34da35d9674e4dcf02465949fd39eaf4b3a342e3) - **feat:** add `isBinaryDataType` to namespace _(by Athan Reines)_
+-   [`3b85408`](https://github.com/stdlib-js/stdlib/commit/3b85408231a00d40ac90c05c971ce83576e65ba0) - **feat:** add `ndarray/base/assert/is-binary-data-type` _(by Athan Reines)_
+-   [`dbe4c82`](https://github.com/stdlib-js/stdlib/commit/dbe4c820ea98330253b4054a5bc9b04b2293415b) - **docs:** propagate fixes to sibling packages [(#12677)](https://github.com/stdlib-js/stdlib/pull/12677) _(by Philipp Burckhardt, Athan Reines)_
 -   [`0293981`](https://github.com/stdlib-js/stdlib/commit/0293981bc2e4dcdf3ec3f570c9326c049fe40b2c) - **docs:** replace \"array\" with \"ndarray\" in various type declarations [(#12828)](https://github.com/stdlib-js/stdlib/pull/12828) _(by Philipp Burckhardt)_
 -   [`43fb779`](https://github.com/stdlib-js/stdlib/commit/43fb7797d582eea6ad549cc82e0c89848c2ee4f9) - **chore:** remove stray file [(#12820)](https://github.com/stdlib-js/stdlib/pull/12820) _(by Philipp Burckhardt)_
 -   [`6a027a4`](https://github.com/stdlib-js/stdlib/commit/6a027a42f2488d90e0a0c6873735397a26cdf5c4) - **docs:** update `ndarray/base` TypeScript declarations [(#12834)](https://github.com/stdlib-js/stdlib/pull/12834) _(by stdlib-bot)_
