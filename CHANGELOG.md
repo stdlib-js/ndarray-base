@@ -4,12 +4,18 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-02)
+## Unreleased (2026-08-17)
 
 <section class="features">
 
 ### Features
 
+-   [`0f459b6`](https://github.com/stdlib-js/stdlib/commit/0f459b6e5188aee3701259e63d793bef371ab41c) - add `ndarray/base/kernels/generic/unary-strided1d/blocked`
+-   [`0a69d61`](https://github.com/stdlib-js/stdlib/commit/0a69d61b9e81475ea3d73179b78b35859a29a148) - add `ndarray/base/kernels/utils/increment-offsets`
+-   [`c80658c`](https://github.com/stdlib-js/stdlib/commit/c80658c5375d12779a4ea876d58db0a11abf01da) - add `setDescriptorOffsets` to namespace
+-   [`e420c9c`](https://github.com/stdlib-js/stdlib/commit/e420c9c71f8d4822a89f16c585b7d00a25d40d13) - add `ndarray/base/set-descriptor-offsets`
+-   [`9890d24`](https://github.com/stdlib-js/stdlib/commit/9890d24b3b2c313681dd48f721d67e8f820103db) - add `offsets` to namespace
+-   [`4bcb096`](https://github.com/stdlib-js/stdlib/commit/4bcb096c8138f5a9b8b53fcfec710f96809886fc) - add `ndarray/base/offsets`
 -   [`9e91810`](https://github.com/stdlib-js/stdlib/commit/9e91810bfa37f32b66e04ac1ee69b640ea2e43ff) - update `ndarray/base/assert` TypeScript declarations [(#13119)](https://github.com/stdlib-js/stdlib/pull/13119)
 -   [`585603b`](https://github.com/stdlib-js/stdlib/commit/585603b45bb17f82056940bd0cf3dca981a20fbb) - add support for `Float16Array`
 -   [`c9a4e5c`](https://github.com/stdlib-js/stdlib/commit/c9a4e5ce4cfa693bb66df02c8182e003a88f9b20) - add `isGenericDataType`
@@ -123,6 +129,8 @@
 
 ### Bug Fixes
 
+-   [`b2b099d`](https://github.com/stdlib-js/stdlib/commit/b2b099d42101650779830516980e8e6188bf6bfb) - avoid block iteration when needing strict traversal order
+-   [`be96f28`](https://github.com/stdlib-js/stdlib/commit/be96f28fa80edb1ea8d516053fbab3d01893bc66) - avoid block iteration when needing strict traversal order
 -   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088)
 -   [`07a3349`](https://github.com/stdlib-js/stdlib/commit/07a3349f6ab025490bafad9cd3b2d08df70f1fed) - use correct export names [(#12665)](https://github.com/stdlib-js/stdlib/pull/12665)
 -   [`4e89875`](https://github.com/stdlib-js/stdlib/commit/4e898755cf98f6e3b8d8c24079fb9ea7730f2d9c) - preserve input ndarray type in `ndarray/base/maybe-broadcast-array-except-dimensions` [(#12629)](https://github.com/stdlib-js/stdlib/pull/12629)
@@ -183,9 +191,9 @@
 
 ### Closed Issues
 
-A total of 5 issues were closed in this release:
+A total of 7 issues were closed in this release:
 
-[#10378](https://github.com/stdlib-js/stdlib/issues/10378), [#11152](https://github.com/stdlib-js/stdlib/issues/11152), [#11334](https://github.com/stdlib-js/stdlib/issues/11334), [#11347](https://github.com/stdlib-js/stdlib/issues/11347), [#12209](https://github.com/stdlib-js/stdlib/issues/12209)
+[#10378](https://github.com/stdlib-js/stdlib/issues/10378), [#11152](https://github.com/stdlib-js/stdlib/issues/11152), [#11334](https://github.com/stdlib-js/stdlib/issues/11334), [#11347](https://github.com/stdlib-js/stdlib/issues/11347), [#12209](https://github.com/stdlib-js/stdlib/issues/12209), [#13237](https://github.com/stdlib-js/stdlib/issues/13237), [#13963](https://github.com/stdlib-js/stdlib/issues/13963)
 
 </section>
 
@@ -197,6 +205,27 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`0f459b6`](https://github.com/stdlib-js/stdlib/commit/0f459b6e5188aee3701259e63d793bef371ab41c) - **feat:** add `ndarray/base/kernels/generic/unary-strided1d/blocked` _(by Athan Reines)_
+-   [`0a69d61`](https://github.com/stdlib-js/stdlib/commit/0a69d61b9e81475ea3d73179b78b35859a29a148) - **feat:** add `ndarray/base/kernels/utils/increment-offsets` _(by Athan Reines)_
+-   [`cd45739`](https://github.com/stdlib-js/stdlib/commit/cd45739c455fc0c5e57b4a6a123b0ac8fd210b9d) - **docs:** fix comment _(by Athan Reines)_
+-   [`c80658c`](https://github.com/stdlib-js/stdlib/commit/c80658c5375d12779a4ea876d58db0a11abf01da) - **feat:** add `setDescriptorOffsets` to namespace _(by Athan Reines)_
+-   [`e420c9c`](https://github.com/stdlib-js/stdlib/commit/e420c9c71f8d4822a89f16c585b7d00a25d40d13) - **feat:** add `ndarray/base/set-descriptor-offsets` _(by Athan Reines)_
+-   [`1571f8f`](https://github.com/stdlib-js/stdlib/commit/1571f8fdad36c00de4ec91ea1a52592e6bf0e2d1) - **test:** fix test case _(by Athan Reines)_
+-   [`1744509`](https://github.com/stdlib-js/stdlib/commit/17445098977cca97af3b16c624f8cd0b739b1b80) - **bench:** update descriptions _(by Athan Reines)_
+-   [`9890d24`](https://github.com/stdlib-js/stdlib/commit/9890d24b3b2c313681dd48f721d67e8f820103db) - **feat:** add `offsets` to namespace _(by Athan Reines)_
+-   [`4bcb096`](https://github.com/stdlib-js/stdlib/commit/4bcb096c8138f5a9b8b53fcfec710f96809886fc) - **feat:** add `ndarray/base/offsets` _(by Athan Reines)_
+-   [`4298108`](https://github.com/stdlib-js/stdlib/commit/429810892447fdffb2527cc5f1d9810c14f89a90) - **bench:** allow support for measuring different dtypes _(by Athan Reines)_
+-   [`1394f07`](https://github.com/stdlib-js/stdlib/commit/1394f07f4be0e9678ac91838e7327ea19f25c629) - **refactor:** add support for ancillary ndarray arguments having trailing dimensions [(#14217)](https://github.com/stdlib-js/stdlib/pull/14217) _(by Muhammad Haris)_
+-   [`f19d370`](https://github.com/stdlib-js/stdlib/commit/f19d370e0a194ac8ffed4916f8b8b51ecfe5896f) - **chore:** clean-up [(#14016)](https://github.com/stdlib-js/stdlib/pull/14016) _(by Philipp Burckhardt)_
+-   [`58556f4`](https://github.com/stdlib-js/stdlib/commit/58556f408eedf1737bc4795fb2734ef4dd2a6b32) - **chore:** clean-up [(#13978)](https://github.com/stdlib-js/stdlib/pull/13978) _(by Philipp Burckhardt)_
+-   [`ed2034b`](https://github.com/stdlib-js/stdlib/commit/ed2034b50d57287741f2492ce90c5a2fdd4434d2) - **chore:** fix C lint errors [(#13964)](https://github.com/stdlib-js/stdlib/pull/13964) _(by Ashutosh Choubey, Athan Reines)_
+-   [`8ef56c4`](https://github.com/stdlib-js/stdlib/commit/8ef56c412bf46e234fdff7db65f6e489c406566b) - **refactor:** add `const` qualifiers _(by Athan Reines)_
+-   [`7ae11bc`](https://github.com/stdlib-js/stdlib/commit/7ae11bca9e05607a14425d165dfed57584b880b8) - **chore:** clean-up [(#13834)](https://github.com/stdlib-js/stdlib/pull/13834) _(by Philipp Burckhardt)_
+-   [`92c748d`](https://github.com/stdlib-js/stdlib/commit/92c748dac8ce3ad80070d5999c579a176348ea02) - **chore:** clean-up [(#13603)](https://github.com/stdlib-js/stdlib/pull/13603) _(by Philipp Burckhardt)_
+-   [`b953edd`](https://github.com/stdlib-js/stdlib/commit/b953edd95d0ca1b521d0abbd2c2719d099ff7807) - **refactor:** use `constants/float64/nan` and clean-up [(#13585)](https://github.com/stdlib-js/stdlib/pull/13585) _(by Philipp Burckhardt)_
+-   [`b2b099d`](https://github.com/stdlib-js/stdlib/commit/b2b099d42101650779830516980e8e6188bf6bfb) - **fix:** avoid block iteration when needing strict traversal order _(by Athan Reines)_
+-   [`be96f28`](https://github.com/stdlib-js/stdlib/commit/be96f28fa80edb1ea8d516053fbab3d01893bc66) - **fix:** avoid block iteration when needing strict traversal order _(by Athan Reines)_
+-   [`35b0ceb`](https://github.com/stdlib-js/stdlib/commit/35b0cebbcc09fbd8360368d789baf52331ff02c5) - **chore:** fix EditorConfig lint errors [(#13240)](https://github.com/stdlib-js/stdlib/pull/13240) _(by Ujjwal Verma)_
 -   [`ae0704c`](https://github.com/stdlib-js/stdlib/commit/ae0704c8acf3023469ab02686154e26193a601cd) - **docs:** fix typo `PREMABLE` to `PREAMBLE` [(#13130)](https://github.com/stdlib-js/stdlib/pull/13130) _(by anee3)_
 -   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - **fix:** correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088) _(by anee3)_
 -   [`9e91810`](https://github.com/stdlib-js/stdlib/commit/9e91810bfa37f32b66e04ac1ee69b640ea2e43ff) - **feat:** update `ndarray/base/assert` TypeScript declarations [(#13119)](https://github.com/stdlib-js/stdlib/pull/13119) _(by stdlib-bot)_
@@ -500,8 +529,9 @@ A total of 5 issues were closed in this release:
 
 ### Contributors
 
-A total of 12 people contributed to this release. Thank you to the following contributors:
+A total of 14 people contributed to this release. Thank you to the following contributors:
 
+-   Ashutosh Choubey
 -   Athan Reines
 -   Bhargav Dabhade
 -   Geo Daoyu
@@ -513,6 +543,7 @@ A total of 12 people contributed to this release. Thank you to the following con
 -   Partha Das
 -   Philipp Burckhardt
 -   Uday Kakade
+-   Ujjwal Verma
 -   anee3
 
 </section>
