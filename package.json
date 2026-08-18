@@ -489,6 +489,8 @@
     "@stdlib/ndarray-base-assert-is-single-segment-compatible": "^0.2.3",
     "@stdlib/ndarray-base-assert-is-struct-data-type": "^0.1.1",
     "@stdlib/ndarray-base-assert-is-unsigned-integer-data-type": "^0.3.1",
+    "@stdlib/ndarray-base-kernels-generic-unary-strided1d-blocked": "github:stdlib-js/ndarray-base-kernels-generic-unary-strided1d-blocked#main",
+    "@stdlib/ndarray-base-kernels-generic-unary-strided1d-strategy": "github:stdlib-js/ndarray-base-kernels-generic-unary-strided1d-strategy#main",
     "@stdlib/ndarray-base-kernels-utils-increment-offsets": "github:stdlib-js/ndarray-base-kernels-utils-increment-offsets#main",
     "@stdlib/ndarray-casting-modes": "^0.2.3",
     "@stdlib/ndarray-ctor": "^0.3.1",

@@ -194,6 +194,7 @@ var o = ns;
 -   <span class="signature">[`numelDimension( x, dim )`][@stdlib/ndarray/base/numel-dimension]</span><span class="delimiter">: </span><span class="description">return the size (i.e., number of elements) of a specified dimension for a provided ndarray.</span>
 -   <span class="signature">[`numel( shape )`][@stdlib/ndarray/base/numel]</span><span class="delimiter">: </span><span class="description">return the number of elements in an array.</span>
 -   <span class="signature">[`offset( x )`][@stdlib/ndarray/base/offset]</span><span class="delimiter">: </span><span class="description">return the index offset specifying the underlying buffer index of the first iterated ndarray element.</span>
+-   <span class="signature">[`offsets( arrays )`][@stdlib/ndarray/base/offsets]</span><span class="delimiter">: </span><span class="description">return the index offset specifying the underlying buffer index of the first iterated element for each ndarray in a provided list of ndarrays.</span>
 -   <span class="signature">[`onesLike( x )`][@stdlib/ndarray/base/ones-like]</span><span class="delimiter">: </span><span class="description">create a ones-filled ndarray having the same shape and data type as a provided ndarray.</span>
 -   <span class="signature">[`ones( dtype, shape, order )`][@stdlib/ndarray/base/ones]</span><span class="delimiter">: </span><span class="description">create a ones-filled ndarray having a specified shape and data type.</span>
 -   <span class="signature">[`order( x )`][@stdlib/ndarray/base/order]</span><span class="delimiter">: </span><span class="description">return the layout order of a provided ndarray.</span>
@@ -223,6 +224,7 @@ var o = ns;
 -   <span class="signature">[`rotl90( x, k, writable )`][@stdlib/ndarray/base/rotl90]</span><span class="delimiter">: </span><span class="description">rotate a matrix (or a stack of matrices) 90 degrees counterclockwise.</span>
 -   <span class="signature">[`rotr90( x, k, writable )`][@stdlib/ndarray/base/rotr90]</span><span class="delimiter">: </span><span class="description">rotate a matrix (or a stack of matrices) 90 degrees clockwise.</span>
 -   <span class="signature">[`serializeMetaData( x )`][@stdlib/ndarray/base/serialize-meta-data]</span><span class="delimiter">: </span><span class="description">serialize ndarray meta data.</span>
+-   <span class="signature">[`setDescriptorOffsets( descriptors, offsets )`][@stdlib/ndarray/base/set-descriptor-offsets]</span><span class="delimiter">: </span><span class="description">set ndarray descriptor index offsets.</span>
 -   <span class="signature">[`shape( x, copy )`][@stdlib/ndarray/base/shape]</span><span class="delimiter">: </span><span class="description">return the shape of a provided ndarray.</span>
 -   <span class="signature">[`shape2strides( shape, order )`][@stdlib/ndarray/base/shape2strides]</span><span class="delimiter">: </span><span class="description">generate a stride array from an array shape.</span>
 -   <span class="signature">[`shift( x, dim, writable )`][@stdlib/ndarray/base/shift]</span><span class="delimiter">: </span><span class="description">return an array containing a truncated view of an input ndarray and a view of the first element(s) along a specified dimension.</span>
@@ -652,6 +654,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/ndarray/base/offset]: https://github.com/stdlib-js/ndarray-base-offset
 
+[@stdlib/ndarray/base/offsets]: https://github.com/stdlib-js/ndarray-base-offsets
+
 [@stdlib/ndarray/base/ones-like]: https://github.com/stdlib-js/ndarray-base-ones-like
 
 [@stdlib/ndarray/base/ones]: https://github.com/stdlib-js/ndarray-base-ones
@@ -709,6 +713,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/ndarray/base/rotr90]: https://github.com/stdlib-js/ndarray-base-rotr90
 
 [@stdlib/ndarray/base/serialize-meta-data]: https://github.com/stdlib-js/ndarray-base-serialize-meta-data
+
+[@stdlib/ndarray/base/set-descriptor-offsets]: https://github.com/stdlib-js/ndarray-base-set-descriptor-offsets
 
 [@stdlib/ndarray/base/shape]: https://github.com/stdlib-js/ndarray-base-shape
 
