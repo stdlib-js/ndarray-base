@@ -108,6 +108,7 @@ var o = ns;
 -   <span class="signature">[`bytesPerElement( dtype )`][@stdlib/ndarray/base/bytes-per-element]</span><span class="delimiter">: </span><span class="description">return the number of bytes per element for a provided underlying ndarray data type.</span>
 -   <span class="signature">[`char2dtype( [ch] )`][@stdlib/ndarray/base/char2dtype]</span><span class="delimiter">: </span><span class="description">return the data type string associated with a provided single letter character abbreviation.</span>
 -   <span class="signature">[`clampIndex( idx, max )`][@stdlib/ndarray/base/clamp-index]</span><span class="delimiter">: </span><span class="description">restrict an index to the interval `[0,max]`.</span>
+-   <span class="signature">[`clipIndex( idx, max )`][@stdlib/ndarray/base/clip-index]</span><span class="delimiter">: </span><span class="description">clip an index to the interval `[0,max]`.</span>
 -   <span class="signature">[`complementShape( shape, dims )`][@stdlib/ndarray/base/complement-shape]</span><span class="delimiter">: </span><span class="description">return the shape defined by the dimensions which are not included in a list of dimensions.</span>
 -   <span class="signature">[`consensusOrder( strides )`][@stdlib/ndarray/base/consensus-order]</span><span class="delimiter">: </span><span class="description">resolve the most common underlying storage layout.</span>
 -   <span class="signature">[`copy( x )`][@stdlib/ndarray/base/copy]</span><span class="delimiter">: </span><span class="description">copy an input ndarray to a new ndarray having the same shape and data type.</span>
@@ -481,6 +482,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/ndarray/base/char2dtype]: https://github.com/stdlib-js/ndarray-base-char2dtype
 
 [@stdlib/ndarray/base/clamp-index]: https://github.com/stdlib-js/ndarray-base-clamp-index
+
+[@stdlib/ndarray/base/clip-index]: https://github.com/stdlib-js/ndarray-base-clip-index
 
 [@stdlib/ndarray/base/complement-shape]: https://github.com/stdlib-js/ndarray-base-complement-shape
 
