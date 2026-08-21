@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-18)
+## Unreleased (2026-08-21)
 
 <section class="features">
 
 ### Features
 
+-   [`5500b7c`](https://github.com/stdlib-js/stdlib/commit/5500b7c8f280c02568ed9bfac2f01ae22324b82f) - add `clipIndex` to namespace
+-   [`d681a2e`](https://github.com/stdlib-js/stdlib/commit/d681a2e7667990b06abb08a1aaf2ab205be20846) - add `ndarray/base/clip-index` [(#14432)](https://github.com/stdlib-js/stdlib/pull/14432)
+-   [`303b85c`](https://github.com/stdlib-js/stdlib/commit/303b85cb9b358b43a2f69e537f5dbaeebdad89a7) - update `ndarray/base` TypeScript declarations [(#14366)](https://github.com/stdlib-js/stdlib/pull/14366)
 -   [`2359f61`](https://github.com/stdlib-js/stdlib/commit/2359f618e3d65ff3c006f90e58f44b397c96b3e1) - add `ndarray/base/kernels/generic/unary-strided1d/unblocked`
 -   [`fb041a6`](https://github.com/stdlib-js/stdlib/commit/fb041a68a9bcc18b7078e26ea11118d5459c2b3c) - add `ndarray/base/kernels/generic/unary-strided1d/strategy`
 -   [`0f459b6`](https://github.com/stdlib-js/stdlib/commit/0f459b6e5188aee3701259e63d793bef371ab41c) - add `ndarray/base/kernels/generic/unary-strided1d/blocked`
@@ -208,6 +211,10 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`5500b7c`](https://github.com/stdlib-js/stdlib/commit/5500b7c8f280c02568ed9bfac2f01ae22324b82f) - **feat:** add `clipIndex` to namespace _(by Athan Reines)_
+-   [`d681a2e`](https://github.com/stdlib-js/stdlib/commit/d681a2e7667990b06abb08a1aaf2ab205be20846) - **feat:** add `ndarray/base/clip-index` [(#14432)](https://github.com/stdlib-js/stdlib/pull/14432) _(by Muhammad Haris, Athan Reines)_
+-   [`dcb03da`](https://github.com/stdlib-js/stdlib/commit/dcb03da17f986abc96d0c3c913de9b602b5277a6) - **chore:** clean-up [(#14380)](https://github.com/stdlib-js/stdlib/pull/14380) _(by Philipp Burckhardt, Athan Reines)_
+-   [`303b85c`](https://github.com/stdlib-js/stdlib/commit/303b85cb9b358b43a2f69e537f5dbaeebdad89a7) - **feat:** update `ndarray/base` TypeScript declarations [(#14366)](https://github.com/stdlib-js/stdlib/pull/14366) _(by stdlib-bot)_
 -   [`6790020`](https://github.com/stdlib-js/stdlib/commit/67900203225ffd37694d4f7ce386988cd99482e3) - **docs:** update namespace table of contents [(#14367)](https://github.com/stdlib-js/stdlib/pull/14367) _(by stdlib-bot)_
 -   [`2359f61`](https://github.com/stdlib-js/stdlib/commit/2359f618e3d65ff3c006f90e58f44b397c96b3e1) - **feat:** add `ndarray/base/kernels/generic/unary-strided1d/unblocked` _(by Athan Reines)_
 -   [`0a1ac14`](https://github.com/stdlib-js/stdlib/commit/0a1ac149bcab7145a35d961a27e33fa0ba601182) - **docs:** fix descriptions and update spellings _(by Athan Reines)_

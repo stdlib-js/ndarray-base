@@ -69,6 +69,7 @@
     "@stdlib/ndarray-base-bytes-per-element": "^0.3.1",
     "@stdlib/ndarray-base-char2dtype": "^0.2.3",
     "@stdlib/ndarray-base-clamp-index": "^0.2.3",
+    "@stdlib/ndarray-base-clip-index": "github:stdlib-js/ndarray-base-clip-index#main",
     "@stdlib/ndarray-base-complement-shape": "^0.1.1",
     "@stdlib/ndarray-base-consensus-order": "github:stdlib-js/ndarray-base-consensus-order#main",
     "@stdlib/ndarray-base-copy": "^0.1.1",
