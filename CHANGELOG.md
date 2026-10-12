@@ -4,12 +4,39 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-21)
+## Unreleased (2026-10-12)
 
 <section class="features">
 
 ### Features
 
+-   [`85f3d87`](https://github.com/stdlib-js/stdlib/commit/85f3d878b126107b24ba09fd08bea53307422087) - add float16 dtype support to `ndarray/base/empty-like` [(#15739)](https://github.com/stdlib-js/stdlib/pull/15739)
+-   [`ce01d62`](https://github.com/stdlib-js/stdlib/commit/ce01d62f42a0f04f16f413f93dea56794a601211) - add float16 dtype support to `ndarray/base/from-array` [(#15742)](https://github.com/stdlib-js/stdlib/pull/15742)
+-   [`745b7b2`](https://github.com/stdlib-js/stdlib/commit/745b7b23ad7c544eeaa33344aae3e79ba3404062) - add float16 dtype support to `ndarray/base/from-scalar` [(#15743)](https://github.com/stdlib-js/stdlib/pull/15743)
+-   [`e152ec2`](https://github.com/stdlib-js/stdlib/commit/e152ec2a7c7aa789bf3eaf483398768457930b62) - add `ndarray/base/kernels/generic/ternary-strided1d/unblocked` [(#15630)](https://github.com/stdlib-js/stdlib/pull/15630)
+-   [`25aa58a`](https://github.com/stdlib-js/stdlib/commit/25aa58ae7756fbb2460bb9f423fa9467b3f9acf2) - add `ndarray/base/kernels/generic/ternary-strided1d/blocked` [(#15558)](https://github.com/stdlib-js/stdlib/pull/15558)
+-   [`02791af`](https://github.com/stdlib-js/stdlib/commit/02791af708223481dfa7739251892a6e5644977b) - add float16 dtype support to `ndarray/base/slice-to` [(#15531)](https://github.com/stdlib-js/stdlib/pull/15531)
+-   [`736ac5e`](https://github.com/stdlib-js/stdlib/commit/736ac5eb4396e350e060df6008acaffb1b8c994a) - add float16 dtype support to `ndarray/base/slice-dimension-to` [(#15530)](https://github.com/stdlib-js/stdlib/pull/15530)
+-   [`dd7e84b`](https://github.com/stdlib-js/stdlib/commit/dd7e84bf3221965bfc4a985abaed16d01a25b67b) - add float16 dtype support to `ndarray/base/slice-dimension-from` [(#15529)](https://github.com/stdlib-js/stdlib/pull/15529)
+-   [`4d16cdd`](https://github.com/stdlib-js/stdlib/commit/4d16cdd8dbff71baa354d084f6b7a41713531141) - add float16 dtype support to `ndarray/base/slice-dimension` [(#15527)](https://github.com/stdlib-js/stdlib/pull/15527)
+-   [`af5669c`](https://github.com/stdlib-js/stdlib/commit/af5669ca33f3f6e54f761853d1ed040d24f7012c) - add float16 dtype support to `ndarray/base/slice-assign` [(#15525)](https://github.com/stdlib-js/stdlib/pull/15525)
+-   [`e08bfd5`](https://github.com/stdlib-js/stdlib/commit/e08bfd50feecb0c5eef906ed97405b5b47cbce03) - add float16 dtype support to `ndarray/base/slice-from` [(#15524)](https://github.com/stdlib-js/stdlib/pull/15524)
+-   [`c97de20`](https://github.com/stdlib-js/stdlib/commit/c97de2026feb870549fec4a547af9889583b9e99) - add float16 dtype support to `ndarray/base/slice` [(#15522)](https://github.com/stdlib-js/stdlib/pull/15522)
+-   [`048df54`](https://github.com/stdlib-js/stdlib/commit/048df548cefa6a5c9e2330cf542e9b8169b73ffc) - add float16 dtype support to `ndarray/base/zeros-like` [(#15495)](https://github.com/stdlib-js/stdlib/pull/15495)
+-   [`9d3c25e`](https://github.com/stdlib-js/stdlib/commit/9d3c25e472f5a38d2cb39182b3ccd306802a0276) - add float16 dtype support to `ndarray/base/transpose` [(#15496)](https://github.com/stdlib-js/stdlib/pull/15496)
+-   [`13dd490`](https://github.com/stdlib-js/stdlib/commit/13dd4907d9a897cffce419ff738b46f74708d19b) - add float16 dtype support to `ndarray/base/ones-like` [(#15494)](https://github.com/stdlib-js/stdlib/pull/15494)
+-   [`123c0ed`](https://github.com/stdlib-js/stdlib/commit/123c0edfad02840cbe876c40338841990f426836) - add float16 dtype support to `ndarray/base/nans-like` [(#15449)](https://github.com/stdlib-js/stdlib/pull/15449)
+-   [`91244cd`](https://github.com/stdlib-js/stdlib/commit/91244cd87e3d571a51ffd1de7a793ebcbec83147) - add float16 dtype support to `ndarray/base/full` [(#15429)](https://github.com/stdlib-js/stdlib/pull/15429)
+-   [`2283ae0`](https://github.com/stdlib-js/stdlib/commit/2283ae09157f485a937f0aa62b91f3a56a112b9b) - add float16 dtype support to `ndarray/base/ones` [(#15432)](https://github.com/stdlib-js/stdlib/pull/15432)
+-   [`19ba44c`](https://github.com/stdlib-js/stdlib/commit/19ba44c6719287a70a9127663ed554d1493c737b) - add float16 dtype support to `ndarray/base/full-by` [(#15433)](https://github.com/stdlib-js/stdlib/pull/15433)
+-   [`2e195f2`](https://github.com/stdlib-js/stdlib/commit/2e195f2882e753e2f467ff5b0049467c70151062) - add float16 dtype support to `ndarray/base/nans` [(#15434)](https://github.com/stdlib-js/stdlib/pull/15434)
+-   [`5f6b7b3`](https://github.com/stdlib-js/stdlib/commit/5f6b7b35889c91d3183477fce13c5e15c6320d92) - add `ndarray/base/kernels/generic/binary-strided1d/blocked` [(#14939)](https://github.com/stdlib-js/stdlib/pull/14939)
+-   [`c278d13`](https://github.com/stdlib-js/stdlib/commit/c278d135f0b97e37321d9c7ff4e65421029670e5) - add float16 dtype support to `ndarray/base/empty` [(#15282)](https://github.com/stdlib-js/stdlib/pull/15282)
+-   [`e28d7ee`](https://github.com/stdlib-js/stdlib/commit/e28d7ee417cd3699f300aa98a85cecce04f7d0ef) - add float16 dtype support to `ndarray/base/zeros` [(#15225)](https://github.com/stdlib-js/stdlib/pull/15225)
+-   [`b126777`](https://github.com/stdlib-js/stdlib/commit/b126777091a2719d9e696dee87e45bf2969e6160) - add `ndarray/base/kernels/generic/binary-strided1d/unblocked` [(#14666)](https://github.com/stdlib-js/stdlib/pull/14666)
+-   [`5c85690`](https://github.com/stdlib-js/stdlib/commit/5c85690727b15b52407f568d850f03356879dc23) - export individual kernels
+-   [`f9d7e87`](https://github.com/stdlib-js/stdlib/commit/f9d7e877336831440a5f7730b75825535f55e637) - export individual kernels
+-   [`d9249d2`](https://github.com/stdlib-js/stdlib/commit/d9249d20cfec52a4742a02008c4c84d8b92d612a) - add `ndarray/base/clip-upper-index` [(#14556)](https://github.com/stdlib-js/stdlib/pull/14556)
 -   [`cb7c674`](https://github.com/stdlib-js/stdlib/commit/cb7c674be0615fb38e4ddcdec80c52581b224e25) - update `ndarray/base` TypeScript declarations [(#14464)](https://github.com/stdlib-js/stdlib/pull/14464)
 -   [`5500b7c`](https://github.com/stdlib-js/stdlib/commit/5500b7c8f280c02568ed9bfac2f01ae22324b82f) - add `clipIndex` to namespace
 -   [`d681a2e`](https://github.com/stdlib-js/stdlib/commit/d681a2e7667990b06abb08a1aaf2ab205be20846) - add `ndarray/base/clip-index` [(#14432)](https://github.com/stdlib-js/stdlib/pull/14432)
@@ -135,6 +162,8 @@
 
 ### Bug Fixes
 
+-   [`489e3ab`](https://github.com/stdlib-js/stdlib/commit/489e3ab218cb5c6da7ade17cddd942303ab5585f) - account for \"empty\" 0d ndarrays
+-   [`96ed2fa`](https://github.com/stdlib-js/stdlib/commit/96ed2faff14d10a798f3d84d267a26e7a78b0759) - return loop permutation indices from `ndarray/base/*loop-interchange-order` packages [(#15812)](https://github.com/stdlib-js/stdlib/pull/15812)
 -   [`6ba7e59`](https://github.com/stdlib-js/stdlib/commit/6ba7e5910d85debbb0dd39ea8cfdaf8c458ffe4d) - address off-by-one bug [(#14352)](https://github.com/stdlib-js/stdlib/pull/14352)
 -   [`b2b099d`](https://github.com/stdlib-js/stdlib/commit/b2b099d42101650779830516980e8e6188bf6bfb) - avoid block iteration when needing strict traversal order
 -   [`be96f28`](https://github.com/stdlib-js/stdlib/commit/be96f28fa80edb1ea8d516053fbab3d01893bc66) - avoid block iteration when needing strict traversal order
@@ -212,6 +241,49 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`76fd996`](https://github.com/stdlib-js/stdlib/commit/76fd996a6129ea7c663b0ac89fc65480698241c2) - **docs:** update namespace table of contents [(#16076)](https://github.com/stdlib-js/stdlib/pull/16076) _(by stdlib-bot)_
+-   [`8bb3f86`](https://github.com/stdlib-js/stdlib/commit/8bb3f86957c4e8455b87dc8c9fddd3979d6e811a) - **refactor:** add support for dtype objects and use accessor APIs _(by Athan Reines)_
+-   [`26b285d`](https://github.com/stdlib-js/stdlib/commit/26b285db598be2101b46d89455bf42f613c75c88) - **refactor:** add support for dtype objects and use accessor functions _(by Athan Reines)_
+-   [`34d2773`](https://github.com/stdlib-js/stdlib/commit/34d2773f7e2158200c658a8ee9a025a47aac7b44) - **refactor:** add support for dtype objects _(by Athan Reines)_
+-   [`489e3ab`](https://github.com/stdlib-js/stdlib/commit/489e3ab218cb5c6da7ade17cddd942303ab5585f) - **fix:** account for \"empty\" 0d ndarrays _(by Athan Reines)_
+-   [`96ed2fa`](https://github.com/stdlib-js/stdlib/commit/96ed2faff14d10a798f3d84d267a26e7a78b0759) - **fix:** return loop permutation indices from `ndarray/base/*loop-interchange-order` packages [(#15812)](https://github.com/stdlib-js/stdlib/pull/15812) _(by Kaustubh Patange)_
+-   [`85f3d87`](https://github.com/stdlib-js/stdlib/commit/85f3d878b126107b24ba09fd08bea53307422087) - **feat:** add float16 dtype support to `ndarray/base/empty-like` [(#15739)](https://github.com/stdlib-js/stdlib/pull/15739) _(by Samarth Kolarkar)_
+-   [`ce01d62`](https://github.com/stdlib-js/stdlib/commit/ce01d62f42a0f04f16f413f93dea56794a601211) - **feat:** add float16 dtype support to `ndarray/base/from-array` [(#15742)](https://github.com/stdlib-js/stdlib/pull/15742) _(by Samarth Kolarkar)_
+-   [`745b7b2`](https://github.com/stdlib-js/stdlib/commit/745b7b23ad7c544eeaa33344aae3e79ba3404062) - **feat:** add float16 dtype support to `ndarray/base/from-scalar` [(#15743)](https://github.com/stdlib-js/stdlib/pull/15743) _(by Samarth Kolarkar)_
+-   [`0ee3933`](https://github.com/stdlib-js/stdlib/commit/0ee3933432578899483151dd85a35fc7f4f0e5f9) - **chore:** clean-up [(#15652)](https://github.com/stdlib-js/stdlib/pull/15652) _(by Philipp Burckhardt)_
+-   [`32c09fd`](https://github.com/stdlib-js/stdlib/commit/32c09fd471df83a82ff9dcb5ccf08684555c0d5e) - **refactor:** resolve consensus memory layout _(by Athan Reines)_
+-   [`100ca4c`](https://github.com/stdlib-js/stdlib/commit/100ca4c8d76ab8b40dfbb30bbbe77e86a2221a81) - **refactor:** resolve consensus order _(by Athan Reines)_
+-   [`e152ec2`](https://github.com/stdlib-js/stdlib/commit/e152ec2a7c7aa789bf3eaf483398768457930b62) - **feat:** add `ndarray/base/kernels/generic/ternary-strided1d/unblocked` [(#15630)](https://github.com/stdlib-js/stdlib/pull/15630) _(by Kaustubh Patange)_
+-   [`25aa58a`](https://github.com/stdlib-js/stdlib/commit/25aa58ae7756fbb2460bb9f423fa9467b3f9acf2) - **feat:** add `ndarray/base/kernels/generic/ternary-strided1d/blocked` [(#15558)](https://github.com/stdlib-js/stdlib/pull/15558) _(by Kaustubh Patange)_
+-   [`69c38fa`](https://github.com/stdlib-js/stdlib/commit/69c38fa9260e20a3204415f6a41638728da1ef62) - **test:** avoid out-of-memory error [(#15536)](https://github.com/stdlib-js/stdlib/pull/15536) _(by Philipp Burckhardt)_
+-   [`02791af`](https://github.com/stdlib-js/stdlib/commit/02791af708223481dfa7739251892a6e5644977b) - **feat:** add float16 dtype support to `ndarray/base/slice-to` [(#15531)](https://github.com/stdlib-js/stdlib/pull/15531) _(by Samarth Kolarkar)_
+-   [`736ac5e`](https://github.com/stdlib-js/stdlib/commit/736ac5eb4396e350e060df6008acaffb1b8c994a) - **feat:** add float16 dtype support to `ndarray/base/slice-dimension-to` [(#15530)](https://github.com/stdlib-js/stdlib/pull/15530) _(by Samarth Kolarkar)_
+-   [`dd7e84b`](https://github.com/stdlib-js/stdlib/commit/dd7e84bf3221965bfc4a985abaed16d01a25b67b) - **feat:** add float16 dtype support to `ndarray/base/slice-dimension-from` [(#15529)](https://github.com/stdlib-js/stdlib/pull/15529) _(by Samarth Kolarkar)_
+-   [`4d16cdd`](https://github.com/stdlib-js/stdlib/commit/4d16cdd8dbff71baa354d084f6b7a41713531141) - **feat:** add float16 dtype support to `ndarray/base/slice-dimension` [(#15527)](https://github.com/stdlib-js/stdlib/pull/15527) _(by Samarth Kolarkar)_
+-   [`af5669c`](https://github.com/stdlib-js/stdlib/commit/af5669ca33f3f6e54f761853d1ed040d24f7012c) - **feat:** add float16 dtype support to `ndarray/base/slice-assign` [(#15525)](https://github.com/stdlib-js/stdlib/pull/15525) _(by Samarth Kolarkar)_
+-   [`e08bfd5`](https://github.com/stdlib-js/stdlib/commit/e08bfd50feecb0c5eef906ed97405b5b47cbce03) - **feat:** add float16 dtype support to `ndarray/base/slice-from` [(#15524)](https://github.com/stdlib-js/stdlib/pull/15524) _(by Samarth Kolarkar)_
+-   [`8da0d15`](https://github.com/stdlib-js/stdlib/commit/8da0d154e408d6cd6b3381341173e8c41eac7e59) - **chore:** clean-up [(#15455)](https://github.com/stdlib-js/stdlib/pull/15455) _(by Philipp Burckhardt)_
+-   [`c97de20`](https://github.com/stdlib-js/stdlib/commit/c97de2026feb870549fec4a547af9889583b9e99) - **feat:** add float16 dtype support to `ndarray/base/slice` [(#15522)](https://github.com/stdlib-js/stdlib/pull/15522) _(by Samarth Kolarkar, Athan Reines)_
+-   [`048df54`](https://github.com/stdlib-js/stdlib/commit/048df548cefa6a5c9e2330cf542e9b8169b73ffc) - **feat:** add float16 dtype support to `ndarray/base/zeros-like` [(#15495)](https://github.com/stdlib-js/stdlib/pull/15495) _(by Samarth Kolarkar)_
+-   [`9d3c25e`](https://github.com/stdlib-js/stdlib/commit/9d3c25e472f5a38d2cb39182b3ccd306802a0276) - **feat:** add float16 dtype support to `ndarray/base/transpose` [(#15496)](https://github.com/stdlib-js/stdlib/pull/15496) _(by Samarth Kolarkar)_
+-   [`13dd490`](https://github.com/stdlib-js/stdlib/commit/13dd4907d9a897cffce419ff738b46f74708d19b) - **feat:** add float16 dtype support to `ndarray/base/ones-like` [(#15494)](https://github.com/stdlib-js/stdlib/pull/15494) _(by Samarth Kolarkar)_
+-   [`123c0ed`](https://github.com/stdlib-js/stdlib/commit/123c0edfad02840cbe876c40338841990f426836) - **feat:** add float16 dtype support to `ndarray/base/nans-like` [(#15449)](https://github.com/stdlib-js/stdlib/pull/15449) _(by Samarth Kolarkar)_
+-   [`91244cd`](https://github.com/stdlib-js/stdlib/commit/91244cd87e3d571a51ffd1de7a793ebcbec83147) - **feat:** add float16 dtype support to `ndarray/base/full` [(#15429)](https://github.com/stdlib-js/stdlib/pull/15429) _(by Samarth Kolarkar)_
+-   [`2283ae0`](https://github.com/stdlib-js/stdlib/commit/2283ae09157f485a937f0aa62b91f3a56a112b9b) - **feat:** add float16 dtype support to `ndarray/base/ones` [(#15432)](https://github.com/stdlib-js/stdlib/pull/15432) _(by Samarth Kolarkar)_
+-   [`19ba44c`](https://github.com/stdlib-js/stdlib/commit/19ba44c6719287a70a9127663ed554d1493c737b) - **feat:** add float16 dtype support to `ndarray/base/full-by` [(#15433)](https://github.com/stdlib-js/stdlib/pull/15433) _(by Samarth Kolarkar)_
+-   [`2e195f2`](https://github.com/stdlib-js/stdlib/commit/2e195f2882e753e2f467ff5b0049467c70151062) - **feat:** add float16 dtype support to `ndarray/base/nans` [(#15434)](https://github.com/stdlib-js/stdlib/pull/15434) _(by Samarth Kolarkar)_
+-   [`4e396e9`](https://github.com/stdlib-js/stdlib/commit/4e396e96156bc653142e560ce866c0d0978bdf83) - **chore:** clean-up [(#15425)](https://github.com/stdlib-js/stdlib/pull/15425) _(by Philipp Burckhardt)_
+-   [`5f6b7b3`](https://github.com/stdlib-js/stdlib/commit/5f6b7b35889c91d3183477fce13c5e15c6320d92) - **feat:** add `ndarray/base/kernels/generic/binary-strided1d/blocked` [(#14939)](https://github.com/stdlib-js/stdlib/pull/14939) _(by Kaustubh Patange)_
+-   [`c278d13`](https://github.com/stdlib-js/stdlib/commit/c278d135f0b97e37321d9c7ff4e65421029670e5) - **feat:** add float16 dtype support to `ndarray/base/empty` [(#15282)](https://github.com/stdlib-js/stdlib/pull/15282) _(by Samarth Kolarkar)_
+-   [`e28d7ee`](https://github.com/stdlib-js/stdlib/commit/e28d7ee417cd3699f300aa98a85cecce04f7d0ef) - **feat:** add float16 dtype support to `ndarray/base/zeros` [(#15225)](https://github.com/stdlib-js/stdlib/pull/15225) _(by Samarth Kolarkar)_
+-   [`b126777`](https://github.com/stdlib-js/stdlib/commit/b126777091a2719d9e696dee87e45bf2969e6160) - **feat:** add `ndarray/base/kernels/generic/binary-strided1d/unblocked` [(#14666)](https://github.com/stdlib-js/stdlib/pull/14666) _(by Kaustubh Patange, Athan Reines)_
+-   [`94baa72`](https://github.com/stdlib-js/stdlib/commit/94baa7245ca3209bd034016a425003ff7b6bef0a) - **docs:** fix signatures _(by Athan Reines)_
+-   [`3204ab8`](https://github.com/stdlib-js/stdlib/commit/3204ab81d60dfd78a502332789aa9b0ecba885ba) - **docs:** fix signatures _(by Athan Reines)_
+-   [`0282793`](https://github.com/stdlib-js/stdlib/commit/0282793a6bb7d1c5ef415b12a244cd195a6b4c93) - **test:** rename variable _(by Athan Reines)_
+-   [`5c85690`](https://github.com/stdlib-js/stdlib/commit/5c85690727b15b52407f568d850f03356879dc23) - **feat:** export individual kernels _(by Athan Reines)_
+-   [`f9d7e87`](https://github.com/stdlib-js/stdlib/commit/f9d7e877336831440a5f7730b75825535f55e637) - **feat:** export individual kernels _(by Athan Reines)_
+-   [`d9249d2`](https://github.com/stdlib-js/stdlib/commit/d9249d20cfec52a4742a02008c4c84d8b92d612a) - **feat:** add `ndarray/base/clip-upper-index` [(#14556)](https://github.com/stdlib-js/stdlib/pull/14556) _(by Muhammad Haris)_
+-   [`fdbc822`](https://github.com/stdlib-js/stdlib/commit/fdbc82241f30438af95d53f451c1c4cd4523859f) - **chore:** remove unnecessary `format` calls [(#14520)](https://github.com/stdlib-js/stdlib/pull/14520) _(by Philipp Burckhardt)_
 -   [`cb7c674`](https://github.com/stdlib-js/stdlib/commit/cb7c674be0615fb38e4ddcdec80c52581b224e25) - **feat:** update `ndarray/base` TypeScript declarations [(#14464)](https://github.com/stdlib-js/stdlib/pull/14464) _(by stdlib-bot)_
 -   [`c5d553b`](https://github.com/stdlib-js/stdlib/commit/c5d553b67e4bd6497dc2b99ee8787b54b1e3e761) - **docs:** update namespace table of contents [(#14465)](https://github.com/stdlib-js/stdlib/pull/14465) _(by stdlib-bot)_
 -   [`5500b7c`](https://github.com/stdlib-js/stdlib/commit/5500b7c8f280c02568ed9bfac2f01ae22324b82f) - **feat:** add `clipIndex` to namespace _(by Athan Reines)_
@@ -553,7 +625,7 @@ A total of 7 issues were closed in this release:
 
 ### Contributors
 
-A total of 14 people contributed to this release. Thank you to the following contributors:
+A total of 16 people contributed to this release. Thank you to the following contributors:
 
 -   Ashutosh Choubey
 -   Athan Reines
@@ -561,11 +633,13 @@ A total of 14 people contributed to this release. Thank you to the following con
 -   Geo Daoyu
 -   Guneet Gill
 -   Karan Anand
+-   Kaustubh Patange
 -   Loay Ahmed
 -   Matt Van Horn
 -   Muhammad Haris
 -   Partha Das
 -   Philipp Burckhardt
+-   Samarth Kolarkar
 -   Uday Kakade
 -   Ujjwal Verma
 -   anee3
