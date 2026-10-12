@@ -242,6 +242,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`8f62240`](https://github.com/stdlib-js/stdlib/commit/8f622403b8f6ff3781a17dc7ceb077e341e91aa3) - **docs:** clean-up [(#16084)](https://github.com/stdlib-js/stdlib/pull/16084) _(by Philipp Burckhardt)_
 -   [`81645db`](https://github.com/stdlib-js/stdlib/commit/81645db64e0d7a9d27a59850ae50001534edb809) - **feat:** update `ndarray/base` TypeScript declarations [(#15838)](https://github.com/stdlib-js/stdlib/pull/15838) _(by stdlib-bot)_
 -   [`76fd996`](https://github.com/stdlib-js/stdlib/commit/76fd996a6129ea7c663b0ac89fc65480698241c2) - **docs:** update namespace table of contents [(#16076)](https://github.com/stdlib-js/stdlib/pull/16076) _(by stdlib-bot)_
 -   [`8bb3f86`](https://github.com/stdlib-js/stdlib/commit/8bb3f86957c4e8455b87dc8c9fddd3979d6e811a) - **refactor:** add support for dtype objects and use accessor APIs _(by Athan Reines)_
