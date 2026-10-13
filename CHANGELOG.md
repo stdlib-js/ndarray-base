@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-12)
+## Unreleased (2026-10-13)
 
 <section class="features">
 
@@ -242,6 +242,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`99a1674`](https://github.com/stdlib-js/stdlib/commit/99a1674e90c2e3a536c8659f394ac36f617e794e) - **docs:** update examples [(#16100)](https://github.com/stdlib-js/stdlib/pull/16100) _(by stdlib-bot)_
 -   [`8f62240`](https://github.com/stdlib-js/stdlib/commit/8f622403b8f6ff3781a17dc7ceb077e341e91aa3) - **docs:** clean-up [(#16084)](https://github.com/stdlib-js/stdlib/pull/16084) _(by Philipp Burckhardt)_
 -   [`81645db`](https://github.com/stdlib-js/stdlib/commit/81645db64e0d7a9d27a59850ae50001534edb809) - **feat:** update `ndarray/base` TypeScript declarations [(#15838)](https://github.com/stdlib-js/stdlib/pull/15838) _(by stdlib-bot)_
 -   [`76fd996`](https://github.com/stdlib-js/stdlib/commit/76fd996a6129ea7c663b0ac89fc65480698241c2) - **docs:** update namespace table of contents [(#16076)](https://github.com/stdlib-js/stdlib/pull/16076) _(by stdlib-bot)_
