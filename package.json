@@ -140,6 +140,7 @@
     "@stdlib/ndarray-base-ndarraylike2ndarray": "^0.1.1",
     "@stdlib/ndarray-base-ndarraylike2object": "^0.2.3",
     "@stdlib/ndarray-base-ndarraylike2scalar": "^0.1.1",
+    "@stdlib/ndarray-base-ndarraylikes2objects": "github:stdlib-js/ndarray-base-ndarraylikes2objects#main",
     "@stdlib/ndarray-base-ndims": "^0.2.3",
     "@stdlib/ndarray-base-next-cartesian-index": "^0.2.3",
     "@stdlib/ndarray-base-nonsingleton-dimensions": "^0.2.3",

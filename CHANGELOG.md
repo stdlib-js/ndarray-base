@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-13)
+## Unreleased (2026-11-04)
 
 <section class="features">
 
 ### Features
 
+-   [`5178645`](https://github.com/stdlib-js/stdlib/commit/51786453bb62ce9732ee935cd5a9e9b16c267415) - add `ndarraylikes2objects` to namespace
+-   [`b2c3ac9`](https://github.com/stdlib-js/stdlib/commit/b2c3ac9152d0ba245aa07a9655c942ea3f1883ab) - add `ndarray/base/ndarraylikes2objects`
 -   [`81645db`](https://github.com/stdlib-js/stdlib/commit/81645db64e0d7a9d27a59850ae50001534edb809) - update `ndarray/base` TypeScript declarations [(#15838)](https://github.com/stdlib-js/stdlib/pull/15838)
 -   [`85f3d87`](https://github.com/stdlib-js/stdlib/commit/85f3d878b126107b24ba09fd08bea53307422087) - add float16 dtype support to `ndarray/base/empty-like` [(#15739)](https://github.com/stdlib-js/stdlib/pull/15739)
 -   [`ce01d62`](https://github.com/stdlib-js/stdlib/commit/ce01d62f42a0f04f16f413f93dea56794a601211) - add float16 dtype support to `ndarray/base/from-array` [(#15742)](https://github.com/stdlib-js/stdlib/pull/15742)
@@ -228,9 +230,9 @@
 
 ### Closed Issues
 
-A total of 7 issues were closed in this release:
+A total of 8 issues were closed in this release:
 
-[#10378](https://github.com/stdlib-js/stdlib/issues/10378), [#11152](https://github.com/stdlib-js/stdlib/issues/11152), [#11334](https://github.com/stdlib-js/stdlib/issues/11334), [#11347](https://github.com/stdlib-js/stdlib/issues/11347), [#12209](https://github.com/stdlib-js/stdlib/issues/12209), [#13237](https://github.com/stdlib-js/stdlib/issues/13237), [#13963](https://github.com/stdlib-js/stdlib/issues/13963)
+[#10378](https://github.com/stdlib-js/stdlib/issues/10378), [#11152](https://github.com/stdlib-js/stdlib/issues/11152), [#11334](https://github.com/stdlib-js/stdlib/issues/11334), [#11347](https://github.com/stdlib-js/stdlib/issues/11347), [#12209](https://github.com/stdlib-js/stdlib/issues/12209), [#13237](https://github.com/stdlib-js/stdlib/issues/13237), [#13963](https://github.com/stdlib-js/stdlib/issues/13963), [#16308](https://github.com/stdlib-js/stdlib/issues/16308)
 
 </section>
 
@@ -242,6 +244,13 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`bb0fd7d`](https://github.com/stdlib-js/stdlib/commit/bb0fd7d3307c311d40a1707b7719a4c5234d5800) - **docs:** update namespace table of contents [(#16485)](https://github.com/stdlib-js/stdlib/pull/16485) _(by stdlib-bot)_
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
+-   [`b7ad899`](https://github.com/stdlib-js/stdlib/commit/b7ad8998c9f914b92976cf5c4cdc860572bd87dd) - **chore:** clean-up [(#16437)](https://github.com/stdlib-js/stdlib/pull/16437) _(by Philipp Burckhardt)_
+-   [`897b63e`](https://github.com/stdlib-js/stdlib/commit/897b63e264ce221ec0afd71c2c137dc2442f4588) - **refactor:** replace explicit `for` loop _(by Athan Reines)_
+-   [`5178645`](https://github.com/stdlib-js/stdlib/commit/51786453bb62ce9732ee935cd5a9e9b16c267415) - **feat:** add `ndarraylikes2objects` to namespace _(by Athan Reines)_
+-   [`b2c3ac9`](https://github.com/stdlib-js/stdlib/commit/b2c3ac9152d0ba245aa07a9655c942ea3f1883ab) - **feat:** add `ndarray/base/ndarraylikes2objects` _(by Athan Reines)_
+-   [`9d53beb`](https://github.com/stdlib-js/stdlib/commit/9d53bebc7c1108f38d715347a50a8395e2e177b6) - **chore:** fix C lint errors [(#16316)](https://github.com/stdlib-js/stdlib/pull/16316) _(by navenavelimargam)_
 -   [`99a1674`](https://github.com/stdlib-js/stdlib/commit/99a1674e90c2e3a536c8659f394ac36f617e794e) - **docs:** update examples [(#16100)](https://github.com/stdlib-js/stdlib/pull/16100) _(by stdlib-bot)_
 -   [`8f62240`](https://github.com/stdlib-js/stdlib/commit/8f622403b8f6ff3781a17dc7ceb077e341e91aa3) - **docs:** clean-up [(#16084)](https://github.com/stdlib-js/stdlib/pull/16084) _(by Philipp Burckhardt)_
 -   [`81645db`](https://github.com/stdlib-js/stdlib/commit/81645db64e0d7a9d27a59850ae50001534edb809) - **feat:** update `ndarray/base` TypeScript declarations [(#15838)](https://github.com/stdlib-js/stdlib/pull/15838) _(by stdlib-bot)_
@@ -629,7 +638,7 @@ A total of 7 issues were closed in this release:
 
 ### Contributors
 
-A total of 16 people contributed to this release. Thank you to the following contributors:
+A total of 17 people contributed to this release. Thank you to the following contributors:
 
 -   Ashutosh Choubey
 -   Athan Reines
@@ -647,6 +656,7 @@ A total of 16 people contributed to this release. Thank you to the following con
 -   Uday Kakade
 -   Ujjwal Verma
 -   anee3
+-   navenavelimargam
 
 </section>
 
