@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-04)
+## Unreleased (2026-11-14)
 
 <section class="features">
 
 ### Features
 
+-   [`5ac82c2`](https://github.com/stdlib-js/stdlib/commit/5ac82c211f327c00e3872364bdb1dcad1d64f387) - update `ndarray/base` TypeScript declarations [(#16481)](https://github.com/stdlib-js/stdlib/pull/16481)
 -   [`5178645`](https://github.com/stdlib-js/stdlib/commit/51786453bb62ce9732ee935cd5a9e9b16c267415) - add `ndarraylikes2objects` to namespace
 -   [`b2c3ac9`](https://github.com/stdlib-js/stdlib/commit/b2c3ac9152d0ba245aa07a9655c942ea3f1883ab) - add `ndarray/base/ndarraylikes2objects`
 -   [`81645db`](https://github.com/stdlib-js/stdlib/commit/81645db64e0d7a9d27a59850ae50001534edb809) - update `ndarray/base` TypeScript declarations [(#15838)](https://github.com/stdlib-js/stdlib/pull/15838)
@@ -244,6 +245,11 @@ A total of 8 issues were closed in this release:
 
 <details>
 
+-   [`c6d6ec7`](https://github.com/stdlib-js/stdlib/commit/c6d6ec7d0b07b172c5c8979ab2afe549c1defce9) - **docs:** update examples [(#16621)](https://github.com/stdlib-js/stdlib/pull/16621) _(by stdlib-bot)_
+-   [`ee5f1ef`](https://github.com/stdlib-js/stdlib/commit/ee5f1ef4d20cdcd27b422482317a520dee1133e2) - **docs:** improve doctests for ndarray instances [(#16595)](https://github.com/stdlib-js/stdlib/pull/16595) _(by Mustansir-06)_
+-   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
+-   [`7cf5642`](https://github.com/stdlib-js/stdlib/commit/7cf56423a8fe3e959bd334981a00f8428d086127) - **chore:** clean-up [(#16491)](https://github.com/stdlib-js/stdlib/pull/16491) _(by Philipp Burckhardt)_
+-   [`5ac82c2`](https://github.com/stdlib-js/stdlib/commit/5ac82c211f327c00e3872364bdb1dcad1d64f387) - **feat:** update `ndarray/base` TypeScript declarations [(#16481)](https://github.com/stdlib-js/stdlib/pull/16481) _(by stdlib-bot)_
 -   [`bb0fd7d`](https://github.com/stdlib-js/stdlib/commit/bb0fd7d3307c311d40a1707b7719a4c5234d5800) - **docs:** update namespace table of contents [(#16485)](https://github.com/stdlib-js/stdlib/pull/16485) _(by stdlib-bot)_
 -   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`b7ad899`](https://github.com/stdlib-js/stdlib/commit/b7ad8998c9f914b92976cf5c4cdc860572bd87dd) - **chore:** clean-up [(#16437)](https://github.com/stdlib-js/stdlib/pull/16437) _(by Philipp Burckhardt)_
@@ -638,7 +644,7 @@ A total of 8 issues were closed in this release:
 
 ### Contributors
 
-A total of 17 people contributed to this release. Thank you to the following contributors:
+A total of 18 people contributed to this release. Thank you to the following contributors:
 
 -   Ashutosh Choubey
 -   Athan Reines
@@ -650,6 +656,7 @@ A total of 17 people contributed to this release. Thank you to the following con
 -   Loay Ahmed
 -   Matt Van Horn
 -   Muhammad Haris
+-   Mustansir-06
 -   Partha Das
 -   Philipp Burckhardt
 -   Samarth Kolarkar
