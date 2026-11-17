@@ -526,6 +526,8 @@
     "@stdlib/ndarray-slice": "^0.2.3",
     "@stdlib/ndarray-stride": "^0.2.3",
     "@stdlib/ndarray-strides": "^0.2.3",
+    "@stdlib/ndarray-tensor0d-complex128": "github:stdlib-js/ndarray-tensor0d-complex128#main",
+    "@stdlib/ndarray-tensor0d-float64": "github:stdlib-js/ndarray-tensor0d-float64#main",
     "@stdlib/ndarray-to-array": "^0.2.2",
     "@stdlib/ndarray-zeros": "^0.3.1",
     "@stdlib/ndarray-zeros-like": "^0.3.2",

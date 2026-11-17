@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-14)
+## Unreleased (2026-11-17)
 
 <section class="features">
 
@@ -245,6 +245,8 @@ A total of 8 issues were closed in this release:
 
 <details>
 
+-   [`7d91d9e`](https://github.com/stdlib-js/stdlib/commit/7d91d9e30b91232fc38e80efa2058405069296bc) - **docs:** update example [(#16670)](https://github.com/stdlib-js/stdlib/pull/16670) _(by stdlib-bot)_
+-   [`da42829`](https://github.com/stdlib-js/stdlib/commit/da42829a85a53e5778d5b18121d5e1a693fb4817) - **docs:** use dedicated zero-dimensional tensor constructor in `ndarray/base/assign-diagonal` [(#16656)](https://github.com/stdlib-js/stdlib/pull/16656) _(by Yug Bhatia)_
 -   [`c6d6ec7`](https://github.com/stdlib-js/stdlib/commit/c6d6ec7d0b07b172c5c8979ab2afe549c1defce9) - **docs:** update examples [(#16621)](https://github.com/stdlib-js/stdlib/pull/16621) _(by stdlib-bot)_
 -   [`ee5f1ef`](https://github.com/stdlib-js/stdlib/commit/ee5f1ef4d20cdcd27b422482317a520dee1133e2) - **docs:** improve doctests for ndarray instances [(#16595)](https://github.com/stdlib-js/stdlib/pull/16595) _(by Mustansir-06)_
 -   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
@@ -644,7 +646,7 @@ A total of 8 issues were closed in this release:
 
 ### Contributors
 
-A total of 18 people contributed to this release. Thank you to the following contributors:
+A total of 19 people contributed to this release. Thank you to the following contributors:
 
 -   Ashutosh Choubey
 -   Athan Reines
@@ -662,6 +664,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 -   Samarth Kolarkar
 -   Uday Kakade
 -   Ujjwal Verma
+-   Yug Bhatia
 -   anee3
 -   navenavelimargam
 
